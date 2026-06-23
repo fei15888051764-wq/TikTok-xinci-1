@@ -138,7 +138,7 @@
     {{- if (not .Site.Params.hideFooter) }}
     {{- partial "custom-footer.html" . -}}
     {{- end }}
-    {{- partialCached "script.html" . .Page -}}
+    {{- /* script.html removed */ -}}
     {{- block "script" . }}{{ end }}
 </body>
 </html>
