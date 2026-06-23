@@ -1,0 +1,42 @@
+{{ define "main" }}
+<header class="page-header">
+    <h1>{{ .Title }}</h1>
+    {{- if .Description }}
+    <div class="post-description">{{ .Description }}</div>
+    {{- end }}
+</header>
+
+{{- $allPages := union .RegularPages .Sections }}
+{{- if .IsHome }}
+    {{- $allPages = where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{- end }}
+{{- $pages := sort $allPages ".File.ModTime" "desc" }}
+
+<div class="cards-grid">
+    {{- range $pages }}
+    <article class="slang-card" onclick="window.location.href='{{ .Permalink }}'">
+        <div class="card-header">
+            <h2 class="slang-word">{{ .Title }}</h2>
+            {{- if .Params.pos }}
+            <span class="pos-tag">{{ .Params.pos }}</span>
+            {{- end }}
+        </div>
+        {{- if .Params.definition }}
+        <p class="slang-definition">{{ .Params.definition }}</p>
+        {{- else if .Summary }}
+        <p class="slang-definition">{{ .Summary }}</p>
+        {{- end }}
+        <div class="card-footer">
+            {{- if .Params.tags }}
+            <div class="tags-group">
+                {{- range first 3 .Params.tags }}
+                <span class="tag-item">{{ . }}</span>
+                {{- end }}
+            </div>
+            {{- end }}
+            <span class="updated-date">Updated {{ .Date.Format "Jan 2, 2006" }}</span>
+        </div>
+    </article>
+    {{- end }}
+</div>
+{{ end }}

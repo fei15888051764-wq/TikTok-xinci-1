@@ -1,0 +1,25 @@
+# Hugo build output
+public/
+resources/_gen/
+.hugo_build.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Preview files (not part of site source)
+/index.html
+/preview.html
+/desktop-preview.png
+/desktop-v2.png
+/desktop-v3.png
+/desktop-v4.png
+/mobile-preview.png
+/mobile-v2.png
+/mobile-v3.png
+/mobile-v4.png
+/mobile-ad-fix.png

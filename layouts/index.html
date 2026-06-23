@@ -1,0 +1,246 @@
+{{ define "main" }}
+<div class="home-container">
+    <!-- Left Sidebar Ad (Desktop Only) -->
+    <aside class="sidebar-ad" aria-label="Advertisement">
+        <div class="ad-placeholder-sidebar">
+            <span>ADVERTISEMENT</span>
+        </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <div class="main-content">
+        <!-- Search Section with Lunr.js -->
+        <section class="search-section">
+            <div class="search-wrapper">
+                <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <path d="m21 21-4.35-4.35"></path>
+                </svg>
+                <input type="text" class="search-input" id="search-input" placeholder="Search Slang Words..." aria-label="Search slang words" autocomplete="off">
+            </div>
+            <!-- Search Results Dropdown -->
+            <div class="search-results" id="search-results"></div>
+        </section>
+
+        <!-- Mobile Banner Ad: Below search, above title -->
+        <div class="mobile-banner-ad" id="ad-mobile-top">
+            <div class="ad-placeholder-banner">
+                <span>AD</span>
+            </div>
+        </div>
+
+        <!-- Section Title -->
+        <h2 class="section-title">Latest Updates</h2>
+
+        <!-- Cards Grid -->
+        {{- $allSlang := where .Site.RegularPages "Type" "slang" }}
+        {{- $slangPages := sort $allSlang ".File.ModTime" "desc" }}
+        {{- $count := len $slangPages }}
+        <div class="cards-grid" id="cards-container">
+            {{- if $slangPages }}
+                {{- range $idx, $page := $slangPages }}
+                <article class="slang-card" data-title="{{ .Title | lower }}" data-tags="{{ range .Params.tags }}{{ . | lower }} {{ end }}" data-definition="{{ .Params.definition | lower }}" onclick="window.location.href='{{ .Permalink }}'">
+                    <div class="card-header">
+                        <h3 class="slang-word">{{ .Title }}</h3>
+                        {{- if .Params.pos }}
+                        <span class="pos-tag">{{ .Params.pos }}</span>
+                        {{- end }}
+                    </div>
+                    {{- if .Params.definition }}
+                    <p class="slang-definition">{{ .Params.definition }}</p>
+                    {{- end }}
+                    <div class="card-footer">
+                        {{- if .Params.tags }}
+                        <div class="tags-group">
+                            {{- range first 3 .Params.tags }}
+                            <span class="tag-item">{{ . }}</span>
+                            {{- end }}
+                        </div>
+                        {{- end }}
+                        <span class="updated-date">Updated {{ .Date.Format "Jan 2, 2006" }}</span>
+                    </div>
+                </article>
+
+                {{- if and (eq (add $idx 1) 4) (gt $count 4) }}
+            </div>
+            <!-- Mobile Banner Ad after 4th card -->
+            <div class="mobile-banner-ad" id="ad-mobile-mid1">
+                <div class="ad-placeholder-banner">
+                    <span>AD</span>
+                </div>
+            </div>
+            <div class="cards-grid" id="cards-container-2">
+                {{- end }}
+
+                {{- if and (eq (add $idx 1) 8) (gt $count 8) }}
+            </div>
+            <!-- Mobile Banner Ad after 8th card -->
+            <div class="mobile-banner-ad" id="ad-mobile-mid2">
+                <div class="ad-placeholder-banner">
+                    <span>AD</span>
+                </div>
+            </div>
+            <div class="cards-grid" id="cards-container-3">
+                {{- end }}
+            {{- end }}
+            {{- else }}
+            <!-- Empty state when no slang words exist -->
+            <div class="empty-state">
+                <p class="empty-state-text">No slang words yet. Check back soon!</p>
+            </div>
+            {{- end }}
+        </div>
+
+        <!-- Mobile Banner Ad at bottom (shown when <= 4 cards or as final ad) -->
+        <div class="mobile-banner-ad" id="ad-mobile-bottom">
+            <div class="ad-placeholder-banner">
+                <span>AD</span>
+            </div>
+        </div>
+
+        <!-- View All Button -->
+        <section class="view-all-section">
+            <a href="/slang/" class="view-all-btn">View All Slang Words</a>
+        </section>
+
+        <!-- Newsletter Subscription -->
+        <section class="subscribe-section">
+            <div class="subscribe-container">
+                <h3 class="subscribe-title">📬 Stay in the Loop</h3>
+                <p class="subscribe-desc">New TikTok slang drops weekly. No spam, just the words you actually need to know.</p>
+                
+                <form class="subscribe-form" action="https://formsubmit.co/fei15888051764@gmail.com" method="POST">
+                    <input type="hidden" name="_subject" value="New TikTok Slang Subscriber">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="source" value="tiktok-slang-dictionary">
+                    <input type="email" name="email" class="subscribe-input" placeholder="your@email.com" required autocomplete="email">
+                    <button type="submit" class="subscribe-btn">Subscribe</button>
+                </form>
+                
+                <p class="subscribe-note">Join the newsletter. Unsubscribe anytime.</p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Right Sidebar Ad (Desktop Only) -->
+    <aside class="sidebar-ad" aria-label="Advertisement">
+        <div class="ad-placeholder-sidebar">
+            <span>ADVERTISEMENT</span>
+        </div>
+    </aside>
+</div>
+
+{{/* ===== Lunr.js Search - Indexes ALL slang words ===== */}}
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+<script>
+(function() {
+    // Build search index from ALL Hugo content (not just first 12)
+    var docs = [
+        {{- $allSlang := where .Site.RegularPages "Type" "slang" }}
+        {{- range $allSlang }}
+        {
+            "slug": {{ .Params.slug | default (.Title | urlize) | jsonify }},
+            "title": {{ .Title | jsonify }},
+            "permalink": {{ .Permalink | jsonify }},
+            "definition": {{ .Params.definition | jsonify }},
+            "tags": {{ (delimit .Params.tags " ") | jsonify }},
+            "content": {{ .Plain | jsonify }}
+        }{{ if ne . (index (last 1 $allSlang) 0) }},{{ end }}
+        {{- end }}
+    ];
+
+    // Build Lunr index - covers ALL slang words
+    var idx = lunr(function() {
+        this.ref('slug');
+        this.field('title', { boost: 10 });
+        this.field('definition', { boost: 5 });
+        this.field('tags', { boost: 3 });
+        this.field('content');
+        docs.forEach(function(doc) { this.add(doc); }, this);
+    });
+
+    var searchInput = document.getElementById('search-input');
+    var searchResults = document.getElementById('search-results');
+    var allCards = document.querySelectorAll('.slang-card');
+
+    function doSearch(query) {
+        var q = query.trim().toLowerCase();
+        if (!q) {
+            allCards.forEach(function(c) { c.style.display = ''; });
+            searchResults.innerHTML = '';
+            searchResults.classList.remove('active');
+            return;
+        }
+
+        var matchedSlugs = [];
+        try {
+            var lunrResults = idx.search(q + '*');
+            matchedSlugs = lunrResults.map(function(r) { return r.ref; });
+        } catch(e) {}
+
+        // Also do simple text fallback on all docs
+        docs.forEach(function(doc) {
+            if (matchedSlugs.indexOf(doc.slug) === -1) {
+                var allText = (doc.title + ' ' + doc.definition + ' ' + doc.tags).toLowerCase();
+                if (allText.indexOf(q) !== -1) matchedSlugs.push(doc.slug);
+            }
+        });
+
+        // Filter visible cards on current page
+        var pageCount = 0;
+        allCards.forEach(function(card) {
+            var cardSlug = '';
+            var onclick = card.getAttribute('onclick') || '';
+            var match = onclick.match(/\/slang\/([^/]+)/);
+            if (match) cardSlug = match[1];
+            if (matchedSlugs.indexOf(cardSlug) !== -1 || matchedSlugs.indexOf(decodeURIComponent(cardSlug)) !== -1) {
+                card.style.display = '';
+                pageCount++;
+            } else {
+                card.style.display = 'none';
+            }
+        });
+
+        // Build dropdown results from ALL matched docs
+        var html = '';
+        if (matchedSlugs.length === 0) {
+            html = '<div class="search-no-results">No results for "' + esc(q) + '"</div>';
+        } else {
+            html = '<div class="search-count">' + matchedSlugs.length + ' result' + (matchedSlugs.length > 1 ? 's' : '') + '</div>';
+            matchedSlugs.slice(0, 8).forEach(function(slug) {
+                var doc = docs.find(function(d) { return d.slug === slug || d.slug === decodeURIComponent(slug); });
+                if (doc) {
+                    html += '<a href="' + doc.permalink + '" class="search-result-item">' +
+                        '<div class="search-result-title">' + esc(doc.title) + '</div>' +
+                        '<div class="search-result-definition">' + esc(doc.definition.substring(0, 80)) + '...</div></a>';
+                }
+            });
+        }
+        searchResults.innerHTML = html;
+        searchResults.classList.add('active');
+    }
+
+    function esc(t) { var d = document.createElement('div'); d.textContent = t; return d.innerHTML; }
+
+    var debounceTimer;
+    searchInput.addEventListener('input', function(e) {
+        clearTimeout(debounceTimer);
+        debounceTimer = setTimeout(function() { doSearch(e.target.value); }, 200);
+    });
+
+    searchInput.addEventListener('keydown', function(e) {
+        if (e.key === 'Enter') { e.preventDefault(); doSearch(searchInput.value); }
+    });
+
+    document.addEventListener('click', function(e) {
+        if (!searchInput.contains(e.target) && !searchResults.contains(e.target)) {
+            searchResults.classList.remove('active');
+        }
+    });
+
+    searchInput.addEventListener('focus', function() {
+        if (searchInput.value.trim()) searchResults.classList.add('active');
+    });
+})();
+</script>
+{{ end }}

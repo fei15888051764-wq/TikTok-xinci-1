@@ -1,0 +1,139 @@
+baseURL: "https://your-domain.com"
+languageCode: "en-us"
+title: "TikTok Slang Dictionary"
+theme: "PaperMod"
+
+paginate: 12
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+
+# Enable JSON output for Lunr search
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+  page:
+    - HTML
+    - RSS
+    - JSON
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: "TikTok Slang Dictionary"
+  description: "Your ultimate guide to TikTok slang, Gen-Z lingo, and viral internet terms. Stay updated with the latest trending words."
+  keywords: ["TikTok", "Slang", "Dictionary", "Gen-Z", "Viral", "Trending Words"]
+  author: "LAOWANG"
+  defaultTheme: light
+  disableThemeToggle: true
+  DateFormat: "January 2, 2006"
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: false
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: false
+  UseHugoToc: false
+  disableSpecial1stPost: true
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+  hideFooter: false
+  mainSections: ["slang"]
+
+  # Author Information
+  authorInfo:
+    name: "TikTok Slang Dictionary Team"
+    bio: "A dedicated team of internet culture researchers and linguists tracking the ever-evolving world of TikTok slang and Gen-Z terminology."
+    email: "hello@tiktokslangdictionary.com"
+    url: "https://your-domain.com"
+    twitter: "@tiktokslangdict"
+    github: "tiktokslangdictionary"
+    since: 2024
+
+  # Open Graph / Social Media
+  og:
+    type: "website"
+    locale: "en_US"
+    site_name: "TikTok Slang Dictionary"
+    image: "/og-image.png"
+    imageWidth: 1200
+    imageHeight: 630
+
+  # Twitter Card
+  twitter:
+    card: "summary_large_image"
+    site: "@tiktokslangdict"
+    creator: "@tiktokslangdict"
+
+  assets:
+    disableHLJS: true
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.ico"
+    favicon32x32: "/favicon-32x32.ico"
+    apple_touch_icon: "/apple-touch-icon.ico"
+    safari_pinned_tab: "/safari-pinned-tab.ico"
+
+  label:
+    text: "TikTok Slang Dictionary"
+    icon: ""
+    iconHeight: 0
+
+  # Home page parameters
+  homeInfoParams:
+    Title: ""
+    Content: ""
+
+  socialIcons:
+    - name: "x"
+      url: "https://x.com/tiktokslangdict"
+    - name: "github"
+      url: "https://github.com/tiktokslangdictionary"
+
+  cover:
+    hidden: true
+    hiddenInList: true
+    hiddenInSingle: true
+
+  editPost:
+    URL: ""
+    Text: ""
+    appendFilePath: false
+
+menu:
+  main:
+    - identifier: "categories"
+      name: "Categories"
+      url: "/categories/"
+      weight: 10
+    - identifier: "tags"
+      name: "Tags"
+      url: "/tags/"
+      weight: 20
+    - identifier: "about"
+      name: "About"
+      url: "/about/"
+      weight: 30
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    codeFences: true
+    guessSyntax: true
+    lineNos: false
+    style: monokai

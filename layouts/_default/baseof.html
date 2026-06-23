@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}" dir="{{ .Site.Language.LanguageDirection | default "auto" }}">
+<head>
+    {{- partial "head.html" . }}
+
+    {{/* ===== Open Graph Meta Tags ===== */}}
+    <meta property="og:title" content="{{ .Title }}{{ if not .IsHome }} | {{ .Site.Title }}{{ end }}">
+    <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else if .Params.definition }}{{ .Params.definition }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:site_name" content="{{ .Site.Title }}">
+    <meta property="og:locale" content="en_US">
+    {{- if .Params.tags }}
+    {{- range first 5 .Params.tags }}
+    <meta property="article:tag" content="{{ . }}">
+    {{- end }}
+    {{- end }}
+    {{- if .Site.Params.og.image }}
+    <meta property="og:image" content="{{ .Site.Params.og.image | absURL }}">
+    <meta property="og:image:width" content="{{ .Site.Params.og.imageWidth }}">
+    <meta property="og:image:height" content="{{ .Site.Params.og.imageHeight }}">
+    {{- end }}
+    {{- if .IsPage }}
+    <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">
+    <meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" }}">
+    <meta property="article:author" content="{{ .Site.Params.authorInfo.name }}">
+    {{- end }}
+
+    {{/* ===== Twitter Card Meta Tags ===== */}}
+    <meta name="twitter:card" content="{{ .Site.Params.twitter.card }}">
+    <meta name="twitter:site" content="{{ .Site.Params.twitter.site }}">
+    <meta name="twitter:creator" content="{{ .Site.Params.twitter.creator }}">
+    <meta name="twitter:title" content="{{ .Title }}{{ if not .IsHome }} | {{ .Site.Title }}{{ end }}">
+    <meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else if .Params.definition }}{{ .Params.definition }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    {{- if .Site.Params.og.image }}
+    <meta name="twitter:image" content="{{ .Site.Params.og.image | absURL }}">
+    {{- end }}
+
+    {{/* ===== Structured Data: WebSite (Homepage only) ===== */}}
+    {{- if .IsHome }}
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "{{ .Site.Title }}",
+        "url": "{{ .Site.BaseURL }}",
+        "description": "{{ .Site.Params.description }}",
+        "publisher": {
+            "@type": "Organization",
+            "name": "{{ .Site.Title }}",
+            "url": "{{ .Site.BaseURL }}"
+        },
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "{{ .Site.BaseURL }}?q={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+    {{- end }}
+
+    {{/* ===== Structured Data: Article (Single page) ===== */}}
+    {{- if and .IsPage (eq .Type "slang") }}
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "{{ .Title }}",
+        "description": "{{ .Params.definition }}",
+        "url": "{{ .Permalink }}",
+        "datePublished": "{{ .Date.Format "2006-01-02T15:04:05-07:00" }}",
+        "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" }}",
+        "author": {
+            "@type": "Person",
+            "name": "{{ .Site.Params.authorInfo.name }}"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "{{ .Site.Title }}",
+            "url": "{{ .Site.BaseURL }}"
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "{{ .Permalink }}"
+        },
+        {{- if .Params.tags }}
+        "keywords": [{{ range $i, $tag := .Params.tags }}{{ if $i }}, {{ end }}"{{ $tag }}"{{ end }}],
+        {{- end }}
+        "articleSection": "{{ .Section }}"
+    }
+    </script>
+    {{- end }}
+
+    {{/* ===== Structured Data: FAQPage (Single page with FAQ content) ===== */}}
+    {{- if and .IsPage (eq .Type "slang") }}
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What does {{ .Title }} mean?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "{{ .Params.definition }}"
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Where did {{ .Title }} come from?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "{{ .Title }} is a popular TikTok slang term that emerged from social media culture and has been widely adopted in online conversations."
+                }
+            }
+        ]
+    }
+    </script>
+    {{- end }}
+
+    {{- block "head" . }}{{ end }}
+
+    <!-- Custom Styles -->
+    {{- $customCSS := resources.Get "css/extended/custom.css" }}
+    {{- if $customCSS }}
+    <link rel="stylesheet" href="{{ $customCSS.RelPermalink }}">
+    {{- end }}
+</head>
+<body class="{{ block `body-class` . }}{{ end }}">
+    {{- partialCached "header.html" . .Page -}}
+    <main class="main">
+        {{- block "main" . }}{{ end }}
+    </main>
+    {{- if (not .Site.Params.hideFooter) }}
+    {{- partial "custom-footer.html" . -}}
+    {{- end }}
+    {{- partialCached "script.html" . .Page -}}
+    {{- block "script" . }}{{ end }}
+</body>
+</html>
