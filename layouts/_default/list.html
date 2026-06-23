@@ -10,7 +10,7 @@
 {{- if .IsHome }}
     {{- $allPages = where site.RegularPages "Type" "in" site.Params.mainSections }}
 {{- end }}
-{{- $pages := sort $allPages ".File.ModTime" "desc" }}
+{{- $pages := sort $allPages ".Date" "desc" }}
 
 <div class="cards-grid">
     {{- range $pages }}
