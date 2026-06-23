@@ -34,7 +34,7 @@
 
         <!-- Cards Grid -->
         {{- $allSlang := where .Site.RegularPages "Type" "slang" }}
-        {{- $slangPages := sort $allSlang ".File.ModTime" "desc" }}
+       {{- $slangPages := sort $allSlang ".Date" "desc" }}
         {{- $count := len $slangPages }}
         <div class="cards-grid" id="cards-container">
             {{- if $slangPages }}
