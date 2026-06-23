@@ -3,7 +3,8 @@ languageCode: "en-us"
 title: "TikTok Slang Dictionary"
 theme: "PaperMod"
 
-paginate: 12
+pagination:
+  pagerSize: 12
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
