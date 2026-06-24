@@ -14,9 +14,9 @@
 
 <div class="cards-grid">
     {{- range $pages }}
-    <article class="slang-card" onclick="window.location.href='{{ .Permalink }}'">
+    <article class="slang-card">
         <div class="card-header">
-            <h2 class="slang-word">{{ .Title }}</h2>
+            <h2 class="slang-word"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
             {{- if .Params.pos }}
             <span class="pos-tag">{{ .Params.pos }}</span>
             {{- end }}
