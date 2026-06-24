@@ -12,7 +12,13 @@ buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
 
-# Enable JSON output for Lunr search
+# Sitemap configuration (Google 2026 SEO)
+sitemap:
+  changefreq: "weekly"
+  priority: 0.8
+  filename: "sitemap.xml"
+
+# Enable JSON output for Lunr search + RSS for feed readers
 outputs:
   home:
     - HTML
@@ -22,6 +28,9 @@ outputs:
     - HTML
     - RSS
     - JSON
+  section:
+    - HTML
+    - RSS
 
 minify:
   disableXML: true
@@ -39,7 +48,7 @@ params:
   ShowReadingTime: false
   ShowShareButtons: false
   ShowPostNavLinks: false
-  ShowBreadCrumbs: false
+  ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
   ShowWordCount: false
   ShowRssButtonInSectionTermList: false
@@ -54,10 +63,10 @@ params:
   hideFooter: false
   mainSections: ["slang"]
 
-  # Author Information
+  # Author Information (E-E-A-T for Google 2026)
   authorInfo:
     name: "LAOWANG"
-    bio: "TikTok culture observer and slang tracker. One person, too many tabs open."
+    bio: "Independent internet culture researcher tracking the ever-evolving world of TikTok slang and Gen-Z terminology since 2024."
     email: "fei15888051764@gmail.com"
     url: "https://tiktok-xinci-1.pages.dev"
     twitter: "@tiktokslangdict"
