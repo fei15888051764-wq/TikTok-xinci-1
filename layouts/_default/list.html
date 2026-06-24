@@ -14,9 +14,9 @@
 
 <div class="cards-grid">
     {{- range $pages }}
-    <article class="slang-card">
+    <a href="{{ .RelPermalink }}" class="slang-card" style="text-decoration:none;color:inherit;">
         <div class="card-header">
-            <h2 class="slang-word"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+            <h2 class="slang-word">{{ .Title }}</h2>
             {{- if .Params.pos }}
             <span class="pos-tag">{{ .Params.pos }}</span>
             {{- end }}
@@ -36,7 +36,7 @@
             {{- end }}
             <span class="updated-date">Updated {{ .Date.Format "Jan 2, 2006" }}</span>
         </div>
-    </article>
+    </a>
     {{- end }}
 </div>
 {{ end }}
