@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="page-not-found" style="text-align:center;padding:80px 20px;max-width:600px;margin:0 auto;">
+    <h1 style="font-size:72px;font-weight:800;color:#e0e0e0;margin-bottom:16px;letter-spacing:-2px;">404</h1>
+    <h2 style="font-size:24px;font-weight:700;color:#1a1a1a;margin-bottom:12px;">Page Not Found</h2>
+    <p style="font-size:15px;color:#888;margin-bottom:32px;line-height:1.6;">Sorry, we couldn't find that page. It might have been moved or doesn't exist.</p>
+    
+    <div style="margin-bottom:32px;">
+        <a href="{{ .Site.BaseURL }}" style="display:inline-block;padding:14px 32px;font-size:15px;font-weight:500;color:#555;background:transparent;border:1.5px solid #e0e0e0;border-radius:100px;text-decoration:none;transition:all 0.25s;">← Back to Home</a>
+    </div>
+    
+    <div style="border-top:1px solid #eee;padding-top:32px;margin-top:32px;">
+        <p style="font-size:14px;color:#888;margin-bottom:16px;">Or check out these popular slang words:</p>
+        <div style="display:flex;flex-wrap:wrap;gap:8px;justify-content:center;">
+            <a href="/slang/rizz/" style="padding:8px 16px;font-size:13px;color:#555;background:#f5f5f5;border-radius:100px;text-decoration:none;">Rizz</a>
+            <a href="/slang/gyatt/" style="padding:8px 16px;font-size:13px;color:#555;background:#f5f5f5;border-radius:100px;text-decoration:none;">Gyatt</a>
+            <a href="/slang/skibidi/" style="padding:8px 16px;font-size:13px;color:#555;background:#f5f5f5;border-radius:100px;text-decoration:none;">Skibidi</a>
+            <a href="/slang/sigma/" style="padding:8px 16px;font-size:13px;color:#555;background:#f5f5f5;border-radius:100px;text-decoration:none;">Sigma</a>
+        </div>
+    </div>
+</div>
+{{ end }}
