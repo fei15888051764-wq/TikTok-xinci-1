@@ -30,11 +30,11 @@
         </div>
 
         <!-- Section Title -->
-        <h2 class="section-title">Latest Updates</h2>
+        <h1 class="section-title">Latest TikTok Slang Updates</h1>
 
         <!-- Cards Grid -->
         {{- $allSlang := where .Site.RegularPages "Type" "slang" }}
-       {{- $slangPages := sort $allSlang ".Date" "desc" }}
+        {{- $slangPages := sort $allSlang ".Date" "desc" }}
         {{- $count := len $slangPages }}
         <div class="cards-grid" id="cards-container">
             {{- if $slangPages }}
