@@ -137,10 +137,9 @@ menu:
       url: "/contact/"
       weight: 30
 
-# Disable categories taxonomy to fix sitemap (removes slang/categories/slang/ 404)
-disableKinds:
-  - taxonomy
-  - taxonomyTerm
+# Only keep 'tags' taxonomy, remove 'categories' to avoid /categories/slang/ in sitemap
+taxonomies:
+  tag: tags
 
 markup:
   goldmark:
