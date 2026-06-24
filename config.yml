@@ -124,18 +124,23 @@ params:
 
 menu:
   main:
-    - identifier: "categories"
-      name: "Categories"
-      url: "/categories/"
-      weight: 10
     - identifier: "tags"
       name: "Tags"
       url: "/tags/"
-      weight: 20
+      weight: 10
     - identifier: "about"
       name: "About"
       url: "/about/"
+      weight: 20
+    - identifier: "contact"
+      name: "Contact"
+      url: "/contact/"
       weight: 30
+
+# Disable categories taxonomy to fix sitemap (removes slang/categories/slang/ 404)
+disableKinds:
+  - taxonomy
+  - taxonomyTerm
 
 markup:
   goldmark:
