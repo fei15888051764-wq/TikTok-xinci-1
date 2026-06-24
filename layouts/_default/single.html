@@ -1,5 +1,16 @@
 {{ define "main" }}
 <article class="post-single slang-detail">
+    {{/* Breadcrumb Navigation (Google 2026: UX + SEO) */}}
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+        <ol class="breadcrumb-list">
+            <li class="breadcrumb-item"><a href="{{ .Site.BaseURL }}">Home</a></li>
+            <li class="breadcrumb-separator">/</li>
+            <li class="breadcrumb-item"><a href="{{ .Site.BaseURL }}{{ .Section }}/">{{ .Section | title }}</a></li>
+            <li class="breadcrumb-separator">/</li>
+            <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+        </ol>
+    </nav>
+
     <header class="post-detail-header">
         <div class="detail-header-top">
             <h1 class="post-detail-title">{{ .Title }}</h1>
@@ -8,7 +19,10 @@
             {{- end }}
         </div>
         <div class="post-detail-meta">
-            <span class="updated-date">Updated {{ .Date.Format "January 2, 2006" }}</span>
+            <div class="meta-left">
+                <span class="updated-date">Updated {{ .Date.Format "January 2, 2006" }}</span>
+                <span class="reading-time">{{ .ReadingTime }} min read</span>
+            </div>
             {{- if .Params.tags }}
             <div class="tags-group detail-tags">
                 {{- range .Params.tags }}
@@ -21,7 +35,7 @@
 
     {{/* Definition section - full text, NOT truncated */}}
     {{- if .Params.definition }}
-    <div class="detail-definition-section">
+    <div class="detail-definition-section" itemprop="description">
         <h2 class="detail-section-label">Definition</h2>
         <p class="detail-definition-text">{{ .Params.definition }}</p>
     </div>
@@ -29,13 +43,13 @@
 
     {{/* Main content from markdown */}}
     {{- if .Content }}
-    <div class="post-detail-content">
+    <div class="post-detail-content" itemprop="articleBody">
         {{ .Content }}
     </div>
     {{- end }}
 
-    {{/* Author section */}}
-    <footer class="post-author-footer">
+    {{/* Author section - Enhanced E-E-A-T (Google 2026) */}}
+    <footer class="post-author-footer" itemprop="author" itemscope itemtype="https://schema.org/Person">
         <div class="author-divider"></div>
         <div class="author-info">
             <div class="author-avatar">
@@ -46,10 +60,29 @@
                 </svg>
             </div>
             <div class="author-details">
-                <p class="author-name">By {{ .Site.Params.authorInfo.name }}</p>
-                <p class="author-bio">{{ .Site.Params.authorInfo.bio }}</p>
+                <p class="author-name" itemprop="name">By {{ .Site.Params.author }}</p>
+                <p class="author-bio" itemprop="description">{{ .Site.Params.authorInfo.bio }}</p>
+                <p class="author-contact">Contact: <a href="mailto:{{ .Site.Params.authorInfo.email }}" itemprop="email">{{ .Site.Params.authorInfo.email }}</a></p>
+                <meta itemprop="url" content="{{ .Site.BaseURL }}about/">
             </div>
         </div>
     </footer>
+
+    {{/* Related articles section (Google 2026: internal linking) */}}
+    {{- $related := where .Site.RegularPages "Type" "slang" }}
+    {{- $related = shuffle (where $related "Permalink" "ne" .Permalink) }}
+    {{- if $related }}
+    <section class="related-articles">
+        <h2 class="related-title">Related Slang Words</h2>
+        <div class="related-grid">
+            {{- range first 3 $related }}
+            <a href="{{ .Permalink }}" class="related-card">
+                <h3 class="related-word">{{ .Title }}</h3>
+                <p class="related-definition">{{ .Params.definition | truncate 100 }}</p>
+            </a>
+            {{- end }}
+        </div>
+    </section>
+    {{- end }}
 </article>
 {{ end }}
