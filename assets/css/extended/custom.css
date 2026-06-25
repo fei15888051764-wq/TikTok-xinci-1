@@ -85,6 +85,41 @@ body {
   width: 100%;
 }
 
+/* Non-ad pages (About, Contact, etc.) - center content */
+.detail-main.no-ads {
+  margin: 0 auto;
+}
+
+/* ===== BACK TO HOME LINK ===== */
+.back-to-home {
+  margin-bottom: 16px;
+  padding: 8px 0;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: var(--transition);
+  padding: 6px 12px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-light);
+}
+
+.back-link:hover {
+  color: var(--text-primary);
+  background: var(--tag-bg);
+  border-color: var(--border-color);
+}
+
+.back-link svg {
+  flex-shrink: 0;
+}
+
 /* ---- Sidebar Ad Slots (Desktop) ---- */
 .sidebar-ad {
   width: var(--sidebar-width);
@@ -987,6 +1022,11 @@ body {
 
   .list-title {
     font-size: 26px;
+  }
+
+  .back-link {
+    font-size: 13px;
+    padding: 5px 10px;
   }
 }
 
