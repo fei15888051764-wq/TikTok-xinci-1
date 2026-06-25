@@ -22,13 +22,12 @@
         <!-- Section Title -->
         <h1 class="section-title">All Tags</h1>
 
-        <!-- Tags Grid - Sorted alphabetically, centered -->
+        <!-- Tags Grid - Using .Pages for Hugo 0.146 compatibility -->
         <div class="tags-grid">
-            {{- $tags := .Data.Terms.Alphabetical }}
-            {{- range $tags }}
-            <a href="{{ .Page.Permalink }}" class="tag-pill">
-                <span class="tag-pill-name">{{ .Page.Title }}</span>
-                <span class="tag-pill-count">{{ .Count }}</span>
+            {{- range sort .Pages "Title" }}
+            <a href="{{ .Permalink }}" class="tag-pill">
+                <span class="tag-pill-name">{{ .Title }}</span>
+                <span class="tag-pill-count">{{ len .Pages }}</span>
             </a>
             {{- end }}
         </div>
