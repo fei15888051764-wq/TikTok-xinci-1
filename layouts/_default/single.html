@@ -17,7 +17,6 @@
         </div>
 
         <article class="post-single slang-detail">
-            {{/* Breadcrumb Navigation (Google 2026: UX + SEO) */}}
             <nav class="breadcrumb" aria-label="Breadcrumb">
                 <ol class="breadcrumb-list">
                     <li class="breadcrumb-item"><a href="{{ .Site.BaseURL }}">Home</a></li>
@@ -55,7 +54,6 @@
                 </div>
             </header>
 
-            {{/* Definition section - full text, NOT truncated */}}
             {{- if .Params.definition }}
             <div class="detail-definition-section" itemprop="description">
                 <h2 class="detail-section-label">Definition</h2>
@@ -63,14 +61,12 @@
             </div>
             {{- end }}
 
-            {{/* Main content from markdown */}}
             {{- if .Content }}
             <div class="post-detail-content" itemprop="articleBody">
                 {{ .Content }}
             </div>
             {{- end }}
 
-            {{/* Author section - Enhanced E-E-A-T (Google 2026) */}}
             <footer class="post-author-footer" itemprop="author" itemscope itemtype="https://schema.org/Person">
                 <div class="author-divider"></div>
                 <div class="author-info">
@@ -90,7 +86,6 @@
                 </div>
             </footer>
 
-            {{/* Related articles section (Google 2026: internal linking) */}}
             {{- $related := where .Site.RegularPages "Type" "slang" }}
             {{- $related = shuffle (where $related "Permalink" "ne" .Permalink) }}
             {{- if $related }}

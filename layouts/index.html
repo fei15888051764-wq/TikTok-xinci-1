@@ -139,7 +139,6 @@
 <script src="https://unpkg.com/lunr/lunr.js"></script>
 <script>
 (function() {
-    // Build search index from ALL Hugo content (not just first 12)
     var docs = [
         {{- $allSlang := where .Site.RegularPages "Type" "slang" }}
         {{- range $allSlang }}
@@ -154,7 +153,6 @@
         {{- end }}
     ];
 
-    // Build Lunr index - covers ALL slang words
     var idx = lunr(function() {
         this.ref('slug');
         this.field('title', { boost: 10 });
@@ -183,7 +181,6 @@
             matchedSlugs = lunrResults.map(function(r) { return r.ref; });
         } catch(e) {}
 
-        // Also do simple text fallback on all docs
         docs.forEach(function(doc) {
             if (matchedSlugs.indexOf(doc.slug) === -1) {
                 var allText = (doc.title + ' ' + doc.definition + ' ' + doc.tags).toLowerCase();
@@ -191,7 +188,6 @@
             }
         });
 
-        // Filter visible cards on current page
         var pageCount = 0;
         allCards.forEach(function(card) {
             var cardSlug = '';
@@ -206,7 +202,6 @@
             }
         });
 
-        // Build dropdown results from ALL matched docs
         var html = '';
         if (matchedSlugs.length === 0) {
             html = '<div class="search-no-results">No results for "' + esc(q) + '"</div>';
