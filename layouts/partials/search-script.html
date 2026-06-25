@@ -1,0 +1,115 @@
+{{/* ===== Lunr.js Search Script (shared across all pages) ===== */}}
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+<script>
+(function() {
+    // Build search index from ALL Hugo content
+    var docs = [
+        {{- $allSlang := where .Site.RegularPages "Type" "slang" }}
+        {{- range $allSlang }}
+        {
+            "slug": {{ .Params.slug | default (.Title | urlize) | jsonify }},
+            "title": {{ .Title | jsonify }},
+            "permalink": {{ .Permalink | jsonify }},
+            "definition": {{ .Params.definition | jsonify }},
+            "tags": {{ (delimit .Params.tags " ") | jsonify }},
+            "content": {{ .Plain | jsonify }}
+        }{{ if ne . (index (last 1 $allSlang) 0) }},{{ end }}
+        {{- end }}
+    ];
+
+    // Build Lunr index
+    var idx = lunr(function() {
+        this.ref('slug');
+        this.field('title', { boost: 10 });
+        this.field('definition', { boost: 5 });
+        this.field('tags', { boost: 3 });
+        this.field('content');
+        docs.forEach(function(doc) { this.add(doc); }, this);
+    });
+
+    var searchInput = document.getElementById('search-input');
+    var searchResults = document.getElementById('search-results');
+    // Only filter cards if they exist on this page (homepage)
+    var allCards = document.querySelectorAll('.slang-card');
+
+    function doSearch(query) {
+        var q = query.trim().toLowerCase();
+        if (!q) {
+            // Show all cards if on homepage
+            allCards.forEach(function(c) { c.style.display = ''; });
+            searchResults.innerHTML = '';
+            searchResults.classList.remove('active');
+            return;
+        }
+
+        var matchedSlugs = [];
+        try {
+            var lunrResults = idx.search(q + '*');
+            matchedSlugs = lunrResults.map(function(r) { return r.ref; });
+        } catch(e) {}
+
+        // Also do simple text fallback on all docs
+        docs.forEach(function(doc) {
+            if (matchedSlugs.indexOf(doc.slug) === -1) {
+                var allText = (doc.title + ' ' + doc.definition + ' ' + doc.tags).toLowerCase();
+                if (allText.indexOf(q) !== -1) matchedSlugs.push(doc.slug);
+            }
+        });
+
+        // Filter visible cards on homepage (if cards exist)
+        if (allCards.length > 0) {
+            allCards.forEach(function(card) {
+                var cardSlug = '';
+                var onclick = card.getAttribute('onclick') || '';
+                var match = onclick.match(/\/slang\/([^/]+)/);
+                if (match) cardSlug = match[1];
+                if (matchedSlugs.indexOf(cardSlug) !== -1 || matchedSlugs.indexOf(decodeURIComponent(cardSlug)) !== -1) {
+                    card.style.display = '';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        // Build dropdown results
+        var html = '';
+        if (matchedSlugs.length === 0) {
+            html = '<div class="search-no-results">No results for "' + esc(q) + '"</div>';
+        } else {
+            html = '<div class="search-count">' + matchedSlugs.length + ' result' + (matchedSlugs.length > 1 ? 's' : '') + '</div>';
+            matchedSlugs.slice(0, 8).forEach(function(slug) {
+                var doc = docs.find(function(d) { return d.slug === slug || d.slug === decodeURIComponent(slug); });
+                if (doc) {
+                    html += '<a href="' + doc.permalink + '" class="search-result-item">' +
+                        '<div class="search-result-title">' + esc(doc.title) + '</div>' +
+                        '<div class="search-result-definition">' + esc(doc.definition.substring(0, 80)) + '...</div></a>';
+                }
+            });
+        }
+        searchResults.innerHTML = html;
+        searchResults.classList.add('active');
+    }
+
+    function esc(t) { var d = document.createElement('div'); d.textContent = t; return d.innerHTML; }
+
+    var debounceTimer;
+    searchInput.addEventListener('input', function(e) {
+        clearTimeout(debounceTimer);
+        debounceTimer = setTimeout(function() { doSearch(e.target.value); }, 200);
+    });
+
+    searchInput.addEventListener('keydown', function(e) {
+        if (e.key === 'Enter') { e.preventDefault(); doSearch(searchInput.value); }
+    });
+
+    document.addEventListener('click', function(e) {
+        if (!searchInput.contains(e.target) && !searchResults.contains(e.target)) {
+            searchResults.classList.remove('active');
+        }
+    });
+
+    searchInput.addEventListener('focus', function() {
+        if (searchInput.value.trim()) searchResults.classList.add('active');
+    });
+})();
+</script>
