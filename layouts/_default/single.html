@@ -123,7 +123,7 @@
 
             {{/* Related articles section */}}
             {{- $related := where .Site.RegularPages "Type" "slang" }}
-            {{- {{- $related = shuffle (where $related "Permalink" "ne" .Permalink) }}
+            {{- $related = shuffle (where $related "Permalink" "ne" .Permalink) }}
             {{- if $related }}
             <section class="related-articles">
                 <h2 class="related-title">Related Slang Words</h2>
