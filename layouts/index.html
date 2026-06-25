@@ -48,7 +48,7 @@
                         {{- if .Params.tags }}
                         <div class="tags-group">
                             {{- range first 3 .Params.tags }}
-                            <span class="tag-item">{{ . }}</span>
+                            <a href="/tags/{{ . | urlize }}/" class="tag-item-link">{{ . }}</a>
                             {{- end }}
                         </div>
                         {{- end }}
