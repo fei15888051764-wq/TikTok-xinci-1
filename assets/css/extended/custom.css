@@ -67,13 +67,30 @@ body {
   width: 100%;
 }
 
+/* ---- Detail Page Layout (with ads) ---- */
+.detail-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: var(--sidebar-gap);
+  max-width: calc(var(--sidebar-width) + var(--max-content) + var(--sidebar-width) + var(--sidebar-gap) * 2);
+  margin: 0 auto;
+  padding: 40px 20px 80px;
+  min-height: 100vh;
+}
+
+.detail-main {
+  flex: 1;
+  max-width: var(--max-content);
+  width: 100%;
+}
+
 /* ---- Sidebar Ad Slots (Desktop) ---- */
 .sidebar-ad {
   width: var(--sidebar-width);
   min-height: 600px;
   flex-shrink: 0;
   position: sticky;
-  /* Aligned with the first card's top edge */
   top: 226px;
 }
 
@@ -506,7 +523,6 @@ body {
   font-size: 16px;
   color: var(--text-secondary);
   line-height: 1.75;
-  /* NO truncation - full text displayed */
 }
 
 /* Main Content Styling */
@@ -835,7 +851,8 @@ body {
 
 /* ===== RESPONSIVE: Mobile <= 768px ===== */
 @media screen and (max-width: 768px) {
-  .home-container {
+  .home-container,
+  .detail-container {
     flex-direction: column;
     padding: 20px 16px 40px;
     gap: 0;
@@ -849,7 +866,8 @@ body {
     display: block;
   }
 
-  .main-content {
+  .main-content,
+  .detail-main {
     max-width: 100%;
   }
 
@@ -894,7 +912,6 @@ body {
     height: 80px;
   }
 
-  /* Detail page mobile */
   .slang-detail {
     padding: 24px 16px 40px;
   }
@@ -927,19 +944,16 @@ body {
     font-size: 20px;
   }
 
-  /* Related articles mobile */
   .related-grid {
     grid-template-columns: 1fr;
   }
 
-  /* Author mobile */
   .author-info {
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
 
-  /* Newsletter mobile */
   .subscribe-section {
     margin: 32px 0 24px;
     padding: 28px 20px;
@@ -951,7 +965,6 @@ body {
     width: 100%;
   }
 
-  /* Footer mobile */
   .site-footer {
     padding: 20px 16px;
   }
@@ -960,7 +973,6 @@ body {
     font-size: 12px;
   }
 
-  /* About mobile */
   .about-page {
     padding: 24px 16px 40px;
   }
@@ -969,7 +981,6 @@ body {
     font-size: 26px;
   }
 
-  /* List page mobile */
   .list-page {
     padding: 24px 16px 40px;
   }
@@ -983,7 +994,6 @@ body {
    PaperMod Theme Overrides
    ============================================ */
 
-/* Hide default PaperMod home page elements */
 .home-info,
 .first-entry,
 .post-entry,
@@ -993,13 +1003,11 @@ body {
   display: none !important;
 }
 
-/* Override PaperMod main padding */
 .main {
   padding: 0 !important;
   max-width: none !important;
 }
 
-/* Override nav */
 .nav {
   background: rgba(255, 255, 255, 0.9) !important;
   backdrop-filter: blur(10px);
@@ -1023,13 +1031,55 @@ body {
   color: var(--text-primary) !important;
 }
 
-/* Smooth scroll */
 html {
   scroll-behavior: smooth;
 }
 
-/* Selection color */
 ::selection {
   background: rgba(100, 100, 100, 0.15);
   color: var(--text-primary);
+}
+
+/* ============================================
+   Card Image Styles
+   ============================================ */
+
+.card-image {
+  width: 100%;
+  height: 160px;
+  overflow: hidden;
+  border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+  margin: -20px -20px 12px -20px;
+  width: calc(100% + 40px);
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.slang-card:hover .card-image img {
+  transform: scale(1.03);
+}
+
+/* ============================================
+   Detail Page Image Styles
+   ============================================ */
+
+.detail-image {
+  width: 100%;
+  max-height: 400px;
+  overflow: hidden;
+  border-radius: var(--radius);
+  margin-bottom: 24px;
+}
+
+.detail-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
