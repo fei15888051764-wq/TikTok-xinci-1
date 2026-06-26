@@ -2,7 +2,7 @@
 title: "Birds for Some Reason"
 date: 2026-06-26T12:00:00+08:00
 slug: "birds-for-some-reason"
-definition: "A viral TikTok meme from mid-2026 where videos of people dancing are paired with the caption "birds for some reason," creating absurdist humor through random juxtaposition."
+definition: "A viral TikTok meme from mid-2026 where videos of people dancing are paired with the caption 'birds for some reason,' creating absurdist humor through random juxtaposition."
 tags: ["gen-z", "meme", "2026"]
 pos: "slang"
 image: "/images/slang/birds-for-some-reason.jpg"
