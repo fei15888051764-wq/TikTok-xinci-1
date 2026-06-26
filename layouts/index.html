@@ -22,13 +22,14 @@
         <!-- Section Title -->
         <h1 class="section-title">Latest TikTok Slang Updates</h1>
 
-        <!-- Cards Grid -->
+        <!-- Cards Grid - Show ONLY the latest 12 cards on homepage -->
         {{- $allSlang := where .Site.RegularPages "Type" "slang" }}
         {{- $slangPages := sort $allSlang ".Date" "desc" }}
-        {{- $count := len $slangPages }}
+        {{- $homeSlang := first 12 $slangPages }}
+        {{- $count := len $homeSlang }}
         <div class="cards-grid" id="cards-container">
-            {{- if $slangPages }}
-                {{- range $idx, $page := $slangPages }}
+            {{- if $homeSlang }}
+                {{- range $idx, $page := $homeSlang }}
                 <article class="slang-card" data-title="{{ .Title | lower }}" data-tags="{{ range .Params.tags }}{{ . | lower }} {{ end }}" data-definition="{{ .Params.definition | lower }}" onclick="window.location.href='{{ .Permalink }}'">
                     {{- if .Params.image }}
                     <div class="card-image">
