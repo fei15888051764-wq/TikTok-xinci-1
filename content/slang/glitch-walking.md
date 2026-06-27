@@ -11,7 +11,7 @@ pos: "slang"
 
 Glitch-walking refers to moving with jerky, stutter-step, or unnatural motions that mimic a lagging video game character. The term emerged from gaming culture and crossed into TikTok slang in early 2026 as creators began filming themselves or friends walking in deliberately robotic, "laggy" ways for comedic effect. The core appeal lies in its visual absurdity—it turns an everyday action into something that looks digitally broken.
 
-LAOWANG's take: this term has serious staying power because it bridges Gen Alpha's gaming vocabulary with physical comedy, but it's already splitting into two uses—ironic praise for smooth dancers ("that edit made him look like glitch-walking") and genuine roast for people with awkward gaits. Expect the meaning to settle on the ironic side by fall 2026.
+GEBILAOWANG's take: this term has serious staying power because it bridges Gen Alpha's gaming vocabulary with physical comedy, but it's already splitting into two uses—ironic praise for smooth dancers ("that edit made him look like glitch-walking") and genuine roast for people with awkward gaits. Expect the meaning to settle on the ironic side by fall 2026.
 
 ## Usage Examples
 
