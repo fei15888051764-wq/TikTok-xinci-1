@@ -66,7 +66,3 @@ A: Not necessarily. Sometimes it's about staying focused on something positive w
 - Know Your Meme — "He Tryna Ignore It" [https://knowyourmeme.com/memes/he-tryna-ignore-it]
 - TikTok Creative Center — Trending Keywords & Hashtags Dashboard [https://ads.tiktok.com/business/en-US/solutions/tiktok-creative-center]
 - Yahoo Entertainment — "What Does 'He Tryna Ignore It' Mean?" [https://www.yahoo.com/entertainment/he-tryna-ignore-it-mean-tiktok-180000000.html]
-
----
-
-*This definition was compiled and reviewed by GEBILAOWANG, a slang culture researcher and lexicographer tracking the evolution of digital-native language since 2024. With expertise in internet linguistics and Gen Z/Alpha communication patterns, GEBILAOWANG specializes in documenting emerging terminology across social platforms. For questions, corrections, or collaboration inquiries, contact: fei15888051764@gmail.com*
