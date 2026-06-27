@@ -155,8 +155,8 @@
     </script>
     {{- end }}
 
-    {{/* ===== BreadcrumbList for tag taxonomy pages ===== */}}
-    {{- if eq .Kind "taxonomy" }}
+    {{/* ===== BreadcrumbList for tag taxonomy pages (check by Section) ===== */}}
+    {{- if eq .Section "tags" }}
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
