@@ -71,5 +71,3 @@ A: "It's when someone acts so calm and confident that they seem to level up thei
 
 - SlangWatch — "TikTok Slang 2026: The Language of Viral Culture" [https://www.slangwatch.com/blog/tiktok-slang-2026]
 - TikTok Creative Center — Trending Keywords & Hashtags Dashboard [https://ads.tiktok.com/business/en-US/solutions/tiktok-creative-center]
-
-*Author: GEBILAOWANG*
