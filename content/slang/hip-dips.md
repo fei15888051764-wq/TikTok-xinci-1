@@ -59,7 +59,3 @@ A: Creators began sharing educational content about anatomy, helping people unde
 
 - Healthline — "What Are Hip Dips?" [https://www.healthline.com/health/hip-dips]
 - Glamour — "Hip Dips Are the Latest Instagram Trend in Body Empowerment" [https://www.glamour.com/story/hip-dips-body-positive]
-
----
-
-*This definition was compiled and reviewed by GEBILAOWANG, a slang culture researcher and lexicographer tracking the evolution of digital-native language since 2024. With expertise in internet linguistics and Gen Z/Alpha communication patterns, GEBILAOWANG specializes in documenting emerging terminology across social platforms. For questions, corrections, or collaboration inquiries, contact: fei15888051764@gmail.com*
