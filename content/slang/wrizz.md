@@ -7,7 +7,7 @@ pos: "slang"
 definition: "A TikTok slang term for wholesome, genuine romantic charisma—the sweet, authentic kind of appeal that comes from being a good person rather than being slick or manipulative. The 2026 antidote to oversaturated rizz culture."
 tags: ["gen-z", "dating", "2026"]
 categories: ["slang"]
-author: "LAOWANG"
+author: "GEBILAOWANG"
 ---
 
 ## Pronunciation
@@ -17,7 +17,7 @@ author: "LAOWANG"
 
 Wrizz is what you get when you strip the slick performance out of rizz and leave only the genuine, wholesome charm. The term—a blend of "wholesome" and "rizz"—emerged in January 2026 as a direct response to rizz becoming oversaturated and cringe across TikTok. While rizz implies smooth talk, calculated moves, and a certain player energy, wrizz is about quiet confidence, kindness, and the kind of romantic appeal that makes someone trust you immediately.
 
-On TikTok, wrizz content celebrates the soft-spoken guy who remembers your coffee order, the friend who checks in without being asked, or the person who listens more than they talk. LAOWANG's take: wrizz caught on because Gen Z was exhausted by performative dating advice and wanted a word that valorized being decent over being smooth. The concern is that once "having wrizz" becomes a known type, people will start performing wholesomeness the same way they performed rizz—and then we'll need yet another word.
+On TikTok, wrizz content celebrates the soft-spoken guy who remembers your coffee order, the friend who checks in without being asked, or the person who listens more than they talk. GEBILAOWANG's take: wrizz caught on because Gen Z was exhausted by performative dating advice and wanted a word that valorized being decent over being smooth. The concern is that once "having wrizz" becomes a known type, people will start performing wholesomeness the same way they performed rizz—and then we'll need yet another word.
 
 ## TikTok Dialogue Examples
 
@@ -60,7 +60,7 @@ A: It's the natural evolution of "rizz." Rizz is about smooth, performative char
 A: Don't use it to describe someone who's clearly being manipulative under the guise of niceness—"nice guy" behavior isn't wrizz. Also avoid using it to dismiss someone's genuine romantic struggles by implying they just need to "be more wholesome."
 
 **Q: Is this word already overplayed, or still fresh?**
-A: It had a massive explosion in January 2026 but has since settled into organic, stable usage. As of June 2026, it feels established rather than trending, which is actually a good sign—it suggests the word has real staying power rather than being a flash-in-the-pan trend. LAOWANG predicts it'll remain in the dating vocabulary rotation through at least early 2027.
+A: It had a massive explosion in January 2026 but has since settled into organic, stable usage. As of June 2026, it feels established rather than trending, which is actually a good sign—it suggests the word has real staying power rather than being a flash-in-the-pan trend. GEBILAOWANG predicts it'll remain in the dating vocabulary rotation through at least early 2027.
 
 **Q: How do I explain this to my parents in one sentence?**
 A: "It's when someone is romantically charming in a genuinely sweet and authentic way, not in a smooth or fake way."
@@ -70,4 +70,4 @@ A: "It's when someone is romantically charming in a genuinely sweet and authenti
 - SlangWatch — "Wrizz" featured in "Top TikTok Slang Terms of 2026: What Actually Matters" [https://www.slangwatch.com/blog/tiktok-slang-2026]
 - TikTok Creative Center — Trending Keywords & Hashtags Dashboard [https://ads.tiktok.com/business/en-US/solutions/tiktok-creative-center]
 
-*Author: LAOWANG*
+*Author: GEBILAOWANG*
