@@ -60,5 +60,3 @@ A: "It's a type of weird, light joke that almost makes sense but doesn't fully l
 
 - SlangWatch — "TikTok Slang 2026: Comedy Terms" [https://www.slangwatch.com/blog/tiktok-slang-2026]
 - TikTok Creative Center — Trending Dashboard [https://ads.tiktok.com/business/en-US/solutions/tiktok-creative-center]
-
-*Author: GEBILAOWANG*
