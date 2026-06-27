@@ -7,7 +7,7 @@ pos: "slang"
 definition: "A TikTok slang term for unloading your entire personal backstory, drama, or life details on someone all at once—like an NPC in a video game flooding you with exposition. Used for both oversharing moments and dramatic friend-group storytelling."
 tags: ["gen-z", "storytelling", "2026"]
 categories: ["slang"]
-author: "LAOWANG"
+author: "GEBILAOWANG"
 ---
 
 ## Pronunciation
@@ -17,7 +17,7 @@ author: "LAOWANG"
 
 Lore-dumping happens when someone dumps their whole life story, relationship drama, or family chaos on another person in one uninterrupted monologue—usually way too early in a friendship or completely unprompted. The term borrows from video game "lore" (the backstory and world-building that gives characters depth) and reframes it as something you accidentally spill all over someone like a dropped smoothie.
 
-LAOWANG's take: this one is having a real moment because it captures something universal—everyone knows that one friend who meets a stranger at a party and immediately dives into their childhood trauma, three exes, and why they don't talk to their cousin anymore. The humor is self-aware; people are now ironically labeling their own overshares as "lore-dumping" before anyone else can call them out.
+GEBILAOWANG's take: this one is having a real moment because it captures something universal—everyone knows that one friend who meets a stranger at a party and immediately dives into their childhood trauma, three exes, and why they don't talk to their cousin anymore. The humor is self-aware; people are now ironically labeling their own overshares as "lore-dumping" before anyone else can call them out.
 
 ## TikTok Dialogue Examples
 
@@ -60,7 +60,7 @@ A: It's closest to "oversharing" but more specific—lore-dumping implies a dram
 A: Never use it when someone is genuinely confiding in you about something serious. Also avoid it in therapy or mental health contexts—it trivializes real vulnerability.
 
 **Q: Is this word already overplayed, or still fresh?**
-A: Still fresh as of late June 2026. It's right at the tipping point where comment sections are starting to adopt it regularly, but it hasn't been beaten to death by mainstream meme pages yet. LAOWANG predicts it'll peak in August 2026.
+A: Still fresh as of late June 2026. It's right at the tipping point where comment sections are starting to adopt it regularly, but it hasn't been beaten to death by mainstream meme pages yet. GEBILAOWANG predicts it'll peak in August 2026.
 
 **Q: How do I explain this to my parents in one sentence?**
 A: "It's when someone tells you their whole life story in one sitting, like a video game character unloading way too much backstory."
@@ -70,4 +70,4 @@ A: "It's when someone tells you their whole life story in one sitting, like a vi
 - Toktionary — "Lore" definition in TikTok Dictionary [https://toktionary.net/]
 - TikTok Creative Center — Trending Keywords & Hashtags Dashboard [https://ads.tiktok.com/business/en-US/solutions/tiktok-creative-center]
 
-*Author: LAOWANG*
+*Author: GEBILAOWANG*
