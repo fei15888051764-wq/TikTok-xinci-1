@@ -11,7 +11,7 @@ pos: "slang"
 
 Brain AFK borrows the gaming term "AFK" (Away From Keyboard) and applies it to your own consciousness. It describes that state where your body is physically present—sitting in class, scrolling TikTok, nodding along in a conversation—but your mind has completely logged off. The term exploded in 2026 as Gen Z embraced increasingly frank language about mental fatigue and dissociation, wrapping it in internet vocabulary that feels casual rather than clinical. On TikTok, "brain AFK" shows up in captions about zoning out during lectures, staring at walls after work, or losing entire hours to sludge content.
 
-LAOWANG's take: this term resonates because it captures a universal experience with precision—everyone knows what it feels like to have your brain go offline, and giving it a name makes it feel normal rather than broken. The internet wrapper makes it accessible to younger users who might not engage with clinical mental health vocabulary.
+GEBILAOWANG's take: this term resonates because it captures a universal experience with precision—everyone knows what it feels like to have your brain go offline, and giving it a name makes it feel normal rather than broken. The internet wrapper makes it accessible to younger users who might not engage with clinical mental health vocabulary.
 
 ## Usage Examples
 
