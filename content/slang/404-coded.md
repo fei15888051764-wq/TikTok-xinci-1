@@ -7,7 +7,7 @@ pos: "slang"
 definition: "A TikTok slang term for someone who is completely out of touch, mentally checked out, or missing the point entirely—like a web browser that can't find the page. The 2026 tech-to-everyday crossover phrase for being clueless."
 tags: ["gen-z", "tech", "2026"]
 categories: ["slang"]
-author: "LAOWANG"
+author: "GEBILAOWANG"
 ---
 
 ## Pronunciation
@@ -17,7 +17,7 @@ author: "LAOWANG"
 
 404 coded takes the classic "404 Not Found" HTTP error and applies it to human behavior, creating one of the most precise slang terms of 2026. When someone is 404 coded, their comprehension is loading but never arrives—they might stare blankly at a simple joke, miss an obvious social cue, or walk into a room and immediately forget why. The term bridges Gen Alpha's native fluency in internet infrastructure with everyday social observation, treating mental fog as a server malfunction rather than a personal failing.
 
-LAOWANG's take: this term has serious staying power because it turns an everyday tech experience into social commentary. Everyone knows the frustration of a 404 page, so applying it to human cluelessness creates instant recognition.
+GEBILAOWANG's take: this term has serious staying power because it turns an everyday tech experience into social commentary. Everyone knows the frustration of a 404 page, so applying it to human cluelessness creates instant recognition.
 
 ## TikTok Dialogue Examples
 
@@ -61,4 +61,4 @@ A: "It's when someone is completely clueless or out of touch, like a webpage tha
 - SlangWatch — "TikTok Slang 2026" [https://www.slangwatch.com/blog/tiktok-slang-2026]
 - TikTok Creative Center — Trending Dashboard [https://ads.tiktok.com/business/en-US/solutions/tiktok-creative-center]
 
-*Author: LAOWANG*
+*Author: GEBILAOWANG*
