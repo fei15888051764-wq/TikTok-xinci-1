@@ -69,5 +69,3 @@ A: "It's when someone is romantically charming in a genuinely sweet and authenti
 
 - SlangWatch — "Wrizz" featured in "Top TikTok Slang Terms of 2026: What Actually Matters" [https://www.slangwatch.com/blog/tiktok-slang-2026]
 - TikTok Creative Center — Trending Keywords & Hashtags Dashboard [https://ads.tiktok.com/business/en-US/solutions/tiktok-creative-center]
-
-*Author: GEBILAOWANG*
