@@ -7,7 +7,7 @@ pos: "slang"
 definition: "A TikTok wellness slang term for something that looks calming or aesthetic on the surface but is actually stressful, toxic, or anxiety-inducing underneath. Popular in wellness and 'clean girl' aesthetic circles in 2026."
 tags: ["gen-z", "wellness", "2026"]
 categories: ["slang"]
-author: "LAOWANG"
+author: "GEBILAOWANG"
 ---
 
 ## Pronunciation
@@ -17,7 +17,7 @@ author: "LAOWANG"
 
 Cortisol-coded describes content, environments, or situations that present a serene, low-stress facade while secretly spiking your cortisol (the body's primary stress hormone). The term exploded in TikTok wellness communities in early 2026 as users began pointing out the irony of "stress relief" content that actually induces comparison anxiety—think perfect morning routines, overpriced matcha setups, or "day in my life" videos where every hour is color-coded.
 
-LAOWANG's read: this term hit different because it weaponizes science-speak against wellness culture itself. It's Gen Z's way of saying "this is fake relaxing" but with a medical twist that makes the critique feel objective rather than jealous. The danger zone is overuse—once every slightly organized desk gets called "cortisol-coded," the term loses its bite.
+GEBILAOWANG's read: this term hit different because it weaponizes science-speak against wellness culture itself. It's Gen Z's way of saying "this is fake relaxing" but with a medical twist that makes the critique feel objective rather than jealous. The danger zone is overuse—once every slightly organized desk gets called "cortisol-coded," the term loses its bite.
 
 ## TikTok Dialogue Examples
 
@@ -60,7 +60,7 @@ A: It's similar to "toxic positivity" but more specific—toxic positivity is ab
 A: Don't use it when someone is sharing their actual mental health struggles or medication routine. It's meant for aesthetic content and performative routines, not genuine wellness practices.
 
 **Q: Is this word already overplayed, or still fresh?**
-A: It's approaching saturation in wellness TikTok but hasn't fully crossed to mainstream usage yet. If you're in the wellness bubble it feels everywhere; outside of it, most people haven't heard it. LAOWANG predicts it'll decline by September 2026 as the wellness trend cycle moves on.
+A: It's approaching saturation in wellness TikTok but hasn't fully crossed to mainstream usage yet. If you're in the wellness bubble it feels everywhere; outside of it, most people haven't heard it. GEBILAOWANG predicts it'll decline by September 2026 as the wellness trend cycle moves on.
 
 **Q: How do I explain this to my parents in one sentence?**
 A: "It's when something looks super relaxing and Instagram-perfect but actually stresses you out just looking at it."
@@ -70,4 +70,4 @@ A: "It's when something looks super relaxing and Instagram-perfect but actually 
 - SlangWatch — "TikTok Slang 2026: The Language of Viral Culture" [https://www.slangwatch.com/blog/tiktok-slang-2026]
 - TikTok Creative Center — Trending Keywords & Hashtags Dashboard [https://ads.tiktok.com/business/en-US/solutions/tiktok-creative-center]
 
-*Author: LAOWANG*
+*Author: GEBILAOWANG*
