@@ -69,5 +69,3 @@ A: "It's when someone tells you their whole life story in one sitting, like a vi
 
 - Toktionary — "Lore" definition in TikTok Dictionary [https://toktionary.net/]
 - TikTok Creative Center — Trending Keywords & Hashtags Dashboard [https://ads.tiktok.com/business/en-US/solutions/tiktok-creative-center]
-
-*Author: GEBILAOWANG*
