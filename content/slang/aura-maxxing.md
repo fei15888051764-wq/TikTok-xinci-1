@@ -7,7 +7,7 @@ pos: "slang"
 definition: "A TikTok slang term for intentionally boosting your charisma, social energy, and personal presence to peak levels. Used when someone levels up their confidence, style, or vibe to become the most magnetic version of themselves."
 tags: ["gen-z", "self-improvement", "2026"]
 categories: ["slang"]
-author: "LAOWANG"
+author: "GEBILAOWANG"
 ---
 
 ## Pronunciation
@@ -17,7 +17,7 @@ author: "LAOWANG"
 
 Aura-maxxing is the Gen Alpha evolution of "glow-up" culture, but instead of just focusing on appearance, it zeroes in on the intangible energy you radiate in social spaces. The "-maxxing" suffix—borrowed from looksmaxxing communities—got hijacked in early 2026 and applied to everything from confidence to emotional regulation to social magnetism. The suffix originated in small, niche appearance-optimization communities where it carried a more obsessive, sometimes negative connotation; in its current mainstream TikTok usage, that original edge has largely softened into playful self-improvement language.
 
-On TikTok, aura-maxxing content shows people walking through crowds with unbothered body language, staying calm during arguments, or styling themselves in ways that project quiet self-assurance. LAOWANG's take: this term works because it treats charisma like a skill you can grind rather than a trait you're born with, which is honestly a healthier mindset than most TikTok wellness trends. The risk is it becoming another aesthetic to perform rather than an actual internal shift—expect "aura-maxxing routines" to flood your FYP by July 2026.
+On TikTok, aura-maxxing content shows people walking through crowds with unbothered body language, staying calm during arguments, or styling themselves in ways that project quiet self-assurance. GEBILAOWANG's take: this term works because it treats charisma like a skill you can grind rather than a trait you're born with, which is honestly a healthier mindset than most TikTok wellness trends. The risk is it becoming another aesthetic to perform rather than an actual internal shift—expect "aura-maxxing routines" to flood your FYP by July 2026.
 
 ## TikTok Dialogue Examples
 
@@ -62,7 +62,7 @@ A: It's close to "glow-up" but different—glow-up is about visible transformati
 A: Don't use it when someone is genuinely struggling emotionally—telling someone to "just aura-max" through grief or anxiety comes off as dismissive. Also avoid it in professional settings unless your workplace is very casual.
 
 **Q: Is this word already overplayed, or still fresh?**
-A: Still fresh as of June 2026, but the "-maxxing" suffix is spreading fast across every niche. LAOWANG predicts aura-maxxing specifically will peak by August 2026 before the broader trend moves on to the next suffix obsession.
+A: Still fresh as of June 2026, but the "-maxxing" suffix is spreading fast across every niche. GEBILAOWANG predicts aura-maxxing specifically will peak by August 2026 before the broader trend moves on to the next suffix obsession.
 
 **Q: How do I explain this to my parents in one sentence?**
 A: "It's when someone acts so calm and confident that they seem to level up their social superpowers."
@@ -72,4 +72,4 @@ A: "It's when someone acts so calm and confident that they seem to level up thei
 - SlangWatch — "TikTok Slang 2026: The Language of Viral Culture" [https://www.slangwatch.com/blog/tiktok-slang-2026]
 - TikTok Creative Center — Trending Keywords & Hashtags Dashboard [https://ads.tiktok.com/business/en-US/solutions/tiktok-creative-center]
 
-*Author: LAOWANG*
+*Author: GEBILAOWANG*
