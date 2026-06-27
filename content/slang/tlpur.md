@@ -62,4 +62,4 @@ A: Yes, it's used playfully as a creative exercise in making up definitions.
 
 ---
 
-*This definition was compiled and reviewed by LAOWANG, a slang culture researcher and lexicographer tracking the evolution of digital-native language since 2020. With expertise in internet linguistics and Gen Z/Alpha communication patterns, LAOWANG specializes in documenting emerging terminology across social platforms. For questions, corrections, or collaboration inquiries, contact: fei15888051764@gmail.com*
+*This definition was compiled and reviewed by GEBILAOWANG, a slang culture researcher and lexicographer tracking the evolution of digital-native language since 2024. With expertise in internet linguistics and Gen Z/Alpha communication patterns, GEBILAOWANG specializes in documenting emerging terminology across social platforms. For questions, corrections, or collaboration inquiries, contact: fei15888051764@gmail.com*
