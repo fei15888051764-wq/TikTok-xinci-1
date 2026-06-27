@@ -7,7 +7,7 @@ pos: "slang"
 definition: "A TikTok slang term for light, absurd jokes that float by without landing hard—weird, detached comedy that hovers just above making sense. The 2026 evolution of anti-punchline humor built for short-form attention spans."
 tags: ["gen-z", "comedy", "2026"]
 categories: ["slang"]
-author: "LAOWANG"
+author: "GEBILAOWANG"
 ---
 
 ## Pronunciation
@@ -17,7 +17,7 @@ author: "LAOWANG"
 
 Hover humor describes a specific style of comedy that is deliberately light, nonsensical, and detached—jokes that almost make sense but don't quite commit to a traditional punchline. Think of it as the comedic equivalent of a hovercraft: it floats, it moves, but it never fully lands. On TikTok, this shows up as random text-to-speech narrations over unrelated footage, absurd on-screen captions that feel like inside jokes with no context, or creators delivering deadpan observations about mundane objects.
 
-LAOWANG's take: hover humor is what happens when Gen Alpha's brains, rewired by infinite scrolling, start producing comedy that matches their attention patterns—fragmented, irony-soaked, and allergic to commitment. It's not trying to make you laugh out loud; it's trying to make you exhale slightly harder through your nose while you scroll.
+GEBILAOWANG's take: hover humor is what happens when Gen Alpha's brains, rewired by infinite scrolling, start producing comedy that matches their attention patterns—fragmented, irony-soaked, and allergic to commitment. It's not trying to make you laugh out loud; it's trying to make you exhale slightly harder through your nose while you scroll.
 
 ## TikTok Dialogue Examples
 
@@ -61,4 +61,4 @@ A: "It's a type of weird, light joke that almost makes sense but doesn't fully l
 - SlangWatch — "TikTok Slang 2026: Comedy Terms" [https://www.slangwatch.com/blog/tiktok-slang-2026]
 - TikTok Creative Center — Trending Dashboard [https://ads.tiktok.com/business/en-US/solutions/tiktok-creative-center]
 
-*Author: LAOWANG*
+*Author: GEBILAOWANG*
