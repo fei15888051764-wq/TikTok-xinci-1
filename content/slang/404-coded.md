@@ -60,5 +60,3 @@ A: "It's when someone is completely clueless or out of touch, like a webpage tha
 
 - SlangWatch — "TikTok Slang 2026" [https://www.slangwatch.com/blog/tiktok-slang-2026]
 - TikTok Creative Center — Trending Dashboard [https://ads.tiktok.com/business/en-US/solutions/tiktok-creative-center]
-
-*Author: GEBILAOWANG*
