@@ -2,6 +2,11 @@
 <script src="https://unpkg.com/lunr/lunr.js"></script>
 <script>
 (function() {
+    // Helper: remove spaces and special chars for no-space matching
+    function stripSpace(s) {
+        return (s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+    }
+
     // Build search index from ALL Hugo content
     var docs = [
         {{- $allSlang := where .Site.RegularPages "Type" "slang" }}
@@ -9,6 +14,7 @@
         {
             "slug": {{ .Params.slug | default (.Title | urlize) | jsonify }},
             "title": {{ .Title | jsonify }},
+            "title_nospace": {{ (replaceRE "[^a-zA-Z0-9]" "" (.Title | lower)) | jsonify }},
             "permalink": {{ .Permalink | jsonify }},
             "definition": {{ .Params.definition | jsonify }},
             "tags": {{ (delimit .Params.tags " ") | jsonify }},
@@ -17,10 +23,11 @@
         {{- end }}
     ];
 
-    // Build Lunr index
+    // Build Lunr index with custom tokenizer for no-space matching
     var idx = lunr(function() {
         this.ref('slug');
         this.field('title', { boost: 10 });
+        this.field('title_nospace', { boost: 8 });
         this.field('definition', { boost: 5 });
         this.field('tags', { boost: 3 });
         this.field('content');
@@ -29,60 +36,147 @@
 
     var searchInput = document.getElementById('search-input');
     var searchResults = document.getElementById('search-results');
-    // Only filter cards if they exist on this page (homepage)
     var allCards = document.querySelectorAll('.slang-card');
 
+    // Build a slug-to-doc map for fast lookup
+    var docMap = {};
+    docs.forEach(function(doc) { docMap[doc.slug] = doc; });
+
     function doSearch(query) {
-        var q = query.trim().toLowerCase();
-        if (!q) {
-            // Show all cards if on homepage
+        var q = query.trim();
+        var qLower = q.toLowerCase();
+        if (!qLower) {
             allCards.forEach(function(c) { c.style.display = ''; });
             searchResults.innerHTML = '';
             searchResults.classList.remove('active');
             return;
         }
 
-        var matchedSlugs = [];
+        var matchedSlugs = new Set();
+        var qNoSpace = stripSpace(q);
+
+        // --- Strategy 1: Lunr wildcard search (original) ---
         try {
-            var lunrResults = idx.search(q + '*');
-            matchedSlugs = lunrResults.map(function(r) { return r.ref; });
+            var lunrResults = idx.search(qLower + '*');
+            lunrResults.forEach(function(r) { matchedSlugs.add(r.ref); });
         } catch(e) {}
 
-        // Also do simple text fallback on all docs
+        // --- Strategy 2: Lunr fuzzy search (edit distance 1) ---
+        try {
+            var fuzzyResults = idx.search(qLower + '~1');
+            fuzzyResults.forEach(function(r) { matchedSlugs.add(r.ref); });
+        } catch(e) {}
+
+        // --- Strategy 3: multi-word prefix search (each word gets wildcard) ---
+        if (qLower.indexOf(' ') !== -1) {
+            try {
+                var words = qLower.split(/\\s+/).filter(function(w) { return w.length > 0; });
+                var prefixQuery = words.map(function(w) { return w + '*'; }).join(' ');
+                var prefixResults = idx.search(prefixQuery);
+                prefixResults.forEach(function(r) { matchedSlugs.add(r.ref); });
+            } catch(e) {}
+
+            // Also try with + (AND) operator for stricter matching
+            try {
+                var andWords = qLower.split(/\\s+/).filter(function(w) { return w.length > 0; });
+                var andQuery = andWords.map(function(w) { return '+' + w + '*'; }).join(' ');
+                var andResults = idx.search(andQuery);
+                andResults.forEach(function(r) { matchedSlugs.add(r.ref); });
+            } catch(e) {}
+        }
+
+        // --- Strategy 4: no-space title matching ---
+        // e.g. "hetryna" should match "He Tryna Ignore It"
+        if (qNoSpace.length >= 2) {
+            docs.forEach(function(doc) {
+                if (doc.title_nospace && doc.title_nospace.indexOf(qNoSpace) !== -1) {
+                    matchedSlugs.add(doc.slug);
+                }
+            });
+        }
+
+        // --- Strategy 5: fallback text search (AND logic for multi-word) ---
+        var queryWords = qLower.split(/\\s+/).filter(function(w) { return w.length > 0; });
         docs.forEach(function(doc) {
-            if (matchedSlugs.indexOf(doc.slug) === -1) {
-                var allText = (doc.title + ' ' + doc.definition + ' ' + doc.tags).toLowerCase();
-                if (allText.indexOf(q) !== -1) matchedSlugs.push(doc.slug);
+            if (matchedSlugs.has(doc.slug)) return;
+
+            var allText = (doc.title + ' ' + doc.definition + ' ' + doc.tags + ' ' + doc.content).toLowerCase();
+            var titleText = (doc.title || '').toLowerCase();
+            var defText = (doc.definition || '').toLowerCase();
+
+            // Check 1: full query as substring anywhere
+            if (allText.indexOf(qLower) !== -1) {
+                matchedSlugs.add(doc.slug);
+                return;
+            }
+
+            // Check 2: each word must appear somewhere (AND logic)
+            if (queryWords.length > 1) {
+                var allWordsMatch = queryWords.every(function(word) {
+                    return titleText.indexOf(word) !== -1 ||
+                           defText.indexOf(word) !== -1 ||
+                           (doc.tags || '').toLowerCase().indexOf(word) !== -1;
+                });
+                if (allWordsMatch) {
+                    matchedSlugs.add(doc.slug);
+                    return;
+                }
+            }
+
+            // Check 3: single word - partial prefix match in title or definition
+            if (queryWords.length === 1 && queryWords[0].length >= 2) {
+                var word = queryWords[0];
+                // Check if any title word starts with the query
+                var titleWords = titleText.split(/\\s+/);
+                var defWords = defText.split(/\\s+/);
+                var partialMatch = titleWords.some(function(tw) { return tw.indexOf(word) === 0; }) ||
+                                   defWords.some(function(dw) { return dw.indexOf(word) === 0; });
+                if (partialMatch) {
+                    matchedSlugs.add(doc.slug);
+                }
             }
         });
 
-        // Filter visible cards on homepage (if cards exist)
+        // Convert to array and sort by relevance (title match first, then definition)
+        var matchedArray = Array.from(matchedSlugs);
+        matchedArray.sort(function(a, b) {
+            var docA = docMap[a], docB = docMap[b];
+            if (!docA || !docB) return 0;
+            // Title exact match gets highest priority
+            var aTitleExact = (docA.title || '').toLowerCase().indexOf(qLower) !== -1 ? 2 : 0;
+            var bTitleExact = (docB.title || '').toLowerCase().indexOf(qLower) !== -1 ? 2 : 0;
+            // Title start match
+            var aTitleStart = (docA.title || '').toLowerCase().indexOf(qLower) === 0 ? 1 : 0;
+            var bTitleStart = (docB.title || '').toLowerCase().indexOf(qLower) === 0 ? 1 : 0;
+            return (bTitleExact + bTitleStart) - (aTitleExact + aTitleStart);
+        });
+
+        // Filter visible cards on homepage
         if (allCards.length > 0) {
             allCards.forEach(function(card) {
-                var cardSlug = '';
                 var onclick = card.getAttribute('onclick') || '';
-                var match = onclick.match(/\/slang\/([^/]+)/);
-                if (match) cardSlug = match[1];
-                if (matchedSlugs.indexOf(cardSlug) !== -1 || matchedSlugs.indexOf(decodeURIComponent(cardSlug)) !== -1) {
-                    card.style.display = '';
-                } else {
-                    card.style.display = 'none';
-                }
+                var m = onclick.match(/\\/slang\\/([^'/]+)/);
+                var cardSlug = m ? m[1] : '';
+                var decodedSlug = decodeURIComponent(cardSlug);
+                var isMatch = matchedArray.some(function(s) {
+                    return s === cardSlug || s === decodedSlug || decodeURIComponent(s) === decodedSlug;
+                });
+                card.style.display = isMatch ? '' : 'none';
             });
         }
 
         // Build dropdown results
         var html = '';
-        if (matchedSlugs.length === 0) {
+        if (matchedArray.length === 0) {
             html = '<div class="search-no-results">No results for "' + esc(q) + '"</div>';
         } else {
-            html = '<div class="search-count">' + matchedSlugs.length + ' result' + (matchedSlugs.length > 1 ? 's' : '') + '</div>';
-            matchedSlugs.slice(0, 8).forEach(function(slug) {
-                var doc = docs.find(function(d) { return d.slug === slug || d.slug === decodeURIComponent(slug); });
+            html = '<div class="search-count">' + matchedArray.length + ' result' + (matchedArray.length > 1 ? 's' : '') + '</div>';
+            matchedArray.slice(0, 8).forEach(function(slug) {
+                var doc = docMap[slug];
                 if (doc) {
                     html += '<a href="' + doc.permalink + '" class="search-result-item">' +
                         '<div class="search-result-title">' + esc(doc.title) + '</div>' +
-                        '<div class="search-result-definition">' + esc(doc.definition.substring(0, 80)) + '...</div></a>';
+                        '<div class="search-result-definition">' + esc((doc.definition || '').substring(0, 80)) + '...</div></a>';
                 }
             });
         }
@@ -90,7 +184,11 @@
         searchResults.classList.add('active');
     }
 
-    function esc(t) { var d = document.createElement('div'); d.textContent = t; return d.innerHTML; }
+    function esc(t) {
+        var d = document.createElement('div');
+        d.textContent = t;
+        return d.innerHTML;
+    }
 
     var debounceTimer;
     searchInput.addEventListener('input', function(e) {
