@@ -63,5 +63,3 @@ A: "It's when you work hard toward your goals without posting about it on social
 
 - SlangWatch — "TikTok Slang 2026: Lifestyle Terms Reshaping Wellness Culture" [https://www.slangwatch.com/blog/tiktok-slang-2026]
 - TikTok Creative Center — Trending Keywords & Hashtags Dashboard [https://ads.tiktok.com/business/en-US/solutions/tiktok-creative-center]
-
-*Author: GEBILAOWANG*
