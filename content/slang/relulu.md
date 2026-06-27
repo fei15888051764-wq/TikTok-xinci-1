@@ -7,7 +7,7 @@ pos: "slang"
 definition: "A TikTok slang term blending 'realistic' and 'delulu'—meaning you dream big but stay grounded in practical action. The 2026 evolution of the delulu mindset, where manifestation meets actual effort."
 tags: ["gen-z", "wellness", "2026"]
 categories: ["slang"]
-author: "LAOWANG"
+author: "GEBILAOWANG"
 ---
 
 ## Pronunciation
@@ -17,7 +17,7 @@ author: "LAOWANG"
 
 Relulu is what happens when Gen Z takes the "delulu is the solulu" mindset and matures it into something actually productive. The term fuses "realistic" with "delulu" (delusional) to describe someone who still believes in wild, ambitious outcomes but backs those dreams with practical planning and consistent effort. It showed up on TikTok in early 2026 as a direct response to the burnout caused by pure manifestation culture—people were tired of being told to "just manifest" their goals while nothing actually changed.
 
-LAOWANG's read: relulu is basically the internet generation admitting that positive thinking alone doesn't pay rent, but they're packaging that realization in a cute enough word to still feel like part of the wellness conversation. It's self-help slang for people who are too online to buy into traditional productivity advice but too burnt out to keep pretending vibes alone are enough.
+GEBILAOWANG's read: relulu is basically the internet generation admitting that positive thinking alone doesn't pay rent, but they're packaging that realization in a cute enough word to still feel like part of the wellness conversation. It's self-help slang for people who are too online to buy into traditional productivity advice but too burnt out to keep pretending vibes alone are enough.
 
 ## TikTok Dialogue Examples
 
@@ -60,7 +60,7 @@ A: It's essentially the practical evolution of "delulu." Delulu is about blind o
 A: Don't use it around someone dealing with genuine mental health challenges involving delusional thinking—it trivializes clinical conditions. Also avoid using it to humble-brag about how "practical" you are while actually doing zero work.
 
 **Q: Is this word already overplayed, or still fresh?**
-A: Still fresh as of June 2026. It's growing steadily within wellness and productivity TikTok but hasn't fully crossed into mainstream casual usage yet. LAOWANG predicts it has longer staying power than most wellness slang because it fills an actual linguistic gap.
+A: Still fresh as of June 2026. It's growing steadily within wellness and productivity TikTok but hasn't fully crossed into mainstream casual usage yet. GEBILAOWANG predicts it has longer staying power than most wellness slang because it fills an actual linguistic gap.
 
 **Q: How do I explain this to my parents in one sentence?**
 A: "It's when you have big dreams but also make a realistic plan to actually achieve them."
@@ -70,4 +70,4 @@ A: "It's when you have big dreams but also make a realistic plan to actually ach
 - Toktionary — "Relulu" entry in TikTok Dictionary [https://toktionary.net/]
 - TikTok Creative Center — Trending Keywords & Hashtags Dashboard [https://ads.tiktok.com/business/en-US/solutions/tiktok-creative-center]
 
-*Author: LAOWANG*
+*Author: GEBILAOWANG*
