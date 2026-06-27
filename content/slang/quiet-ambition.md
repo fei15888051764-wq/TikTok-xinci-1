@@ -7,7 +7,7 @@ pos: "slang"
 definition: "A TikTok slang term for pursuing your goals without posting about them—working hard in private instead of performing hustle for social media validation. The 2026 backlash against toxic productivity culture."
 tags: ["gen-z", "wellness", "2026"]
 categories: ["slang"]
-author: "LAOWANG"
+author: "GEBILAOWANG"
 ---
 
 ## Pronunciation
@@ -17,7 +17,7 @@ author: "LAOWANG"
 
 Quiet ambition describes the practice of working toward personal and professional goals while deliberately avoiding the performative side of hustle culture. No daily LinkedIn posts about your 5am routine, no Instagram stories of your color-coded planner, no TikTok videos about "the grind." Just actual work, done in silence, with results that speak for themselves. The term gained traction in early 2026 as a direct response to the exhaustion caused by "hustle porn"—the endless stream of content showing people supposedly working harder than everyone else.
 
-LAOWANG's take: quiet ambition is the most mature trend to come out of TikTok wellness culture in years. It rejects the content economy's demand that you turn every achievement into a post, and instead treats success as something private. The risk is that even quiet ambition becomes a performance—creators posting about how they're "not posting about their goals anymore," which ironically defeats the entire point.
+GEBILAOWANG's take: quiet ambition is the most mature trend to come out of TikTok wellness culture in years. It rejects the content economy's demand that you turn every achievement into a post, and instead treats success as something private. The risk is that even quiet ambition becomes a performance—creators posting about how they're "not posting about their goals anymore," which ironically defeats the entire point.
 
 ## TikTok Dialogue Examples
 
@@ -64,4 +64,4 @@ A: "It's when you work hard toward your goals without posting about it on social
 - SlangWatch — "TikTok Slang 2026: Lifestyle Terms Reshaping Wellness Culture" [https://www.slangwatch.com/blog/tiktok-slang-2026]
 - TikTok Creative Center — Trending Keywords & Hashtags Dashboard [https://ads.tiktok.com/business/en-US/solutions/tiktok-creative-center]
 
-*Author: LAOWANG*
+*Author: GEBILAOWANG*
