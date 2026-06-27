@@ -1,30 +1,24 @@
-{{/* ===== Search Data (JSON) + Search Logic (separated to avoid Hugo JS parsing issues) ===== */}}
-{{- $allSlang := where .Site.RegularPages "Type" "slang" }}
-<script type="application/json" id="search-data">
-[{{- range $i, $p := $allSlang -}}
-  {{- if $i -}},{{- end -}}
-  {"s":{{ $p.Params.slug | default ($p.Title | urlize) | jsonify }},"t":{{ $p.Title | jsonify }},"u":{{ $p.Permalink | jsonify }},"d":{{ $p.Params.definition | jsonify }},"g":{{ (delimit $p.Params.tags " ") | jsonify }}}
-{{- end -}}]
-</script>
+{{/* ===== Lunr.js Search Script (shared across all pages) ===== */}}
 <script src="https://unpkg.com/lunr/lunr.js"></script>
 <script>
 (function() {
+    // Build search index from ALL Hugo content
+    var docs = [
+        {{- $allSlang := where .Site.RegularPages "Type" "slang" }}
+        {{- range $allSlang }}
+        {
+            "slug": {{ .Params.slug | default (.Title | urlize) | jsonify }},
+            "title": {{ .Title | jsonify }},
+            "permalink": {{ .Permalink | jsonify }},
+            "definition": {{ .Params.definition | jsonify }},
+            "tags": {{ (delimit .Params.tags " ") | jsonify }},
+            "content": {{ .Plain | jsonify }}
+        }{{ if ne . (index (last 1 $allSlang) 0) }},{{ end }}
+        {{- end }}
+    ];
+
+    // Pre-process docs: add derived fields for better matching
     var STOP_WORDS = {a:1,an:1,the:1,and:1,or:1,but:1,for:1,of:1,on:1,in:1,to:1,is:1,it:1,at:1,by:1,with:1,from:1,as:1};
-
-    // Parse search data from JSON script tag
-    var rawData = JSON.parse(document.getElementById('search-data').textContent);
-    var docs = rawData.map(function(item) {
-        return {
-            slug: item.s,
-            title: item.t,
-            permalink: item.u,
-            definition: item.d,
-            tags: item.g,
-            content: ''
-        };
-    });
-
-    // Pre-process: add derived fields
     docs.forEach(function(doc) {
         var t = (doc.title || '').toLowerCase();
         doc.title_nospace = t.replace(/[^a-z0-9]/g, '');
@@ -73,7 +67,7 @@
             idx.search(qLower + '*').forEach(function(r) { addSlug(r.ref); });
         } catch(e) {}
 
-        // Strategy 2: Lunr fuzzy search
+        // Strategy 2: Lunr fuzzy search (edit distance 1)
         try {
             idx.search(qLower + '~1').forEach(function(r) { addSlug(r.ref); });
         } catch(e) {}
@@ -98,17 +92,17 @@
             });
         }
 
-        // Strategy 5: no-space KEYWORD-ONLY matching (skips stop words)
+        // Strategy 5: no-space KEYWORD-ONLY matching (skips stop words like for/the/of)
         var qKeywords = qLower.split(/[^a-z0-9]+/).filter(function(w) { return w.length > 0 && !STOP_WORDS[w]; }).join('');
         if (qKeywords.length >= 2) {
             docs.forEach(function(doc) {
-                if (doc.title_keywords_nospace && doc.title_keywords_nospace.indexOf(qKeywords) !== -1) {
+                if (!seen[doc.slug] && doc.title_keywords_nospace.indexOf(qKeywords) !== -1) {
                     addSlug(doc.slug);
                 }
             });
         }
 
-        // Strategy 6: fallback text search
+        // Strategy 6: fallback text search (AND logic for multi-word)
         var queryWords = qLower.split(/\s+/).filter(function(w) { return w.length > 0; });
         docs.forEach(function(doc) {
             if (seen[doc.slug]) return;
@@ -118,8 +112,10 @@
             var tagText = (doc.tags || '').toLowerCase();
             var allText = titleText + ' ' + defText + ' ' + tagText;
 
+            // 6a: full query as substring
             if (allText.indexOf(qLower) !== -1) { addSlug(doc.slug); return; }
 
+            // 6b: each query word must appear somewhere (AND logic)
             if (queryWords.length > 1) {
                 var allWordsMatch = queryWords.every(function(word) {
                     return titleText.indexOf(word) !== -1 || defText.indexOf(word) !== -1 || tagText.indexOf(word) !== -1;
@@ -127,6 +123,7 @@
                 if (allWordsMatch) { addSlug(doc.slug); return; }
             }
 
+            // 6c: single word - prefix match in any word
             if (queryWords.length === 1 && queryWords[0].length >= 2) {
                 var word = queryWords[0];
                 var allWords = allText.split(/\s+/);
@@ -151,7 +148,7 @@
         if (allCards.length > 0) {
             allCards.forEach(function(card) {
                 var onclick = card.getAttribute('onclick') || '';
-                var m = onclick.match(/\\/slang\\/([^'"\\/]+)/);
+                var m = onclick.match(/\/slang\/([^'"\/]+)/);
                 var cardSlug = m ? m[1] : '';
                 var decodedSlug = decodeURIComponent(cardSlug);
                 var isMatch = matchedSlugs.some(function(s) {
