@@ -69,5 +69,3 @@ A: "It's when you have big dreams but also make a realistic plan to actually ach
 
 - Toktionary — "Relulu" entry in TikTok Dictionary [https://toktionary.net/]
 - TikTok Creative Center — Trending Keywords & Hashtags Dashboard [https://ads.tiktok.com/business/en-US/solutions/tiktok-creative-center]
-
-*Author: GEBILAOWANG*
