@@ -3,12 +3,12 @@ title: "About"
 date: 2026-06-22T10:00:00+08:00
 draft: false
 slug: "about"
-author: "LAOWANG"
+author: "GEBILAOWANG"
 ---
 
 ## Who Runs This
 
-**LAOWANG**. One person, too many TikTok tabs open.
+**GEBILAOWANG**. One person, too many TikTok tabs open.
 
 I started collecting slang in 2024 because I kept seeing words in comments I didn't understand, and existing dictionaries were either outdated or written by people who don't actually use the app. This site is my attempt to document terms while they're still relevant — usually a week or two before they peak and a month before they die.
 
