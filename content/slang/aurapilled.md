@@ -60,5 +60,3 @@ A: "It's when someone becomes obsessed with understanding the invisible energy o
 
 - Toktionary — "Aurapilled" entry [https://toktionary.net/]
 - TikTok Creative Center — Trending Dashboard [https://ads.tiktok.com/business/en-US/solutions/tiktok-creative-center]
-
-*Author: GEBILAOWANG*
