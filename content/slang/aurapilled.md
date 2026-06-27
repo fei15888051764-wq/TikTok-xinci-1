@@ -7,7 +7,7 @@ pos: "slang"
 definition: "A TikTok slang term for someone who has become obsessed with vibes, social energy, and the invisible force field of coolness that surrounds people. Used when someone goes all-in on understanding and optimizing their personal aura."
 tags: ["gen-z", "self-improvement", "2026"]
 categories: ["slang"]
-author: "LAOWANG"
+author: "GEBILAOWANG"
 ---
 
 ## Pronunciation
@@ -17,7 +17,7 @@ author: "LAOWANG"
 
 Aurapilled combines "aura"—the 2025-2026 TikTok obsession with intangible social magnetism—with "-pilled," a suffix borrowed from "redpilled" that means having your eyes opened to a new way of seeing the world. When someone is aurapilled, they aren't just aware of vibes; they're actively studying them, categorizing them, and trying to manipulate their own. On TikTok, aurapilled creators post detailed breakdowns of "aura points" systems, analyze why certain people command a room without speaking, and treat social energy like a skill tree in a video game.
 
-LAOWANG's take: aurapilled is what happens when Gen Alpha takes the casual "aura" trend and turns it into a full-blown framework for understanding social dynamics. It's half genuine self-improvement curiosity and half internet-induced hyper-awareness of things people used to just feel without naming.
+GEBILAOWANG's take: aurapilled is what happens when Gen Alpha takes the casual "aura" trend and turns it into a full-blown framework for understanding social dynamics. It's half genuine self-improvement curiosity and half internet-induced hyper-awareness of things people used to just feel without naming.
 
 ## TikTok Dialogue Examples
 
@@ -61,4 +61,4 @@ A: "It's when someone becomes obsessed with understanding the invisible energy o
 - Toktionary — "Aurapilled" entry [https://toktionary.net/]
 - TikTok Creative Center — Trending Dashboard [https://ads.tiktok.com/business/en-US/solutions/tiktok-creative-center]
 
-*Author: LAOWANG*
+*Author: GEBILAOWANG*
