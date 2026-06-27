@@ -7,7 +7,7 @@ pos: "slang"
 definition: "A TikTok slang term for the explosive, almost comedic anger you feel when witnessing everyday environmental wastefulness—like AC running in an empty room or a 12-minute car idle. The 2026 evolution of eco-frustration, built for posting."
 tags: ["gen-z", "sustainability", "2026"]
 categories: ["slang"]
-author: "LAOWANG"
+author: "GEBILAOWANG"
 ---
 
 ## Pronunciation
@@ -17,7 +17,7 @@ author: "LAOWANG"
 
 Solar rage is what happens when eco-anxiety meets Gen Z's need to turn everything into content. It describes that specific flash of fury triggered by small, daily acts of environmental carelessness—someone tossing a battery in the trash, a fast fashion haul on your FYP, or a roommate running the dishwasher half-empty. The "solar" part nods to Gen Z's astrology-adjacent vocabulary, framing the anger as planetary and cosmic rather than just personal irritation. What makes solar rage distinct from regular environmental concern is its performative, postable nature—people document their solar rage moments in stories and TikToks, turning private frustration into shared commentary.
 
-LAOWANG's take: this term works because it lets people vent about climate issues without sounding like a doomer or a preachy activist. It's eco-anxiety with a comedic release valve, which is exactly the tone that performs well on TikTok in 2026.
+GEBILAOWANG's take: this term works because it lets people vent about climate issues without sounding like a doomer or a preachy activist. It's eco-anxiety with a comedic release valve, which is exactly the tone that performs well on TikTok in 2026.
 
 ## TikTok Dialogue Examples
 
@@ -64,4 +64,4 @@ A: "It's when you get comically mad about someone being wasteful, like leaving t
 - SlangWatch — "TikTok Slang 2026: The Language of Viral Culture" [https://www.slangwatch.com/blog/tiktok-slang-2026]
 - TikTok Creative Center — Trending Keywords & Hashtags Dashboard [https://ads.tiktok.com/business/en-US/solutions/tiktok-creative-center]
 
-*Author: LAOWANG*
+*Author: GEBILAOWANG*
