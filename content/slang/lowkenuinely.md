@@ -1,7 +1,7 @@
 ---
 title: "Lowkenuinely"
 date: 2026-07-01T00:00:00Z
-description: "A TikTok portmanteau blending 'low-key' and 'genuinely' — expressing authentic emotions in a relaxed, nonchalant way."
+description: "A TikTok portmanteau blending 'low-key' and 'genuinely' — expressing authentic emotions in a relaxed, nonchalant way. Recognized by Merriam-Webster in 2026."
 image: "/images/slang/lowkenuinely.jpg"
 tags: ["gen-z", "slang", "2026"]
 ---
@@ -9,6 +9,9 @@ tags: ["gen-z", "slang", "2026"]
 ## The Story Behind 'Lowkenuinely'
 
 **Lowkenuinely** is a 2025-2026 TikTok slang portmanteau blending "low-key" (casual, understated) and "genuinely" (sincere, honest). Used to express authentic emotions in a relaxed, nonchalant way, it was coined in November 2025 by TikToker @cammmmmm22 and has been officially recognized by Merriam-Webster (May 2026) and Dictionary.com (May 2026).
+
+![Today's Parent article about lowkenuinely - mainstream media coverage of the TikTok slang term](/images/slang/lowkenuinely.jpg)
+*Mainstream media coverage of "lowkenuinely" — the term gained enough cultural traction to be featured in parenting publications by 2026*
 
 ## When Two Slang Words Had a Baby
 
