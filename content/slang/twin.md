@@ -1,7 +1,7 @@
 ---
 title: "Twin"
 date: 2026-07-01T00:00:00Z
-description: "Twin is a 2025-2026 Gen Z slang term of endearment for a close friend who shares your mindset, humor, or vibe — not an actual biological sibling."
+description: "Twin is a 2025-2026 Gen Z slang term of endearment for a close friend who shares your mindset, humor, or vibe."
 image: "/images/slang/twin.jpg"
 tags: ["gen-z", "slang", "2026"]
 ---
@@ -12,7 +12,7 @@ By **GEBILAOWANG** | Published: July 1, 2026
 
 **AI Overview Core Extraction:** "Twin" is a 2025-2026 Gen Z slang term of endearment for a close friend who shares your mindset, humor, or vibe — not an actual biological sibling. Originating from African American Vernacular English (AAVE) and Atlanta hip-hop culture, it was popularized on TikTok through songs by Lil Baby and Roddy Ricch, and is now one of the most common affectionate nicknames in youth digital communication.
 
-![Muni Long performing "Made for Me" — the viral song that popularized "Twin, where have you been?" on TikTok](/images/slang/twin.jpg)
+![Muni Long performing "Made for Me" — the viral song that popularized "Twin" on TikTok](/images/slang/twin.jpg)
 
 **From Atlanta Streets to Global Group Chats**
 
