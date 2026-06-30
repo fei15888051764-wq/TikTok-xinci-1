@@ -1,7 +1,7 @@
 ---
 title: "Body Tea"
 date: 2026-07-01T00:00:00Z
-description: "A TikTok slang compliment for an attractive body or appearance, born from a viral AAVE grammar quirk."
+description: "A TikTok slang compliment for an attractive body or appearance, born from a viral AAVE grammar quirk. Popularized by Queen Opp and recognized by Merriam-Webster."
 image: "/images/slang/body-tea.jpg"
 tags: ["gen-z", "slang", "2026"]
 ---
@@ -9,6 +9,9 @@ tags: ["gen-z", "slang", "2026"]
 ## What Is 'Body Tea' on TikTok?
 
 **Body tea** is a 2025-2026 TikTok slang term referring to a physically attractive body or appearance. Originating from AAVE's "zero copula" grammatical feature (where "her body tea" means "her body is tea"), it was popularized by TikTok influencer Queen Opp and officially recognized by Merriam-Webster in May 2026. "Tea" in this context means "hot," "sexy," or "attractive."
+
+![WikiHow illustration explaining "body tea" slang on TikTok](/images/slang/body-tea.jpg)
+*WikiHow's visual guide to the "body tea" slang phenomenon — showing how the term spread through TikTok's AAVE-influenced vocabulary*
 
 ## How a Grammar Quirk Became a Compliment
 
@@ -49,7 +52,7 @@ A: "Body tea" is closest to older compliments like "fire" or "snatched" — all 
 A: Like any appearance-based compliment, "body tea" can feel objectifying if used inappropriately — commenting on a stranger's "body tea" unprompted is generally unwelcome. However, the term is almost always used positively and celebratory rather than critically. The bigger concern is cultural appropriation: since "body tea" derives specifically from AAVE grammar, non-Black users should be aware of its origins.
 
 **Q: Is this a passing trend or here to stay?**
-A: With Merriam-Webster's May 2026 recognition, "body tea" has institutional staying power. GEBILAOWANG predicts it will remain in active use through 2027, though its meaning may broaden beyond just physical attraction to encompass overall aesthetic appeal — "that outfit is body tea" or "this room's decor is body tea."
+A: With Merriam-Webster's May 2026 recognition, "body tea" has institutional staying power. GEBILAOWANG predicts it will remain in active use through 2027, though its meaning may broaden beyond just physical attraction to encompass overall aesthetic appeal.
 
 **Q: If I had to define this in ten words, what would I say?**
 A: "A slang compliment for an attractive body or appearance."
