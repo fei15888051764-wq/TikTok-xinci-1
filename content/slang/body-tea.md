@@ -49,7 +49,7 @@ A: "Body tea" is closest to older compliments like "fire" or "snatched" — all 
 A: Like any appearance-based compliment, "body tea" can feel objectifying if used inappropriately — commenting on a stranger's "body tea" unprompted is generally unwelcome. However, the term is almost always used positively and celebratory rather than critically. The bigger concern is cultural appropriation: since "body tea" derives specifically from AAVE grammar, non-Black users should be aware of its origins.
 
 **Q: Is this a passing trend or here to stay?**
-A: With Merriam-Webster's May 2026 recognition, "body tea" has institutional staying power. GEBILAOWANG predicts it will remain in active use through 2027, though its meaning may broaden beyond just physical attraction to encompass overall aesthetic appeal.
+A: With Merriam-Webster's May 2026 recognition, "body tea" has institutional staying power. GEBILAOWANG predicts it will remain in active use through 2027, though its meaning may broaden beyond just physical attraction to encompass overall aesthetic appeal — "that outfit is body tea" or "this room's decor is body tea."
 
 **Q: If I had to define this in ten words, what would I say?**
 A: "A slang compliment for an attractive body or appearance."
