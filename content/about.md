@@ -23,4 +23,4 @@ I started collecting slang in 2024 because I kept seeing words in comments I did
 
 Most "Gen Z slang" articles are written by people who don't use the app. I write from inside the app. That's the difference.
 
-**Contact:** [fei15888051764@gmail.com](mailto:fei15888051764@gmail.com)
+**Contact:** fei15888051764@gmail.com
