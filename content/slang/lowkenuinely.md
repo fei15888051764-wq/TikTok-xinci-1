@@ -61,5 +61,3 @@ A: "It's a mashup of 'low-key' and 'genuinely' — basically saying you really f
 
 - Merriam-Webster — lowkenuinely Slang Meaning
 - Dictionary.com — lowkenuinely | Slang
-
-Published: July 1, 2026 | Author: GEBILAOWANG

@@ -59,5 +59,3 @@ A: "A slang compliment for an attractive body or appearance."
 
 - Merriam-Webster — BODY TEA Slang Meaning
 - WikiHow — Body Tea Meaning on TikTok, Explained
-
-Published: July 1, 2026 | Author: GEBILAOWANG

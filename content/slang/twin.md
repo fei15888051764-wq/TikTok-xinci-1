@@ -61,5 +61,3 @@ A: "It's what Gen Z calls their closest friend — not an actual sibling, but so
 
 - Mashable — Chat, are we cooked? A guide to internet slang in 2026
 - WikiHow — "Twin" Meaning in Slang: The New Gen Z Term, Explained
-
-Published: July 1, 2026 | Author: GEBILAOWANG
