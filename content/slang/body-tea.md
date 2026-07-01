@@ -2,6 +2,7 @@
 title: "Body Tea"
 date: 2026-07-01T00:00:00Z
 description: "A TikTok slang compliment for an attractive body or appearance, born from a viral AAVE grammar quirk."
+definition: "A TikTok slang compliment for an attractive body or appearance, born from a viral AAVE grammar quirk."
 image: "/images/slang/body-tea.jpg"
 tags: ["gen-z", "slang", "2026"]
 ---

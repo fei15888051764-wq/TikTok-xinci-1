@@ -2,6 +2,7 @@
 title: "Lowkenuinely"
 date: 2026-07-01T00:00:00Z
 description: "A TikTok portmanteau blending 'low-key' and 'genuinely' — expressing authentic emotions in a relaxed, nonchalant way."
+definition: "A TikTok portmanteau blending 'low-key' and 'genuinely' — expressing authentic emotions in a relaxed, nonchalant way."
 image: "/images/slang/lowkenuinely.jpg"
 tags: ["gen-z", "slang", "2026"]
 ---

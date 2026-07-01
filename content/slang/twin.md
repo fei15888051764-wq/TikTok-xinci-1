@@ -2,6 +2,7 @@
 title: "Twin"
 date: 2026-07-01T00:00:00Z
 description: "A Gen Z term of endearment for a close friend who shares your mindset, humor, or vibe — not an actual sibling."
+definition: "A Gen Z term of endearment for a close friend who shares your mindset, humor, or vibe — not an actual sibling."
 image: "/images/slang/twin.jpg"
 tags: ["gen-z", "slang", "2026"]
 ---
