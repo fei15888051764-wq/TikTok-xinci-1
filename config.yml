@@ -27,9 +27,7 @@ outputs:
   page:
     - HTML
     - RSS
-    - JSON
   section:
-    - HTML
     - RSS
 
 minify:
@@ -41,7 +39,7 @@ params:
   title: "TikTok Slang Dictionary"
   description: "Your ultimate guide to TikTok slang, Gen-Z lingo, and viral internet terms. Stay updated with the latest trending words."
   keywords: ["TikTok", "Slang", "Dictionary", "Gen-Z", "Viral", "Trending Words"]
-  author: "GEBILAOWANG"
+  author: "LAOWANG"
   defaultTheme: light
   disableThemeToggle: true
   DateFormat: "January 2, 2006"
@@ -65,8 +63,8 @@ params:
 
   # Author Information (E-E-A-T for Google 2026)
   authorInfo:
-    name: "GEBILAOWANG"
-    bio: "Independent internet culture researcher and lexicographer specializing in TikTok slang, Gen Z and Gen Alpha communication patterns, and viral linguistic phenomena. Active in the field since 2024. For corrections or collaboration: <a href=\"mailto:fei15888051764@gmail.com\">fei15888051764@gmail.com</a>"
+    name: "LAOWANG"
+    bio: "Independent digital content creator, researcher, and online lexicographer building authoritative niche websites and in-depth content across gaming culture, social media trends, technology, and internet linguistics. Known for comprehensive slang dictionaries, digital trend analysis, and cultural documentation. Active in the field since 2024."
     email: "fei15888051764@gmail.com"
     url: "https://tokslangdict.com"
     twitter: "@tiktokslangdict"

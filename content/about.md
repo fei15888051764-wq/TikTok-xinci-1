@@ -6,6 +6,14 @@ slug: "about"
 author: "GEBILAOWANG"
 ---
 
+## AUTHOR: GEBILAOWANG
+
+Independent digital content creator, researcher, and online lexicographer building authoritative niche websites and in-depth content across gaming culture, social media trends, technology, and internet linguistics. Known for comprehensive slang dictionaries, digital trend analysis, and cultural documentation. Active in the field since 2024.
+
+**For corrections, collaborations, or media inquiries:** [fei15888051764@gmail.com](mailto:fei15888051764@gmail.com)
+
+**Learn more about GEBILAOWANG:** [https://about.me/GEBILAOWANG](https://about.me/GEBILAOWANG)
+
 ## Who Runs This
 
 **GEBILAOWANG**. One person, too many TikTok tabs open.
@@ -22,5 +30,3 @@ I started collecting slang in 2024 because I kept seeing words in comments I did
 ## Why This Exists
 
 Most "Gen Z slang" articles are written by people who don't use the app. I write from inside the app. That's the difference.
-
-**Contact:** fei15888051764@gmail.com
