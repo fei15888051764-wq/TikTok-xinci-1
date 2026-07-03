@@ -19,6 +19,7 @@ sitemap:
   filename: "sitemap.xml"
 
 # Enable JSON output for Lunr search + RSS for feed readers
+# Section RSS removed to prevent XML feeds from appearing in sitemap
 outputs:
   home:
     - HTML
@@ -26,8 +27,6 @@ outputs:
     - JSON
   page:
     - HTML
-    - RSS
-  section:
     - RSS
 
 minify:
@@ -76,7 +75,7 @@ params:
     type: "website"
     locale: "en_US"
     site_name: "TikTok Slang Dictionary"
-    image: "/og-image.png"
+    image: "/og-image.svg"
     imageWidth: 1200
     imageHeight: 630
 
