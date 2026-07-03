@@ -921,39 +921,37 @@ body {
 }
 
 .subscribe-container-v2 {
-  background: #111111;
+  background: #ffffff;
   border-radius: var(--radius-lg);
   padding: 40px 36px;
   text-align: center;
-  border: 1px solid #222222;
+  border: 1px solid var(--border-light);
 }
 
 .subscribe-title-v2 {
-  font-family: 'Courier New', monospace;
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 700;
-  letter-spacing: 2px;
-  color: #ffffff;
+  letter-spacing: 1px;
+  color: var(--text-primary);
   margin: 0 0 16px 0;
-  text-transform: uppercase;
 }
 
 .subscribe-desc-v2 {
   font-size: 15px;
-  color: #aaaaaa;
+  color: var(--text-secondary);
   line-height: 1.6;
   margin: 0 0 20px 0;
 }
 
 .subscribe-instruction {
   font-size: 15px;
-  color: #cccccc;
+  color: var(--text-primary);
   line-height: 1.7;
   margin: 0 0 12px 0;
 }
 
 .subscribe-instruction a {
-  color: #7ee787;
+  color: #2563eb;
   text-decoration: none;
   font-weight: 500;
   word-break: break-all;
@@ -965,7 +963,7 @@ body {
 
 .subscribe-unsubscribe {
   font-size: 13px;
-  color: #777777;
+  color: var(--text-muted);
   margin: 0;
 }
 
