@@ -3,7 +3,8 @@ title: "Contact"
 date: 2026-06-22T10:00:00+08:00
 draft: false
 slug: "contact"
-author: "LAOWANG"
+author: "GEBILAOWANG"
+hideMeta: true
 ---
 
 ## Contact
