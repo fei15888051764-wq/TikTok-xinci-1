@@ -4,6 +4,7 @@ date: 2026-06-22T10:00:00+08:00
 draft: false
 slug: "terms"
 author: "GEBILAOWANG"
+description: "TikTok Slang Dictionary Terms of Service — rules for using our website, content usage, copyright, disclaimers, and external links policy."
 ---
 
 ## Terms of Service
