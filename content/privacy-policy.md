@@ -3,7 +3,7 @@ title: "Privacy Policy"
 date: 2026-06-22T10:00:00+08:00
 draft: false
 slug: "privacy-policy"
-author: "LAOWANG"
+author: "GEBILAOWANG"
 ---
 
 ## Privacy Policy
