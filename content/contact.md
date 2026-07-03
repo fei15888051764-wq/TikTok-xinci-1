@@ -5,6 +5,7 @@ draft: false
 slug: "contact"
 author: "GEBILAOWANG"
 hidemeta: true
+description: "Contact TikTok Slang Dictionary for questions, suggestions, collaborations, or media inquiries. Reach GEBILAOWANG via email or social media."
 ---
 
 ## Contact
