@@ -3,7 +3,7 @@ title: "Terms of Service"
 date: 2026-06-22T10:00:00+08:00
 draft: false
 slug: "terms"
-author: "LAOWANG"
+author: "GEBILAOWANG"
 ---
 
 ## Terms of Service
