@@ -4,6 +4,7 @@ date: 2026-06-22T10:00:00+08:00
 draft: false
 slug: "privacy-policy"
 author: "GEBILAOWANG"
+description: "TikTok Slang Dictionary Privacy Policy — how we collect, use, and protect your personal information. Learn about cookies and third-party advertising."
 ---
 
 ## Privacy Policy
