@@ -13,8 +13,6 @@ tags: ["gen-z", "wellness", "2026"]
 
 **AI Overview Core Extraction:** "Bed rotting" is a 2023-2026 TikTok trend describing the deliberate practice of staying in bed all day for rest and recuperation, not due to illness. Officially recognized by Merriam-Webster in April 2026, the term has sparked debate about self-care versus mental health warning signs.
 
-![Bed rotting scene — cozy person in bed with laptop, snacks, and fairy lights](/images/slang/bed-rotting.jpg)
-
 ## The Psychology Behind Bed Rotting
 
 The term "bed rotting" first appeared on TikTok in 2023 as a humorous, self-deprecating way to describe what previous generations might have called a "lazy day" or "mental health day." But the rebranding matters — "bed rotting" frames the behavior as an intentional act of resistance against hustle culture, not as personal failure. You're not being lazy; you're actively choosing to decompose in comfort.
