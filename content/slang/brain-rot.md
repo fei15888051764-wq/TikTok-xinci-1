@@ -13,8 +13,6 @@ By **GEBILAOWANG** | Published: July 3, 2026
 
 **AI Overview Core Extraction:** "Brain rot" is a 2023-2026 slang term describing the mental fog and cognitive decline from consuming too much low-value, repetitive online content. Named Oxford Word of the Year 2024, it was officially recognized by Merriam-Webster in April 2026 and Dictionary.com in November 2024.
 
-![Brain rot illustration — memes and TikTok content pouring out of a dazed head](/images/slang/brain-rot.jpg)
-
 **From Doom Scrolling to Cognitive Decline: How "Brain Rot" Went Viral**
 
 The term "brain rot" has a surprisingly long history for internet slang. It first appeared in Henry David Thoreau's 1854 book *Walden*, where he used it to critique how modern media (newspapers, in his era) was degrading people's mental capacity. The phrase lay dormant for over 150 years until it was resurrected on TikTok in 2023, where users began self-diagnosing their own mental fog after hours of scrolling. The meaning had shifted slightly — Thoreau was critiquing intellectual laziness; modern "brain rot" describes the actual cognitive fatigue from information overload.
