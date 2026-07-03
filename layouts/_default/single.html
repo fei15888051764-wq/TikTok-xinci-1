@@ -101,7 +101,8 @@
             </div>
             {{- end }}
 
-            {{/* Author section */}}
+            {{- if $isSlang }}
+            {{/* Author section - only for slang pages */}}
             <footer class="post-author-footer" itemprop="author" itemscope itemtype="https://schema.org/Person">
                 <div class="author-divider"></div>
                 <div class="author-info">
@@ -121,6 +122,7 @@
                     </div>
                 </div>
             </footer>
+            {{- end }}
 
             {{/* Related articles section */}}
             {{- $related := where .Site.RegularPages "Type" "slang" }}
