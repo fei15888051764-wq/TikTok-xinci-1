@@ -5,6 +5,7 @@ draft: false
 slug: "about"
 author: "GEBILAOWANG"
 hidemeta: true
+description: "Learn about GEBILAOWANG, the creator of TikTok Slang Dictionary — your go-to resource for viral TikTok slang, Gen-Z lingo, and internet terminology since 2024."
 ---
 
 ## AUTHOR: GEBILAOWANG
