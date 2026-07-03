@@ -4,6 +4,7 @@ date: 2026-06-22T10:00:00+08:00
 draft: false
 slug: "about"
 author: "GEBILAOWANG"
+hideMeta: true
 ---
 
 ## AUTHOR: GEBILAOWANG
