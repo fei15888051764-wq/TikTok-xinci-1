@@ -1,106 +1,101 @@
-<!DOCTYPE html>
-<html lang="en" dir="auto">
-{{- partial "head.html" . -}}
+{{ define "main" }}
+<div class="home-container">
+    <!-- Left Sidebar Ad (Desktop Only) -->
+    <aside class="sidebar-ad" aria-label="Advertisement">
+        <div class="ad-placeholder-sidebar">
+            <span>ADVERTISEMENT</span>
+        </div>
+    </aside>
 
-<body class="list" id="top">
-    <div class="home-container">
-        <!-- Left Sidebar Ad (Desktop Only) -->
-        <aside class="sidebar-ad" aria-label="Advertisement">
-            <div class="ad-placeholder-sidebar">
-                <span>ADVERTISEMENT</span>
+    <!-- Main Content Area -->
+    <div class="main-content">
+        <!-- Search Section with Lunr.js -->
+        {{- partial "search-box.html" . }}
+
+        <!-- Mobile Banner Ad: Below search, above title -->
+        <div class="mobile-banner-ad" id="ad-mobile-top">
+            <div class="ad-placeholder-banner">
+                <span>AD</span>
             </div>
-        </aside>
-
-        <!-- Main Content Area -->
-        <div class="main-content">
-            <!-- Search Section with Lunr.js -->
-            {{- partial "search-box.html" . }}
-
-            <!-- Mobile Banner Ad: Below search, above title -->
-            <div class="mobile-banner-ad" id="ad-mobile-top">
-                <div class="ad-placeholder-banner">
-                    <span>AD</span>
-                </div>
-            </div>
-
-            <!-- Page Title (SEO + Accessibility) -->
-            <header class="page-header">
-                <h1 class="page-title" id="home-title">The Ultimate Guide to TikTok Slang in 2026</h1>
-                <p class="page-subtitle" id="home-desc">Decoding viral words, Gen-Z lingo, and the latest TikTok terminology.</p>
-            </header>
-
-            <!-- Slang Cards Grid - Only Latest 12 (2 columns) -->
-            {{- $allSlang := where .Site.RegularPages "Type" "slang" }}
-            {{- $slangPages := sort $allSlang ".Date" "desc" }}
-            <div class="cards-grid" id="cards-container">
-                {{- if $slangPages }}
-                {{- range first 12 $slangPages }}
-                <article class="slang-card" data-title="{{ .Title | lower }}" data-tags="{{ range .Params.tags }}{{ . | lower }} {{ end }}" data-definition="{{ .Params.definition | lower }}" onclick="window.location.href='{{ .Permalink }}'">
-                    {{- if .Params.image }}
-                    <div class="card-image">
-                        <img src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy">
-                    </div>
-                    {{- end }}
-                    <div class="card-header">
-                        <h3 class="slang-word">{{ .Title }}</h3>
-                        {{- if .Params.pos }}
-                        <span class="pos-tag">{{ .Params.pos }}</span>
-                        {{- end }}
-                    </div>
-                    {{- if .Params.definition }}
-                    <p class="slang-definition">{{ .Params.definition }}</p>
-                    {{- end }}
-                    <div class="card-footer">
-                        {{- if .Params.tags }}
-                        <div class="tags-group">
-                            {{- range first 3 .Params.tags }}
-                            <a href="/tags/{{ . | urlize }}/" class="tag-item-link">{{ . }}</a>
-                            {{- end }}
-                        </div>
-                        {{- end }}
-                        <span class="updated-date">Updated {{ .Date.Format "Jan 2, 2006" }}</span>
-                    </div>
-                </article>
-                {{- end }}
-                {{- else }}
-                <div class="empty-state">
-                    <p class="empty-state-text">No slang words yet. Check back soon!</p>
-                </div>
-                {{- end }}
-            </div>
-
-            <!-- Mobile Banner Ad at bottom -->
-            <div class="mobile-banner-ad" id="ad-mobile-bottom">
-                <div class="ad-placeholder-banner">
-                    <span>AD</span>
-                </div>
-            </div>
-
-            <!-- View All Button -->
-            <section class="view-all-section">
-                <a href="/slang/" class="view-all-btn">View All Slang Words</a>
-            </section>
-
-            <!-- Newsletter Subscription -->
-            <section class="subscribe-section-v2">
-                <div class="subscribe-container-v2">
-                    <h3 class="subscribe-title-v2">STAY IN THE LOOP</h3>
-                    <p class="subscribe-desc-v2">New TikTok slang drops weekly. No spam, just the words you actually need to know.</p>
-                    <p class="subscribe-instruction">To subscribe, send an email to <a href="javascript:void(0)" onclick="window.open('mailto:fei15888051764@gmail.com?subject=Subscribe&body=Please subscribe me to the newsletter.', '_self')">fei15888051764@gmail.com</a> with subject "Subscribe" and we'll add you to the list.</p>
-                    <p class="subscribe-unsubscribe">Unsubscribe anytime by replying "Unsubscribe"</p>
-                </div>
-            </section>
         </div>
 
-        <!-- Right Sidebar Ad (Desktop Only) -->
-        <aside class="sidebar-ad" aria-label="Advertisement">
-            <div class="ad-placeholder-sidebar">
-                <span>ADVERTISEMENT</span>
+        <!-- Page Title (SEO + Accessibility) -->
+        <header class="page-header">
+            <h1 class="page-title" id="home-title">The Ultimate Guide to TikTok Slang in 2026</h1>
+            <p class="page-subtitle" id="home-desc">Decoding viral words, Gen-Z lingo, and the latest TikTok terminology.</p>
+        </header>
+
+        <!-- Slang Cards Grid - Only Latest 12 (2 columns) -->
+        {{- $allSlang := where .Site.RegularPages "Type" "slang" }}
+        {{- $slangPages := sort $allSlang ".Date" "desc" }}
+        <div class="cards-grid" id="cards-container">
+            {{- if $slangPages }}
+            {{- range first 12 $slangPages }}
+            <article class="slang-card" data-title="{{ .Title | lower }}" data-tags="{{ range .Params.tags }}{{ . | lower }} {{ end }}" data-definition="{{ .Params.definition | lower }}" onclick="window.location.href='{{ .Permalink }}'">
+                {{- if .Params.image }}
+                <div class="card-image">
+                    <img src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy">
+                </div>
+                {{- end }}
+                <div class="card-header">
+                    <h3 class="slang-word">{{ .Title }}</h3>
+                    {{- if .Params.pos }}
+                    <span class="pos-tag">{{ .Params.pos }}</span>
+                    {{- end }}
+                </div>
+                {{- if .Params.definition }}
+                <p class="slang-definition">{{ .Params.definition }}</p>
+                {{- end }}
+                <div class="card-footer">
+                    {{- if .Params.tags }}
+                    <div class="tags-group">
+                        {{- range first 3 .Params.tags }}
+                        <a href="/tags/{{ . | urlize }}/" class="tag-item-link">{{ . }}</a>
+                        {{- end }}
+                    </div>
+                    {{- end }}
+                    <span class="updated-date">Updated {{ .Date.Format "Jan 2, 2006" }}</span>
+                </div>
+            </article>
+            {{- end }}
+            {{- else }}
+            <div class="empty-state">
+                <p class="empty-state-text">No slang words yet. Check back soon!</p>
             </div>
-        </aside>
+            {{- end }}
+        </div>
+
+        <!-- Mobile Banner Ad at bottom -->
+        <div class="mobile-banner-ad" id="ad-mobile-bottom">
+            <div class="ad-placeholder-banner">
+                <span>AD</span>
+            </div>
+        </div>
+
+        <!-- View All Button -->
+        <section class="view-all-section">
+            <a href="/slang/" class="view-all-btn">View All Slang Words</a>
+        </section>
+
+        <!-- Newsletter Subscription -->
+        <section class="subscribe-section-v2">
+            <div class="subscribe-container-v2">
+                <h3 class="subscribe-title-v2">STAY IN THE LOOP</h3>
+                <p class="subscribe-desc-v2">New TikTok slang drops weekly. No spam, just the words you actually need to know.</p>
+                <p class="subscribe-instruction">To subscribe, send an email to <a href="javascript:void(0)" onclick="window.open('mailto:fei15888051764@gmail.com?subject=Subscribe&body=Please subscribe me to the newsletter.', '_self')">fei15888051764@gmail.com</a> with subject "Subscribe" and we'll add you to the list.</p>
+                <p class="subscribe-unsubscribe">Unsubscribe anytime by replying "Unsubscribe"</p>
+            </div>
+        </section>
     </div>
 
-    <!-- Shared Search Script -->
-    {{- partial "search-script.html" . }}
-</body>
-</html>
+    <!-- Right Sidebar Ad (Desktop Only) -->
+    <aside class="sidebar-ad" aria-label="Advertisement">
+        <div class="ad-placeholder-sidebar">
+            <span>ADVERTISEMENT</span>
+        </div>
+    </aside>
+</div>
+
+<!-- Shared Search Script -->
+{{- partial "search-script.html" . }}
+{{ end }}
