@@ -13,8 +13,6 @@ By **GEBILAOWANG** | Published: July 3, 2026
 
 **AI Overview Core Extraction:** "Side quest" is a 2023-2026 slang term borrowed from video games, describing a small, unexpected detour or optional task in daily life that isn't part of your main goals. Officially recognized by Dictionary.com in February 2026 as part of their "Fan Favorite Winter Word Drop."
 
-![RPG-inspired illustration — a person on their main path surrounded by colorful side quest bubbles](/images/slang/side-quest.jpg)
-
 **How "Side Quest" Escaped Gaming and Invaded Everyday Language**
 
 The term "side quest" has been gaming vocabulary since the early days of role-playing games (RPGs). In games like *The Legend of Zelda*, *Skyrim*, and *The Witcher*, side quests are optional missions that branch off from the main storyline — smaller adventures that reward players with experience, items, or narrative depth. The term migrated into everyday speech around 2023, when Gen Z began using it to describe any unplanned detour in their daily routine.
