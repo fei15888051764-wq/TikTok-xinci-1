@@ -40,9 +40,7 @@
                 <div class="card-body">
                     <div class="card-header">
                         <h3 class="slang-word">{{ .Title }}</h3>
-                        {{- if .Params.pos }}
-                        <span class="pos-tag">{{ .Params.pos }}</span>
-                        {{- end }}
+                        <span class="pos-tag">{{ .Params.pos | default "SLANG" }}</span>
                     </div>
                     {{- if .Params.definition }}
                     <p class="slang-definition">{{ .Params.definition }}</p>
