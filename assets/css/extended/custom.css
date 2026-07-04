@@ -170,7 +170,7 @@ body {
 .related-grid .related-card {
   width: calc(33.333% - 11px);
   box-sizing: border-box;
-  height: 390px;
+  height: 365px;
   padding: 0;
   background: var(--card-bg);
   border: 1px solid var(--border-light);
@@ -207,7 +207,7 @@ body {
 }
 
 .related-card .card-body {
-  padding: 14px 16px 12px 16px;
+  padding: 12px 14px 10px 14px;
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -219,7 +219,7 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 8px;
-  margin: 0 0 6px 0;
+  margin: 0 0 5px 0;
   flex-shrink: 0;
 }
 
@@ -236,10 +236,10 @@ body {
 }
 
 .related-definition {
-  font-size: 14px;
+  font-size: 13px;
   color: var(--text-secondary);
   line-height: 1.5;
-  margin: 0 0 8px 0;
+  margin: 0 0 6px 0;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -251,16 +251,18 @@ body {
   display: flex;
   justify-content: center;
   gap: 4px;
-  margin: 0 0 6px 0;
+  margin: 0 0 5px 0;
   overflow: hidden;
-  max-height: 24px;
+  max-height: 22px;
   flex-shrink: 0;
 }
 
-.related-card .card-footer-center {
-  text-align: center;
-  margin-top: auto;
+.related-card .card-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   flex-shrink: 0;
+  gap: 2px;
 }
 
 /* ---- Breadcrumb ---- */
@@ -351,13 +353,29 @@ body {
   gap: 12px;
 }
 
+/* ---- FIX 4: Detail tags - no overflow cutoff ---- */
 .detail-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
   margin: 0 !important;
+  overflow: visible !important;
+  max-height: none !important;
+}
+
+.detail-tags .tag-item {
+  display: inline-block;
+  padding: 3px 10px;
+  background: var(--tag-bg);
+  color: var(--tag-color);
+  font-size: 12px;
+  border-radius: 100px;
+  white-space: nowrap;
 }
 
 /* ---- Definition Section (detail page) ---- */
 .detail-definition-section {
-  margin: 16px 0 24px 0;
+  margin: 20px 0 24px 0;
   padding: 20px 24px;
   background: #f8f8f8;
   border-radius: var(--radius);
@@ -519,7 +537,28 @@ body {
 }
 
 /* ============================================
-   3. MOBILE ADS
+   3. INLINE AD (inside cards-grid, full-width row)
+   ============================================ */
+
+.ad-placeholder-inline {
+  width: 100%;
+  flex-basis: 100%;
+  height: 80px;
+  background: var(--ad-bg);
+  border: 1px dashed var(--ad-border);
+  border-radius: var(--radius);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 4px 0;
+}
+
+/* ============================================
+   4. MOBILE ADS
    ============================================ */
 
 .mobile-banner-ad {
@@ -545,7 +584,7 @@ body {
 }
 
 /* ============================================
-   4. SEARCH BAR (Half width, +20% height)
+   5. SEARCH BAR (Half width, +20% height)
    ============================================ */
 
 .search-section {
@@ -657,7 +696,7 @@ body {
 }
 
 /* ============================================
-   5. SLANG CARDS (16:9 image, 3-line desc)
+   6. SLANG CARDS (16:9 image, 3-line desc)
    ============================================ */
 
 .cards-grid {
@@ -683,7 +722,7 @@ body {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  height: 390px;
+  height: 365px;
 }
 
 .slang-card:hover {
@@ -717,7 +756,7 @@ body {
 
 /* Card body */
 .card-body {
-  padding: 14px 16px 12px 16px;
+  padding: 12px 14px 10px 14px;
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -730,7 +769,7 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 8px;
-  margin: 0 0 6px 0;
+  margin: 0 0 5px 0;
   flex-shrink: 0;
 }
 
@@ -761,10 +800,10 @@ body {
 
 /* Definition: 3 lines */
 .slang-definition {
-  font-size: 14px;
+  font-size: 13px;
   color: var(--text-secondary);
   line-height: 1.5;
-  margin: 0 0 8px 0;
+  margin: 0 0 6px 0;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -772,35 +811,34 @@ body {
   flex-shrink: 0;
 }
 
-/* Tags row: centered */
+/* Tags row: centered, no margin-top:auto */
 .tags-group {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 5px;
-  margin: 0 0 6px 0;
+  gap: 4px;
+  margin: 0 0 5px 0;
   overflow: hidden;
-  max-height: 26px;
+  max-height: 24px;
   flex-shrink: 0;
 }
 
-/* Date row: centered */
+/* Date row: centered, tight to tags */
 .card-footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: auto;
   flex-shrink: 0;
-  gap: 4px;
+  gap: 2px;
 }
 
 /* ---- Tag links in cards ---- */
 .tag-item-link {
   display: inline-block;
-  padding: 3px 10px;
+  padding: 3px 8px;
   background: var(--tag-bg);
   color: var(--tag-color);
-  font-size: 12px;
+  font-size: 11px;
   border-radius: 100px;
   text-decoration: none;
   transition: var(--transition);
@@ -814,14 +852,14 @@ body {
 }
 
 .updated-date {
-  font-size: 12px;
+  font-size: 11px;
   color: var(--text-muted);
   white-space: nowrap;
   text-align: center;
 }
 
 /* ============================================
-   6. DETAIL PAGE LAYOUT
+   7. DETAIL PAGE LAYOUT
    ============================================ */
 
 .detail-container {
@@ -844,7 +882,7 @@ body {
 }
 
 /* ============================================
-   7. AUTHOR SECTION
+   8. AUTHOR SECTION
    ============================================ */
 
 .post-author-footer {
@@ -924,7 +962,7 @@ body {
 }
 
 /* ============================================
-   8. NEWSLETTER SUBSCRIPTION
+   9. NEWSLETTER SUBSCRIPTION
    ============================================ */
 
 .subscribe-section {
@@ -1066,7 +1104,7 @@ body {
 }
 
 /* ============================================
-   9. FOOTER
+   10. FOOTER
    ============================================ */
 
 .site-footer {
@@ -1081,7 +1119,7 @@ body {
 }
 
 /* ============================================
-   10. RESPONSIVE
+   11. RESPONSIVE
    ============================================ */
 
 /* Tablet */
@@ -1128,9 +1166,9 @@ body {
     width: calc(50% - 6px);
   }
 
-  /* Mobile card: 280px height */
+  /* Mobile card */
   .slang-card {
-    height: 280px;
+    height: 260px;
   }
 
   .card-image {
@@ -1138,52 +1176,65 @@ body {
   }
 
   .card-body {
-    padding: 10px 10px 8px 10px;
+    padding: 8px 8px 6px 8px;
   }
 
   .card-header {
-    margin: 0 0 4px 0;
+    margin: 0 0 3px 0;
   }
 
   .slang-word {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .pos-tag {
-    font-size: 9px;
-    padding: 2px 6px;
+    font-size: 8px;
+    padding: 2px 5px;
   }
 
   .slang-definition {
     font-size: 11px;
-    margin: 0 0 5px 0;
+    margin: 0 0 4px 0;
     -webkit-line-clamp: 3;
+    line-height: 1.4;
   }
 
   .tags-group {
-    margin: 0 0 4px 0;
-    max-height: 20px;
+    margin: 0 0 3px 0;
+    max-height: 18px;
     gap: 3px;
   }
 
   .tag-item-link {
     font-size: 9px;
-    padding: 1px 5px;
+    padding: 1px 4px;
   }
 
   .updated-date {
     font-size: 9px;
   }
 
+  .card-footer {
+    gap: 1px;
+  }
+
+  /* Inline ad shown on mobile */
+  .ad-placeholder-inline {
+    display: flex;
+    height: 60px;
+  }
+
   /* Mobile related cards */
   .related-grid .related-card {
     width: calc(50% - 6px);
-    height: 280px;
+    height: 260px;
   }
 
   .related-definition {
     font-size: 11px;
     -webkit-line-clamp: 3;
+    line-height: 1.4;
+    margin: 0 0 4px 0;
   }
 
   .related-word {
@@ -1191,12 +1242,16 @@ body {
   }
 
   .related-card .card-body {
-    padding: 10px 10px 8px 10px;
+    padding: 8px 8px 6px 8px;
   }
 
   .related-card .tags-group {
-    margin: 0 0 4px 0;
-    max-height: 20px;
+    margin: 0 0 3px 0;
+    max-height: 18px;
+  }
+
+  .related-card .card-footer {
+    gap: 1px;
   }
 
   .page-title {
@@ -1207,11 +1262,11 @@ body {
     display: block;
   }
 
-  /* Mobile detail: fix tags overlapping definition */
+  /* Mobile detail: fix meta layout */
   .post-detail-meta {
     flex-direction: column;
     align-items: flex-start;
-    gap: 8px;
+    gap: 10px;
   }
 
   .meta-left {
@@ -1220,13 +1275,11 @@ body {
   }
 
   .detail-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 4px;
+    gap: 5px;
   }
 
   .detail-definition-section {
-    margin-top: 12px;
+    margin-top: 16px;
   }
 
   .author-info {
@@ -1300,7 +1353,7 @@ body {
 }
 
 /* ============================================
-   11. TAGS PAGE
+   12. TAGS PAGE
    ============================================ */
 
 .section-title {
@@ -1347,7 +1400,7 @@ body {
 }
 
 /* ============================================
-   12. ABOUT PAGE
+   13. ABOUT PAGE
    ============================================ */
 
 .about-page {
@@ -1387,7 +1440,7 @@ body {
 }
 
 /* ============================================
-   13. EMPTY STATE
+   14. EMPTY STATE
    ============================================ */
 
 .empty-state {
