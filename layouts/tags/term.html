@@ -38,6 +38,9 @@
         <div class="cards-grid" id="cards-container">
             {{- if $pages }}
                 {{- range $idx, $page := $pages }}
+                {{- if and (eq $idx 3) (gt $count 4) }}
+                <div class="ad-placeholder-inline"><span>ADVERTISEMENT</span></div>
+                {{- end }}
                 <article class="slang-card" data-title="{{ .Title | lower }}" data-tags="{{ range .Params.tags }}{{ . | lower }} {{ end }}" data-definition="{{ .Params.definition | lower }}" onclick="window.location.href='{{ .Permalink }}'">
                     {{- if .Params.image }}
                     <div class="card-image">
@@ -47,9 +50,7 @@
                     <div class="card-body">
                         <div class="card-header">
                             <h3 class="slang-word">{{ .Title }}</h3>
-                            {{- if .Params.pos }}
-                            <span class="pos-tag">{{ .Params.pos }}</span>
-                            {{- end }}
+                            <span class="pos-tag">{{ .Params.pos | default "SLANG" }}</span>
                         </div>
                         {{- if .Params.definition }}
                         <p class="slang-definition">{{ .Params.definition }}</p>
@@ -66,18 +67,7 @@
                         </div>
                     </div>
                 </article>
-
-                {{- if and (eq (add $idx 1) 4) (gt $count 4) }}
-            </div>
-            <!-- Mobile Banner Ad after 4th card (middle of all cards) -->
-            <div class="mobile-banner-ad" id="ad-mobile-mid">
-                <div class="ad-placeholder-banner">
-                    <span>AD</span>
-                </div>
-            </div>
-            <div class="cards-grid" id="cards-container-2">
                 {{- end }}
-            {{- end }}
             {{- else }}
             <div class="empty-state">
                 <p class="empty-state-text">No slang words found for this tag.</p>
