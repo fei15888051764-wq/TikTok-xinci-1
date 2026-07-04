@@ -1040,8 +1040,16 @@ body {
     padding: 20px 16px;
   }
 
+  .cards-grid {
+    gap: 12px;
+  }
+
   .cards-grid .slang-card {
     width: calc(50% - 6px);
+  }
+
+  .related-grid {
+    gap: 12px;
   }
 
   .related-grid .related-card {
