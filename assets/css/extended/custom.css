@@ -50,6 +50,8 @@ body {
   text-align: center;
   letter-spacing: -0.01em;
   line-height: 1.2;
+  width: 100%;
+  word-break: keep-all;
 }
 
 .page-subtitle {
@@ -58,10 +60,12 @@ body {
   text-align: center;
   margin: 0 0 32px 0;
   line-height: 1.5;
+  width: 100%;
 }
 
 .page-header {
   margin: 8px 0 28px 0;
+  width: 100%;
 }
 
 /* ============================================
@@ -81,7 +85,7 @@ body {
 .main-content {
   flex: 1;
   max-width: var(--max-content);
-  min-width: 0;
+  min-width: 320px;
 }
 
 /* ---- View All Button ---- */
@@ -738,7 +742,7 @@ body {
 .detail-main {
   flex: 1;
   max-width: var(--max-content);
-  min-width: 0;
+  min-width: 320px;
 }
 
 .detail-main.no-ads {
@@ -932,6 +936,8 @@ body {
   letter-spacing: 1px;
   color: var(--text-primary);
   margin: 0 0 16px 0;
+  width: 100%;
+  word-break: keep-all;
 }
 
 .subscribe-desc-v2 {
