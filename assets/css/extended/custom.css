@@ -10,9 +10,9 @@
   width: 100%;
 }
 
-/* ---- Override PaperMod --main-width to allow wider content ---- */
+/* ---- Override PaperMod --main-width ---- */
 :root {
-  --main-width: 1400px !important;
+  --main-width: 1400px;
 }
 
 /* ---- Root Variables ---- */
