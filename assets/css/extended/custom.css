@@ -1166,6 +1166,11 @@ body {
     width: calc(50% - 6px);
   }
 
+  /* ---- Hide 21st card on mobile (show only 20) ---- */
+  .slang-card.desktop-only {
+    display: none;
+  }
+
   /* ---- Mobile Card: 240px, tighter layout ---- */
   .slang-card {
     height: 240px;
