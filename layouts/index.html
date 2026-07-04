@@ -25,7 +25,7 @@
             <p class="page-subtitle" id="home-desc">Decoding viral words, Gen-Z lingo, and the latest TikTok terminology.</p>
         </header>
 
-        <!-- Slang Cards Grid - Only Latest 12 (2 columns) -->
+        <!-- Slang Cards Grid - Only Latest 12 (3 columns desktop, 2 columns mobile) -->
         {{- $allSlang := where .Site.RegularPages "Type" "slang" }}
         {{- $slangPages := sort $allSlang ".Date" "desc" }}
         <div class="cards-grid" id="cards-container">
@@ -37,24 +37,26 @@
                     <img src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy">
                 </div>
                 {{- end }}
-                <div class="card-header">
-                    <h3 class="slang-word">{{ .Title }}</h3>
-                    {{- if .Params.pos }}
-                    <span class="pos-tag">{{ .Params.pos }}</span>
-                    {{- end }}
-                </div>
-                {{- if .Params.definition }}
-                <p class="slang-definition">{{ .Params.definition }}</p>
-                {{- end }}
-                <div class="card-footer">
-                    {{- if .Params.tags }}
-                    <div class="tags-group">
-                        {{- range first 3 .Params.tags }}
-                        <a href="/tags/{{ . | urlize }}/" class="tag-item-link">{{ . }}</a>
+                <div class="card-body">
+                    <div class="card-header">
+                        <h3 class="slang-word">{{ .Title }}</h3>
+                        {{- if .Params.pos }}
+                        <span class="pos-tag">{{ .Params.pos }}</span>
                         {{- end }}
                     </div>
+                    {{- if .Params.definition }}
+                    <p class="slang-definition">{{ .Params.definition }}</p>
                     {{- end }}
-                    <span class="updated-date">Updated {{ .Date.Format "Jan 2, 2006" }}</span>
+                    <div class="card-footer">
+                        {{- if .Params.tags }}
+                        <div class="tags-group">
+                            {{- range first 3 .Params.tags }}
+                            <a href="/tags/{{ . | urlize }}/" class="tag-item-link">{{ . }}</a>
+                            {{- end }}
+                        </div>
+                        {{- end }}
+                        <span class="updated-date">Updated {{ .Date.Format "Jan 2, 2006" }}</span>
+                    </div>
                 </div>
             </article>
             {{- end }}
