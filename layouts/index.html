@@ -30,8 +30,8 @@
         {{- $slangPages := sort $allSlang ".Date" "desc" }}
         <div class="cards-grid" id="cards-container">
             {{- if $slangPages }}
-            {{- range first 21 $slangPages }}
-            <article class="slang-card{{ if eq $ 20 }} desktop-only{{ end }}" data-title="{{ .Title | lower }}" data-tags="{{ range .Params.tags }}{{ . | lower }} {{ end }}" data-definition="{{ .Params.definition | lower }}" onclick="window.location.href='{{ .Permalink }}'">
+            {{- range $idx, $page := first 21 $slangPages }}
+            <article class="slang-card{{ if eq $idx 20 }} desktop-only{{ end }}" data-title="{{ .Title | lower }}" data-tags="{{ range .Params.tags }}{{ . | lower }} {{ end }}" data-definition="{{ .Params.definition | lower }}" onclick="window.location.href='{{ .Permalink }}'">
                 {{- if .Params.image }}
                 <div class="card-image">
                     <img src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy">
