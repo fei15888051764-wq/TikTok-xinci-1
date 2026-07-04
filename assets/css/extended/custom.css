@@ -4,6 +4,12 @@
    Style: Minimal, clean, grayscale gradient
    ============================================ */
 
+/* ---- Override PaperMod .main max-width for full-width layout ---- */
+.main {
+  max-width: 1440px !important;
+  width: 100%;
+}
+
 /* ---- Root Variables ---- */
 :root {
   --primary-bg: #fafafa;
