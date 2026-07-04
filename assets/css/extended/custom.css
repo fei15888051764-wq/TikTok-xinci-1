@@ -10,6 +10,11 @@
   width: 100%;
 }
 
+/* ---- Override PaperMod --main-width to allow wider content ---- */
+:root {
+  --main-width: 1400px !important;
+}
+
 /* ---- Root Variables ---- */
 :root {
   --primary-bg: #fafafa;
@@ -32,8 +37,8 @@
   --radius-lg: 16px;
   --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
   --max-content: 920px;
-  --sidebar-width: 220px;
-  --sidebar-gap: 16px;
+  --sidebar-width: 180px;
+  --sidebar-gap: 12px;
   --search-height: 48px;
 }
 
