@@ -133,8 +133,32 @@
                 <div class="related-grid">
                     {{- range first 3 $related }}
                     <a href="{{ .Permalink }}" class="related-card">
-                        <h3 class="related-word">{{ .Title }}</h3>
-                        <p class="related-definition">{{ .Params.definition | truncate 100 }}</p>
+                        {{- if .Params.image }}
+                        <div class="card-image">
+                            <img src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy">
+                        </div>
+                        {{- end }}
+                        <div class="card-body">
+                            <div class="card-header">
+                                <h3 class="related-word">{{ .Title }}</h3>
+                                {{- if .Params.pos }}
+                                <span class="pos-tag">{{ .Params.pos }}</span>
+                                {{- end }}
+                            </div>
+                            {{- if .Params.definition }}
+                            <p class="related-definition">{{ .Params.definition }}</p>
+                            {{- end }}
+                            {{- if .Params.tags }}
+                            <div class="tags-group">
+                                {{- range first 3 .Params.tags }}
+                                <span class="tag-item-link">{{ . }}</span>
+                                {{- end }}
+                            </div>
+                            {{- end }}
+                            <div class="card-footer">
+                                <span class="updated-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+                            </div>
+                        </div>
                     </a>
                     {{- end }}
                 </div>
