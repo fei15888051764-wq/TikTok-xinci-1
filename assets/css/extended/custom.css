@@ -164,9 +164,14 @@ body {
 }
 
 .related-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 16px;
+}
+
+.related-grid .related-card {
+  width: calc(33.333% - 11px);
+  box-sizing: border-box;
 }
 
 .related-card {
@@ -593,13 +598,18 @@ body {
 }
 
 /* ============================================
-   5. SLANG CARDS
+   5. SLANG CARDS (flex-based 3-column layout)
    ============================================ */
 
 .cards-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 16px;
+}
+
+.cards-grid .slang-card {
+  width: calc(33.333% - 11px);
+  box-sizing: border-box;
 }
 
 .slang-card {
@@ -1031,14 +1041,12 @@ body {
     padding: 20px 16px;
   }
 
-  .cards-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 12px;
+  .cards-grid .slang-card {
+    width: calc(50% - 6px);
   }
 
-  .related-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 10px;
+  .related-grid .related-card {
+    width: calc(50% - 6px);
   }
 
   .page-title {
