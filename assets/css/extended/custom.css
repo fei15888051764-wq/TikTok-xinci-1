@@ -307,6 +307,8 @@ body {
   background: #f8f8f8;
   border-radius: var(--radius);
   border-left: 3px solid #333333;
+  position: relative;
+  z-index: 1;
 }
 
 .detail-section-label {
@@ -493,13 +495,19 @@ body {
    4. SEARCH BAR
    ============================================ */
 
-.search-container {
+/* FIX: Match HTML class names from search-box.html */
+.search-section {
   position: relative;
   max-width: 680px;
   margin: 0 auto 20px auto;
 }
 
-.search-box {
+.search-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.search-input {
   width: 100%;
   height: var(--search-height);
   padding: 0 44px 0 16px;
@@ -513,28 +521,28 @@ body {
   box-sizing: border-box;
 }
 
-.search-box:focus {
+.search-input:focus {
   border-color: #999999;
   box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.04);
 }
 
-.search-box::placeholder {
+.search-input::placeholder {
   color: #bbbbbb;
 }
 
-.search-icon {
+.search-wrapper .search-icon {
   position: absolute;
   right: 14px;
   top: 50%;
   transform: translateY(-50%);
   color: #bbbbbb;
   pointer-events: none;
-  width: 18px;
-  height: 18px;
+  width: 20px;
+  height: 20px;
 }
 
 /* ---- Search Results Dropdown ---- */
-.search-results {
+#search-results {
   position: absolute;
   top: calc(100% + 4px);
   left: 0;
@@ -549,7 +557,7 @@ body {
   display: none;
 }
 
-.search-results.active {
+#search-results.active {
   display: block;
 }
 
@@ -1200,13 +1208,7 @@ body {
    11. TAGS PAGE
    ============================================ */
 
-.tags-page {
-  max-width: var(--max-content);
-  margin: 0 auto;
-  padding: 32px 24px 60px 24px;
-}
-
-.tags-page-title {
+.section-title {
   font-size: 22px;
   font-weight: 700;
   color: var(--text-primary);
@@ -1214,14 +1216,15 @@ body {
   text-align: center;
 }
 
-.tags-list {
+/* FIX: Tags grid - match HTML class names from tags/list.html */
+.tags-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   justify-content: center;
 }
 
-.tag-link {
+.tag-pill {
   display: inline-flex;
   align-items: center;
   gap: 6px;
@@ -1234,13 +1237,17 @@ body {
   transition: var(--transition);
 }
 
-.tag-link:hover {
+.tag-pill:hover {
   background: #e8e8e8;
   color: #444444;
   transform: translateY(-1px);
 }
 
-.tag-count {
+.tag-pill-name {
+  font-size: 14px;
+}
+
+.tag-pill-count {
   font-size: 12px;
   color: var(--text-muted);
 }
