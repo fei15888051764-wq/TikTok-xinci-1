@@ -35,8 +35,8 @@ body > .main {
   --radius-sm: 8px;
   --radius-lg: 16px;
   --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-  --max-content: 920px;
-  --sidebar-width: 180px;
+  --max-content: 1100px;
+  --sidebar-width: 160px;
   --sidebar-gap: 12px;
   --search-height: 48px;
 }
@@ -94,7 +94,6 @@ body {
 
 .main-content {
   flex: 1;
-  max-width: var(--max-content);
   min-width: 320px;
 }
 
@@ -761,7 +760,6 @@ body {
 
 .detail-main {
   flex: 1;
-  max-width: var(--max-content);
   min-width: 320px;
 }
 
