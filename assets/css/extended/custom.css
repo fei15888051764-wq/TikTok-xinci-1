@@ -696,7 +696,7 @@ body {
 }
 
 /* ============================================
-   6. SLANG CARDS (16:9 image, 3-line desc)
+   6. SLANG CARDS (Desktop: 365px, Mobile: 240px)
    ============================================ */
 
 .cards-grid {
@@ -803,7 +803,7 @@ body {
   font-size: 13px;
   color: var(--text-secondary);
   line-height: 1.5;
-  margin: 0 0 6px 0;
+  margin: 0 0 10px 0;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -811,7 +811,7 @@ body {
   flex-shrink: 0;
 }
 
-/* Tags row: centered, no margin-top:auto */
+/* Tags row: centered */
 .tags-group {
   display: flex;
   flex-wrap: wrap;
@@ -823,7 +823,7 @@ body {
   flex-shrink: 0;
 }
 
-/* Date row: centered, tight to tags */
+/* Date row: centered */
 .card-footer {
   display: flex;
   flex-direction: column;
@@ -1059,7 +1059,7 @@ body {
   border-radius: var(--radius-lg);
   padding: 40px 36px;
   text-align: center;
-  border: 1px solid var(--border-light);
+  border:1px solid var(--border-light);
 }
 
 .subscribe-title-v2 {
@@ -1166,9 +1166,9 @@ body {
     width: calc(50% - 6px);
   }
 
-  /* Mobile card */
+  /* ---- Mobile Card: 240px, tighter layout ---- */
   .slang-card {
-    height: 260px;
+    height: 240px;
   }
 
   .card-image {
@@ -1176,7 +1176,7 @@ body {
   }
 
   .card-body {
-    padding: 8px 8px 6px 8px;
+    padding: 7px 8px 6px 8px;
   }
 
   .card-header {
@@ -1184,34 +1184,36 @@ body {
   }
 
   .slang-word {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .pos-tag {
     font-size: 8px;
-    padding: 2px 5px;
+    padding: 1px 5px;
   }
 
+  /* Mobile: desc-tag gap 12px (3x from 4px) */
   .slang-definition {
-    font-size: 11px;
-    margin: 0 0 4px 0;
+    font-size: 10px;
+    margin: 0 0 12px 0;
     -webkit-line-clamp: 3;
-    line-height: 1.4;
+    line-height: 1.35;
   }
 
+  /* Mobile tags: centered, tight */
   .tags-group {
     margin: 0 0 3px 0;
-    max-height: 18px;
+    max-height: 16px;
     gap: 3px;
   }
 
   .tag-item-link {
-    font-size: 9px;
+    font-size: 8px;
     padding: 1px 4px;
   }
 
   .updated-date {
-    font-size: 9px;
+    font-size: 8px;
   }
 
   .card-footer {
@@ -1224,30 +1226,30 @@ body {
     height: 60px;
   }
 
-  /* Mobile related cards */
+  /* Mobile related cards: same 240px */
   .related-grid .related-card {
     width: calc(50% - 6px);
-    height: 260px;
+    height: 240px;
   }
 
   .related-definition {
-    font-size: 11px;
+    font-size: 10px;
     -webkit-line-clamp: 3;
-    line-height: 1.4;
-    margin: 0 0 4px 0;
+    line-height: 1.35;
+    margin: 0 0 12px 0;
   }
 
   .related-word {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .related-card .card-body {
-    padding: 8px 8px 6px 8px;
+    padding: 7px 8px 6px 8px;
   }
 
   .related-card .tags-group {
     margin: 0 0 3px 0;
-    max-height: 18px;
+    max-height: 16px;
   }
 
   .related-card .card-footer {
