@@ -170,7 +170,7 @@ body {
 .related-grid .related-card {
   width: calc(33.333% - 11px);
   box-sizing: border-box;
-  height: 365px;
+  height: 340px;
   padding: 0;
   background: var(--card-bg);
   border: 1px solid var(--border-light);
@@ -207,7 +207,7 @@ body {
 }
 
 .related-card .card-body {
-  padding: 12px 14px 10px 14px;
+  padding: 12px 14px 6px 14px;
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -541,8 +541,7 @@ body {
    ============================================ */
 
 .ad-placeholder-inline {
-  width: 100%;
-  flex-basis: 100%;
+  grid-column: 1 / -1;
   height: 80px;
   background: var(--ad-bg);
   border: 1px dashed var(--ad-border);
@@ -696,21 +695,17 @@ body {
 }
 
 /* ============================================
-   6. SLANG CARDS (Desktop: 365px, Mobile: 240px)
+   6. SLANG CARDS (CSS Grid layout)
    ============================================ */
 
+/* Desktop: 3 columns */
 .cards-grid {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 16px;
 }
 
-.cards-grid .slang-card {
-  width: calc(33.333% - 11px);
-  box-sizing: border-box;
-}
-
-/* ---- Desktop Card ---- */
+/* ---- Desktop Card: 340px ---- */
 .slang-card {
   background: var(--card-bg);
   border: 1px solid var(--border-light);
@@ -722,7 +717,7 @@ body {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  height: 365px;
+  height: 340px;
 }
 
 .slang-card:hover {
@@ -756,7 +751,7 @@ body {
 
 /* Card body */
 .card-body {
-  padding: 12px 14px 10px 14px;
+  padding: 12px 14px 6px 14px;
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -1158,12 +1153,10 @@ body {
     margin: 8px auto 20px auto;
   }
 
+  /* ---- Mobile: 2-column grid ---- */
   .cards-grid {
+    grid-template-columns: repeat(2, 1fr);
     gap: 12px;
-  }
-
-  .cards-grid .slang-card {
-    width: calc(50% - 6px);
   }
 
   /* ---- Hide 21st card on mobile (show only 20) ---- */
@@ -1171,9 +1164,9 @@ body {
     display: none;
   }
 
-  /* ---- Mobile Card: 240px, tighter layout ---- */
+  /* ---- Mobile Card: 215px ---- */
   .slang-card {
-    height: 240px;
+    height: 215px;
   }
 
   .card-image {
@@ -1181,11 +1174,11 @@ body {
   }
 
   .card-body {
-    padding: 7px 8px 6px 8px;
+    padding: 6px 7px 5px 7px;
   }
 
   .card-header {
-    margin: 0 0 3px 0;
+    margin: 0 0 2px 0;
   }
 
   .slang-word {
@@ -1197,7 +1190,7 @@ body {
     padding: 1px 5px;
   }
 
-  /* Mobile: desc-tag gap 12px (3x from 4px) */
+  /* Mobile: desc-tag gap 12px */
   .slang-definition {
     font-size: 10px;
     margin: 0 0 12px 0;
@@ -1205,9 +1198,9 @@ body {
     line-height: 1.35;
   }
 
-  /* Mobile tags: centered, tight */
+  /* Mobile tags */
   .tags-group {
-    margin: 0 0 3px 0;
+    margin: 0 0 2px 0;
     max-height: 16px;
     gap: 3px;
   }
@@ -1231,10 +1224,14 @@ body {
     height: 60px;
   }
 
-  /* Mobile related cards: same 240px */
+  /* Mobile related cards */
+  .related-grid {
+    gap: 12px;
+  }
+
   .related-grid .related-card {
     width: calc(50% - 6px);
-    height: 240px;
+    height: 215px;
   }
 
   .related-definition {
@@ -1249,11 +1246,11 @@ body {
   }
 
   .related-card .card-body {
-    padding: 7px 8px 6px 8px;
+    padding: 6px 7px 5px 7px;
   }
 
   .related-card .tags-group {
-    margin: 0 0 3px 0;
+    margin: 0 0 2px 0;
     max-height: 16px;
   }
 
