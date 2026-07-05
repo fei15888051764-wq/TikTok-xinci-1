@@ -1,5 +1,5 @@
 ---
-title: "The Real Meaning of 'Monkey-Barring' in Modern Dating (2026)"
+title: "Monkey-Barring"
 date: 2026-07-05T00:00:00Z
 author: "GEBILAOWANG"
 tags: ['2026', 'dating', 'slang', 'gen-z', 'toxic']
