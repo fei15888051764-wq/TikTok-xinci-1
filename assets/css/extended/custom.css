@@ -36,7 +36,7 @@ body > .main {
   --radius-lg: 16px;
   --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
   --max-content: 1100px;
-  --sidebar-width: 160px;
+  --sidebar-width: 272px;
   --sidebar-gap: 12px;
   --search-height: 58px;
 }
