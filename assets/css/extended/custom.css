@@ -82,8 +82,14 @@ body {
   padding: 32px 40px;
 }
 
+/* Override PaperMod .main max-width so content can expand */
+.main {
+  max-width: none !important;
+}
+
+/* Desktop: content area = 60% of screen width */
 .main-content {
-  flex: 1;
+  flex: 0 0 min(60vw, calc(100vw - 600px));
   min-width: 320px;
 }
 
