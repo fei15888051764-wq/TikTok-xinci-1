@@ -8,6 +8,7 @@ definition: "A TikTok slang term for pursuing your goals without posting about t
 tags: ["gen-z", "wellness", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"
+image: "/images/slang/quiet-ambition.jpg"
 ---
 
 ## Pronunciation

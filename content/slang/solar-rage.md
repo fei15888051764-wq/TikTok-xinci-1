@@ -8,6 +8,7 @@ definition: "A TikTok slang term for the explosive, almost comedic anger you fee
 tags: ["gen-z", "sustainability", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"
+image: "/images/slang/solar-rage.jpg"
 ---
 
 ## Pronunciation

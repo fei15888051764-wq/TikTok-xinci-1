@@ -8,6 +8,7 @@ definition: "A TikTok slang term for someone who is completely out of touch, men
 tags: ["gen-z", "tech", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"
+image: "/images/slang/404-coded.jpg"
 ---
 
 ## Pronunciation

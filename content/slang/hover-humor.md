@@ -8,6 +8,7 @@ definition: "A TikTok slang term for light, absurd jokes that float by without l
 tags: ["gen-z", "comedy", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"
+image: "/images/slang/hover-humor.jpg"
 ---
 
 ## Pronunciation
