@@ -1,8 +1,8 @@
 {{ define "main" }}
 <div class="home-container">
-    <!-- Main Content Area -->
     <div class="main-content">
-        <!-- Back to Home Link -->
+        {{- partial "search-box.html" . }}
+
         <div class="back-to-home">
             <a href="{{ .Site.BaseURL }}" class="back-link">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -12,10 +12,8 @@
             </a>
         </div>
 
-        <!-- Section Title -->
         <h1 class="section-title">All Tags</h1>
 
-        <!-- Tags Grid - Using .Data.Terms with .Count for reliable count display -->
         <div class="tags-grid">
             {{- range .Data.Terms.Alphabetical }}
             <a href="{{ .Page.Permalink }}" class="tag-pill">
@@ -26,4 +24,6 @@
         </div>
     </div>
 </div>
+
+{{- partial "search-script.html" . }}
 {{ end }}
