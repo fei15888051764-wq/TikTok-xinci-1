@@ -1,11 +1,8 @@
 {{ define "main" }}
 <div class="home-container">
-    <!-- Main Content Area -->
     <div class="main-content">
-        <!-- Search Section with Lunr.js -->
         {{- partial "search-box.html" . }}
 
-        <!-- Back to Home Link -->
         <div class="back-to-home">
             <a href="{{ .Site.BaseURL }}" class="back-link">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -15,32 +12,48 @@
             </a>
         </div>
 
-        <!-- Section Title -->
         <h1 class="section-title">All Slang Words</h1>
 
-        <!-- Cards Grid for ALL Slangs -->
-        <div class="cards-grid">
-            {{- range .Paginator.Pages }}
-            <article class="slang-card" data-tags="{{ range .Params.tags }}{{ . }} {{ end }}" onclick="window.location.href='{{ .Permalink }}'">
-                <div class="card-header">
-                    <h2 class="slang-word">{{ .Title }}</h2>
-                    <span class="pos-tag">{{ .Params.partOfSpeech }}</span>
-                </div>
-                <p class="slang-definition">{{ .Params.definition }}</p>
-                <div class="card-footer">
-                    <div class="tags-group">
-                        {{- range .Params.tags }}
-                        <span class="tag-item">{{ . }}</span>
-                        {{- end }}
+        {{- $allSlang := where .Site.RegularPages "Type" "slang" }}
+        {{- $slangPages := sort $allSlang ".Date" "desc" }}
+        <div class="cards-grid" id="cards-container">
+            {{- if $slangPages }}
+                {{- range $slangPages }}
+                <article class="slang-card" data-title="{{ .Title | lower }}" data-tags="{{ range .Params.tags }}{{ . | lower }} {{ end }}" data-definition="{{ .Params.definition | lower }}" onclick="window.location.href='{{ .Permalink }}'">
+                    {{- if .Params.image }}
+                    <div class="card-image">
+                        <img src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy">
                     </div>
-                    <span class="updated-date">{{ .Date.Format "Jan 2, 2006" }}</span>
-                </div>
-            </article>
+                    {{- end }}
+                    <div class="card-body">
+                        <div class="card-header">
+                            <h3 class="slang-word">{{ .Title }}</h3>
+                            <span class="pos-tag">{{ .Params.pos | default "SLANG" }}</span>
+                        </div>
+                        {{- if .Params.definition }}
+                        <p class="slang-definition">{{ .Params.definition }}</p>
+                        {{- end }}
+                        <div class="card-footer">
+                            {{- if .Params.tags }}
+                            <div class="tags-group">
+                                {{- range first 3 .Params.tags }}
+                                <a href="/tags/{{ . | urlize }}/" class="tag-item-link">{{ . }}</a>
+                                {{- end }}
+                            </div>
+                            {{- end }}
+                            <span class="updated-date">Updated {{ .Date.Format "Jan 2, 2006" }}</span>
+                        </div>
+                    </div>
+                </article>
+                {{- end }}
+            {{- else }}
+            <div class="empty-state">
+                <p class="empty-state-text">No slang words yet. Check back soon!</p>
+            </div>
             {{- end }}
         </div>
     </div>
 </div>
 
-<!-- Shared Search Script -->
 {{- partial "search-script.html" . }}
 {{ end }}
