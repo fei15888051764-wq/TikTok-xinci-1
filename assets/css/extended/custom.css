@@ -1,25 +1,8 @@
-/* ---- Desktop: uniform scale up ALL elements ---- */
-@media (min-width: 1101px) {
-  body {
-    zoom: 1.12;
-  }
-}
-
 /* ============================================
    TikTok Slang Dictionary - Custom Styles
    Theme: PaperMod Extended
    Style: Minimal, clean, grayscale gradient
    ============================================ */
-
-/* ---- Override PaperMod .main max-width ---- */
-body > .main {
-  max-width: 100%;
-}
-
-/* ---- Override PaperMod --main-width ---- */
-:root {
-  --main-width: 100%;
-}
 
 /* ---- Root Variables ---- */
 :root {
@@ -176,7 +159,7 @@ body {
 .related-grid .related-card {
   width: calc(33.333% - 11px);
   box-sizing: border-box;
-  height: 340px;
+  aspect-ratio: 4 / 5;
   padding: 0;
   background: var(--card-bg);
   border: 1px solid var(--border-light);
@@ -723,7 +706,7 @@ body {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  height: 380px;
+  aspect-ratio: 4 / 5;
   box-sizing: border-box;
 }
 
