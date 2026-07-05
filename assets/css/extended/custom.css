@@ -1,3 +1,10 @@
+/* ---- Desktop: uniform scale up ALL elements ---- */
+@media (min-width: 1101px) {
+  body {
+    zoom: 1.12;
+  }
+}
+
 /* ============================================
    TikTok Slang Dictionary - Custom Styles
    Theme: PaperMod Extended
