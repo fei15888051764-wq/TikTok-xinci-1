@@ -1,12 +1,5 @@
 {{ define "main" }}
 <div class="home-container">
-    <!-- Left Sidebar Ad (Desktop Only) -->
-    <aside class="sidebar-ad" aria-label="Advertisement">
-        <div class="ad-placeholder-sidebar">
-            <span>ADVERTISEMENT</span>
-        </div>
-    </aside>
-
     <!-- Main Content Area -->
     <div class="main-content">
         <!-- Back to Home Link -->
@@ -22,13 +15,6 @@
         <!-- Search Section with Lunr.js -->
         {{- partial "search-box.html" . }}
 
-        <!-- Mobile Banner Ad: Below search, above title -->
-        <div class="mobile-banner-ad" id="ad-mobile-top">
-            <div class="ad-placeholder-banner">
-                <span>AD</span>
-            </div>
-        </div>
-
         <!-- Section Title - Tag Name -->
         <h1 class="section-title">{{ .Title }}</h1>
 
@@ -38,9 +24,6 @@
         <div class="cards-grid" id="cards-container">
             {{- if $pages }}
                 {{- range $idx, $page := $pages }}
-                {{- if and (eq $idx 4) (gt $count 5) }}
-                <div class="ad-placeholder-inline"><span>ADVERTISEMENT</span></div>
-                {{- end }}
                 <article class="slang-card" data-title="{{ .Title | lower }}" data-tags="{{ range .Params.tags }}{{ . | lower }} {{ end }}" data-definition="{{ .Params.definition | lower }}" onclick="window.location.href='{{ .Permalink }}'">
                     {{- if .Params.image }}
                     <div class="card-image">
@@ -75,20 +58,7 @@
             {{- end }}
         </div>
 
-        <!-- Mobile Banner Ad at bottom (after last card) -->
-        <div class="mobile-banner-ad" id="ad-mobile-bottom">
-            <div class="ad-placeholder-banner">
-                <span>AD</span>
-            </div>
-        </div>
     </div>
-
-    <!-- Right Sidebar Ad (Desktop Only) -->
-    <aside class="sidebar-ad" aria-label="Advertisement">
-        <div class="ad-placeholder-sidebar">
-            <span>ADVERTISEMENT</span>
-        </div>
-    </aside>
 </div>
 
 <!-- Shared Search Script -->
