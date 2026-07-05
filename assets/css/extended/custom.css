@@ -704,7 +704,7 @@ body {
   gap: 20px;
 }
 
-/* ---- Desktop Card: 340px ---- */
+/* ---- Desktop Card: 380px ---- */
 .slang-card {
   background: var(--card-bg);
   border: 1px solid var(--border-light);
@@ -716,7 +716,7 @@ body {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  height: 340px;
+  height: 380px;
   box-sizing: border-box;
 }
 
@@ -1341,7 +1341,7 @@ body {
   }
 
   .footer-text {
-  font-size: 12px;
+    font-size: 12px;
   }
 
   .about-page {
