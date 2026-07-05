@@ -5,6 +5,7 @@ slug: "glitch-walking"
 definition: "Moving with jerky, stutter-step motions that look like a lagging video game character. Used for comedy, awkwardness, or irony."
 tags: ["gen-z", "trend", "2026"]
 pos: "slang"
+image: "/images/slang/glitch-walking.jpg"
 ---
 
 ## What Does "Glitch-Walking" Mean?

@@ -8,6 +8,7 @@ definition: "A TikTok slang term for unloading your entire personal backstory, d
 tags: ["gen-z", "storytelling", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"
+image: "/images/slang/lore-dumping.jpg"
 ---
 
 ## Pronunciation

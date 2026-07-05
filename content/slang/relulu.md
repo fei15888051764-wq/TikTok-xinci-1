@@ -8,6 +8,7 @@ definition: "A TikTok slang term blending 'realistic' and 'delulu'—meaning you
 tags: ["gen-z", "wellness", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"
+image: "/images/slang/relulu.jpg"
 ---
 
 ## Pronunciation

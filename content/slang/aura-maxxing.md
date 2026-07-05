@@ -8,6 +8,7 @@ definition: "A TikTok slang term for intentionally boosting your charisma, socia
 tags: ["gen-z", "self-improvement", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"
+image: "/images/slang/aura-maxxing.jpg"
 ---
 
 ## Pronunciation

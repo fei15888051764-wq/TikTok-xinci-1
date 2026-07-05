@@ -8,6 +8,7 @@ definition: "A TikTok wellness slang term for something that looks calming or ae
 tags: ["gen-z", "wellness", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"
+image: "/images/slang/cortisol-coded.jpg"
 ---
 
 ## Pronunciation

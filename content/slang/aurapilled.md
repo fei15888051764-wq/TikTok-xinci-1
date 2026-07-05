@@ -8,6 +8,7 @@ definition: "A TikTok slang term for someone who has become obsessed with vibes,
 tags: ["gen-z", "self-improvement", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"
+image: "/images/slang/aurapilled.jpg"
 ---
 
 ## Pronunciation

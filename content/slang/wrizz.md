@@ -8,6 +8,7 @@ definition: "A TikTok slang term for wholesome, genuine romantic charisma—the 
 tags: ["gen-z", "dating", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"
+image: "/images/slang/wrizz.jpg"
 ---
 
 ## Pronunciation
