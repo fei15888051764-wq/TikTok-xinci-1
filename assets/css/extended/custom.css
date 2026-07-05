@@ -6,12 +6,12 @@
 
 /* ---- Override PaperMod .main max-width ---- */
 body > .main {
-  max-width: 100%;
+  max-width: 1550px;
 }
 
 /* ---- Override PaperMod --main-width ---- */
 :root {
-  --main-width: 100%;
+  --main-width: 1500px;
 }
 
 /* ---- Root Variables ---- */
@@ -87,8 +87,9 @@ body {
   align-items: flex-start;
   justify-content: center;
   gap: var(--sidebar-gap);
+  max-width: 1550px;
   margin: 0 auto;
-  padding: 32px 40px;
+  padding: 32px 28px;
 }
 
 .main-content {
@@ -701,10 +702,10 @@ body {
 .cards-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 16px;
 }
 
-/* ---- Desktop Card: 380px ---- */
+/* ---- Desktop Card: 340px ---- */
 .slang-card {
   background: var(--card-bg);
   border: 1px solid var(--border-light);
@@ -716,7 +717,7 @@ body {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  height: 380px;
+  height: 340px;
   box-sizing: border-box;
 }
 
@@ -862,8 +863,9 @@ body {
   align-items: flex-start;
   justify-content: center;
   gap: var(--sidebar-gap);
+  max-width: 1550px;
   margin: 0 auto;
-  padding: 32px 40px;
+  padding: 32px 28px;
 }
 
 .detail-main {
