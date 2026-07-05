@@ -26,7 +26,6 @@
   --radius-lg: 16px;
   --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
   --max-content: 1100px;
-  --main-width: 100%;
   --sidebar-width: 272px;
   --sidebar-gap: 12px;
   --search-height: 58px;
@@ -82,14 +81,9 @@ body {
   padding: 32px 40px;
 }
 
-/* Override PaperMod .main max-width so content can expand */
-.main {
-  max-width: none !important;
-}
-
 /* Desktop: content area = 60% of screen width */
 .main-content {
-  flex: 0 0 min(60vw, calc(100vw - 600px));
+  flex: 1;
   min-width: 320px;
 }
 
