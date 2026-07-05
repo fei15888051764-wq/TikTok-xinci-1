@@ -6,7 +6,11 @@
 
     <!-- Main Content Area -->
     <div class="detail-main">
-        <!-- Back to Home Link -->
+        {{- if $isSlang }}
+        <!-- Search Section (shared with homepage) -->
+        {{- partial "search-box.html" . }}
+
+        <!-- Back to Home Link - below search box -->
         <div class="back-to-home">
             <a href="{{ .Site.BaseURL }}" class="back-link">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -15,10 +19,6 @@
                 Back to Home
             </a>
         </div>
-
-        {{- if $isSlang }}
-        <!-- Search Section (shared with homepage) -->
-        {{- partial "search-box.html" . }}
         {{- end }}
 
         <article class="post-single slang-detail">
@@ -74,6 +74,8 @@
                 {{ .Content }}
             </div>
             {{- end }}
+
+
 
             {{- if $isSlang }}
             {{/* Author section - only for slang pages */}}
