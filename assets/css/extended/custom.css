@@ -718,6 +718,7 @@ body {
   flex-direction: column;
   overflow: hidden;
   height: 340px;
+  box-sizing: border-box;
 }
 
 .slang-card:hover {
@@ -1153,15 +1154,16 @@ body {
     margin: 8px auto 20px auto;
   }
 
-  /* ---- Mobile: 2-column flex (avoids grid empty cell) ---- */
+  /* ---- Mobile: 2-column grid ---- */
   .cards-grid {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 12px;
   }
 
   .cards-grid .slang-card {
-    width: calc(50% - 6px);
+    width: 100%;
+    box-sizing: border-box;
   }
 
   /* ---- Hide 21st card on mobile (show only 20) ---- */
