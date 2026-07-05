@@ -1153,10 +1153,15 @@ body {
     margin: 8px auto 20px auto;
   }
 
-  /* ---- Mobile: 2-column grid ---- */
+  /* ---- Mobile: 2-column flex (avoids grid empty cell) ---- */
   .cards-grid {
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-wrap: wrap;
     gap: 12px;
+  }
+
+  .cards-grid .slang-card {
+    width: calc(50% - 6px);
   }
 
   /* ---- Hide 21st card on mobile (show only 20) ---- */
