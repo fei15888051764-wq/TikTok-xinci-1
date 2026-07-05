@@ -2,20 +2,10 @@
 {{- $isSlang := eq .Type "slang" }}
 {{- if $isSlang }}
 <div class="detail-container">
-    <!-- Left Sidebar Ad (Desktop Only) -->
-    <aside class="sidebar-ad" aria-label="Advertisement">
-        <div class="ad-placeholder-sidebar">
-            <span>ADVERTISEMENT</span>
-        </div>
-    </aside>
 {{- end }}
 
     <!-- Main Content Area -->
-    {{- if $isSlang }}
     <div class="detail-main">
-    {{- else }}
-    <div class="detail-main no-ads">
-    {{- end }}
         <!-- Back to Home Link -->
         <div class="back-to-home">
             <a href="{{ .Site.BaseURL }}" class="back-link">
@@ -29,13 +19,6 @@
         {{- if $isSlang }}
         <!-- Search Section (shared with homepage) -->
         {{- partial "search-box.html" . }}
-
-        <!-- Mobile Banner Ad: Below search -->
-        <div class="mobile-banner-ad" id="ad-mobile-detail-top">
-            <div class="ad-placeholder-banner">
-                <span>AD</span>
-            </div>
-        </div>
         {{- end }}
 
         <article class="post-single slang-detail">
@@ -89,15 +72,6 @@
             {{- if .Content }}
             <div class="post-detail-content" itemprop="articleBody">
                 {{ .Content }}
-            </div>
-            {{- end }}
-
-            {{- if $isSlang }}
-            <!-- Mobile Banner Ad: Between content and related articles -->
-            <div class="mobile-banner-ad" id="ad-mobile-detail-mid">
-                <div class="ad-placeholder-banner">
-                    <span>AD</span>
-                </div>
             </div>
             {{- end }}
 
@@ -168,12 +142,6 @@
     </div>
 
 {{- if $isSlang }}
-    <!-- Right Sidebar Ad (Desktop Only) -->
-    <aside class="sidebar-ad" aria-label="Advertisement">
-        <div class="ad-placeholder-sidebar">
-            <span>ADVERTISEMENT</span>
-        </div>
-    </aside>
 </div>
 
 <!-- Shared Search Script (only for slang pages) -->
