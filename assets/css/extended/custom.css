@@ -167,7 +167,7 @@ body {
 
 .search-input {
   width: 100%;
-  padding: 24px 36px 24px 78px;
+  padding: 24px 36px 24px 96px;
   font-size: 24px;
   font-family: inherit;
   color: var(--text-primary);
@@ -200,6 +200,8 @@ body {
   transform: translateY(-50%);
   color: var(--text-muted);
   pointer-events: none;
+  width: 48px;
+  height: 48px;
 }
 
 /* ===== SEARCH RESULTS DROPDOWN ===== */
@@ -487,6 +489,7 @@ body {
   color: var(--text-primary);
   letter-spacing: -1px;
   line-height: 1.2;
+  text-align: center;
 }
 
 .detail-pos {
@@ -514,6 +517,7 @@ body {
   border-radius: var(--radius);
   padding: 30px 36px;
   margin-bottom: 48px;
+  text-align: center;
 }
 
 .detail-section-label {
@@ -545,6 +549,7 @@ body {
   color: var(--text-primary);
   margin: 48px 0 24px;
   letter-spacing: -0px;
+  text-align: center;
 }
 
 .post-detail-content h3 {
@@ -552,6 +557,7 @@ body {
   font-weight: 600;
   color: var(--text-primary);
   margin: 36px 0 18px;
+  text-align: center;
 }
 
 .post-detail-content p {
@@ -583,6 +589,7 @@ body {
   margin: 0 0 36px 0;
   padding-bottom: 24px;
   border-bottom: 2px solid var(--border-light);
+  text-align: center;
 }
 
 .related-grid {
@@ -696,14 +703,16 @@ body {
   display: flex;
   align-items: flex-start;
   gap: 24px;
-}
-
-.author-avatar {
-  flex-shrink: 0;
+  justify-content: center;
 }
 
 .author-details {
   flex: 1;
+  text-align: center;
+}
+
+.author-avatar {
+  flex-shrink: 0;
 }
 
 .author-name {
@@ -766,6 +775,7 @@ body {
   color: var(--text-primary);
   margin-bottom: 48px;
   letter-spacing: -1px;
+  text-align: center;
 }
 
 .about-content h2 {
@@ -774,6 +784,7 @@ body {
   color: var(--text-primary);
   margin: 48px 0 24px;
   letter-spacing: -0px;
+  text-align: center;
 }
 
 .about-content p {
