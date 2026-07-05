@@ -5,6 +5,7 @@ slug: "brain-afk"
 definition: "A TikTok slang term for when your mind has checked out—daydreaming, dissociating, or mentally offline even though your body is still present. The 2026 everyday crossover phrase for digital fatigue."
 tags: ["gen-z", "slang", "2026"]
 pos: "slang"
+image: "/images/slang/brain-afk.jpg"
 ---
 
 ## What Does "Brain AFK" Mean?
