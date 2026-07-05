@@ -1,5 +1,5 @@
 ---
-title: "What Does 'Chalant' Mean? TikTok's New Relationship Standard Explained (2026)"
+title: "Chalant"
 date: 2026-07-05T00:00:00Z
 author: "GEBILAOWANG"
 tags: ['gen-z', 'dating', 'slang', '2026']
