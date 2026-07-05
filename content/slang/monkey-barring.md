@@ -7,6 +7,7 @@ categories: ["slang"]
 word: "Monkey-Barring"
 definition: "Maintaining a current relationship while actively seeking the next one, only letting go after securing a new partner."
 pos: "slang"
+image: "/images/slang/monkey-barring.jpg"
 ---
 
 By **GEBILAOWANG** | Published: July 5, 2026

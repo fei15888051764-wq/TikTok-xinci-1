@@ -7,6 +7,7 @@ categories: ["slang"]
 word: "Ghostlighting"
 definition: "The toxic combination of ghosting and gaslighting — disappearing then making the victim feel like they were the problem."
 pos: "slang"
+image: "/images/slang/ghostlighting.jpg"
 ---
 
 By **GEBILAOWANG** | Published: July 5, 2026

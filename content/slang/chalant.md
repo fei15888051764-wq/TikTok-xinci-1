@@ -7,6 +7,7 @@ categories: ["slang"]
 word: "Chalant"
 definition: "The deliberate opposite of \"nonchalant\" — someone who shows genuine interest and emotional investment in a relationship."
 pos: "slang"
+image: "/images/slang/chalant.jpg"
 ---
 
 By **GEBILAOWANG** | Published: July 5, 2026
