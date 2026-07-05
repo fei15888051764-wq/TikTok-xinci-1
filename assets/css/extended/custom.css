@@ -92,7 +92,7 @@ body {
 
 .ad-placeholder-sidebar span {
   color: var(--text-muted);
-  font-size: 40px;
+  font-size: 20px;
   font-weight: 500;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -120,7 +120,7 @@ body {
 
 .ad-placeholder-banner span {
   color: var(--text-muted);
-  font-size: 36px;
+  font-size: 18px;
   font-weight: 500;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -145,7 +145,7 @@ body {
   align-items: center;
   gap: 9px;
   color: var(--text-muted);
-  font-size: 30px;
+  font-size: 15px;
   text-decoration: none;
   transition: var(--transition);
 }
@@ -168,7 +168,7 @@ body {
 .search-input {
   width: 100%;
   padding: 24px 36px 24px 78px;
-  font-size: 48px;
+  font-size: 24px;
   font-family: inherit;
   color: var(--text-primary);
   background: var(--card-bg);
@@ -224,14 +224,14 @@ body {
 }
 
 .search-count {
-  font-size: 40px;
+  font-size: 20px;
   color: var(--text-muted);
   text-align: center;
   padding: 6px 0;
 }
 
 .search-no-results {
-  font-size: 42px;
+  font-size: 21px;
   color: var(--text-muted);
   text-align: center;
   padding: 12px 0;
@@ -257,13 +257,13 @@ body {
 }
 
 .search-result-title {
-  font-size: 42px;
+  font-size: 21px;
   font-weight: 600;
   margin-bottom: 3px;
 }
 
 .search-result-definition {
-  font-size: 36px;
+  font-size: 18px;
   color: var(--text-muted);
   white-space: nowrap;
   overflow: hidden;
@@ -272,7 +272,7 @@ body {
 
 /* ===== SECTION TITLE ===== */
 .section-title {
-  font-size: 84px;
+  font-size: 42px;
   font-weight: 700;
   color: var(--text-primary);
   text-align: center;
@@ -319,7 +319,7 @@ body {
 }
 
 .slang-word {
-  font-size: 66px;
+  font-size: 33px;
   font-weight: 700;
   color: var(--text-primary);
   letter-spacing: -0px;
@@ -329,7 +329,7 @@ body {
 .pos-tag {
   display: inline-block;
   padding: 4px 15px;
-  font-size: 32px;
+  font-size: 16px;
   font-weight: 600;
   color: var(--tag-color);
   background: var(--tag-bg);
@@ -340,7 +340,7 @@ body {
 }
 
 .slang-definition {
-  font-size: 42px;
+  font-size: 21px;
   color: var(--text-secondary);
   line-height: 1.65;
   display: -webkit-box;
@@ -365,7 +365,7 @@ body {
 }
 
 .tag-item {
-  font-size: 36px;
+  font-size: 18px;
   color: var(--text-muted);
   background: transparent;
   padding: 3px 0;
@@ -377,7 +377,7 @@ body {
 }
 
 .updated-date {
-  font-size: 36px;
+  font-size: 18px;
   color: var(--text-muted);
   flex-shrink: 0;
 }
@@ -391,7 +391,7 @@ body {
 .view-all-btn {
   display: inline-block;
   padding: 21px 48px;
-  font-size: 44px;
+  font-size: 22px;
   font-weight: 500;
   font-family: inherit;
   color: var(--text-secondary);
@@ -422,7 +422,7 @@ body {
   list-style: none;
   padding: 0;
   margin: 0;
-  font-size: 60px;
+  font-size: 30px;
 }
 
 .breadcrumb-item a {
@@ -442,7 +442,7 @@ body {
 
 .breadcrumb-separator {
   color: var(--border-color);
-  font-size: 48px;
+  font-size: 24px;
 }
 
 /* ============================================
@@ -482,7 +482,7 @@ body {
 }
 
 .post-detail-title {
-  font-size: 84px;
+  font-size: 42px;
   font-weight: 700;
   color: var(--text-primary);
   letter-spacing: -1px;
@@ -490,7 +490,7 @@ body {
 }
 
 .detail-pos {
-  font-size: 36px;
+  font-size: 18px;
   padding: 4px 15px;
 }
 
@@ -517,7 +517,7 @@ body {
 }
 
 .detail-section-label {
-  font-size: 32px;
+  font-size: 16px;
   font-weight: 600;
   color: var(--text-muted);
   text-transform: uppercase;
@@ -526,7 +526,7 @@ body {
 }
 
 .detail-definition-text {
-  font-size: 40px;
+  font-size: 20px;
   color: var(--text-secondary);
   line-height: 1.7;
   /* NO truncation - full text displayed */
@@ -534,13 +534,13 @@ body {
 
 /* Main Content Styling */
 .post-detail-content {
-  font-size: 36px;
+  font-size: 18px;
   color: var(--text-secondary);
   line-height: 1.8;
 }
 
 .post-detail-content h2 {
-  font-size: 56px;
+  font-size: 28px;
   font-weight: 700;
   color: var(--text-primary);
   margin: 48px 0 24px;
@@ -548,7 +548,7 @@ body {
 }
 
 .post-detail-content h3 {
-  font-size: 44px;
+  font-size: 22px;
   font-weight: 600;
   color: var(--text-primary);
   margin: 36px 0 18px;
@@ -572,12 +572,12 @@ body {
   background: var(--tag-bg);
   padding: 3px 9px;
   border-radius: 6px;
-  font-size: 32px;
+  font-size: 16px;
 }
 
 /* ===== RELATED ARTICLES ===== */
 .related-title {
-  font-size: 54px;
+  font-size: 27px;
   font-weight: 700;
   color: var(--text-primary);
   margin: 0 0 36px 0;
@@ -632,14 +632,14 @@ body {
 }
 
 .related-word {
-  font-size: 60px;
+  font-size: 30px;
   font-weight: 700;
   color: var(--text-primary);
   line-height: 1.2;
 }
 
 .related-definition {
-  font-size: 48px;
+  font-size: 24px;
   color: var(--text-secondary);
   line-height: 1.6;
   display: -webkit-box;
@@ -655,7 +655,7 @@ body {
 }
 
 .related-card .tag-item-link {
-  font-size: 36px;
+  font-size: 18px;
   color: var(--text-muted);
   text-decoration: none;
   background: var(--tag-bg);
@@ -671,7 +671,7 @@ body {
 }
 
 .related-card .updated-date {
-  font-size: 36px;
+  font-size: 18px;
   color: var(--text-muted);
 }
 
@@ -707,14 +707,14 @@ body {
 }
 
 .author-name {
-  font-size: 36px;
+  font-size: 18px;
   font-weight: 600;
   color: var(--text-primary);
   margin-bottom: 6px;
 }
 
 .author-bio {
-  font-size: 32px;
+  font-size: 16px;
   color: var(--text-muted);
   line-height: 1.6;
 }
@@ -735,7 +735,7 @@ body {
 }
 
 .footer-text {
-  font-size: 32px;
+  font-size: 16px;
   color: var(--text-muted);
   line-height: 1.6;
 }
@@ -761,7 +761,7 @@ body {
 }
 
 .about-title {
-  font-size: 84px;
+  font-size: 42px;
   font-weight: 700;
   color: var(--text-primary);
   margin-bottom: 48px;
@@ -769,7 +769,7 @@ body {
 }
 
 .about-content h2 {
-  font-size: 56px;
+  font-size: 28px;
   font-weight: 700;
   color: var(--text-primary);
   margin: 48px 0 24px;
@@ -777,7 +777,7 @@ body {
 }
 
 .about-content p {
-  font-size: 36px;
+  font-size: 18px;
   color: var(--text-secondary);
   line-height: 1.8;
   margin-bottom: 24px;
@@ -824,7 +824,7 @@ body {
 
   .search-input {
     padding: 21px 30px 21px 72px;
-    font-size: 44px;
+    font-size: 22px;
   }
 
   .search-results {
@@ -833,7 +833,7 @@ body {
   }
 
   .section-title {
-    font-size: 66px;
+    font-size: 33px;
     margin-bottom: 36px;
   }
 
@@ -850,11 +850,11 @@ body {
   }
 
   .slang-word {
-    font-size: 60px;
+    font-size: 30px;
   }
 
   .slang-definition {
-    font-size: 40px;
+    font-size: 20px;
     -webkit-line-clamp: 3;
   }
 
@@ -869,7 +869,7 @@ body {
   }
 
   .post-detail-title {
-    font-size: 60px;
+    font-size: 30px;
   }
 
   .detail-image {
@@ -881,19 +881,19 @@ body {
   }
 
   .detail-definition-text {
-    font-size: 36px;
+    font-size: 18px;
   }
 
   .post-detail-content {
-    font-size: 32px;
+    font-size: 16px;
   }
 
   .post-detail-content h2 {
-    font-size: 48px;
+    font-size: 24px;
   }
 
   .post-detail-content h3 {
-    font-size: 40px;
+    font-size: 20px;
   }
 
   /* Author mobile */
@@ -909,7 +909,7 @@ body {
   }
 
   .footer-text {
-    font-size: 32px;
+    font-size: 16px;
   }
 
   /* About mobile */
@@ -918,15 +918,15 @@ body {
   }
 
   .about-title {
-    font-size: 66px;
+    font-size: 33px;
   }
 
   .about-content h2 {
-    font-size: 48px;
+    font-size: 24px;
   }
 
   .about-content p {
-    font-size: 32px;
+    font-size: 16px;
   }
 
   /* Related mobile */
@@ -935,15 +935,15 @@ body {
   }
 
   .related-title {
-    font-size: 42px;
+    font-size: 21px;
   }
 
   .related-word {
-    font-size: 48px;
+    font-size: 24px;
   }
 
   .related-definition {
-    font-size: 36px;
+    font-size: 18px;
   }
 }
 
@@ -978,12 +978,12 @@ body {
 .logo a {
   color: var(--text-primary) !important;
   font-weight: 700 !important;
-  font-size: 54px !important;
+  font-size: 27px !important;
 }
 
 #menu a {
   color: var(--text-secondary) !important;
-  font-size: 42px !important;
+  font-size: 21px !important;
   font-weight: 500 !important;
 }
 
@@ -1019,7 +1019,7 @@ html {
 }
 
 .subscribe-title {
-    font-size: 66px;
+    font-size: 33px;
     font-weight: 700;
     color: var(--text-primary);
     margin-bottom: 15px;
@@ -1027,7 +1027,7 @@ html {
 }
 
 .subscribe-desc {
-    font-size: 42px;
+    font-size: 21px;
     color: var(--text-secondary);
     line-height: 1.6;
     margin-bottom: 36px;
@@ -1042,7 +1042,7 @@ html {
 .subscribe-input {
     flex: 1;
     padding: 21px 30px;
-    font-size: 44px;
+    font-size: 22px;
     font-family: inherit;
     color: var(--text-primary);
     background: var(--gradient-bg-start);
@@ -1064,7 +1064,7 @@ html {
 
 .subscribe-btn {
     padding: 21px 42px;
-    font-size: 44px;
+    font-size: 22px;
     font-weight: 600;
     font-family: inherit;
     color: #ffffff;
@@ -1087,7 +1087,7 @@ html {
 }
 
 .subscribe-note {
-    font-size: 36px;
+    font-size: 18px;
     color: var(--text-muted);
     margin: 0;
 }
@@ -1104,15 +1104,15 @@ html {
         width: 100%;
     }
     .subscribe-title {
-        font-size: 54px;
+        font-size: 27px;
     }
     .subscribe-desc {
-        font-size: 36px;
+        font-size: 18px;
     }
     .subscribe-input {
-        font-size: 36px;
+        font-size: 18px;
     }
     .subscribe-btn {
-        font-size: 36px;
+        font-size: 18px;
     }
 }
