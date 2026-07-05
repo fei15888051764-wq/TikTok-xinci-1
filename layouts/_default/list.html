@@ -1,12 +1,5 @@
 {{ define "main" }}
 <div class="home-container">
-    <!-- Left Sidebar Ad (Desktop Only) -->
-    <aside class="sidebar-ad" aria-label="Advertisement">
-        <div class="ad-placeholder-sidebar">
-            <span>ADVERTISEMENT</span>
-        </div>
-    </aside>
-
     <!-- Main Content Area -->
     <div class="main-content">
         <!-- Back to Home Link -->
@@ -21,13 +14,6 @@
 
         <!-- Search Section with Lunr.js -->
         {{- partial "search-box.html" . }}
-
-        <!-- Mobile Banner Ad: Below search, above title -->
-        <div class="mobile-banner-ad" id="ad-mobile-top">
-            <div class="ad-placeholder-banner">
-                <span>AD</span>
-            </div>
-        </div>
 
         <!-- Section Title -->
         <h1 class="section-title">{{ .Title }}</h1>
@@ -68,12 +54,6 @@
 
                 {{- if and (eq (add $idx 1) 4) (gt $count 4) }}
             </div>
-            <!-- Mobile Banner Ad after 4th card (middle of all cards) -->
-            <div class="mobile-banner-ad" id="ad-mobile-mid">
-                <div class="ad-placeholder-banner">
-                    <span>AD</span>
-                </div>
-            </div>
             <div class="cards-grid" id="cards-container-2">
                 {{- end }}
             {{- end }}
@@ -85,20 +65,7 @@
             {{- end }}
         </div>
 
-        <!-- Mobile Banner Ad at bottom (after last card) -->
-        <div class="mobile-banner-ad" id="ad-mobile-bottom">
-            <div class="ad-placeholder-banner">
-                <span>AD</span>
-            </div>
-        </div>
     </div>
-
-    <!-- Right Sidebar Ad (Desktop Only) -->
-    <aside class="sidebar-ad" aria-label="Advertisement">
-        <div class="ad-placeholder-sidebar">
-            <span>ADVERTISEMENT</span>
-        </div>
-    </aside>
 </div>
 
 <!-- Shared Search Script -->
