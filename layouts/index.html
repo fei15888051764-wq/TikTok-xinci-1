@@ -58,8 +58,6 @@
                 </div>
             </article>
             {{- end }}
-            <!-- Hidden filler card for odd-count grid -->
-            <article class="slang-card filler-card" style="display:none" data-filler="true"></article>
             {{- else }}
             <div class="empty-state">
                 <p class="empty-state-text">No slang words yet. Check back soon!</p>
@@ -97,22 +95,6 @@
         </div>
     </aside>
 </div>
-
-<!-- Grid filler script: shows a random card when odd count -->
-<script>
-(function(){
-  document.querySelectorAll('.cards-grid').forEach(function(grid){
-    var cards = grid.querySelectorAll('.slang-card:not([data-filler])');
-    var filler = grid.querySelector('.filler-card');
-    if (cards.length % 2 === 1 && filler) {
-      var src = cards[Math.floor(Math.random() * cards.length)];
-      filler.innerHTML = src.innerHTML;
-      filler.setAttribute('onclick', src.getAttribute('onclick'));
-      filler.style.display = '';
-    }
-  });
-})();
-</script>
 
 <!-- Shared Search Script -->
 {{- partial "search-script.html" . }}
