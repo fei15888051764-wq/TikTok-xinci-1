@@ -387,13 +387,28 @@ body {
    ============================================ */
 
 .slang-detail {
-  max-width: 1080px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 60px 30px 90px;
+  padding: 60px 40px 90px;
 }
 
 .post-detail-header {
   margin-bottom: 48px;
+}
+
+/* Detail image - constrained height */
+.detail-image {
+  margin: 0 0 36px 0;
+  border-radius: var(--radius);
+  overflow: hidden;
+  max-height: 500px;
+}
+
+.detail-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .detail-header-top {
@@ -404,16 +419,16 @@ body {
 }
 
 .post-detail-title {
-  font-size: 54px;
-  font-weight: 800;
+  font-size: 42px;
+  font-weight: 700;
   color: var(--text-primary);
-  letter-spacing: -2px;
+  letter-spacing: -1px;
   line-height: 1.2;
 }
 
 .detail-pos {
-  font-size: 20px;
-  padding: 6px 21px;
+  font-size: 18px;
+  padding: 4px 15px;
 }
 
 .post-detail-meta {
@@ -421,7 +436,7 @@ body {
   align-items: center;
   gap: 24px;
   flex-wrap: wrap;
-  padding-bottom: 36px;
+  padding-bottom: 24px;
   border-bottom: 2px solid var(--border-light);
 }
 
@@ -434,35 +449,35 @@ body {
   background: var(--card-bg);
   border: 2px solid var(--border-light);
   border-radius: var(--radius);
-  padding: 42px;
+  padding: 30px 36px;
   margin-bottom: 48px;
 }
 
 .detail-section-label {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   color: var(--text-muted);
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin-bottom: 18px;
+  margin-bottom: 12px;
 }
 
 .detail-definition-text {
-  font-size: 24px;
+  font-size: 20px;
   color: var(--text-secondary);
-  line-height: 1.75;
+  line-height: 1.7;
   /* NO truncation - full text displayed */
 }
 
 /* Main Content Styling */
 .post-detail-content {
-  font-size: 22px;
+  font-size: 18px;
   color: var(--text-secondary);
   line-height: 1.8;
 }
 
 .post-detail-content h2 {
-  font-size: 33px;
+  font-size: 28px;
   font-weight: 700;
   color: var(--text-primary);
   margin: 48px 0 24px;
@@ -470,7 +485,7 @@ body {
 }
 
 .post-detail-content h3 {
-  font-size: 27px;
+  font-size: 22px;
   font-weight: 600;
   color: var(--text-primary);
   margin: 36px 0 18px;
@@ -494,7 +509,7 @@ body {
   background: var(--tag-bg);
   padding: 3px 9px;
   border-radius: 6px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 /* ===== AUTHOR SECTION ===== */
@@ -523,14 +538,14 @@ body {
 }
 
 .author-name {
-  font-size: 21px;
+  font-size: 18px;
   font-weight: 600;
   color: var(--text-primary);
   margin-bottom: 6px;
 }
 
 .author-bio {
-  font-size: 20px;
+  font-size: 16px;
   color: var(--text-muted);
   line-height: 1.6;
 }
@@ -551,7 +566,7 @@ body {
 }
 
 .footer-text {
-  font-size: 20px;
+  font-size: 16px;
   color: var(--text-muted);
   line-height: 1.6;
 }
@@ -577,7 +592,7 @@ body {
 }
 
 .about-title {
-  font-size: 48px;
+  font-size: 42px;
   font-weight: 700;
   color: var(--text-primary);
   margin-bottom: 48px;
@@ -585,7 +600,7 @@ body {
 }
 
 .about-content h2 {
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 700;
   color: var(--text-primary);
   margin: 48px 0 24px;
@@ -593,7 +608,7 @@ body {
 }
 
 .about-content p {
-  font-size: 22px;
+  font-size: 18px;
   color: var(--text-secondary);
   line-height: 1.8;
   margin-bottom: 24px;
@@ -604,7 +619,7 @@ body {
    ============================================ */
 @media screen and (min-width: 1154px) {
   .sidebar-ad {
-    display: block;
+    display: none !important;
   }
 
   .mobile-banner-ad {
@@ -627,7 +642,7 @@ body {
   }
 
   .mobile-banner-ad {
-    display: block;
+    display: none !important;
   }
 
   .main-content {
@@ -678,33 +693,38 @@ body {
     padding: 15px 0 45px;
   }
 
-  .ad-placeholder-banner {
-    height: 120px;
-  }
-
   /* Detail page mobile */
   .slang-detail {
     padding: 36px 24px 60px;
+    max-width: 100%;
   }
 
   .post-detail-title {
-    font-size: 42px;
+    font-size: 30px;
+  }
+
+  .detail-image {
+    max-height: 350px;
   }
 
   .detail-definition-section {
-    padding: 30px;
+    padding: 24px;
   }
 
   .detail-definition-text {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .post-detail-content {
-    font-size: 21px;
+    font-size: 16px;
   }
 
   .post-detail-content h2 {
-    font-size: 30px;
+    font-size: 24px;
+  }
+
+  .post-detail-content h3 {
+    font-size: 20px;
   }
 
   /* Author mobile */
@@ -720,7 +740,7 @@ body {
   }
 
   .footer-text {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   /* About mobile */
@@ -729,7 +749,15 @@ body {
   }
 
   .about-title {
-    font-size: 39px;
+    font-size: 33px;
+  }
+
+  .about-content h2 {
+    font-size: 24px;
+  }
+
+  .about-content p {
+    font-size: 16px;
   }
 }
 
@@ -779,7 +807,7 @@ body {
 
 /* Smooth scroll */
 html {
-  scroll-behavior: smooth;
+  scroll-booth: smooth;
 }
 
 /* Selection color */
