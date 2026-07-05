@@ -1,5 +1,5 @@
 ---
-title: "'Ghostlighting': The Dating Manipulation Tactic TikTok Is Warning You About (2026)"
+title: "Ghostlighting"
 date: 2026-07-05T00:00:00Z
 author: "GEBILAOWANG"
 tags: ['2026', 'dating', 'slang', 'gen-z', 'toxic']
