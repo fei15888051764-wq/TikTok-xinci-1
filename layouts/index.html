@@ -25,13 +25,13 @@
             <p class="page-subtitle" id="home-desc">Decoding viral words, Gen-Z lingo, and the latest TikTok terminology.</p>
         </header>
 
-        <!-- Slang Cards Grid: 21 desktop (7x3), 20 mobile (10x2) -->
+        <!-- Slang Cards Grid: 24 desktop (6x4), 22 mobile (11x2) -->
         {{- $allSlang := where .Site.RegularPages "Type" "slang" }}
         {{- $slangPages := sort $allSlang ".Date" "desc" }}
         <div class="cards-grid" id="cards-container">
             {{- if $slangPages }}
-            {{- range $idx, $page := first 21 $slangPages }}
-            <article class="slang-card{{ if eq $idx 20 }} desktop-only{{ end }}" data-title="{{ .Title | lower }}" data-tags="{{ range .Params.tags }}{{ . | lower }} {{ end }}" data-definition="{{ .Params.definition | lower }}" onclick="window.location.href='{{ .Permalink }}'">
+            {{- range $idx, $page := first 24 $slangPages }}
+            <article class="slang-card{{ if ge $idx 22 }} desktop-only{{ end }}" data-title="{{ .Title | lower }}" data-tags="{{ range .Params.tags }}{{ . | lower }} {{ end }}" data-definition="{{ .Params.definition | lower }}" onclick="window.location.href='{{ .Permalink }}'">
                 {{- if .Params.image }}
                 <div class="card-image">
                     <img src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy">
