@@ -1,7 +1,13 @@
 {{ define "main" }}
 {{- $isSlang := eq .Type "slang" }}
 {{- if $isSlang }}
-<div class="detail-container">
+<div class="home-container">
+    <!-- Left Sidebar Ad (Desktop Only) -->
+    <aside class="sidebar-ad" aria-label="Advertisement">
+        <div class="ad-placeholder-sidebar">
+            <span>AD</span>
+        </div>
+    </aside>
 {{- end }}
 
     <!-- Main Content Area -->
@@ -68,14 +74,26 @@
             </div>
             {{- end }}
 
+            <!-- Mobile Banner Ad: Top of content -->
+            <div class="mobile-banner-ad" id="ad-detail-content-top">
+                <div class="ad-placeholder-banner">
+                    <span>AD</span>
+                </div>
+            </div>
+
             {{/* Main content from markdown */}}
             {{- if .Content }}
-            <div class="post-detail-content" itemprop="articleBody">
+            <div class="post-detail-content" itemprop="articleBody" id="article-content">
                 {{ .Content }}
             </div>
             {{- end }}
 
-
+            <!-- Mobile Banner Ad: Middle of content (inserted via JS) -->
+            <div class="mobile-banner-ad" id="ad-detail-content-mid">
+                <div class="ad-placeholder-banner">
+                    <span>AD</span>
+                </div>
+            </div>
 
             {{- if $isSlang }}
             {{/* Author section - only for slang pages */}}
@@ -98,6 +116,13 @@
                     </div>
                 </div>
             </footer>
+
+            <!-- Mobile Banner Ad: Below author -->
+            <div class="mobile-banner-ad" id="ad-detail-author-below">
+                <div class="ad-placeholder-banner">
+                    <span>AD</span>
+                </div>
+            </div>
             {{- end }}
 
             {{/* Related articles section */}}
@@ -144,6 +169,12 @@
     </div>
 
 {{- if $isSlang }}
+    <!-- Right Sidebar Ad (Desktop Only) -->
+    <aside class="sidebar-ad" aria-label="Advertisement">
+        <div class="ad-placeholder-sidebar">
+            <span>AD</span>
+        </div>
+    </aside>
 </div>
 
 <!-- Shared Search Script (only for slang pages) -->

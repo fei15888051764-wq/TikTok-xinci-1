@@ -1,5 +1,12 @@
 {{ define "main" }}
 <div class="home-container">
+    <!-- Left Sidebar Ad (Desktop Only) -->
+    <aside class="sidebar-ad" aria-label="Advertisement">
+        <div class="ad-placeholder-sidebar">
+            <span>AD</span>
+        </div>
+    </aside>
+
     <div class="main-content">
         {{- partial "search-box.html" . }}
 
@@ -14,6 +21,13 @@
 
         <h1 class="section-title">All Tags</h1>
 
+        <!-- Mobile Banner Ad: Above tags -->
+        <div class="mobile-banner-ad" id="ad-tags-above">
+            <div class="ad-placeholder-banner">
+                <span>AD</span>
+            </div>
+        </div>
+
         <div class="tags-grid">
             {{- range .Data.Terms.Alphabetical }}
             <a href="{{ .Page.Permalink }}" class="tag-pill">
@@ -22,7 +36,21 @@
             </a>
             {{- end }}
         </div>
+
+        <!-- Mobile Banner Ad: Below tags -->
+        <div class="mobile-banner-ad" id="ad-tags-below">
+            <div class="ad-placeholder-banner">
+                <span>AD</span>
+            </div>
+        </div>
     </div>
+
+    <!-- Right Sidebar Ad (Desktop Only) -->
+    <aside class="sidebar-ad" aria-label="Advertisement">
+        <div class="ad-placeholder-sidebar">
+            <span>AD</span>
+        </div>
+    </aside>
 </div>
 
 {{- partial "search-script.html" . }}

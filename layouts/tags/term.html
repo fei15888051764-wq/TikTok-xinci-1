@@ -1,5 +1,12 @@
 {{ define "main" }}
 <div class="home-container">
+    <!-- Left Sidebar Ad (Desktop Only) -->
+    <aside class="sidebar-ad" aria-label="Advertisement">
+        <div class="ad-placeholder-sidebar">
+            <span>AD</span>
+        </div>
+    </aside>
+
     <!-- Main Content Area -->
     <div class="main-content">
         <!-- Search Section with Lunr.js -->
@@ -17,6 +24,13 @@
 
         <!-- Section Title - Tag Name -->
         <h1 class="section-title">{{ .Title }}</h1>
+
+        <!-- Mobile Banner Ad: Above cards -->
+        <div class="mobile-banner-ad" id="ad-tagterm-above">
+            <div class="ad-placeholder-banner">
+                <span>AD</span>
+            </div>
+        </div>
 
         <!-- Cards Grid for Slangs with this tag -->
         <div class="cards-grid">
@@ -38,7 +52,21 @@
             </article>
             {{- end }}
         </div>
+
+        <!-- Mobile Banner Ad: Below cards -->
+        <div class="mobile-banner-ad" id="ad-tagterm-below">
+            <div class="ad-placeholder-banner">
+                <span>AD</span>
+            </div>
+        </div>
     </div>
+
+    <!-- Right Sidebar Ad (Desktop Only) -->
+    <aside class="sidebar-ad" aria-label="Advertisement">
+        <div class="ad-placeholder-sidebar">
+            <span>AD</span>
+        </div>
+    </aside>
 </div>
 
 <!-- Shared Search Script -->

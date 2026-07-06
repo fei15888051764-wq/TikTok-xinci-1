@@ -1,5 +1,12 @@
 {{ define "main" }}
 <div class="home-container">
+    <!-- Left Sidebar Ad (Desktop Only) -->
+    <aside class="sidebar-ad" aria-label="Advertisement">
+        <div class="ad-placeholder-sidebar">
+            <span>AD</span>
+        </div>
+    </aside>
+
     <div class="main-content">
         {{- partial "search-box.html" . }}
 
@@ -14,11 +21,18 @@
 
         <h1 class="section-title">All Slang Words</h1>
 
+        <!-- Mobile Banner Ad: Row 1 above -->
+        <div class="mobile-banner-ad" id="ad-slang-row1-above">
+            <div class="ad-placeholder-banner">
+                <span>AD</span>
+            </div>
+        </div>
+
         {{- $allSlang := where .Site.RegularPages "Type" "slang" }}
         {{- $slangPages := sort $allSlang ".Date" "desc" }}
         <div class="cards-grid" id="cards-container">
             {{- if $slangPages }}
-                {{- range $slangPages }}
+                {{- range $idx, $page := $slangPages }}
                 <article class="slang-card" data-title="{{ .Title | lower }}" data-tags="{{ range .Params.tags }}{{ . | lower }} {{ end }}" data-definition="{{ .Params.definition | lower }}" onclick="window.location.href='{{ .Permalink }}'">
                     {{- if .Params.image }}
                     <div class="card-image">
@@ -45,6 +59,30 @@
                         </div>
                     </div>
                 </article>
+                {{- if eq $idx 9 }}
+                <!-- Mobile Banner Ad: Row 5 below (after 10th card) -->
+                <div class="mobile-banner-ad" id="ad-slang-row5-below">
+                    <div class="ad-placeholder-banner">
+                        <span>AD</span>
+                    </div>
+                </div>
+                {{- end }}
+                {{- if eq $idx 19 }}
+                <!-- Mobile Banner Ad: Row 10 below (after 20th card) -->
+                <div class="mobile-banner-ad" id="ad-slang-row10-below">
+                    <div class="ad-placeholder-banner">
+                        <span>AD</span>
+                    </div>
+                </div>
+                {{- end }}
+                {{- if eq $idx 29 }}
+                <!-- Mobile Banner Ad: Row 15 below (after 30th card) -->
+                <div class="mobile-banner-ad" id="ad-slang-row15-below">
+                    <div class="ad-placeholder-banner">
+                        <span>AD</span>
+                    </div>
+                </div>
+                {{- end }}
                 {{- end }}
             {{- else }}
             <div class="empty-state">
@@ -53,6 +91,13 @@
             {{- end }}
         </div>
     </div>
+
+    <!-- Right Sidebar Ad (Desktop Only) -->
+    <aside class="sidebar-ad" aria-label="Advertisement">
+        <div class="ad-placeholder-sidebar">
+            <span>AD</span>
+        </div>
+    </aside>
 </div>
 
 {{- partial "search-script.html" . }}
