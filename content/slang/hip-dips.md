@@ -1,61 +1,59 @@
 ---
 title: "Hip Dips"
-date: 2026-06-26T10:00:00+08:00
+date: 2026-06-28T00:00:00Z
+draft: false
 slug: "hip-dips"
-definition: "Natural inward curves below the hip bones where the skin follows the shape of the pelvis. A normal anatomical variation that has become a topic of body positivity discussions on TikTok."
-tags: ["gen-z", "wellness", "2026"]
 pos: "slang"
+definition: "The inward curves below the hip bones on each side of the body. The term became a TikTok trend as part of body positivity discussions, with users celebrating hip dips as a natural body feature rather than a flaw to fix."
+tags: ["gen-z", "wellness"]
+categories: ["slang"]
+author: "GEBILAOWANG"
 image: "/images/slang/hip-dips.jpg"
 ---
 
+## Pronunciation
+/hɪp dɪps/
+
 ## What Are "Hip Dips"?
 
-Hip dips refer to the natural inward curves that occur just below the hip bones, where the skin follows the contour of the underlying pelvis structure. This is a completely normal anatomical variation determined by bone structure, muscle placement, and genetics. Some individuals have more visible hip dips, while others have smoother transitions—both are equally natural and healthy.
+**AI Overview Core Extraction:** Hip dips are the inward curves below the hip bones on each side of the body. The term became a TikTok trend as part of body positivity discussions, with users celebrating hip dips as a natural body feature rather than a flaw to fix.
 
-In 2026, the term gained significant attention on TikTok as part of broader conversations about body diversity and self-acceptance. Rather than being framed as something to change, hip dips have become a symbol in body positivity movements that encourage people to appreciate their natural body structure. The discussion has helped many understand that visible hip dips are simply how some bodies are built, not a flaw or condition.
+## The Origins of "Hip Dips" as a Trend
 
-## Usage Examples
+While "hip dips" is an anatomical description that has existed for years, it became a viral TikTok topic in 2025-2026. The trend emerged as a counter-movement to the fitness industry's previous messaging that hip dips were something to be "fixed" through specific exercises.
 
-| Example | Context | Tone |
-|---------|---------|------|
-| "Learning that hip dips are just bone structure changed everything for me." | Body acceptance realization | Empowering |
-| "Hip dips are normal and beautiful, pass it on." | Sharing body positivity message | Supportive |
-| "POV: you finally stopped trying to hide your hip dips." | Self-acceptance journey | Celebratory |
-| "Can we normalize hip dips already? They're just anatomy." | Advocating for body diversity | Educational |
+## How "Hip Dips" Became a Body Positivity Movement
 
-## Origin & Spread
+TikTok creators began posting videos showing their hip dips and explaining that they're a completely normal anatomical feature caused by bone structure, not something that can be changed through exercise. The trend gained momentum as users shared before-and-after photos proving that hip dips are natural and beautiful.
 
-| Attribute | Detail |
-|-----------|--------|
-| **First Appearance** | Body positivity communities, popularized on TikTok in 2026 |
-| **Origin** | Natural anatomical feature; term popularized through wellness content |
-| **Primary Users** | Body positivity advocates, wellness creators, Gen Z and Gen Alpha |
-| **Peak Period** | June 2026 |
+## Real Usage in Native Context
 
-The conversation around hip dips gained momentum on TikTok in June 2026 when creators began sharing educational content about body anatomy. The movement focused on explaining that hip dips are determined by the shape of the pelvis and the attachment points of muscles and ligaments—not by weight, fitness level, or any other lifestyle factor. This educational approach helped shift the narrative from insecurity to understanding and acceptance.
+> **TikTok Caption:** "Hip dips are normal, beautiful, and NOT something you need to fix. Here's why 👇"
 
-## Cultural Context
+> **Comment:** "I spent years trying to get rid of my hip dips before I realized they're literally just my bone structure"
 
-The discussion around hip dips reflects a broader cultural shift toward body diversity and self-acceptance on social media. Rather than promoting a single body type as ideal, the 2026 body positivity movement on TikTok emphasizes understanding anatomy and appreciating natural variations. This approach has been particularly impactful for younger users who are exposed to a wider range of body types and educational content about anatomy than previous generations.
+## Why This Trend Matters
+
+The hip dips trend is part of a broader movement toward body neutrality and acceptance. It challenges the fitness industry's history of creating insecurities to sell solutions. By normalizing hip dips, TikTok creators are helping people accept their natural bodies.
 
 ## Related Concepts
 
-- **Body positivity** — a movement promoting acceptance of all body types
-- **Anatomical diversity** — natural variations in human body structure
-- **Self-acceptance** — the practice of embracing one's natural physical characteristics
+- **Body positivity** — accepting all body types
+- **Body neutrality** — viewing your body as functional rather than purely aesthetic
+- **TikTok wellness** — health and fitness content on TikTok
 
-## FAQ
+## Frequently Asked Questions
 
-**Q: Are hip dips normal?**
-A: Yes, hip dips are a completely normal anatomical variation caused by bone structure. They are not a medical condition or a sign of anything being wrong.
+- **Q:** Can you get rid of hip dips?
+  **A:** No, hip dips are caused by your bone structure (the shape of your pelvis and femur). They cannot be eliminated through exercise, though building muscle can change their appearance slightly.
 
-**Q: Can exercises remove hip dips?**
-A: Hip dips are determined by bone structure, so they cannot be significantly changed through exercise. Building muscle in the surrounding areas may alter their appearance slightly, but the underlying structure remains the same.
+- **Q:** Are hip dips healthy?
+  **A:** Yes, hip dips are completely normal and healthy. Their presence or absence says nothing about your health or fitness level.
 
-**Q: Why did hip dips become a TikTok topic?**
-A: Creators began sharing educational content about anatomy, helping people understand that hip dips are natural and nothing to be concerned about.
+- **Q:** Why did the fitness industry say hip dips were bad?
+  **A:** The fitness industry historically created aesthetic "problems" to sell solutions. Hip dips were framed as something to fix so companies could sell workout programs targeting them.
 
 ## Sources
 
-- Healthline — "What Are Hip Dips?" [https://www.healthline.com/health/hip-dips]
-- Glamour — "Hip Dips Are the Latest Instagram Trend in Body Empowerment" [https://www.glamour.com/story/hip-dips-body-positive]
+- Healthline — "Hip Dips: Why They Happen and Why They're Normal" [https://www.healthline.com/health/hip-dips]
+- Verywell Fit — "What Are Hip Dips?" [https://www.verywellfit.com/what-are-hip-dips-5104956]

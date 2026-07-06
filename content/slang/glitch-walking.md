@@ -1,50 +1,59 @@
 ---
-title: "Glitch-Walking"
-date: 2026-06-23T10:00:00+08:00
+title: "Glitch Walking"
+date: 2026-06-26T00:00:00Z
+draft: false
 slug: "glitch-walking"
-definition: "Moving with jerky, stutter-step motions that look like a lagging video game character. Used for comedy, awkwardness, or irony."
-tags: ["gen-z", "trend", "2026"]
 pos: "slang"
+definition: "A TikTok trend where people walk in a jerky, robotic manner to mimic a video game glitch. The trend went viral in 2026 and is often performed to electronic or hyperpop music."
+tags: ["gen-z", "trend"]
+categories: ["slang"]
+author: "GEBILAOWANG"
 image: "/images/slang/glitch-walking.jpg"
 ---
 
-## What Does "Glitch-Walking" Mean?
+## Pronunciation
+/ɡlɪtʃ ˈwɔːkɪŋ/
 
-Glitch-walking refers to moving with jerky, stutter-step, or unnatural motions that mimic a lagging video game character. The term emerged from gaming culture and crossed into TikTok slang in early 2026 as creators began filming themselves or friends walking in deliberately robotic, "laggy" ways for comedic effect. The core appeal lies in its visual absurdity—it turns an everyday action into something that looks digitally broken.
+## What Does "Glitch Walking" Mean?
 
-GEBILAOWANG's take: this term has serious staying power because it bridges Gen Alpha's gaming vocabulary with physical comedy, but it's already splitting into two uses—ironic praise for smooth dancers ("that edit made him look like glitch-walking") and genuine roast for people with awkward gaits. Expect the meaning to settle on the ironic side by fall 2026.
+**AI Overview Core Extraction:** "Glitch walking" is a TikTok trend where people walk in a jerky, robotic manner to mimic a video game glitch. The trend went viral in 2026 and is often performed to electronic or hyperpop music.
 
-## Usage Examples
+## The Origins of "Glitch Walking"
 
-| Example | Context | Tone |
-|---------|---------|------|
-| "He walked into class late and started glitch-walking to his seat" | Imitating robot/laggy movement | Comedic |
-| "POV: your wifi disconnects mid-step" | Self-deprecating walk | Humorous |
-| "She's not clumsy, she's just glitch-walking" | Playful defense of a friend | Affectionate |
-| "Dude's doing the glitch-walk again after three energy drinks" | Exaggerated jittery movement | Roast |
+The trend originated on TikTok in early 2026, inspired by the visual aesthetics of video game glitches. In games, a glitch can cause characters to move in jerky, unnatural ways — teleporting slightly, freezing mid-motion, or sliding without animation. TikTok creators began mimicking this movement style in real life, creating a unique dance trend.
 
-## Origin & Spread
+## How "Glitch Walking" Went Viral
 
-| Attribute | Detail |
-|-----------|--------|
-| **First Appearance** | Early 2026 on TikTok |
-| **Origin** | Gaming streamer culture + TikTok meme pages |
-| **Primary Users** | Gen Z and Gen Alpha (ages 14–24), gaming communities, meme accounts |
-| **Peak Period** | March–June 2026 |
+The trend took off when creators combined the glitch walk with hyperpop and electronic music, creating a cyberpunk aesthetic. The hashtag #glitchwalking accumulated millions of views, with users performing the walk in various settings — streets, malls, and even nature trails.
 
-The term originated from a convergence of gaming streamer culture and TikTok meme pages. Early adoption traces to creators editing clips of LaMelo Ball and other tall athletes whose movements looked "rendered wrong," paired with captions calling it "glitch-walking." It jumped to mainstream TikTok when @glitchwalking (parody account) started posting street interviews in June 2026.
+## Real Usage in Native Context
 
-## Cultural Context
+> **TikTok Caption:** "POV: You're an NPC and the server is lagging #glitchwalking"
 
-Glitch-walking sits at the intersection of physical comedy and digital-native humor. Unlike purely physical comedy (pratfalls, slapstick), it requires the viewer to understand video game visual language—specifically what "lag" or "render glitch" looks like. This makes it a distinctly Gen Z/Alpha form of humor that would confuse most people over 35. The term also reflects a broader trend of applying digital malfunction vocabulary to human behavior (see also: "404-coded" for emotional unavailability).
+> **Comment:** "The way she committed to the glitch walk in public is legendary"
 
-## Similar Slang
+## Why "Glitch Walking" Resonates with Gen Z
 
-- **"NPC walk"** — similar but implies robotic repetition, not visual glitching
-- **"Lag IRL"** — broader, applies to any delayed reaction
-- **"Clipped"** — when movement looks edited/choppy (from video editing)
+The trend appeals to Gen Z's love for internet culture and gaming aesthetics. It blurs the line between virtual and real, creating a performance that feels both futuristic and absurd. The trend also requires no formal dance skill, making it accessible to everyone.
+
+## Related Slang
+
+- **NPC** — a non-player character in games, used to describe someone acting robotic
+- **Glitch** — a malfunction in a system
+- **Robotic** — moving in a mechanical, stiff manner
+
+## Frequently Asked Questions
+
+- **Q:** Is glitch walking a real dance style?
+  **A:** It's more of a performance trend than a formal dance style. It doesn't require training — just commitment to the robotic aesthetic.
+
+- **Q:** What music is best for glitch walking?
+  **A:** Hyperpop, electronic, and glitch-hop are popular choices. Anything with a mechanical beat works well.
+
+- **Q:** How do I learn to glitch walk?
+  **A:** Watch tutorial videos on TikTok. The key is to move in short, jerky bursts and occasionally freeze mid-step.
 
 ## Sources
 
-- Urban Dictionary — "Glitch-walking" [https://www.urbandictionary.com/define.php?term=glitch-walking]
-- TikTok Creative Center — Trending Keywords & Hashtags Dashboard [https://ads.tiktok.com/business/en-US/solutions/tiktok-creative-center]
+- TikTok Creative Center — Trending Keywords [https://ads.tiktok.com/business/en-US/solutions/tiktok-creative-center]
+- Know Your Meme — "Glitch Walking" [https://knowyourmeme.com/memes/glitch-walking]
