@@ -43,7 +43,7 @@
                 <p class="slang-definition">{{ .Params.definition }}</p>
                 <div class="card-footer">
                     <div class="tags-group">
-                        {{- range .Params.tags }}
+                        {{- range where .Params.tags "ne" "2026" }}
                         <span class="tag-item">{{ . }}</span>
                         {{- end }}
                     </div>

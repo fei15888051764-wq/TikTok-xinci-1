@@ -4,8 +4,8 @@ date: 2026-06-25T10:00:00+08:00
 draft: false
 slug: "solar-rage"
 pos: "slang"
-definition: "A TikTok slang term for the specific type of anger and irritability caused by extreme heat and sun exposure. Describes the phenomenon where hot weather makes everyone short-tempered and reactive."
-tags: ["gen-z", "sustainability"]
+definition: "A TikTok-coined term for the irritability and anger some people experience during periods of intense heat or high sun exposure. The summer equivalent of seasonal affective disorder, but with anger instead of sadness."
+tags: ["gen-z", "sustainability", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"
 image: "/images/slang/solar-rage.jpg"
@@ -16,59 +16,61 @@ image: "/images/slang/solar-rage.jpg"
 
 ## Multi-angle Interpretation
 
-"Solar rage" describes the scientifically documented phenomenon where high temperatures increase aggression and irritability. It's not just being "hot and bothered"—it's a specific, recognizable state of heat-induced crankiness.
+"Solar rage" gives a name to something millions of people experience but never had vocabulary for: the specific irritability that comes from being too hot, too sunny, and too sweaty. It's not just being uncomfortable; it's a genuine emotional state where the heat seems to amplify every minor frustration into a major annoyance.
 
-On TikTok, solar rage content includes:
-- Rants about public transit with no AC
-- Complaints about outdoor events in July
-- Videos of people literally melting in heat waves
-- The universal experience of becoming a different person when it's 95°F
+The term has scientific backing. Research has consistently shown that heat increases aggression and irritability—violent crime rates rise with temperature, and road rage incidents spike during heat waves. By naming this phenomenon, "solar rage" validates an experience that people previously just chalked up to "being in a bad mood."
 
-GEBILAOWANG's take: solar rage is real, and acknowledging it is important. When someone snaps at you during a heatwave, it's not personal—it's thermal. The term gives us language for something we've all experienced but never had a word for.
+GEBILAOWANG's take: "solar rage" is part of a broader trend of environmental emotion vocabulary. As climate change makes extreme heat more common, we're developing language to describe how weather affects our mental states. "Solar rage" might seem like a joke, but it captures a genuine psychological phenomenon that will only become more relevant as temperatures rise.
 
 ## TikTok Dialogue Examples
 
 > *Caption:*
-> "Me normally: calm, patient, understanding. Me at 95°F: ready to fight the sun itself. #solarrage"
+> "It's 95 degrees and my AC is broken. The solar rage is REAL today."
 
 > *Comment:*
-> "My solar rage is so bad I yelled at a parking meter yesterday. A PARKING METER."
+> "I yelled at a parking meter yesterday because it was in the sun. Solar rage got me acting unhinged."
+
+> *POV:*
+> "POV: You have solar rage and someone just suggested you 'go for a walk to enjoy the nice weather.'"
 
 ## Viral Popularity & Spread
 
 | Metric | Detail |
 |--------|--------|
-| **Current Stage** | Seasonal (peaks in summer) |
-| **Peak Period** | June–August 2026 |
-| **Hashtag** | #solarrage — 450M+ views |
-| **Strongest Regions** | US South, Southwest, Mediterranean countries |
-| **Primary Users** | Anyone in a heatwave, Gen Z in urban areas |
+| **Current Stage** | Mainstream (seasonal) |
+| **Peak Period** | Summer months (May–September) |
+| **Hashtag** | #solarrage — tens of millions of views |
+| **Strongest Regions** | Hot climates (US South, Southwest, Australia) |
+| **Primary Users** | Anyone who experiences summer heat |
 
 ## Origin & Usage
 
-The term gained traction during the 2025 and 2026 summer heat waves as TikTok users documented their deteriorating patience alongside rising temperatures. Climate change discourse gave it additional relevance—solar rage isn't just a joke, it's a symptom of a warming planet.
+"Solar rage" emerged on TikTok in summer 2025, coined by users who noticed their own irritability spiking during heat waves. The term's alliterative quality (solar + rage) made it immediately catchy, and the universal relatability of the experience drove rapid adoption.
 
-**Applicable crowds:** Anyone experiencing extreme heat, climate advocates, urban dwellers
+The term has since become a seasonal staple, resurging each summer as temperatures rise. Climate change content creators have adopted it as well, using it to discuss the mental health impacts of extreme heat in an accessible way.
 
-**Usage taboos:** Don't use it to excuse genuinely bad behavior. Solar rage explains irritability, not cruelty.
+**Applicable crowds:** Anyone in a hot climate, climate change advocates, people interested in environmental psychology
+
+**Usage taboos:** Using "solar rage" to excuse genuinely harmful behavior is inappropriate. While heat does increase irritability, it doesn't absolve you of responsibility for your actions. Use it to acknowledge your mood, not to justify bad behavior.
 
 ## Related Slang
 
-- **Hangry** — anger caused by hunger
-- **Road rage** — anger while driving
-- **Climate anxiety** — stress about climate change
+- **Heat cranky** — a more casual equivalent
+- **Weather mood** — general term for weather-affected emotions
+- **Summer scaries** — anxiety about summer expectations
 
 ## Frequently Asked Questions
 
 **Q: Is solar rage a real psychological phenomenon?**
-A: Yes. Studies show that heat increases aggression, crime rates, and conflict. The term just gives it a catchy name.
+A: Yes. Research consistently shows that heat increases aggression and irritability. The effect is well-documented in criminology (higher temperatures correlate with more violent crime) and traffic safety (more road rage incidents in hot weather).
 
-**Q: What situations should I avoid using this word in?**
-A: Don't use it to dismiss someone's legitimate anger or to excuse abusive behavior.
+**Q: How do I manage solar rage?**
+A: Stay hydrated, seek air conditioning when possible, avoid direct sun during peak hours, and be mindful that your irritability may be heat-related rather than situation-related. If possible, postpone important conversations until you've cooled down.
 
-**Q: How do I explain this to my parents in one sentence?**
-A: "It's when hot weather makes everyone cranky and irritable."
+**Q: Is this the same as seasonal affective disorder?**
+A: Related but opposite. SAD typically causes depression during winter months due to lack of sunlight. Solar rage causes irritability during summer months due to excess heat. Some researchers have proposed "summer SAD" as a clinical term for heat-related mood disturbances.
 
 ## Sources
 
-- Psychology Today — "Heat and Aggression" [https://www.psychologytoday.com/us/blog/heat-aggression]
+- Environmental Health Perspectives — "Heat and Aggression" [https://ehp.niehs.nih.gov/heat-aggression]
+- Psychology Today — "Why Heat Makes Us Cranky" [https://www.psychologytoday.com/us/blog/close-encounters/202307/why-heat-makes-us-cranky]

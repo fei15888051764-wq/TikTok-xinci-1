@@ -50,7 +50,7 @@
                         <div class="card-footer">
                             {{- if .Params.tags }}
                             <div class="tags-group">
-                                {{- range first 3 .Params.tags }}
+                                {{- range first 3 (where .Params.tags "ne" "2026") }}
                                 <a href="/tags/{{ . | urlize }}/" class="tag-item-link">{{ . }}</a>
                                 {{- end }}
                             </div>

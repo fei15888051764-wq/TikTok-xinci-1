@@ -5,7 +5,7 @@ draft: false
 slug: "stack-dating"
 pos: "slang"
 definition: "A 2025-2026 TikTok trend where singles schedule multiple dates back-to-back in a single day to maximize efficiency. Popular among Gen Z, the practice treats dating as an optimizable activity — but psychologists warn it may prevent genuine connection from forming."
-tags: ["gen-z", "dating", "tiktok-trend", "relationships"]
+tags: ["gen-z", "dating", "tiktok-trend", "relationships", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"
 image: "/images/slang/stack-dating.jpg"
