@@ -1,1 +1,48 @@
-LS0tCnRpdGxlOiAiQmlyZCIKZGF0ZTogMjAyNi0wNy0wMVQwMDowMDowMFoKZHJhZnQ6IGZhbHNlCnNsdWc6ICJiaXJkIgpwb3M6ICJzbGFuZyIKZGVmaW5pdGlvbjogIkEgdGVybSB1c2VkIGFtb25nIHRlZW5zIHRvIHJlZmVyIHRvIGEgZ2lybCwgb2Z0ZW4gaW4gYSBwbGF5ZnVsIG9yIGluZm9ybWFsIHdheS4gSXQgY2FuIGFsc28gcmVmZXIgdG8gc29tZW9uZSB3aG8gaXMgY2x1bXN5IG9yIGF3a3dhcmQgYXJvdW5kIHBlb3BsZSB0aGV5IGZpbmQgYXR0cmFjdGl2ZS4iCnRhZ3M6IFsiZ2VuLXoiLCAic2xhbmciXQpjYXRlZ29yaWVzOiBbInNsYW5nIl0KYXV0aG9yOiAiR0VC SUxBT1dBTkciCmltYWdlOiAiL2ltYWdlcy9zbGFuZy9iaXJkLmpwZyIKLS0tCgojIyBQcm9udW5jaWF0aW9uCi9iərdvLwoKIyMgV2hhdCBEb2VzICJCaXJkIiBNZWFuPwoKKipBSSBPdmVydmlldyBDb3JlIEV4dHJhY3Rpb246KiogIkEgdGVybSB1c2VkIGFtb25nIHRlZW5zIHRvIHJlZmVyIHRvIGEgZ2lybCwgb2Z0ZW4gaW4gYSBwbGF5ZnVsIG9yIGluZm9ybWFsIHdheS4gSXQgY2FuIGFsc28gcmVmZXIgdG8gc29tZW9uZSB3aG8gaXMgY2x1bXN5IG9yIGF3a3dhcmQgYXJvdW5kIHBlb3BsZSB0aGV5IGZpbmQgYXR0cmFjdGl2ZS4iCgojIyBUaGUgT3JpZ2lucyBvZiAiQmlyZCIKCkl0IG1heSBzZWVtIHN0cmFuZ2UgZm9yIGEgd29yZCB0aGF0IGhhcyBiZWVuIGFyb3VuZCBmb3IgY2VudHVyaWVzIHRvIGhhdmUgYSBtb2Rlcm4gc2xhbmcgY29ubm90YXRpb24sIGJ1dCBpbiB0aGUgY29udGV4dCBvZiBzb2NpYWwgbWVkaWEsICJiaXJkIiBoYXMgZXZvbHZlZC4gV2hpbGUgaXRzIHVzYWdlIGFzIHN5bm9ueW1vdXMgd2l0aCAiZ2lybCIgaGFzIGJlZW4gZG9jdW1lbnRlZCBpbiB1cmJhbiBkaWN0aW9uYXJpZXMgYW5kIG11c2ljIGx5cmljcyBmb3IgZGVjYWRlcywgaXRzIHJlY2VudCBwb3B1bGFyaXR5IG9uIFRpa1RvayBoYXMgZ2l2ZW4gaXQgYSBuZXcgc2hpbmUuCgojIyBXaHkgIkJpcmQiIGlzIFRpayBUb2sgUG9wdWxhcgoKV2hlbiB5b3Ugc2Nyb2xsIHRocm91Z2ggVGlrVG9rLCB5b3UgbWlnaHQgc3R1bWJsZSB1cG9uIHJlZmVyZW5jZXMgdG8gInRoZSBiaXJkcyIg4oCUIG5vdCBpbiBhIGxpdGVyYWwsIGF2aWFuIHNlbnNlLCBidXQgYXMgYSBjaGVlcmZ1bCBzaG91dC1vdXQgdG8gZnJpZW5kcy4gVGhlIHdvcmQgaGFzIGJlY29tZSBhIGNhc3VhbCB0ZXJtIG9mIGVuZGVhcm1lbnQgYW5kIGNhbWFyYWRlcmllLCB0eXBpY2FsbHkgdXNlZCBieSB5b3VuZyBwZW9wbGUgaW4gdGhlIFVLIHRvIHJlZmVyIHRvIGdpcmxzIG9yIHdvbWVuLiBIZWFyZCBpbiBwb3B1bGFyIFVLIHRlbGV2aXNpb24gc2hvd3MgYW5kIG1vdmllcywgY2hhcmFjdGVycyB3aWxsIG9mdGVuIHVzZSAiYmlyZCIgaW4gY29udmVyc2F0aW9uLCB3aGljaCBoYXMgaGVscGVkIGl0IHJlbWFpbiBhIHBlcnNpc3RlbnQgcGFydCBvZiB0aGUgbGV4aWNvbi4KCiMjIFJlYWwgVXNhZ2UgaW4gTmF0aXZlIENvbnRleHQKCj4gKipUaWtUb2sgQ29tbWVudDoqKiAiSGVyIGZyaWVuZCBpcyBzdWNoIGEgYmlyZCwgc2hlIGFsd2F5cyBrbm93cyBob3cgdG8gbWFrZSBtZSBsYXVnaC4iCgo+ICoqR3JvdXAgQ2hhdDoqKiAiRnJpZW5kOiBXaG8ncyB0aGF0IG5ldyBiaXJkIGluIHlvdXIgY2xhc3M/IC8gTWU6IE9oLCB0aGF0J3MgTWFkZHksIHNoZSBpcyBzdXBlciBuaWNlISIKCiMjIEZyZXF1ZW50bHkgQXNrZWQgUXVlc3Rpb25zCgotICoqUToqKiBJcyAiYmlyZCIgb2ZmblNpdmU/ CiAgKipBOioqIFRoZSB0ZXJtIGlzIGdlbmVyYWxseSBzZWVuIGFzIGluZm9ybWFsIGFuZCBwbGF5ZnVsLCBidXQgY29udGV4dCBpcyBldmVyeXRoaW5nLiBTb21lIHBlb3BsZSBtYXkgZmluZCBpdCBhIGJpdCBjb25kZXNjZW5kaW5nIGlmIHVzZWQgaW4gYSBtb2NraW5nIHRvbmUuCgotICoqUToqKiBXYW4ndCBwZW9wbGUganVzdCBzYXkgImdpcmwiPwogICoqQToqKiBXaGlsZSAiZ2lybCIgaXMgdGhlIG1vcmUgdHJhZGl0aW9uYWwgdGVybSwgImJpcmQiIGhhcyBhIHNwZWNpZmljIGN1bHR1cmFsIGZsdWF2b3IuIEl0J3Mgb2Z0ZW4gdXNlZCBpbiBhIGxpZ2h0LWhlYXJ0ZWQgb3IgY2hlZXJmdWwgd2F5LCB3aGljaCBpcyB3aHkgaXQgaGFzIHJlc29uYXRlZCB3aXRoIHlvdW5nZXIgZ2VuZXJhdGlvbnMuCgotICoqUToqKiBXaGVyZSBkaWQgdGhpcyB1c2FnZSBjb21lIGZyb20/ CiAgKipBOioqIFRoZSB1c2FnZSBvZiAiYmlyZCIgdG8gbWVhbiBnaXJsIGhhcyBiZWVuIGFyb3VuZCBpbiB0aGUgVUsgZm9yIGdlbmVyYXRpb25zLCBidXQgaXRzIHBvcHVsYXJpdHkgb24gc29jaWFsIG1lZGlhIGhhcyBtYWRlIGl0IGdsb2JhbC4KCiMjIFNvdXJjZXMKCi0gVXJiYW4gRGljdGlvbmFyeSDigJQgIkJpcmQiIFt+aHR0cHM6Ly93d3cudXJiYW5kaWN0aW9uYXJ5LmNvbS9kZWZpbmUucGhwP3Rlcm09YmlyZF0K
+---
+title: "Bird"
+date: 2026-06-28T00:00:00Z
+draft: false
+slug: "bird"
+pos: "slang"
+definition: "A term used among teens to refer to a girl, often in a playful or informal way. It can also refer to someone who is clumsy or awkward around people they find attractive."
+tags: ["gen-z", "slang"]
+categories: ["slang"]
+author: "GEBILAOWANG"
+image: "/images/slang/bird.jpg"
+---
+
+## Pronunciation
+/bɜːrd/
+
+## What Does "Bird" Mean?
+
+**AI Overview Core Extraction:** "A term used among teens to refer to a girl, often in a playful or informal way. It can also refer to someone who is clumsy or awkward around people they find attractive."
+
+## The Origins of "Bird"
+
+It may seem strange for a word that has been around for centuries to have a modern slang connotation, but in the context of social media, "bird" has evolved. While its usage as synonymous with "girl" has been documented in urban dictionaries and music lyrics for decades, its recent popularity on TikTok has given it a new shine.
+
+## Why "Bird" is Tik Tok Popular
+
+When you scroll through TikTok, you might stumble upon references to "the birds" — not in a literal, avian sense, but as a cheerful shout-out to friends. The word has become a casual term of endearment and camaraderie, typically used by young people in the UK to refer to girls or women. Heard in popular UK television shows and movies, characters will often use "bird" in conversation, which has helped it remain a persistent part of the lexicon.
+
+## Real Usage in Native Context
+
+> **TikTok Comment:** "Her friend is such a bird, she always knows how to make me laugh."
+
+> **Group Chat:** "Friend: Who's that new bird in your class? / Me: Oh, that's Maddy, she is super nice!"
+
+## Frequently Asked Questions
+
+- **Q:** Is "bird" offensive?
+  **A:** The term is generally seen as informal and playful, but context is everything. Some people may find it a bit condescending if used in a mocking tone.
+
+- **Q:** Won't people just say "girl"?
+  **A:** While "girl" is the more traditional term, "bird" has a specific cultural flavor. It's often used in a light-hearted or cheerful way, which is why it has resonated with younger generations.
+
+- **Q:** Where did this usage come from?
+  **A:** The usage of "bird" to mean girl has been around in the UK for generations, but its popularity on social media has made it global.
+
+## Sources
+
+- Urban Dictionary — "Bird" [~https://www.urbandictionary.com/define.php?term=bird]

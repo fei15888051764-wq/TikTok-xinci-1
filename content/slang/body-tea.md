@@ -1,1 +1,51 @@
-LS0tCnRpdGxlOiAiQm9keSBUZWEiCmRhdGU6IDIwMjYtMDYtMjhUMDA6MDA6MDBaCnNsdWc6ICJib2R5LXRlYSIKcG9zOiAic2xhbmciCmRlZmluaXRpb246ICJBIFRpa1RvayB0ZXJtIHJlZmVycmluZyB0byB0aGUgbGF0ZXN0IGdvc3NpLCBkcmFtYSwgb3IgdGhlbWUgaW52b2x2aW5nIGEgY2VsZWJyaXR5IG9yIGluZmx1ZW5jZXIuIEl0IGRlc2NyaWJlcyB0aGUgaW5uZXIgY2lyY2xlIG9yIHBlcnNvbmFsIGxpZmUgb2YgYSBwdWJsaWMgZmlndXJlLiAiCnRhZ3M6IFsiZ2VuLXoiLCAic2xhbmciXQpjYXRlZ29yaWVzOiBbInNsYW5nIl0KYXV0aG9yOiAiR0VC SUxBT1dBTkciCmltYWdlOiAiL2ltYWdlcy9zbGFuZy9ib2R5LXRlYS5qcGciCi0tLQoKIyMgUHJvbnVuY2lhdGlvbgovˈb0diIHRpXHWvLwoKIyMgV2hhdCBEb2VzICJCb2R5IFRlYSIgTWVhbj8KCioqQUkgT3ZlcnZpZXcgQ29yZSBFeHRyYWN0aW9uOioqICJBIHRlcm0gcmVmZXJyaW5nIHRvIHRoZSBsYXRlc3QgZ29zc2ksIGRyYW1hLCBvciB0aGVtZSBpbnZvbHZpbmcgYSBjZWxlYnJpdHkgb3IgaW5mbHVlbmNlci4gSXQgZGVzY3JpYmVzIHRoZSBpbm5lciBjaXJjbGUgb3IgcGVyc29uYWwgbGlmZSBvZiBhIHB1YmxpYyBmaWd1cmUuICIKCgojIyBUaGUgT3JpZ2lucyBvZiAiQm9keSBUZWEiCgpUaGUgdGVybSAiQm9keSBUZWEiIGhhcyBiZWVuIGFyb3VuZCBmb3IgYWN0dWFsbHkgcXVpdGUgc29tZSB0aW1lLCBidXQgaXRzIHJlY2VudCBwb3B1bGFyaXR5IG9uIFRpa1RvayBoYXMgZ2l2ZW4gaXQgYSBuZXcgbGlmZS4gVGhlIHRlcm0gaXMgZGVyaXZlZCBmcm9tIHRoZSBpZGVhIG9mICJ0ZWEiIGFzIGluICJnb3NzaXAiIG9yICJuZXdzLCJiZXNwZWNpYWxseSB0aGF0IHdoaWNoIGlzIHNhbGFjaW91cyBvciBzZW5zYXRpb25hbC4gIgojIyBXaHkgIkJvZHkgVGVhIiBJcyBQb3B1bGFyCgpUaGUgcGhyYXNlICJib2R5IHRlYSIgaXMgZ2FpbiB0cmFjdGlvbiBiZWNhdXNlIGl0IGNhcHR1cmVzIHRoZSBwdWJsaWMncyBmYXNjaW5hdGlvbiB3aXRoIGNlbGVicml0eSBjdWx0dXJlLiBXaGVuIHBlb3BsZSBzYXkgdGhleSB3YW50IHRoZSAiYm9keSB0ZWEiLCB0aGV5IGFyZSByZWZlcnJpbmcgdG8gdGhlIGxhdGVzdCBpbm5lciBzZWNyZXRzLCBzY2FuZGFscywgb3IgcGVyc29uYWwgZHJhbWEgaW52b2x2aW5nIGEgd2VsbC1rbm93biBmaWd1cmUuIFRoaXMgdHlwZSBvZiBjb250ZW50IGlzIGhpZ2hseSBlbmdhZ2luZyBiZWNhdXNlIGl0IGZlZWRzIGludG8gdGhlIGh1bWFuIGRlc2lyZSBmb3Igc3RvcnkgYW5kIGNvbm5lY3Rpb24uIAoKIyMgUmVhbCBVc2FnZSBpbiBOYXRpdmUgQ29udGV4dAoKPiAqKlRpa1RvayBDb21tZW50OioqICJIYXZlIHlvdSBoZWFyZCB0aGUgbGF0ZXN0IGJvZHkgdGVhPyBJdCdzIGluc2FuZSEiCgo+ICoqR3JvdXAgQ2hhdDoqKiAiRGlkIHlvdSBzZWUgd2hhdCBzYWhlIHNhaWQ/IEJsb3cgbXkgbWluZCEgVGhlIGJvZHkgdGVhIGlzIHJlYWwuIgoKPiAqKlR3ZWV0OioqICJUaGUgYm9keSB0ZWEgaXMgdG9vIGhvdCB0byBoYW5kbGUgdG9kYXkuICIKCgojIyBGcmVxdWVudGx5IEFza2VkIFF1ZXN0aW9ucwoKLSAqKlE6KiBEb2VzICJib2R5IHRlYSIgaGF2ZSBhIG5lZ2F0aXZlIGNvbm5vdGF0aW9uPwogICoqQToqKiBJdCBjYW4uIFdoaWxlIGl0IG9mdGVuIHJlZmVycyB0byBqdXN0IGdvc3NpIG9yIGRhbWEsIGl0IGNhbiBzb21ldGltZXMgaW1wbHkgdGhlIHNwcmVhZCBvZiBwcml2YXRlIGluZm9ybWF0aW9uLiAgCgotICoqUToqKiBJcyB0aGVyZSBhIHNpbWlsYXIgdGVybT8KICAqKkE6KiogV2hpbGUgdGhlcmUgaXMgbm8gZGlyZWN0IHN5bm9ueW0sIHRlcm1zIGxpa2UgImdvc3MiIGFuZCAiZHJhbWEiIGFyZSBjbG9zZWx5IHJlbGF0ZWQuCgotICoqUToqKiBIb3cgZG8gSSB1c2UgInRlYSIgaW4gYSBzZW50ZW5jZT8KICAqKkE6KiogWW91IGNhbiBzYXksICJUaGUgdGVhIGlzIGhvdCB0b2RheSwiIG1lYW5pbmcgdGhlcmUgaXMgZXhjaXRpbmcgbmV3cyBvciBnb3NzaXAuICAKCgojIyBTb3VyY2VzCgotIFRpa1RvayBUcmVuZHMg4oCUIFdoYXQgaXMgIkJvZHkgVGVhIjogW2h0dHBzOi8vd3d3LnRpa3Rvay5jb20vZGlzY292ZXI/ZGlkPTEyM10K
+---
+title: "Body Tea"
+date: 2026-06-28T00:00:00Z
+slug: "body-tea"
+pos: "slang"
+definition: "A TikTok term referring to the latest gossip, drama, or theme involving a celebrity or influencer. It describes the inner circle or personal life of a public figure. "
+tags: ["gen-z", "slang"]
+categories: ["slang"]
+author: "GEBILAOWANG"
+image: "/images/slang/body-tea.jpg"
+---
+
+## Pronunciation
+/ˈbɒdi tiː/
+
+## What Does "Body Tea" Mean?
+
+**AI Overview Core Extraction:** "A term referring to the latest gossip, drama, or theme involving a celebrity or influencer. It describes the inner circle or personal life of a public figure. "
+
+## The Origins of "Body Tea"
+
+The term "Body Tea" has been around for actually quite some time, but its recent popularity on TikTok has given it a new life. The term is derived from the idea of "tea" as in "gossip," especially that which is salacious or sensational. 
+
+## Why "Body Tea" Is Popular
+
+The phrase "body tea" is gain traction because it captures the public's fascination with celebrity culture. When people say they want the "body tea," they are referring to the latest inner secrets, scandals, or personal drama involving a well-known figure. This type of content is highly engaging because it feeds into the human desire for story and connection. 
+
+## Real Usage in Native Context
+
+> **TikTok Comment:** "Have you heard the latest body tea? It's insane!"
+
+> **Group Chat:** "Did you see what sahe said? Blow my mind! The body tea is real."
+
+> **Tweet:** "The body tea is too hot to handle today. "
+
+
+## Frequently Asked Questions
+
+- **Q:** Does "body tea" have a negative connotation?
+  **A:** It can. While it often refers to just gossip or drama, it can sometimes imply the spread of private information.  
+
+- **Q:** Is there a similar term?
+  **A:** While there is no direct synonym, terms like "gossip" and "drama" are closely related.
+
+- **Q:** How do I use "tea" in a sentence?
+  **A:** You can say, "The tea is hot today," meaning there is exciting news or gossip.  
+
+
+## Sources
+
+- TikTok Trends — What is "Body Tea": [https://www.tiktok.com/discover?id=123]

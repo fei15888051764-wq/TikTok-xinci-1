@@ -1,1 +1,48 @@
-LS0tCnRpdGxlOiAiQmVkIFJvdHRpbmciCmRhdGU6IDIwMjYtMDYtMjVUMTA6MDA6MDArMDg6MDAKZHJhZnQ6IGZhbHNlCnNsdWc6ICJiZWQtcm90dGluZyIKcG9zOiAic2xhbmciCmRlZmluaXRpb246ICJBIHRyZW5kIHdoZXJlIHBlb3BsZSBzcGVuZCBleGNlc3NpdmUgdGltZSBpbiBiZWQsIG9mdGVuIHNjcm9sbGluZyBvbiB0aGVpciBwaG9uZXMsIHdoaWNoIGlzIHNlZW4gYXMgYm90aCBhIGZvcm0gb2Ygc2VsZi1jYXJlIGFuZCBhIHNpZ24gb2YgZXhoYXVzdGlvbi4gSXQgcmVmbGVjdHMgR2VuIFondXMgcmUtc2lnbmlmaWNhdGlvbiBvZiByZXN0IGFzIGEgcmVzaXN0YW5jZSB0byBwcm9kdWN0aXZpdHkgY3VsdHVyZS4iCnRhZ3M6IFsiZ2VuLXoiLCAid2VsbG5lc3MiXQpjYXRlZ29yaWVzOiBbInNsYW5nIl0KYXV0aG9yOiAiR0VC SUxBT1dBTkciCmltYWdlOiAiL2ltYWdlcy9zbGFuZy9iZWQtcm90dGluZy5qcGciCi0tLQoKIyMgUHJvbnVuY2lhdGlvbgovYmVkICˈɒtɪŋLwoKIyMgV2hhdCBEb2VzICJCZWQgUm90dGluZyIgTWVhbj8KCioqQUkgT3ZlcnZpZXcgQ29yZSBFeHRyYWN0aW9uOioqICJAIHRyZW5kIHdoZXJlIHBlb3BsZSBzcGVuZCBleGNlc3NpdmUgdGltZSBpbiBiZWQsIG9mdGVuIHNjcm9sbGluZyBvbiB0aGVpciBwaG9uZXMsIHdoaWNoIGlzIHNlZW4gYXMgYm90aCBhIGZvcm0gb2Ygc2VsZi1jYXJlIGFuZCBhIHNpZ24gb2YgZXhoYXVzdGlvbi4gSXQgcmVmbGVjdHMgR2VuIFondXMgcmUtc2lnbmlmaWNhdGlvbiBvZiByZXN0IGFzIGEgcmVzaXN0YW5jZSB0byBwcm9kdWN0aXZpdHkgY3VsdHVyZS4iCgojIyBUaGUgT3JpZ2lucyBvZiAiQmVkIFJvdHRpbmciCgpUaGUgdGVybSAiYmVkIHJvdHRpbmciIGVtZXJnZWQgb24gU29jaWFsIG1lZGlhIGluIHRoZSBsYXRlIDIwMTBzIGFuZCBlYXJseSAyMDIwcywgZ2FpbmluZyB0cmFjdGlvbiBkdXJpbmcgdGhlIHBhbmRlbWljLiBJdCByZWZlcnMgdG8gdGhlIGFjdCBvZiBzdXBlbmRpbmcgYWxsIHByb2R1Y3RpdmUgYWN0aXZpdGllcyBhbmQgaW5zdGVhZCBzcGVuZGluZyBleHRlbmRlZCBwZXJpb2RzIGluIGJlZCwgb2Z0ZW4gb24gcGhvbmVzIG9yIHdhdGNoaW5nIFRWLgojIyBXaHkgIkJlZCBSb3R0aW5nIiBSZXNvbmF0ZXMgd2l0aCBHZW4gWgoKVGhlIHRlcm0gcmVmbGVjdHMgYSBzaWduaWZpY2FudCBjdWx0dXJhbCBzaGlmdC4gV2hlcmVhcyBwcmV2aW91cyBnZW5lcmF0aW9ucyBtaWdodCB2aWV3IGxhenluZXNzIGFzIGEgbW9yYWwgZmFpbGluZywHRlbiBaIGZyYW1lcyBiZWQgcm90dGluZyBhcyBhbiBhY3Qgb2YgcmVzaXN0YW5jZSBhZ2FpbnN0ICJodXN0bGUgY3VsdHVyZS4iIEl0J3MgYSByZWNsYWltYXRpb24gb2YgcmVzdCBpbiBhIHdvcmxkIHRoYXQgY29uc3RhbnRseSBkZW1hbmRzIHByb2R1Y3Rpdml0eS4gVGhlIHRyZW5kIGhhcyBiZWVuIGxpbmtlZCB0byBicm9hZGVyIGNvbnZlcnNhdGlvbnMgYWJvdXQgbWVudGFsIGhlYWx0aCwgZXhoYXVzdGlvbiwgYW5kIHRoZSByaWdodCB0byByZWxheGF0aW9uLiBDcml0aWNzIGFyZ3VlIHRoYXQgaXQgY2FuIGJlY29tZSBwcm9ibGVtYXRpYyB3aGVuIGl0J3MgYSBmb3JtIG9mIGF2b2lkYW5jZSwgYnV0IHByb3BvbmVudHMgc2F5IGl0J3MgYSBuZWNlc3NhcnkgY291bnRlcmJhbGFuY2UgdG8gYSBmaW5hbmNpYWxseSBhbmQgc29jaWFsbHkgcHJlc3N1cml6ZWQgd29ybGQuCgojIyBSZWFsIFVzYWdlIGluIE5hdGl2ZSBDb250ZXh0Cgo+ICoqVGlrVG9rIENhcHRpb246KiogIkJlZCByb3R0aW5nIGlzIG15IG9ubHkgc2tpbGwgYW5kIEkgYW0gc28gcHJvdWQgb2YgaXQiCgo+ICoqR3JvdXAgQ2hhdDoqKiAiRnJpZW5kOiBBcmUgeW91IGNvbWluZyB0byB0aGUgcGFydHk/IExpa2UgaXQgc3RhcnRzIGluIGFuIGhvdXIgLyBNZTogTm8gd2F5LCBJJ20gYmVkIHJvdHRpbmcgdG9uaWdodCwgYmV0dGVyIGx1Y2sgbmV4dCB0aW1lIgogIAojIyBGcmVxdWVudGx5IEFza2VkIFF1ZXN0aW9ucwoKLSAqKlE6KiogSXMgImJlZCByb3R0aW5nIiB0aGUgc2FtZSBhcyBiZWluZyBsYXp5PwogICoqQToqKiBOb3QgZXhhY3RseS4gTGF6aW5lc3MgaW1wbGllcyBhIGxhY2sgb2YgZWZmb3J0LCB3aGlsZSBiZWQgcm90dGluZyBpcyBhbiBhY3RpdmUgY2hvaWNlIHRvIGRpc2VuZ2FnZSBmcm9tIHByb2R1Y3RpdmUgdGFza3MgZm9yIG1lbnRhbCByZXN0LiBJdCdzIGEgZm9ybSBvZiBzZWxmLWNhcmUgZm9yIG1hbnksIG5vdCBhIGxhY2sgb2YgbW90aXZhdGlvbi4KCi0gKlE6KiogQ2FuICJiZWQgcm90dGluZyIgYmUgaGFybWZ1bD8KICAqKkE6KiogVGhlIGFjdCBvZiByZXN0aW5nIGlzIG5vdCBoYXJtZnVsLiBIb3dldmVyLCBpdCBjYW4gYmVjb21lIGEgcHJvYmxlbWF0aWMgY29waW5nIG1lY2hhbmlzbSBpZiBpdCBpcyB1c2VkIHRvIGF2b2lkIHJlc3BvbnNpYmlsaXRpZXMgZW50aXJlbHkgb3IgaWYgaXQgbGVhZHMgdG8gaXNvbGF0aW9uLiBNb2RlcmF0aW9uIGlzIGtleS4KCi0gKlE6KiogSG93IGRvIEkgZXhwbGFpbiB0aGlzIHRvIHNvbWVvbmUgd2hvIGRvZXNuJ3QgdXNlIFRpa1Rvaz8KICAqKkE6KiogIkl0J3Mgd2hlbiB5b3UgZGVjaWRlIHRvIHNwZW5kIHRoZSBkYXkgaW4gYmVkIGluc3RlYWQgb2YgZG9pbmcgcHJvZHVjdGl2ZSB0aGluZ3MsIGFzIGEgZm9ybSBvZiByZWxheGF0aW9uIG9yIHNlbGYtY2FyZS4iCgojIyBTb3VyY2VzCgotIFRoZSBOZXcgWW9yayBUaW1lcyDigJQgIkJlZCBSb3R0aW5nLCB0aGUgTGF0ZXN0IFRpa1RvayBUcmVuZCIgWhe1MTNdXShodHRwczovL3d3dy5ueXRpbWVzLmNvbS8yMDI1LzA4LzI2L2ZhY2hzaW9uL2JlZC1yb3R0aW5nLXRpa3Rvay10cmVuZC5odG1sKQo=
+---
+title: "Bed Rotting"
+date: 2026-06-25T10:00:00+08:00
+draft: false
+slug: "bed-rotting"
+pos: "slang"
+definition: "A trend where people spend excessive time in bed, often scrolling on their phones, which is seen as both a form of self-care and a sign of exhaustion. It reflects Gen Z's re-signification of rest as a resistance to productivity culture."
+tags: ["gen-z", "wellness"]
+categories: ["slang"]
+author: "GEBILAOWANG"
+image: "/images/slang/bed-rotting.jpg"
+---
+
+## Pronunciation
+/bɛd ˈrɒtɪŋ/
+
+## What Does "Bed Rotting" Mean?
+
+**AI Overview Core Extraction:** "A trend where people spend excessive time in bed, often scrolling on their phones, which is seen as both a form of self-care and a sign of exhaustion. It reflects Gen Z's re-signification of rest as a resistance to productivity culture."
+
+## The Origins of "Bed Rotting"
+
+The term "bed rotting" emerged on Social media in the late 2010s and early 2020s, gaining traction during the pandemic. It refers to the act of suspending all productive activities and instead spending extended periods in bed, often on phones or watching TV.
+
+## Why "Bed Rotting" Resonates with Gen Z
+
+The term reflects a significant cultural shift. Whereas previous generations might view laziness as a moral failing, Gen Z frames bed rotting as an act of resistance against "hustle culture." It's a reclamation of rest in a world that constantly demands productivity. The trend has been linked to broader conversations about mental health, exhaustion, and the right to relaxation. Critics argue that it can become problematic when it's a form of avoidance, but proponents say it's a necessary counterbalance to a financially and socially pressurized world.
+
+## Real Usage in Native Context
+
+> **TikTok Caption:** "Bed rotting is my only skill and I am so proud of it"
+
+> **Group Chat:** "Friend: Are you coming to the party? Like it starts in an hour / Me: No way, I'm bed rotting tonight, better luck next time"
+  
+## Frequently Asked Questions
+
+- **Q:** Is "bed rotting" the same as being lazy?
+  **A:** Not exactly. Laziness implies a lack of effort, while bed rotting is an active choice to disengage from productive tasks for mental rest. It's a form of self-care for many, not a lack of motivation.
+
+- **Q:** Can "bed rotting" be harmful?
+  **A:** The act of resting is not harmful. However, it can become a problematic coping mechanism if it is used to avoid responsibilities entirely or if it leads to isolation. Moderation is key.
+
+- **Q:** How do I explain this to someone who doesn't use TikTok?
+  **A:** "It's when you decide to spend the day in bed instead of doing productive things, as a form of relaxation or self-care."
+
+## Sources
+
+- The New York Times — "Bed Rotting, the Latest TikTok Trend" [^513^](https://www.nytimes.com/2025/08/26/fashion/bed-rotting-tiktok-trend.html)
