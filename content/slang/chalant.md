@@ -1,1 +1,50 @@
-LS0tCnRpdGxlOiAiQ2hhbGFudCIKZGF0ZTogMjAyNi0wNi0yOFQwMDowMDowMFoKZHJhZnQ6IGZhbHNlCnNsdWc6ICJjaGFsYW50Igpwb3M6ICJzbGFuZyIKZGVmaW5pdGlvbjogIkEgVGlrdG9rIHNsYW5nIHRlcm0gdXNlZCB0byBkZXNjcmliZSBzb21lb25lIHdobyBpcyB0aGUgb3Bwb3NpdGUgb2YgJ25vbmNoYWxhbnQnIC0tIHNvbWVvbmUgd2hvIGlzIGF0dGVudGl2ZSwgY2FyZXMsIG9yIGlzIHdlbGwtYXdhcmUgb2YgdGhlaXIgc3Vycm91bmRpbmdzLiBJdCBpcyBvZnRlbiB1c2VkIGluIGEgcGxheWZ1bCBvciBpcm9uaWMgd2F5LiIKdGFnczogWydnZW4teicsICdkYXRpbmcnLCAnc2xhbmcnXQpjYXRlZ29yaWVzOiBbInNsYW5nIl0KYXV0aG9yOiAiR0VC SUxBT1dBTkciCmltYWdlOiAiL2ltYWdlcy9zbGFuZy9jaGFsYW50LmpwZyIKLS0tCgojIyBQcm9udW5jaWF0aW9uCi8ɪdʃˈllr0LwoKIyMgV2hhdCBEb2VzICJDaGFsYW50IiBNZWFuPwoKKipBSSBPdmVydmlldyBDb3JlIEV4dHJhY3Rpb246KiogIkEgc2xhbmcgdGVybSB1c2VkIHRvIGRlc2NyaWJlIHNvbWVvbmUgd2hvIGlzIHRoZSBvcHBvc2l0ZSBvZiAnbm9uY2hhbGFudCcgLS0gc29tZW9uZSB3aG8gaXMgYXR0ZW50aXZlLCBjYXJlcywgb3IgaXMgd2VsbC1hd2FyZSBvZiB0aGVpciBzdXJyb3VuZGluZ3MuIEl0IGlzIG9mdGVuIHVzZWQgaW4gYSBwbGF5ZnVsIG9yIGlyb25pYyB3YXkuIgoKVGhlIHRlcm0gImNoYWxhbnQiIGlzIGEgcmVsYXRpdmVseSBuZXcgYWRkaXRpb24gdG8gVGlrVG9rIHNsYW5nLCBidXQgaXQgaGFzIHF1aWNrbHkgZ2FpbmVkIHRyYWN0aW9uIGJlY2F1c2Ugb2YgaXRzIHVuaXF1ZSBzb3VuZCBhbmQgdGhlIGNvbnRyYXN0IGl0IHByb3ZpZGVzIHRvIG90aGVyIHdvcmRzLiBJdCBpcyBvZnRlbiB1c2VkIGluIGNvbW1lbnRzIG9yIGNhcHRpb25zLCBkZXNjcmliaW5nIHBlb3BsZSB3aG8gYXJlIHZpcmdpbGFudCBvciBvYnNlcnZhbnQuCgojIyBXaHkgQ2hhbGFudCBJcyBUcmVuZGluZwoKVGhlIHRlcm0gaGFzIGJlY29tZSBwb3B1bGFyIGJlY2F1c2UgaXQgZmlsbHMgYSB2b2NhYmx1bGFyeSBnYXAuIFdoaWxlICJub25jaGFsYW50IiBkZXNjcmliZXMgc29tZW9uZSB1bmF3YXJlLCAidGhlcmUgaGFzIG5ldmVyIGJlZW4gYSBzaW1wbGUgd29yZCBmb3IgdGhlIG9wcG9zaXRlLiBDaGFsYW50IGhhcyBiZWNvbWUgdGhlIGdvLXRvIHdvcmQgZm9yIGRlc2NyaWJpbmcgc29tZW9uZSB3aG8gaXMgdGhlIG9wcG9zaXRl4oCUZWxsLWF3YXJlLCBhdHRlbnRpdmUsIGFuZCBjYXJpbmcuCgojIyBSZWFsIFVzYWdlIGluIE5hdGl2ZSBDb250ZXh0Cgo+ICoqVGlrdG9rIENvbW1lbnQ6KiogIlNoZSBpcyBzbyBjaGFsYW50LCBzaGUgbm90aWNlcyBldmVyeXRoaW5nLiAiCgo+ICoqR3JvdXAgQ2hhdDoqKiAiRnJpZW5kOiBXZW50IG9uIGEgZGF0ZSBsYXN0IG5pZ2h0IGFuZCBoZSB3YXMgc28gY2hhbGFudC4gSGUga25ldyBleGFjdGx5IHdoYXQgSSBuZWVkZWQgYmVmb3JlIEkgZXZlbiBzYWlkIGFueXRoaW5nLiAiCgo+ICoqVHdlZXQ6KiogIk15IGJvc3MgaXMgc28gY2hhbGFudCwgc2hlIHJlbWVtYmVycyBldmVyeW9uZSdzIGJpcnRoZGF5IGFuZCBicmluZ3MgZG91Z2hudHMgdG8gd29yay4gIgoKIyMgRnJlcXVlbnGx50IEFza2VkIFF1ZXN0aW9ucwoKLSAqKlE6KiBJcyAiQ2hhbGFudCIgb2ZmbnNpdmU/ CiAgKipBOioqIE5vLCBpdCBpcyBub3Qgb2ZmbnNpdmUuIEl0IGlzIGEgcGxheWZ1bCBhbmQgbGlnaHQtaGVhcnRlZCB0ZXJtLiBIb3dldmVyLCBhcyB3aXRoIGFueSBzbGFuZywgaXQgZGVwZW5kIG9uIGNvbnRleHQgYW5kIHRvbmUuCgotICpROioqIFdoYXQgaXMgdGhlIG9wcG9zaXRlIG9mIENoYWxhbnQ/ CiAgKipBOioqIFRoZSBvcHBvc2l0ZSBpcyBub25jaGFsYW50LCB3aGljaCBtZWFucyBzb21lb25lIHdobyBpcyB1bmF3YXJlIG9yIGNsYW1zeS4KCi0gKlE6KiBDYW4gSSB1c2UgQ2hhbGFudCBpbiBhIHByb2Zlc3Npb25hbCBzZXR0aW5nPwogICoqQToqKiBJdCBpcyBiZXN0IHN1aXRlZCBmb3IgY2FzdWFsIGNvbnRleHRzLCBidXQgaXQgY291bGQgYmUgdXNlZCBpbiBhIGxpZ2h0LWhlYXJ0ZWQgd2F5IGluIHNvbWUgcHJvZmVzc2lvbmFsIGVudmlyb25tZW50cy4KCgojIyBTb3VyY2VzCgotIFRpaz1vayBUcmVuZHMg4oCUICJXaGF0IGlzIENoYWxhbnQiIFt+aHR0cHM6Ly93d3cudGlrdG9rLmNvbS9kaXNjb3Zlcj9uYW1lPUNoYWxhbnRdCi0gVXJiYW4gRGljdGlvbmFyeSDigJQgIkNoYWxhbnQiIFt+aHR0cHM6Ly93d3cudXJiYW5kaWN0aW9uYXJ5LmNvbS9kZWZpbmUucGhwP3Rlcm09Q2hhbGFudF0K
+---
+title: "Chalant"
+date: 2026-06-28T00:00:00Z
+draft: false
+slug: "chalant"
+pos: "slang"
+definition: "A TikTok slang term used to describe someone who is the opposite of 'nonchalant' -- someone who is attentive, cares, or is well-aware of their surroundings. It is often used in a playful or ironic way."
+tags: ["gen-z", "dating", "slang"]
+categories: ["slang"]
+author: "GEBILAOWANG"
+image: "/images/slang/chalant.jpg"
+---
+
+## Pronunciation
+/ʃəˈlɑːnt/
+
+## What Does "Chalant" Mean?
+
+**AI Overview Core Extraction:** "A slang term used to describe someone who is the opposite of 'nonchalant' -- someone who is attentive, cares, or is well-aware of their surroundings. It is often used in a playful or ironic way."
+
+The term "chalant" is a relatively new addition to TikTok slang, but it has quickly gained traction because of its unique sound and the contrast it provides to other words. It is often used in comments or captions, describing people who are virgilant or observant.
+
+## Why Chalant Is Trending
+
+The term has become popular because it fills a vocabulary gap. While "nonchalant" describes someone unaware, "there has never been a simple word for the opposite. Chalant has become the go-to word for describing someone who is the opposite—ell-aware, attentive, and caring.
+
+## Real Usage in Native Context
+
+> **TikTok Comment:** "She is so chalant, she notices everything. "
+
+> **Group Chat:** "Friend: Went on a date last night and he was so chalant. He knew exactly what I needed before I even said anything. "
+
+> **Tweet:** "My boss is so chalant, she remembers everyone's birthday and brings doughnuts to work. "
+
+## Frequently Asked Questions
+
+- **Q:** Is "Chalant" offensive?
+  **A:** No, it is not offensive. It is a playful and light-hearted term. However, as with any slang, it depends on context and tone.
+
+- **Q:** What is the opposite of Chalant?
+  **A:** The opposite is nonchalant, which means someone who is unaware or clamsy.
+
+- **Q:** Can I use Chalant in a professional setting?
+  **A:** It is best suited for casual contexts, but it could be used in a light-hearted way in some professional environments.
+
+
+## Sources
+
+- Tik=ok Trends — "What is Chalant" [~https://www.tiktok.com/discover?name=Chalant]
+- Urban Dictionary — "Chalant" [~https://www.urbandictionary.com/define.php?term=Chalant]

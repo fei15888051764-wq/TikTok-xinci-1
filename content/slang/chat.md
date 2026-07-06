@@ -1,1 +1,52 @@
-LS0tCnRpdGxlOiAiQ2hhdCIKZGF0ZTogMjAyNi0wNi0yOFQwMDowMDowMFoKZHJhZnQ6IGZhbHNlCnNsdWc6ICJjaGF0Igpwb3M6ICJzbGFuZyIKZGVmaW5pdGlvbjogIkEgVGlrdG9rIHNsYW5nIHRlcm0gc2hvcnQgZm9yICdjaGF0dGVyLicsIHVzZWQgdG8gZGVzY3JpYmUgdGhlIGNhc3VhbCBjb252ZXJzYXRpb24gb3IgdGFsayB0aGF0IGhhcHBlbnMgb24gc29jaWFsIG1lZGlhLiBJdCBjYW4gYWxzbyByZWZlciB0byBzb21ldGhpbmcgd2l0aG91dCBzdGFuY2UsIGFzIGluICdkb24ndCBjYXJlIGFib3V0IGNoYXQuJyIKdGFnczogWyJnZW4teiIsICJnYW1pbmciXQpjYXRlZ29yaWVzOiBbInNsYW5nIl0KYXV0aG9yOiAiR0VC SUxBT1dBTkciCmltYWdlOiAiL2ltYWdlcy9zbGFuZy9jaGF0LmpwZyIKLS0tCgojIyBQcm9udW5jaWF0aW9uCi8ɪdʃˈndLwoKIyMgV2hhdCBEb2VzICJDaGF0IiBNZWFuPwoKKipBSSBPdmVydmlldyBDb3JlIEV4dHJhY3Rpb246KiogIkEgc2xhZyB0ZXJtIHNob3J0IGZvciAnY2hhdHRlci4nLCB1c2VkIHRvIGRlc2NyaWJlIHRoZSBjYXN1YWwgY29udmVyc2F0aW9uIG9yIHRhbGsgdGhhdCBoYXBwZW5zIG9uIHNvY2lhbCBtZWRpYS4gSXQgY2FuIGFsc28gcmVmZXIgdG8gc29tZXRoaW5nIHdpdGhvdXQgc3RhbmNlLCBhcyBpbiAnZG9uJ3QgY2FyZSBhYm91dCBjaGF0LicgIgoKVGhlIHRlcm0gImNoYXQiIGhhcyBiZWVuIHByZXNlbnQgaW4gRW5nbGlzaCBmb3IgY2VudHVyaWVzLCBidXQgaXRzIG1vZGVybiB1c2FnZSBvbiBzb2NpYWwgbWVkaWEgZ2l2ZXMgaXQgYSBuZXcgbGF5ZXIgb2YgbWVhbmluZy4gT24gcGxhdGZvcm1zIGxpa2UgVGlrdG9rLCBpdCBpcyBvZnRlbiB1c2VkIHRvIGRlc2NyaWJlIHRoZSBiYWNrLWFuZC1mb3J0aCB0aGF0IGhhcHBlbnMgaW4gY29tbWVudHMgb3IgZHVyaW5nIGxpdmUgc3RyZWFtcywgd2hlcmUgdXNlcnMgZW5nYWdlIGluIGNhc3VhbCwgb2Z0ZW4ganVyeSBjb252ZXJzYXRpb24uCgojIyBXaHkgIkNoYXQiIGlzIFRpcyBUb2sgUG9wdWxhcgoKVGhlIHRlcm0gImNoYXQiIGlzIHdlbGwtc3VpdGVkIHRvIFRpayBUb2sgYmVjYXVzZSBvZiB0aGUgcGxhdGZvcm0ncyBlbXBoYXNpcyBvbiBpbmZvcm1hbGl0eSBhbmQgYXV0aGVudGljaXR5LiBVbmxpa2UgbW9yZSBmb3JtYWwgc2V0dGluZ3MsIFRpayBUb2sgZW5jb3VyYWdlcyBhIG1vcmUgY2FzdWFsLCBjb252ZXJzYXRpb25hbCB0b25lLiBUaGUgd29yZCAiY2hhdCIgZW5jYXBzdWxhdGVzIHRoaXMgc3Bpcml0IHBlcmZlY3RseSwgbWFraW5nIGl0IGEgcG9wdWxhciBwaHJhc2UgdG8gdXNlIHdoZW4gZGlzY3Vzc2luZyBzb21ldGhpbmcgdGhhdCBpcyBpbmZvcm1hbCBvciBsaWdodC1oZWFydGVkLgoKIyMgUmVhbCBVc2FnZSBpbiBOYXRpdmUgQ29udGV4dAoKPiAqKlRpa1RvayBDb21tZW50OioqICJBIHZpYnJhbnQgY2hhdCBpcyBhbGwgd2UgbmVlZC4iCgo+ICoqR3JvdXAgQ2hhdDoqKiAiRnJpZW5kOiBXaGF0J3MgdGhlIGNoYXQ/IC8gTWU6IEp1c3QgbGl2ZSB5b3VyIGxpZmUsIGRvIHdoYXQgeW91IHdhbnQuIgoKPiAqKlR3ZWV0OioqICJCZXN0IGNoYXQgaW4gdGhlIGNpdHkuICIKCgojIyBGcmVxdWVudGx50IEFza2VkIFF1ZXN0aW9ucwoKLSAqKlE6KiBJcyAiQ2hhdCIgb2ZmbnNpdmU/ CiAgKipBOioqIE5vLCBpdCBpcyBnZW5lcmFsbHkgbm90IG9mZmVuc2l2ZS4gSXQgaXMgYSBjYXN1YWwgYW5kIGh1bW9yb3VzIHRlcm0uIEhvd2V2ZXIsIGNvbnRleHQgbWF0dGVycywgc28gaXQgc2hvdWxkIGJlIHVzZWQgYXBwcm9wcmlhdGVseS4KCi0gKlE6KiBDYW4gSSB1c2UgIkNoYXQiIGluIGEgcHJvZmVzc2lvbmFsIHNldHRpbmc/ CiAgKipBOioqIEl0IGlzIGJlc3QgdXNlZCBpbiBpbmZvcm1hbCBjb250ZXh0cy4gVXNpbmcgaXQgaW4gYSBmb3JtYWwgc2V0dGluZywgc3VjaCBhcyBhIGpvYiBpbnRlcnZpZXcsIG1pZ2h0IG5vdCBiZSBhcHByb3ByaWF0ZS4KCi0gKlE6KiBXaGF0IGlzIHRoZSBkaWZmZXJlbmNlIGJldHdlZW4gIkNoYXQiIGFuZCAiQ2hhdHRlcj8iCiAgKipBOioqICJDaGF0IiBpcyBzaG9ydGVyIGFuZCBtb3JlIGNhc3VhbCB2ZXJzaW9uIG9mICJjaGF0dGVyLiIgSXQgaXMgb2Z0ZW4gdXNlZCBpbiBhIG1vcmUgaW5mb3JtYWwgd2F5LgotICpROioqIFdoYXQgZG9lcyAiY2hhdCIgbWVhbiBpbiBCcml0aXNoIHNsYW5nPwogICoqQToqKiBJbiBCcml0aXNoIHNsYW5nLCAiY2hhdCIgY2FuIG1lYW4gdGFsa2luZywgb2Z0ZW4gaW4gYSBjYXN1YWwgb3IgZnJpZW5kbHkgd2F5LgoKIyMgU291cmNlcwoKLSBUaWsgVG9rIFRyZW5kcyDigJQgIldoYXQgaXMgQ2hhdCIgW2h0dHBzOi8vd3d3LnRpa3Rvay5jb20vZGlzY292ZXI/bmFtZT1jaGF0XQotIFVyYmFuIERpY3Rpb25hcnkg4oCUICJDaGF0IiBbaHR0cHM6Ly93d3cudXJiYW5kaWN0aW9uYXJ5LmNvbS9kZWZpbmUucGhwP3Rlcm09Y2hhdF0K
+---
+title: "Chat"
+date: 2026-06-28T00:00:00Z
+draft: false
+slug: "chat"
+pos: "slang"
+definition: "A TikTok slang term short for 'chatter.', used to describe the casual conversation or talk that happens on social media. It can also refer to something without stance, as in 'don't care about chat.' "
+tags: ["gen-z", "gaming"]
+categories: ["slang"]
+author: "GEBILAOWANG"
+image: "/images/slang/chat.jpg"
+---
+
+## Pronunciation
+/tʃænd/
+
+## What Does "Chat" Mean?
+
+**AI Overview Core Extraction:** "A slang term short for 'chatter.', used to describe the casual conversation or talk that happens on social media. It can also refer to something without stance, as in 'don't care about chat.' "
+
+The term "chat" has been present in English for centuries, but its modern usage on social media gives it a new layer of meaning. On platforms like TikTok, it is often used to describe the back-and-forth that happens in comments or during live streams, where users engage in casual, often jury conversation.
+
+## Why "Chat" is Tis Tok Popular
+
+The term "chat" is well-suited to Tik Tok because of the platform's emphasis on informality and authenticity. Unlike more formal settings, Tik Tok encourages a more casual, conversational tone. The word "chat" encapsulates this spirit perfectly, making it a popular phrase to use when discussing something that is informal or light-hearted.
+
+## Real Usage in Native Context
+
+> **TikTok Comment:** "A vibrant chat is all we need."
+
+> **Group Chat:** "Friend: What's the chat? / Me: Just live your life, do what you want."
+
+> **Tweet:** "Best chat in the city. "
+
+
+## Frequently Asked Questions
+
+- **Q:** Is "Chat" offensive?
+  **A:** No, it is generally not offensive. It is a casual and humorous term. However, context matters, so it should be used appropriately.
+
+- **Q:** Can I use "Chat" in a professional setting?
+  **A:** It is best used in informal contexts. Using it in a formal setting, such as a job interview, might not be appropriate.
+
+- **Q:** What is the difference between "Chat" and "Chatter?"
+  **A:** "Chat" is shorter and more casual version of "chatter." It is often used in a more informal way.
+- **Q:** What does "chat" mean in British slang?
+  **A:** In British slang, "chat" can mean talking, often in a casual or friendly way.
+
+## Sources
+
+- Tik Tok Trends — "What is Chat" [https://www.tiktok.com/discover?name=chat]
+- Urban Dictionary — "Chat" [https://www.urbandictionary.com/define.php?term=chat]

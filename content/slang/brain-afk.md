@@ -1,1 +1,51 @@
-LS0tCnRpdGxlOiAiQnJhaW4gQUZLIgpkYXRlOiAyMDI2LTA2LTI3VDAwOjAwOjAwWgpuYW1lOiAiQnJhaW4gQUZLIgpzbHVnOiAiYnJhaW4tYWZrIgpwb3M6ICJzbGFuZyIKZGVmaW5pdGlvbjogIkEgZ2FtaW5nL3RlY2ggc2xhbmcgdGVybSBkZXJpdmVkIGZyb20gJ0F3YXkgRnJvbSBLZXlib2FyZCcgKEFGSykgdXNlZCB0byBkZXNjcmliZSBzb21lb25lIHdobyBpcyBkaXN0cmFjdGVkLCBtZW50YWxseSBjaGVja2VkIG91dCwgb3Igbm90IHBheWluZyBhdHRlbnRpb24uIEl0IGltcGxpZXMgdGhlIGJyYWluIGlzICdhd2F5JyBmcm9tIHRoZSBjdXJyZW50IHRhc2suIgp0YWdzOiBbImdlbi16IiwgInNsYW5nIl0KY2F0ZWdvcmllczogWyJzbGFuZyJdCmF1dGhvcjogIkdFQklMQU9XQU5HIgppbWFnZTogIi9pbWFnZXMvc2xhbmcvYnJhaW4tYWZrLmpwZyIKLS0tCgojIyBQcm9udW5jaWF0aW9uCi9ˈbreɪn ˈeɪfˈkeɪLwoKIyMgV2hhdCBEb2VzICJCcmFpbiBBRksiIE1lYW4/CgoqKkFJIE92ZXJ2aWV3IENvcmUgRXh0cmFjdGlvbjoqKiAiQSBnYW1pbmcvdGVjaCBzbGFuZyB0ZXJtIGRlcml2ZWQgZnJvbSAnQXdheSBGcm9tIEtleWJvYXJkJyAoQUZLKSB1c2VkIHRvIGRlc2NyaWJlIHNvbWVvbmUgd2hvIGlzIGRpc3RyYWN0ZWQsIG1lbnRhbGx5IGNoZWNrZWQgb3V0LCBvciBub3QgcGF5aW5nIGF0dGVudGlvbi4gSXQgaW1wbGllcyB0aGUgYnJhaW4gaXMgJ2F3YXknIGZyb20gdGhlIGN1cnJlbnQgdGFzay4iCgojIyBUaGUgT3JpZ2lucyBvZiAiQnJhaW4gQUZLIgoKVGhlIHRlcm0gIkJyYWluIEFGSyIgb3JpZ2luYXRlcyBmcm9tIG9ubGluZSBnYW1pbmcgYW5kIGNoYXQgY29tbXVuaXRpZXMuIEluIG11bHRpcGxheWVyIG9ubGluZSBnYW1lcywgcGxheWVycyB3b3VsZCB0eXBlICJBRksiIChBd2F5IEZyb20gS2V5Ym9hcmQpIHRvIGxldCBvdGhlcnMga25vdyB0aGV5IHdlcmUgc3RlcHBpbmcgYXdheSBmcm9tIHRoZSBnYW1lLiBUaGUgdGVybSBldm9sdmVkIHRvICJCcmFpbiBBRksiIGFzIGEgaHVtb3JvdXMgd2F5IHRvIGRlc2NyaWJlIHNvbWVvbmUgd2hvc2UgbWluZCBzZWVtcyB0byBiZSAiYXdheSIsIHNpbWlsYXIgdG8gaG93IGEgY29tcHV0ZXIgZ29lcyBpZGxlLiAKCgojIyBXaHkgIkJyYWluIEFGSyIgaXMgUG9wdWxhcgoKVGhlIHRlcm0gaGFzIGdhaW5lZCBwb3B1bGFyaXR5IGJlY2F1c2UgaXQgaXMgYSByZWxhdGFibGUgYW5kIGh1bW9yb3VzIHdheSB0byBkZXNjcmliZSBtb21lbnRzIG9mIGRpc3RyYWN0aW9uLiBJbiBhIGZhc3QtcGFjZWQgd29ybGQgd2hlcmUgcGVvcGxlIGFyZSBjb25zdGFudGx5IG11bHRpdGFza2luZywgaGF2aW5nIGEgInplcm8gYXR0ZW50aW9uIHNwYW4iIG1vbWVudCBpcyBjb21tb24uIFRoZSB0ZXJtIGlzIHVzdWFsbHkgdXNlZCBsaWdodC1oZWFydGVkbHkgYW5kIGlzIG5vdCBtZWFudCB0byBiZSBhbiBpbnN1bHQuCgojIyBSZWFsIFVzYWdlIGluIE5hdGl2ZSBDb250ZXh0Cgo+ICoqVGlrdG9rIENvbW1lbnQ6KiogIkkgd2FzIHNvIEJyYWluIEFGSyBkdXJpbmcgdGhhdCBtZWV0aW5nLCBJIGRpZG4ndCBoZWFyIGEgc2luZ2xlIHdvcmQgdGhlIHByb2Zlc3NvciBzYWlkLiIKCj4gKipHcm91cCBDaGF0OioqICJIZXksIGFyZSB5b3UgbGlzdGVuaW5nPyBZb3Ugc2VlbSBicmFpbiBBRksgcmlnaHQgbm93LiAiCgo+ICoqVHdlZXQ6KiogIldoZW4geW91IHdhbGsgaW50byBhIHJvb20gYW5kIGZvcmdldCB3aHkgeW91IGNhbWUgaW4g4oCmIEJyYWluIEFGSy4iCgojIyBGcmVxdWVudGx5IEFza2VkIFF1ZXN0aW9ucwoKLSAqKlE6KiBJcyAiQnJhaW4gQUZLIiBvZmZlbnNpdmU/ CiAgKipBOioqIE5vLCBpdCBpcyBnZW5lcmFsbHkgdXNlZCBpbiBhIGxpZ2h0LWhlYXJ0ZWQgYW5kIGh1bW9yb3VzIHdheS4gSG93ZXZlciwgbGlrZSBhbnkgc2xhbmcsIHRvbmUgYW5kIGNvbnRleHQgbWF0dGVyLiAgCgotICoqUToqKiBJcyB0aGVyZSBhbiBhY3JvbnltIGZvciAiQnJhaW4gQUZLIj8KICAqKkE6KiogWWVzLCBzb21lIHBlb3BsZSB1c2UgIkJGSyIgYXMgYSBzaG9ydGVyIHZlcnNpb24sIHRob3VnaCAiQnJhaW4gQUZLIiBpcyBtb3JlIGNvbW1vbiBvbiBzb2NpYWwgbWVkaWEuCgotICoqUToqKiBDYW4gSSB1c2UgdGhpcyBpbiBwcm9mZXNzaW9uYWwgc2V0dGluZ3M/ CiAgKipBOioqIEl0IGlzIGJlc3QgdXNlZCBpbiBpbmZvcm1hbCBjb250ZXh0cy4gVXNpbmcgaXQgaW4gYSBwcm9mZXNzaW9uYWwgbWVldGluZyBtaWdodCBub3QgYmUgYXBwcm9wcmlhdGUuCgojIyBTb3VyY2VzCgotIFVyYmFuIERpY3Rpb25hcnkg4oCUICJCcmFpbiBBRksiIFt+aHR0cHM6Ly93d3cudXJiYW5kaWN0aW9uYXJ5LmNvbS9kZWZpbmUucGhwP3Rlcm09YnJhaW4tYWZrXQotIFJlZGRpdCByL1N0dXBpZER1ZHVlcyDigJQgIkJyYWluIEFGSyBleHBsYWluZWQiIFt+aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL1N0dXBpZER1ZGVzL2NvbW1lbnRzL3h5ei9icmFpbl9hZmtfZXhwbGFpbmVkL10K
+---
+title: "Brain AFK"
+name: "Brain AFK"
+slug: "brain-afk"
+pos: "slang"
+definition: "A gaming/tech slang term derived from 'Away From Keyboard' (AFK) used to describe someone who is distracted, mentally checked out, or not paying attention. It implies the brain is 'away' from the current task."
+tags: ["gen-z", "slang"]
+categories: ["slang"]
+author: "GEBILAOWANG"
+image: "/images/slang/brain-afk.jpg"
+---
+
+## Pronunciation
+/ˈbreɪn ˈeɪfˈkeɪ/
+
+## What Does "Brain AFK" Mean?
+
+**AI Overview Core Extraction:** "A gaming/tech slang term derived from 'Away From Keyboard' (AFK) used to describe someone who is distracted, mentally checked out, or not paying attention. It implies the brain is 'away' from the current task."
+
+## The Origins of "Brain AFK"
+
+The term originated in online gaming and chat communities. In multiplayer online games, players would type "AFK" (Away From Keyboard) to let others know they were stepping away from the game. The term evolved to "Brain AFK" as a humorous way to describe someone whose mind seems to be "away," similar to how a computer goes idle. 
+
+
+## Why "Brain AFK" is Popular
+
+The term has gained popularity because it is a relatable and humorous way to describe moments of distraction. In a fast-paced world where people are constantly multitasking, having a "zero attention span" moment is common. The term is usually used light-heartedly and is not meant to be an insult.
+
+## Real Usage in Native Context
+
+> **Tiktok Comment:** "I was so Brain AFK during that meeting, I didn't hear a single word the professor said."
+
+> **Group Chat:** "Hey, are you listening? You seem brain AFK right now. "
+
+> **Tweet:** "When you walk into a room and forget why you came in … Brain AFK."
+
+## Frequently Asked Questions
+
+- **Q:** Is "Brain AFK" offensive?
+  **A:** No, it is generally used in a light-hearted and humorous way. However, like any slang, tone and context matter.  
+
+- **Q:** Is there an acronym for "Brain AFK"?
+  **A:** Yes, some people use "BFK" as a shorter version, though "Brain AFK" is more common on social media.
+
+- **Q:** Can I use this in professional settings?
+  **A:** It is best used in informal contexts. Using it in a professional meeting might not be appropriate.
+
+## Sources
+
+- Urban Dictionary — "Brain AFK" [~https://www.urbandictionary.com/define.php?term=brain-afk]
+- Reddit r/StupidDudes — "Brain AFK explained" [~https://www.reddit.com/r/StupidDudes/comments/xyz/brain_afk_explained/]

@@ -1,3 +1,51 @@
-LS0tCnRpdGxlOiAiQnJhaW4gUm90IgpkYXRlOiAyMDI2LTA2LTI4VDAwOjAwOjAwWgpuYW1lOiAiQnJhaW4gUm90IgpzbHVnOiAiYnJhaW4tcm90Igpwb3M6ICJzbGFuZyIKZGVmaW5pdGlvbjogIkEgVGlrdG9rIHNsYW5nIHRlcm0gZGVzY3JpYmluZyBjb250ZW50IHRoYXQgaXMgc2VlbiBhcyBsb3ctcXVhbGl0eSwgbWluZGxlc3MsIG9yIG1lbnRhbGx5IHVuc3Rpc3VsYXRpbmcuIEl0IHJlZmVycyB0byBtb21lbnRzIHdoZXJlIHlvdXIgbWluZCBmZWVscyBudW1iIGZyb20gc2Nyb2xsaW5nIHRvbyBtdWNoIHNvY2lhbCBtZWRpYSB3aXRoIHVuZGVuc3RhbmRpbmcgb3IgJ2JyYWluLXJvdHRpbmcnIGNvbnRlbnQuIgp0YWdzOiBbImdlbi16IiwgInRyZW5kIl0KY2F0ZWdvcmllczogWyJzbGFuZyJdCmF1dGhvcjogIkdFQklMQU9XQU5HIgppbWFnZTogIi9pbWFnZXMvc2xhbmcvYnJhaW4tcm90LmpwZyIKLS0tCgojIyBQcm9udW5jaWF0aW9uCi9ˈbreɪn ˈrɒdLwoKIyMgV2hhdCBEb2VzICJCcmFpbiBSb3QiIE1lYW4/CgoqKkFJIE92ZXJ2aWV3IENvcmUgRXh0cmFjdGlvbjoqKiAiQSBUaWt0b2sgc2xhbmcgdGVybSBkZXNjcmliaW5nIGNvbnRlbnQgdGhhdCBpcyBzZWVuIGFzIGxvdy1xdWFsaXR5LCBtaW5kbGVzcywgb3IgbWVudGFsbHkgdW5zdGltdWxhdGluZy4gSXQgcmVmZXJzIHRvIG1vbWVudHMgd2hlcmUgeW91ciBtaW5kIGZlZWxzIG51bWIgZnJvbSBzY3JvbGxpbmcgdG9vIG11Y2ggc29jaWFsIG1lZGlhIHdpdGggdW5kZXJzdGFuZGluZyBvciAnYnJhaW4tcm90dGluZycgY29udGVudC4iCgojIyBUaGUgT3JpZ2lucyBvZiAiQnJhaW4gUm90IgoKVGhlIHRlcm0gImJyYWluIHJvdCIgZW1lcmdlZCBmcm9tIGludGVybmV0IGN1bHR1cmUsIHNwZWNpZmljYWxseSBvbiBzb2NpYWwgbWVkaWEgcGxhdGZvcm1zIGxpa2UgVGlrdG9rIGFuZCBUd2l0dGVyLiBJdCBkZXNjcmliZXMgdGhlIGZlZWxpbmcgb2YgbWVudGFsIG51bW5lc3Mgb3IgY29nbml0aXZlIG92ZXJsb2FkIHRoYXQgY29tZXMgZnJvbSBjb25zdW1pbmcgdG9vIG11Y2ggbG93LXF1YWxpdHkgb3IgbWluZGxlc3MgY29udGVudC4gVGhlIHRlcm0gaXMgb2Z0ZW4gdXNlZCBzZWxmLWRlcHJlY2F0aW5nbHkgd2hlbiBzb21lb25lIHJlYWxpemVzIHRoZXkgaGF2ZSBzcGVudCB0b28gbXVjaCB0aW1lIG9uIGFwcHMgbGlrZSBUamtUb2ssIHdhdGNoaW5nIG51bWVyb3VzIGJyaWZmIG9yIHJlcGV0aXRpdmUgdmlkZW9zLgoKIyMgV2h5ICJCcmFpbiBSb3QiIGlzIFBvcHVsYXIK
-VGhlIHRlcm0gcmVzb25hdGVzIHdpdGggR2VuIFogYW5kIHBvdW5nZXIgTWlsbGVubmlhbHMsIHdobyBhcmUga25vd24gZm9yIGhhdmluZyBzaG9ydGVyIGF0dGVudGlvbiBzcGFucyBhbmQgYmVpbmcgaGVhdnkgc29jaWFsIG1lZGlhIHVzZXJzLiBJbiBhIHdvcmxkIGRvd2luYXRlZCBieSBjb25zdGFudCBjb250ZW50IGNvbnN1bXB0aW9uLCB0aGUgaWRlYSBvZiBicmFpbiByb3QgaXMgYSByZWxhdGFibGUgd2F5IHRvIGRlc2NyaWJlIHRoZSBvdmVyd2hlbG0gbWFueSBmZWVsLiBUaGUgdGVybSBpcyB1c2VkIGluIGEgcGxheWZ1bCBhbmQgc2VsZi1hd2FyZSBtYW5uZXIsIHdoaWNoIG1ha2VzIGl0IGFjY2VwdGFibGUgdG8gdXNlIGluIGNvbnZlcnNhdGlvbi4KCgojIyBSZWFsIFVzYWdlIGluIE5hdGl2ZSBDb250ZXh0Cgo+ICoqVGlrdG9rIENhcHRpb246KiogIkkgbG92ZSB3YXRjaGluZyBicmFpbiByb3QgVGlrdG9rcyBhZnRlciBhIGxvbmcgZGF5LiAiCgo+ICoqR3JvdXAgQ2hhdDoqKiAiRnJpZW5kOiBZb3UgaGF2ZW4ndCB0ZXh0ZWQgYmFjayBpbiBob3VycyAuLi4geW91IG9rYXk/IC8gTWU6IFNvcnJ5LCBicmFpbiByb3QgdG9vayBvdmVyIGFuZCBJIGZvcmdvdCB0byByZXBseS4iCgo+ICoqVHdlZXQ6KiogIkp1c3Qgd2F0Y2hlZCA1MCBicmFpbiByb3QgVGlrdG9rcyBhbmQgbm93IEkgZmVlbCBsaWtlIG15IElRICBoYXMgZHJvcHBlZCBieSAxMC4gIgoKIyMgRnJlcXVlbnGx50IEFza2VkIFF1ZXN0aW9ucwoKLSAqKlE6KiBJcyAiYnJhaW4gcm90IiBvZmZlbnNpdmU/ CiAgKipBOioqIE5vLCBpdCBpcyBub3Qgb2ZmbnNpdmUuIEl0IGlzIGEgc2VsZi1kZXByZWNhdGluZyBhbmQgaHVtb3JvdXMgdGVybSB0aGF0IG1vc3QgcGVvcGxlIHVzZSB0byBkZXNjcmliZSB0aGVpciBvd24gc2Nyb2xsaW5nIGhhYml0cy4KCi0gKlE6KiBDYW4gYnJhaW4gcm90IGJlIGEgZ29vZCB0aGluZz8KICAqKkE6KiogV2hpbGUgaXQgdXN1YWxseSByZWZlcnMgdG8gbG93LXF1YWxpdHkgY29udGVudCwgc29tZSBwZW9wbGUgZW5qb3kgd2F0Y2hpbmcgc2ltcGxlIG9yIG1pbmRsZXNzIHZpZGVvcyBhcyBhIHdheSB0byB1bndpbmQuIEhv
-d2V2ZXIsIGluIGdlbmVyYWwsIGl0IGltcGxpZXMgdGhlIGNvbnRlbnQgaXMgbm90IHN0aW11bGF0aW5nLgotICpROioqIEhvdyBkbyBJIGF2b2lkIGJyYWluIHJvdD8KICAqKkE6KiogTGltaXQgeW91ciBzb2NpYWwgbWVkaWEgc2NyZWVuIHRpbWUgYW5kIGZvY3VzIG9uIG1vcmUgbWVhbmluZ3VsIGNvbnRlbnQuCiAgCgojIyBTb3VyY2VzCgotIFVCMjcg4oCUICJCcmFpbiBSb3QiIFt+aHR0cHM6Ly93d3cudWJyYW5kaWN0aW9uYXJ5LmNvbS9kZWZpbmUucGhwP3Rlcm09YnJhaW4tcm90XQotIFdpcmlwZWRpYSDigJQgIkJyYWluIFJvdCIgW2h0dHBzOi8vd3d3LndpcmlwZWRpYS5jb20vd2lraS9CcmFpbl9Sb3RdCgo=
+---
+title: "Brain Rot"
+name: "Brain Rot"
+slug: "brain-rot"
+pos: "slang"
+definition: "A TikTok slang term describing content that is seen as low-quality, mindless, or mentally unstimulating. It refers to moments where your mind feels numb from scrolling too much social media with undemanding or 'brain-rotting' content."
+tags: ["gen-z", "trend"]
+categories: ["slang"]
+author: "GEBILAOWANG"
+image: "/images/slang/brain-rot.jpg"
+---
+
+## Pronunciation
+/ˈbreɪn ˈrɒd/
+
+## What Does "Brain Rot" Mean?
+
+**AI Overview Core Extraction:** "A TikTok slang term describing content that is seen as low-quality, mindless, or mentally unstimulating. It refers to moments where your mind feels numb from scrolling too much social media with undemanding or 'brain-rotting' content."
+
+## The Origins of "Brain Rot"
+
+The term "brain rot" emerged from internet culture, specifically on social media platforms like TikTok and Twitter. It describes the feeling of mental numbness or cognitive overload that comes from consuming too much low-quality or mindless content. The term is often used self-deprecatingly when someone realizes they have spent too much time on apps like TjkTok, watching numerous brief or repetitive videos.
+
+## Why "Brain Rot" is Popular
+
+The term resonates with Gen Z and pounder Millennials, who are known for having shorter attention spans and being heavy social media users. In a world dominated by constant content consumption, the idea of brain rot is a relatable way to describe the overwhelm many feel. The term is used in a playful and self-aware manner, which makes it acceptable to use in conversation.
+
+## Real Usage in Native Context
+
+> **TikTok Caption:** "I love watching brain rot TikToks after a long day. "
+
+> **Group Chat:** "Friend: You haven't texted back in hours … you okay? / Me: Sorry, brain rot took over and I forgot to reply."
+
+> **Tweet:** "Just watched 50 brain rot TikToks and now I feel like my IQ  has dropped by 10. "
+
+## Frequently Asked Questions
+
+- **Q:** Is "brain rot" offensive?
+  **A:** No, it is not offensive. It is a self-deprecating and humorous term that most people use to describe their own scrolling habits.
+
+- **Q:** Can brain rot be a good thing?
+  **A:** While it usually refers to low-quality content, some people enjoy watching simple or mindless videos as a way to unwind. However, in general, it implies the content is not stimulating.
+- **Q:** How do I avoid brain rot?
+  **A:** Limit your social media screen time and focus on more meaningful content.
+  
+
+## Sources
+
+- UB27 — "Brain Rot" [~https://www.urbandictionary.com/define.php?term=brain-rot]
+- Wiripedia — "Brain Rot" [https://www.wiripedia.com/wiki/Brain_Rot]
+
