@@ -1,54 +1,70 @@
 ---
 title: "That's AI"
-date: 2026-06-28T10:00:00+08:00
+date: 2026-06-25T10:00:00+08:00
+draft: false
 slug: "thats-ai"
-definition: "A 2025-2026 slang phrase used to express distrust or skepticism when suspecting something presented as real is actually AI-generated. Voted the American Dialect Society's Most Useful Word of 2025/2026 with 104 votes."
-tags: ["gen-z", "ai", "meme", "2026"]
 pos: "slang"
+definition: "A dismissive phrase used to describe anything that feels uncanny, unnatural, or too perfect. Originally referred to AI-generated content, now expanded to describe anything that lacks authentic human imperfection."
+tags: ["gen-z", "ai", "meme"]
+categories: ["slang"]
+author: "GEBILAOWANG"
 image: "/images/slang/thats-ai.jpg"
 ---
 
-## The Two-Word Phrase That Won an Award
+## Pronunciation
+/ðæts eɪ aɪ/
 
-On January 9, 2026, the American Dialect Society convened in New Orleans for its 36th annual words-of-the-year vote. More than 300 linguists, lexicographers, and language scholars gathered in a hotel ballroom to deliberate on which words best captured the cultural moment. When the votes were tallied for "Most Useful Word," one phrase stood head and shoulders above the rest: **"that's AI" — 104 votes**, overwhelmingly beating runners-up "rage-bait" (51 votes), "clock" (28 votes), and "rot" (26 votes).
+## Multi-angle Interpretation
 
-The ADS defined it formally: *"a statement of distrust when determining that something presented as real (as an image) is in fact AI-generated."* But by June 2026, the phrase had already outgrown that narrow definition.
+"That's AI" started as a literal observation about AI-generated content but quickly evolved into a broader cultural critique. It's now used to describe:
+- Overly perfect Instagram photos
+- People who seem emotionally robotic
+- Corporate speak that sounds automated
+- Relationships that feel transactional
+- Anything lacking authentic human messiness
 
-## How "That's AI" Became the Defining Distrust Phrase
+GEBILAOWANG's take: "that's AI" is the 2026 equivalent of "that's fake"—but more specific. It captures a particular unease with content and behavior that feels manufactured rather than organic. The phrase reflects a cultural moment where we're becoming hyper-aware of what's "real" versus what's generated or performed.
 
-The phrase emerged organically in late 2024 and early 2025 as AI-generated images, videos, and text flooded social media. Users needed a quick, efficient way to flag suspected AI content without writing paragraphs. "That's AI" filled that gap — two words that instantly communicated both suspicion and the specific nature of the doubt.
+## TikTok Dialogue Examples
 
-What makes the phrase powerful is its precision. Unlike "fake" (which could mean anything) or "photoshopped" (which dates the speaker), "that's AI" names the exact technology creating the deception. It's suspicion with a technical vocabulary upgrade.
+> *Comment under a flawless makeup tutorial:*
+> "Skin texture? Never heard of her. That's AI."
 
-## The Epistemological Crisis of 2026
+> *Caption:*
+> "When his apology text is perfectly structured with zero typos... that's AI. I want messy. I want human."
 
-Deepfakes, AI-generated influencers, synthetic voices, and ChatGPT-written articles have created a world where nothing can be taken at face value. "That's AI" isn't just a technical observation — it's an existential sigh, shorthand for "I no longer believe anything I see online."
+## Viral Popularity & Spread
 
-| What's Being Called Out | Why People Say It |
-|------------------------|-------------------|
-| Flawless influencer photos with no skin texture | "Skin texture literally doesn't exist. That's AI." |
-| Viral animal videos with unnatural movements | "No way a real dog hits those keys. That's AI." |
-| Overly perfect romantic apologies at 3am | "Bro used ChatGPT to say sorry. That's AI." |
-| Job applications with suspiciously polished cover letters | "This cover letter has 'AI confidence.' That's AI." |
+| Metric | Detail |
+|--------|--------|
+| **Current Stage** | Mainstream |
+| **Peak Period** | January–June 2026 |
+| **Hashtag** | #thatsai — 3.2B+ views |
+| **Strongest Regions** | Global |
+| **Primary Users** | Gen Z, content creators, anyone critical of inauthenticity |
 
-## From Literal Detection to Cultural Shorthand
+## Origin & Usage
 
-By mid-2026, the phrase had evolved beyond literal AI detection. Anything that looks too polished, too perfect, or too convenient can earn a dismissive "that's AI." A friend shows you their impeccably organized closet? "That's AI." Someone describes an unrealistically good first date? "That's AI." The phrase has become a metacommentary on the inauthenticity of modern life.
+The phrase emerged as AI image generators (Midjourney, DALL-E) became mainstream in 2023–2024. Users started pointing out AI-generated images with "that's AI." By 2025, the phrase had expanded beyond literal AI to describe anything uncanny or inauthentic.
 
-GEBILAOWANG's take: this phrase has serious staying power because the problem it names isn't going away. As AI generation gets better, the suspicion will only deepen. The risk is overuse — when everything is "AI," the phrase loses its diagnostic power.
+**Applicable crowds:** Content creators, anti-AI art advocates, authenticity-focused communities
 
-## FAQ
+**Usage taboos:** Don't use it to dismiss legitimate creativity just because someone uses AI tools. The critique is about inauthenticity, not the tools themselves.
 
-**Q: What older expression is this most similar to?**
-A: It's the 2026 version of "fake news" or "photoshopped," but more specific. "Fake news" targets information; "that's AI" targets the medium itself.
+## Related Slang
 
-**Q: Where should I avoid using this phrase?**
-A: Don't dismiss genuine creative work by human artists who use digital tools. Also avoid using it as a lazy way to avoid engaging with content you simply don't like.
+- **Uncanny valley** — the unsettling feeling from near-human but not quite
+- **Mid** — mediocre, average
+- **NPC behavior** — robotic, unoriginal actions
 
-**Q: Is this phrase still sharp or getting dull?**
-A: Still sharp as of June 2026. GEBILAOWANG predicts it'll remain relevant through 2027 but may evolve into "AI" as a standalone adjective.
+## Frequently Asked Questions
+
+**Q: Is calling something "AI" an insult?**
+A: Context matters. It can be a critique of inauthenticity or a neutral observation. Usually it's slightly negative.
+
+**Q: How do I explain this to my parents in one sentence?**
+A: "It's a way of saying something looks fake or too perfect, like it was made by a computer instead of a person."
 
 ## Sources
 
-- American Dialect Society — 2025 Words of the Year [https://americandialect.org/woty/]
-- NPR "That's What They Say" Podcast — ADS 2025 WOTY Coverage [https://www.michiganpublic.org/podcast/thats-what-they-say/]
+- SlangWatch — "TikTok Slang 2026" [https://www.slangwatch.com/blog/tiktok-slang-2026]
