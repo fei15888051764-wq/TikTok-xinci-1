@@ -11,7 +11,7 @@
             "title": {{ .Title | jsonify }},
             "permalink": {{ .Permalink | jsonify }},
             "definition": {{ .Params.definition | jsonify }},
-            "tags": {{ (delimit .Params.tags " ") | jsonify }},
+            "tags": {{ (delimit (.Params.tags | default slice) " ") | jsonify }},
             "content": {{ .Plain | jsonify }}
         }{{ if ne . (index (last 1 $allSlang) 0) }},{{ end }}
         {{- end }}
