@@ -52,15 +52,3 @@ The term "choremance" emerged in late 2025 as dating app Plenty of Fish compiled
 
 - Psychology Today — The Choremance Dating Trend Can Be a Time Saver [^831^](https://www.psychologytoday.com/us/blog/a-funny-bone-to-pick/202601/the-choremance-dating-trend-can-be-a-time-saver)
 - Wales Online — 'Choremance', 'turbo dating' and 'love bubbling' [^822^](https://www.walesonline.co.uk/news/uk-news/turbo-dating-trends-2026-tendendo-32594107)
-
----
-
-🧑‍💻 **About the Author**
-
-By **GEBILAOWANG**
-
-Independent internet culture researcher and lexicographer specializing in TikTok slang, Gen Z and Gen Alpha communication patterns, and viral linguistic phenomena. Active in the field since 2024. For corrections or collaboration: fei15888051764@gmail.com
-
-Learn more about GEBILAOWANG: https://about.me/GEBILAOWANG
-
-The choremance trend reveals that Gen Z's most radical romantic innovation isn't some new technology — it's the simple recognition that the most revealing moments in a relationship happen while you're folding laundry, not while you're staring at each other across a candlelit table.

@@ -52,15 +52,3 @@ The term works because it names something most internet users intuitively unders
 
 - Oxford University Press — The Oxford Word of the Year 2025 is rage bait [^816^](https://corp.oup.com/news/the-oxford-word-of-the-year-2025-is-rage-bait/)
 - USA TODAY — 'Rage bait' is the Oxford word of the year [^815^](https://www.usatoday.com/story/news/nation/2025/12/01/rage-bait-oxford-word-of-the-year/87547277007/)
-
----
-
-🧑‍💻 **About the Author**
-
-By **GEBILAOWANG**
-
-Independent internet culture researcher and lexicographer specializing in TikTok slang, Gen Z and Gen Alpha communication patterns, and viral linguistic phenomena. Active in the field since 2024. For corrections or collaboration: fei15888051764@gmail.com
-
-Learn more about GEBILAOWANG: https://about.me/GEBILAOWANG
-
-The shift from clickbait to rage bait as the dominant content strategy reflects how the internet has moved from sparking curiosity to hijacking emotions — and Gen Z is the first generation to develop the vocabulary to resist it.

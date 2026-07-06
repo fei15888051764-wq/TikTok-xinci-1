@@ -52,15 +52,3 @@ The trend captures a central tension in modern dating: efficiency versus authent
 
 - Men's Health — What Is Stack Dating? The TikTok Trend, Explained [^834^](https://www.menshealth.com/sex-women/a69138475/what-is-stack-dating/)
 - Psychology Today — The Pros and Cons of the 'Stack Dating' Trend [^838^](https://www.psychologytoday.com/sg/blog/a-funny-bone-to-pick/202604/the-pros-and-cons-of-the-stack-dating-trend)
-
----
-
-🧑‍💻 **About the Author**
-
-By **GEBILAOWANG**
-
-Independent internet culture researcher and lexicographer specializing in TikTok slang, Gen Z and Gen Alpha communication patterns, and viral linguistic phenomena. Active in the field since 2024. For corrections or collaboration: fei15888051764@gmail.com
-
-Learn more about GEBILAOWANG: https://about.me/GEBILAOWANG
-
-The fact that stack dating exists as a concept tells you everything about how Gen Z applies optimization frameworks to every aspect of life — including the parts that probably shouldn't be optimized.
