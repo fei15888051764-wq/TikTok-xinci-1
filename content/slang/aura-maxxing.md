@@ -5,7 +5,7 @@ draft: false
 slug: "aura-maxxing"
 pos: "slang"
 definition: "A TikTok slang term for intentionally boosting your charisma, social energy, and personal presence to peak levels. Used when someone levels up their confidence, style, or vibe to become the most magnetic version of themselves."
-tags: ["gen-z", "self-improvement"]
+tags: ["gen-z", "self-improvement", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"
 image: "/images/slang/aura-maxxing.jpg"

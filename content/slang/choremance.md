@@ -5,7 +5,7 @@ draft: false
 slug: "choremance"
 pos: "slang"
 definition: "A 2025-2026 dating term combining 'chore' and 'romance,' describing couples who turn everyday errands into bonding experiences. Named one of Plenty of Fish's top dating trends for 2026, it reflects Gen Z's preference for practical, authentic connection over grand romantic gestures."
-tags: ["gen-z", "dating", "relationships", "tiktok-trend"]
+tags: ["gen-z", "dating", "relationships", "tiktok-trend", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"
 image: "/images/slang/choremance.jpg"

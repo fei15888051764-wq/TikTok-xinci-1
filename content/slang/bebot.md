@@ -4,7 +4,7 @@ date: 2026-07-02T00:00:00Z
 description: "A TikTok slang term derived from Filipino culture meaning a beautiful, confident woman – essentially a Filipina baddie."
 definition: "A TikTok slang term derived from Filipino culture meaning a beautiful, confident woman – essentially a Filipina baddie."
 image: "/images/slang/bebot.jpg"
-tags: ["gen-z", "beauty"]
+tags: ["gen-z", "beauty", "2026"]
 ---
 
 ## What Does 'Bebot' Mean? The TikTok Slang Explained (2026)
