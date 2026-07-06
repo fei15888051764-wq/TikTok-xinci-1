@@ -5,7 +5,7 @@ draft: false
 slug: "rage-bait"
 pos: "slang"
 definition: "Online content deliberately designed to elicit anger or outrage in order to drive engagement. Named Oxford Word of the Year 2025, the term describes a manipulative content strategy where creators post frustrating or provocative material to trigger comments and algorithmic amplification."
-tags: ["gen-z", "social-media", "2026", "viral", "algorithm"]
+tags: ["gen-z", "social-media", "viral", "algorithm"]
 categories: ["slang"]
 author: "GEBILAOWANG"
 image: "/images/slang/rage-bait.jpg"
