@@ -13,26 +13,17 @@
 <meta name="twitter:creator" content="@tiktokslangdict">
 <meta name="twitter:image" content="{{ $ogImage | absURL }}">
 
-{{/* ===== Optimized Meta Description ===== */}}
-{{/* PaperMod uses .Summary which often starts with "Pronunciation" — override with better source */}}
-{{- $seoDesc := "" }}
-{{- if .IsHome }}
-  {{- $seoDesc = .Site.Params.description }}
-{{- else if .Params.description }}
-  {{- $seoDesc = .Params.description }}
-{{- else if .Params.definition }}
-  {{- $seoDesc = printf "Learn the meaning of '%s' — TikTok slang term. %s" .Title (.Params.definition | plainify | truncate 130) }}
-{{- else if .Summary }}
-  {{- $seoDesc = .Summary | plainify | truncate 160 }}
-{{- else }}
-  {{- $seoDesc = .Site.Params.description }}
-{{- end }}
-{{- $seoDesc = $seoDesc | truncate 160 }}
+{{/* ===== Optimized Meta Description (slang detail pages only) ===== */}}
+{{/* PaperMod's head.html already generates descriptions for homepage/list/tag.
+     We only need to override for slang detail pages where .Summary starts with "Pronunciation" */}}
+{{- if and (eq .Type "slang") .Params.definition }}
+{{- $seoDesc := printf "Learn the meaning of '%s' — TikTok slang term. %s" .Title (.Params.definition | plainify | truncate 130) | truncate 160 }}
 <meta name="description" content="{{ $seoDesc }}">
 <script>
-// Remove the theme's default meta description (first one) — it uses .Summary which starts with "Pronunciation"
+// Remove PaperMod's default meta description (first one) — it uses .Summary which starts with "Pronunciation"
 (function(){
     var metas = document.querySelectorAll('meta[name="description"]');
     if (metas.length > 1) metas[0].remove();
 })();
 </script>
+{{- end }}
