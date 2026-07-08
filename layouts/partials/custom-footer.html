@@ -13,3 +13,24 @@
         </div>
     </div>
 </footer>
+
+{{/* ===== External Link Nofollow + Security ===== */}}
+<script>
+(function() {
+    document.addEventListener('DOMContentLoaded', function() {
+        var links = document.querySelectorAll('a[href^="http"]');
+        links.forEach(function(link) {
+            var href = link.getAttribute('href') || '';
+            // Only process external links (not our own domain)
+            if (href.indexOf('tokslangdict.com') === -1 && href.indexOf(location.hostname) === -1) {
+                // Add nofollow for SEO + noopener/noreferrer for security
+                var rel = (link.getAttribute('rel') || '').split(' ').filter(Boolean);
+                ['nofollow', 'noopener', 'noreferrer'].forEach(function(r) {
+                    if (rel.indexOf(r) === -1) rel.push(r);
+                });
+                link.setAttribute('rel', rel.join(' '));
+            }
+        });
+    });
+})();
+</script>

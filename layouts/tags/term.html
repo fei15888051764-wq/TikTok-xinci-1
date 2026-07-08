@@ -36,18 +36,29 @@
         <div class="cards-grid">
             {{- range .Paginator.Pages }}
             <article class="slang-card" data-tags="{{ range .Params.tags }}{{ . }} {{ end }}" onclick="window.location.href='{{ .Permalink }}'">
-                <div class="card-header">
-                    <h2 class="slang-word">{{ .Title }}</h2>
-                    <span class="pos-tag">{{ .Params.partOfSpeech }}</span>
+                {{- if .Params.image }}
+                <div class="card-image">
+                    <img src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy" width="400" height="267">
                 </div>
-                <p class="slang-definition">{{ .Params.definition }}</p>
-                <div class="card-footer">
-                    <div class="tags-group">
-                        {{- range where .Params.tags "ne" "2026" }}
-                        <span class="tag-item">{{ . }}</span>
+                {{- end }}
+                <div class="card-body">
+                    <div class="card-header">
+                        <h2 class="slang-word">{{ .Title }}</h2>
+                        {{- if .Params.pos }}
+                        <span class="pos-tag">{{ .Params.pos }}</span>
                         {{- end }}
                     </div>
-                    <span class="updated-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+                    {{- if .Params.definition }}
+                    <p class="slang-definition">{{ .Params.definition }}</p>
+                    {{- end }}
+                    <div class="card-footer">
+                        <div class="tags-group">
+                            {{- range where .Params.tags "ne" "2026" }}
+                            <span class="tag-item">{{ . }}</span>
+                            {{- end }}
+                        </div>
+                        <span class="updated-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+                    </div>
                 </div>
             </article>
             {{- end }}

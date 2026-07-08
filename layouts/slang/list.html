@@ -36,7 +36,7 @@
                 <article class="slang-card" data-title="{{ .Title | lower }}" data-tags="{{ range .Params.tags }}{{ . | lower }} {{ end }}" data-definition="{{ .Params.definition | lower }}" onclick="window.location.href='{{ .Permalink }}'">
                     {{- if .Params.image }}
                     <div class="card-image">
-                        <img src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy">
+                        <img src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy" width="400" height="267">
                     </div>
                     {{- end }}
                     <div class="card-body">

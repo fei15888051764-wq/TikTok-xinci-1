@@ -12,3 +12,20 @@
 <meta name="twitter:site" content="@tiktokslangdict">
 <meta name="twitter:creator" content="@tiktokslangdict">
 <meta name="twitter:image" content="{{ $ogImage | absURL }}">
+
+{{/* ===== Optimized Meta Description ===== */}}
+{{/* PaperMod uses .Summary which often starts with "Pronunciation" — override with better source */}}
+{{- $seoDesc := "" }}
+{{- if .IsHome }}
+  {{- $seoDesc = .Site.Params.description }}
+{{- else if .Params.description }}
+  {{- $seoDesc = .Params.description }}
+{{- else if .Params.definition }}
+  {{- $seoDesc = printf "Learn the meaning of '%s' — TikTok slang term. %s" .Title (.Params.definition | plainify | truncate 130) }}
+{{- else if .Summary }}
+  {{- $seoDesc = .Summary | plainify | truncate 160 }}
+{{- else }}
+  {{- $seoDesc = .Site.Params.description }}
+{{- end }}
+{{- $seoDesc = $seoDesc | truncate 160 }}
+<meta name="description" content="{{ $seoDesc }}">

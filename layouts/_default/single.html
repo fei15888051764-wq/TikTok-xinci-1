@@ -42,7 +42,7 @@
             <header class="post-detail-header">
                 {{- if .Params.image }}
                 <div class="detail-image">
-                    <img src="{{ .Params.image }}" alt="{{ .Title }}">
+                    <img src="{{ .Params.image }}" alt="{{ .Title }}" width="800" height="533">
                 </div>
                 {{- end }}
                 <div class="detail-header-top">
@@ -128,7 +128,7 @@
                     <a href="{{ .Permalink }}" class="related-card">
                         {{- if .Params.image }}
                         <div class="card-image">
-                            <img src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy">
+                            <img src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy" width="400" height="267">
                         </div>
                         {{- end }}
                         <div class="card-body">
