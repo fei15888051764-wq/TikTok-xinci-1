@@ -276,8 +276,21 @@ body {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  aspect-ratio: 4 / 5;
   overflow: hidden;
+}
+.slang-card .card-image {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  background: #f0f0f0;
+  flex-shrink: 0;
+}
+.slang-card .card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 .slang-card:hover {
   box-shadow: var(--shadow-card-hover);
@@ -741,7 +754,7 @@ body {
   font-size: 22px;
   color: var(--text-secondary);
   line-height: 1.8;
-  margin-bottom: 24px;
+  margin-definition: 24px;
 }
 @media screen and (min-width: 1154px) {
   .sidebar-ad {
@@ -791,6 +804,10 @@ body {
     padding: 12px;
     gap: 8px;
     overflow: hidden;
+  }
+  .slang-card .card-image {
+    aspect-ratio: 3 / 2;
+    border-radius: 8px;
   }
   .slang-word {
     font-size: 15px;
