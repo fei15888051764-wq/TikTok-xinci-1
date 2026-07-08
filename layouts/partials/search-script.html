@@ -6,19 +6,18 @@
 [
 {{- range $allSlang }}
   {
-    "slug": {{ .Params.slug | default (.Title | urlize) | jsonify }},
-    "title": {{ .Title | jsonify }},
-    "permalink": {{ .Permalink | jsonify }},
-    "definition": {{ .Params.definition | jsonify }},
-    "tags": {{ (delimit (.Params.tags | default slice) " ") | jsonify }},
-    "content": {{ .Plain | jsonify }}
+    "slug": {{ .Params.slug | default (.Title | urlize) | replace "\\"" "" | jsonify }},
+    "title": {{ .Title | replace "\\"" "" | jsonify }},
+    "permalink": {{ .Permalink | replace "\\"" "" | jsonify }},
+    "definition": {{ .Params.definition | replace "\\"" "" | jsonify }},
+    "tags": {{ (delimit (.Params.tags | default slice) " ") | replace "\\"" "" | jsonify }},
+    "content": {{ .Plain | replace "\\"" "" | jsonify }}
   }{{ if ne . (index (last 1 $allSlang) 0) }},{{ end }}
 {{- end }}
 ]
 </script>
 <script>
 (function() {
-    // Parse search data from the JSON script tag (immune to HTML minifier)
     var jsonEl = document.getElementById('search-index-data');
     var docs = [];
     try {
@@ -28,7 +27,6 @@
         return;
     }
 
-    // Pre-process docs: add derived fields for better matching
     var STOP_WORDS = {a:1,an:1,the:1,and:1,or:1,but:1,for:1,of:1,on:1,in:1,to:1,is:1,it:1,at:1,by:1,with:1,from:1,as:1};
     docs.forEach(function(doc) {
         var t = (doc.title || '').toLowerCase();
@@ -37,7 +35,6 @@
         doc.title_keywords_nospace = keywords.join('');
     });
 
-    // Build Lunr index
     var idx = lunr(function() {
         this.ref('slug');
         this.field('title', { boost: 10 });
@@ -73,37 +70,23 @@
         function addSlug(s) { if (!seen[s]) { seen[s] = true; matchedSlugs.push(s); } }
         var qNoSpace = stripSpace(q);
 
-        // Strategy 1: Lunr wildcard search
-        try {
-            idx.search(qLower + '*').forEach(function(r) { addSlug(r.ref); });
-        } catch(e) {}
+        try { idx.search(qLower + '*').forEach(function(r) { addSlug(r.ref); }); } catch(e) {}
+        try { idx.search(qLower + '~1').forEach(function(r) { addSlug(r.ref); }); } catch(e) {}
 
-        // Strategy 2: Lunr fuzzy search (edit distance 1)
-        try {
-            idx.search(qLower + '~1').forEach(function(r) { addSlug(r.ref); });
-        } catch(e) {}
-
-        // Strategy 3: multi-word prefix search
         if (qLower.indexOf(' ') !== -1) {
             var words = qLower.split(/\s+/).filter(function(w) { return w.length > 0; });
             if (words.length > 1) {
-                try {
-                    idx.search(words.map(function(w) { return w + '*'; }).join(' ')).forEach(function(r) { addSlug(r.ref); });
-                } catch(e) {}
-                try {
-                    idx.search(words.map(function(w) { return '+' + w + '*'; }).join(' ')).forEach(function(r) { addSlug(r.ref); });
-                } catch(e) {}
+                try { idx.search(words.map(function(w) { return w + '*'; }).join(' ')).forEach(function(r) { addSlug(r.ref); }); } catch(e) {}
+                try { idx.search(words.map(function(w) { return '+' + w + '*'; }).join(' ')).forEach(function(r) { addSlug(r.ref); }); } catch(e) {}
             }
         }
 
-        // Strategy 4: no-space full title matching
         if (qNoSpace.length >= 2) {
             docs.forEach(function(doc) {
                 if (doc.title_nospace.indexOf(qNoSpace) !== -1) addSlug(doc.slug);
             });
         }
 
-        // Strategy 5: no-space KEYWORD-ONLY matching (skips stop words like for/the/of)
         var qKeywords = qLower.split(/[^a-z0-9]+/).filter(function(w) { return w.length > 0 && !STOP_WORDS[w]; }).join('');
         if (qKeywords.length >= 2) {
             docs.forEach(function(doc) {
@@ -113,28 +96,20 @@
             });
         }
 
-        // Strategy 6: fallback text search (AND logic for multi-word)
         var queryWords = qLower.split(/\s+/).filter(function(w) { return w.length > 0; });
         docs.forEach(function(doc) {
             if (seen[doc.slug]) return;
-
             var titleText = (doc.title || '').toLowerCase();
             var defText = (doc.definition || '').toLowerCase();
             var tagText = (doc.tags || '').toLowerCase();
             var allText = titleText + ' ' + defText + ' ' + tagText;
-
-            // 6a: full query as substring
             if (allText.indexOf(qLower) !== -1) { addSlug(doc.slug); return; }
-
-            // 6b: each query word must appear somewhere (AND logic)
             if (queryWords.length > 1) {
                 var allWordsMatch = queryWords.every(function(word) {
                     return titleText.indexOf(word) !== -1 || defText.indexOf(word) !== -1 || tagText.indexOf(word) !== -1;
                 });
                 if (allWordsMatch) { addSlug(doc.slug); return; }
             }
-
-            // 6c: single word - prefix match in any word
             if (queryWords.length === 1 && queryWords[0].length >= 2) {
                 var word = queryWords[0];
                 var allWords = allText.split(/\s+/);
@@ -144,7 +119,6 @@
             }
         });
 
-        // Sort by relevance
         matchedSlugs.sort(function(a, b) {
             var docA = docMap[a], docB = docMap[b];
             if (!docA || !docB) return 0;
@@ -155,7 +129,6 @@
             return bScore - aScore;
         });
 
-        // Filter visible cards on homepage
         if (allCards.length > 0) {
             allCards.forEach(function(card) {
                 var onclick = card.getAttribute('onclick') || '';
@@ -169,7 +142,6 @@
             });
         }
 
-        // Build dropdown results
         var html = '';
         if (matchedSlugs.length === 0) {
             html = '<div class="search-no-results">No results for "' + esc(q) + '"</div>';
