@@ -464,6 +464,19 @@ body {
   color: var(--border-color);
   font-size: 24px;
 }
+.detail-definition {
+  margin: 0 0 24px 0;
+  padding: 24px;
+  background: var(--card-bg);
+  border: 2px solid var(--border-light);
+  border-radius: var(--radius);
+}
+.detail-definition-text {
+  font-size: 24px;
+  color: var(--text-secondary);
+  line-height: 1.75;
+  margin: 0;
+}
 .detail-image {
   width: 100%;
   margin-bottom: 30px;
@@ -946,7 +959,7 @@ html {
 .subscribe-desc {
     font-size: 21px;
     color: var(--text-secondary);
-    line-line-height: 1.6;
+    line-height: 1.6;
     margin-bottom: 36px;
 }
 .subscribe-form {
