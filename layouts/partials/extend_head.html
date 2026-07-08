@@ -13,35 +13,30 @@
 <meta name="twitter:creator" content="@tiktokslangdict">
 <meta name="twitter:image" content="{{ $ogImage | absURL }}">
 
-{{/* ===== Fix meta description & remove duplicate twitter:card ===== */}}
-{{- if and (eq .Type "slang") .Params.definition }}
-{{- $seoDesc := printf "Learn the meaning of '%s' — TikTok slang term. %s" .Title (.Params.definition | plainify | truncate 130) | truncate 160 }}
+{{/* ===== Optimized Meta Description ===== */}}
+{{/* PaperMod's head.html generates description from .Summary (starts with "Pronunciation").
+     We add an optimized description here that search engines will pick up.
+     The JS below also cleans up any duplicate twitter:card tags. */}}
+{{- $seoDesc := "" }}
+{{- if .Params.definition }}
+  {{- $seoDesc = printf "Learn the meaning of '%s' — TikTok slang term. %s" .Title (.Params.definition | plainify | truncate 130) | truncate 160 }}
+{{- else if .Description }}
+  {{- $seoDesc = .Description }}
+{{- end }}
+{{- if $seoDesc }}
+<meta name="description" content="{{ $seoDesc }}">
+<meta property="og:description" content="{{ $seoDesc }}">
+<meta name="twitter:description" content="{{ $seoDesc }}">
+{{- end }}
+
+{{/* Remove duplicate twitter:card from PaperMod */}}
 <script>
 (function(){
-    // 1. Replace PaperMod's default description (which starts with "Pronunciation")
-    // with an optimized one using the slang definition
-    var oldDesc = document.querySelector('meta[name="description"]');
-    if (oldDesc) oldDesc.remove();
-    var newDesc = document.createElement('meta');
-    newDesc.setAttribute('name', 'description');
-    newDesc.setAttribute('content', {{ $seoDesc | jsonify }});
-    document.head.insertBefore(newDesc, document.head.firstChild);
-    
-    // 2. Remove duplicate twitter:card meta tag from PaperMod
     var twitterCards = document.querySelectorAll('meta[name="twitter:card"]');
     if (twitterCards.length > 1) {
         for (var i = 1; i < twitterCards.length; i++) {
             twitterCards[i].remove();
         }
     }
-    
-    // 3. Also update og:description to match
-    var ogDesc = document.querySelector('meta[property="og:description"]');
-    if (ogDesc) ogDesc.setAttribute('content', {{ $seoDesc | jsonify }});
-    
-    // 4. Update twitter:description to match
-    var twDesc = document.querySelector('meta[name="twitter:description"]');
-    if (twDesc) twDesc.setAttribute('content', {{ $seoDesc | jsonify }});
 })();
 </script>
-{{- end }}
