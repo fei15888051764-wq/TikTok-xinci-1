@@ -14,16 +14,14 @@
 <meta name="twitter:image" content="{{ $ogImage | absURL }}">
 
 {{/* ===== Optimized Meta Description (slang detail pages only) ===== */}}
-{{/* PaperMod's head.html already generates descriptions for homepage/list/tag.
-     We only need to override for slang detail pages where .Summary starts with "Pronunciation" */}}
+{{/* PaperMod's head.html generates a description from .Summary (starts with "Pronunciation" on slang pages).
+     We use JS to replace the existing description's content, avoiding duplicate <meta name="description"> tags. */}}
 {{- if and (eq .Type "slang") .Params.definition }}
 {{- $seoDesc := printf "Learn the meaning of '%s' — TikTok slang term. %s" .Title (.Params.definition | plainify | truncate 130) | truncate 160 }}
-<meta name="description" content="{{ $seoDesc }}">
 <script>
-// Remove PaperMod's default meta description (first one) — it uses .Summary which starts with "Pronunciation"
 (function(){
-    var metas = document.querySelectorAll('meta[name="description"]');
-    if (metas.length > 1) metas[0].remove();
+    var meta = document.querySelector('meta[name="description"]');
+    if (meta) meta.setAttribute('content', {{ $seoDesc | jsonify }});
 })();
 </script>
 {{- end }}
