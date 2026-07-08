@@ -13,15 +13,15 @@
 <meta name="twitter:creator" content="@tiktokslangdict">
 <meta name="twitter:image" content="{{ $ogImage | absURL }}">
 
-{{/* ===== Optimized Meta Description ===== */}}
-{{- $seoDesc := "" }}
-{{- if .Params.definition }}
-  {{- $seoDesc = printf "Learn the meaning of '%s' — TikTok slang term. %s" .Title (.Params.definition | plainify | truncate 130) | truncate 160 }}
-{{- else if .Description }}
-  {{- $seoDesc = .Description }}
-{{- end }}
-{{- if $seoDesc }}
-<meta name="description" content="{{ $seoDesc }}">
-<meta property="og:description" content="{{ $seoDesc }}">
-<meta name="twitter:description" content="{{ $seoDesc }}">
+{{/* ===== Optimized Meta Description (slang detail pages only) ===== */}}
+{{/* PaperMod's head.html generates a description from .Summary (starts with "Pronunciation" on slang pages).
+     We use JS to replace the existing description's content, avoiding duplicate <meta name="description"> tags. */}}
+{{- if and (eq .Type "slang") .Params.definition }}
+{{- $seoDesc := printf "Learn the meaning of '%s' — TikTok slang term. %s" .Title (.Params.definition | plainify | truncate 130) | truncate 160 }}
+<script>
+(function(){
+    var meta = document.querySelector('meta[name="description"]');
+    if (meta) meta.setAttribute('content', {{ $seoDesc | jsonify }});
+})();
+</script>
 {{- end }}

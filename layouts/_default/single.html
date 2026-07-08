@@ -1,14 +1,7 @@
 {{ define "main" }}
 {{- $isSlang := eq .Type "slang" }}
 {{- if $isSlang }}
-{{ (printf `<script>!function(){var e=document.querySelectorAll('meta[name="description"]');for(var i=0;i<e.length;i++){var c=e[i].getAttribute('content')||'';if(c.indexOf('Pronunciation')===0||c.indexOf('How to pronounce')===0){e[i].remove();break;}}}();</script>`) | safeHTML }}
-<div class="home-container">
-    <!-- Left Sidebar Ad (Desktop Only) -->
-    <aside class="sidebar-ad" aria-label="Advertisement">
-        <div class="ad-placeholder-sidebar">
-            <span>AD</span>
-        </div>
-    </aside>
+<div class="detail-container">
 {{- end }}
 
     <!-- Main Content Area -->
@@ -43,7 +36,7 @@
             <header class="post-detail-header">
                 {{- if .Params.image }}
                 <div class="detail-image">
-                    <img src="{{ .Params.image }}" alt="{{ .Title }}" width="800" height="533">
+                    <img src="{{ .Params.image }}" alt="{{ .Title }}">
                 </div>
                 {{- end }}
                 <div class="detail-header-top">
@@ -52,12 +45,6 @@
                     <span class="pos-tag detail-pos">{{ .Params.pos }}</span>
                     {{- end }}
                 </div>
-                {{- if .Params.definition }}
-                <div class="detail-definition">
-                    <p class="detail-section-label">Definition</p>
-                    <p class="detail-definition-text">{{ .Params.definition }}</p>
-                </div>
-                {{- end }}
                 <div class="post-detail-meta">
                     <div class="meta-left">
                         <span class="updated-date">Updated {{ .Date.Format "January 2, 2006" }}</span>
@@ -73,26 +60,22 @@
                 </div>
             </header>
 
-            <!-- Mobile Banner Ad: Top of content -->
-            <div class="mobile-banner-ad" id="ad-detail-content-top">
-                <div class="ad-placeholder-banner">
-                    <span>AD</span>
-                </div>
+            {{/* Definition section */}}
+            {{- if .Params.definition }}
+            <div class="detail-definition-section" itemprop="description">
+                <h2 class="detail-section-label">Definition</h2>
+                <p class="detail-definition-text">{{ .Params.definition }}</p>
             </div>
+            {{- end }}
 
             {{/* Main content from markdown */}}
             {{- if .Content }}
-            <div class="post-detail-content" itemprop="articleBody" id="article-content">
+            <div class="post-detail-content" itemprop="articleBody">
                 {{ .Content }}
             </div>
             {{- end }}
 
-            <!-- Mobile Banner Ad: Middle of content (inserted via JS) -->
-            <div class="mobile-banner-ad" id="ad-detail-content-mid">
-                <div class="ad-placeholder-banner">
-                    <span>AD</span>
-                </div>
-            </div>
+
 
             {{- if $isSlang }}
             {{/* Author section - only for slang pages */}}
@@ -115,13 +98,6 @@
                     </div>
                 </div>
             </footer>
-
-            <!-- Mobile Banner Ad: Below author -->
-            <div class="mobile-banner-ad" id="ad-detail-author-below">
-                <div class="ad-placeholder-banner">
-                    <span>AD</span>
-                </div>
-            </div>
             {{- end }}
 
             {{/* Related articles section */}}
@@ -131,11 +107,11 @@
             <section class="related-articles">
                 <h2 class="related-title">Related Slang Words</h2>
                 <div class="related-grid">
-                    {{- range first 2 $related }}
+                    {{- range first 3 $related }}
                     <a href="{{ .Permalink }}" class="related-card">
                         {{- if .Params.image }}
                         <div class="card-image">
-                            <img src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy" width="400" height="267">
+                            <img src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy">
                         </div>
                         {{- end }}
                         <div class="card-body">
@@ -168,12 +144,6 @@
     </div>
 
 {{- if $isSlang }}
-    <!-- Right Sidebar Ad (Desktop Only) -->
-    <aside class="sidebar-ad" aria-label="Advertisement">
-        <div class="ad-placeholder-sidebar">
-            <span>AD</span>
-        </div>
-    </aside>
 </div>
 
 <!-- Shared Search Script (only for slang pages) -->
