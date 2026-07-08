@@ -53,7 +53,7 @@ body {
   width: 100%;
 }
 .sidebar-ad {
-  display: none !important;
+  display: block;
   width: var(--sidebar-width);
   min-height: 900px;
   flex-shrink: 0;
@@ -770,9 +770,6 @@ body {
   margin-bottom: 24px;
 }
 @media screen and (min-width: 1154px) {
-  .sidebar-ad {
-    display: none !important;
-  }
   .mobile-banner-ad {
     display: none !important;
   }
@@ -863,22 +860,78 @@ body {
     height: 120px;
   }
   .slang-detail {
-    padding: 36px 24px 60px;
+    padding: 22px 24px 36px;
   }
   .post-detail-title {
-    font-size: 42px;
+    font-size: 25px;
+    letter-spacing: -1px;
+  }
+  .detail-header-top {
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+  .detail-pos {
+    font-size: 12px;
+    padding: 4px 12px;
+  }
+  .post-detail-meta {
+    gap: 12px;
+    padding-bottom: 18px;
   }
   .detail-definition-section {
-    padding: 30px;
+    padding: 18px;
+    margin-bottom: 24px;
+  }
+  .detail-section-label {
+    font-size: 9px;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
   }
   .detail-definition-text {
-    font-size: 22px;
+    font-size: 13px;
+    line-height: 1.6;
   }
   .post-detail-content {
-    font-size: 21px;
+    font-size: 13px;
+    line-height: 1.6;
   }
   .post-detail-content h2 {
-    font-size: 30px;
+    font-size: 18px;
+    margin: 24px 0 12px;
+  }
+  .post-detail-content h3 {
+    font-size: 16px;
+    margin: 18px 0 9px;
+  }
+  .post-detail-content p {
+    margin-bottom: 12px;
+  }
+  .post-detail-content ul,
+  .post-detail-content ol {
+    margin: 0 0 12px 18px;
+  }
+  .post-detail-content li {
+    margin-bottom: 6px;
+  }
+  .post-detail-content code {
+    font-size: 12px;
+  }
+  .related-title {
+    font-size: 22px;
+    margin: 24px 0 18px;
+    padding-bottom: 12px;
+  }
+  .author-name {
+    font-size: 13px;
+  }
+  .author-bio {
+    font-size: 12px;
+  }
+  .breadcrumb {
+    margin-bottom: 12px;
+  }
+  .breadcrumb-list {
+    font-size: 16px;
   }
   .author-info {
     flex-direction: column;
