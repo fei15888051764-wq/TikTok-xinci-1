@@ -81,11 +81,11 @@ params:
 
   assets:
     disableHLJS: true
-    favicon: "/favicon.ico"
-    favicon16x16: "/favicon-16x16.ico"
-    favicon32x32: "/favicon-32x32.ico"
-    apple_touch_icon: "/apple-touch-icon.ico"
-    safari_pinned_tab: "/safari-pinned-tab.ico"
+    favicon: "/favicon.svg"
+    favicon16x16: "/favicon.svg"
+    favicon32x32: "/favicon.svg"
+    apple_touch_icon: "/favicon.svg"
+    safari_pinned_tab: "/favicon.svg"
 
   label:
     text: "TikTok Slang Dictionary"
