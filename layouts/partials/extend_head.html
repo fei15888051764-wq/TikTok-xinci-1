@@ -29,3 +29,10 @@
 {{- end }}
 {{- $seoDesc = $seoDesc | truncate 160 }}
 <meta name="description" content="{{ $seoDesc }}">
+<script>
+// Remove the theme's default meta description (first one) — it uses .Summary which starts with "Pronunciation"
+(function(){
+    var metas = document.querySelectorAll('meta[name="description"]');
+    if (metas.length > 1) metas[0].remove();
+})();
+</script>
