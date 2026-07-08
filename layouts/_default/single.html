@@ -1,19 +1,7 @@
 {{ define "main" }}
 {{- $isSlang := eq .Type "slang" }}
 {{- if $isSlang }}
-<!-- Fix description: remove old Pronunciation-based description -->
-<script>
-(function(){
-    var descs = document.querySelectorAll('meta[name="description"]');
-    for (var i = 0; i < descs.length; i++) {
-        var content = descs[i].getAttribute('content') || '';
-        if (content.indexOf('Pronunciation') === 0 || content.indexOf('How to pronounce') === 0) {
-            descs[i].remove();
-            break;
-        }
-    }
-})();
-</script>
+{{ (printf `<script>!function(){var e=document.querySelectorAll('meta[name="description"]');for(var i=0;i<e.length;i++){var c=e[i].getAttribute('content')||'';if(c.indexOf('Pronunciation')===0||c.indexOf('How to pronounce')===0){e[i].remove();break;}}}();</script>`) | safeHTML }}
 <div class="home-container">
     <!-- Left Sidebar Ad (Desktop Only) -->
     <aside class="sidebar-ad" aria-label="Advertisement">
