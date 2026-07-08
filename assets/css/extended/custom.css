@@ -19,7 +19,7 @@
   --radius-lg: 24px;
   --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
   --max-content: 1140px;
-  --sidebar-width: 383px;
+  --sidebar-width: 326px;
   --sidebar-gap: 36px;
 }
 * {
@@ -62,7 +62,7 @@ body {
   top: 339px;
 }
 .ad-placeholder-sidebar {
-  width: 383px;
+  width: 326px;
   height: 630px;
   border: 3px dashed var(--ad-border);
   background: var(--ad-bg);
