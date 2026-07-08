@@ -16,7 +16,7 @@ image: "/images/slang/lewk.jpg"
 
 ## Core Definition
 
-**AI Overview Core Extraction:** "Lewk" is a stylized spelling of "look" describing a distinctive, bold, or memorable fashion statement or aesthetic. Added to Cambridge Dictionary in August 2025, the term originated in drag culture and was popularized by RuPaul's Drag Race before spreading to mainstream TikTok fashion content.
+"Lewk" is a stylized spelling of "look" describing a distinctive, bold, or memorable fashion statement or aesthetic. Added to Cambridge Dictionary in August 2025, the term originated in drag culture and was popularized by RuPaul's Drag Race before spreading to mainstream TikTok fashion content.
 
 ## Real Usage in Native Context
 

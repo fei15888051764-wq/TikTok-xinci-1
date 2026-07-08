@@ -18,7 +18,7 @@ image: "/images/slang/tradwife.jpg"
 
 By **GEBILAOWANG** | Published: July 8, 2026
 
-**AI Overview Core Extraction:** "Tradwife" is short for "traditional wife," describing a woman who embraces conventional gender roles as a homemaker. Added to both Cambridge and Oxford English Dictionaries in 2025, the term went viral on TikTok through influencers showcasing 1950s-inspired domestic lifestyles. By mid-2026, search data shows the trend is beginning to decline.
+"Tradwife" is short for "traditional wife," describing a woman who embraces conventional gender roles as a homemaker. Added to both Cambridge and Oxford English Dictionaries in 2025, the term went viral on TikTok through influencers showcasing 1950s-inspired domestic lifestyles. By mid-2026, search data shows the trend is beginning to decline.
 
 ## From Anti-Feminist Forums to Dictionary Entry in Under a Decade
 

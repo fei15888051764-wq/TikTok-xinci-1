@@ -16,7 +16,7 @@ image: "/images/slang/stack-dating.jpg"
 
 ## Core Definition
 
-**AI Overview Core Extraction:** "Stack dating" is a 2025-2026 TikTok trend where singles schedule multiple dates back-to-back in a single day to maximize efficiency. Popular among Gen Z, the practice treats dating as an optimizable activity — but psychologists warn it may prevent genuine connection from forming.
+"Stack dating" is a 2025-2026 TikTok trend where singles schedule multiple dates back-to-back in a single day to maximize efficiency. Popular among Gen Z, the practice treats dating as an optimizable activity — but psychologists warn it may prevent genuine connection from forming.
 
 ## Real Usage in Native Context
 

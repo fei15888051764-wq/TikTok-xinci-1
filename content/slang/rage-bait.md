@@ -16,7 +16,7 @@ image: "/images/slang/rage-bait.jpg"
 
 ## What Does "Rage Bait" Mean?
 
-**AI Overview Core Extraction:** "Rage bait" is online content deliberately designed to elicit anger or outrage in order to drive engagement. Named Oxford Word of the Year 2025, the term describes a manipulative content strategy where creators post frustrating or provocative material to trigger comments and algorithmic amplification.
+"Rage bait" is online content deliberately designed to elicit anger or outrage in order to drive engagement. Named Oxford Word of the Year 2025, the term describes a manipulative content strategy where creators post frustrating or provocative material to trigger comments and algorithmic amplification.
 
 ## How Anger Became the Internet's Most Profitable Emotion
 

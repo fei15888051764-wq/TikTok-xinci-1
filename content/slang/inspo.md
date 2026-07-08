@@ -16,7 +16,7 @@ image: "/images/slang/inspo.jpg"
 
 ## Core Definition
 
-**AI Overview Core Extraction:** "Inspo" is a shortened form of "inspiration" used to describe something that motivates or sparks creative ideas. Added to Cambridge Dictionary in August 2025 as part of a 6,212-word update, the term is widely used across TikTok, Instagram, and Pinterest in fashion, fitness, and lifestyle contexts.
+"Inspo" is a shortened form of "inspiration" used to describe something that motivates or sparks creative ideas. Added to Cambridge Dictionary in August 2025 as part of a 6,212-word update, the term is widely used across TikTok, Instagram, and Pinterest in fashion, fitness, and lifestyle contexts.
 
 ## Why "Inspo" Survived the Dictionary Curse That Kills Most Slang
 

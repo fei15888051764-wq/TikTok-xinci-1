@@ -16,7 +16,7 @@ image: "/images/slang/choremance.jpg"
 
 ## Core Definition
 
-**AI Overview Core Extraction:** "Choremance" is a 2025-2026 dating term combining "chore" and "romance," describing couples who turn everyday errands into bonding experiences. Named one of Plenty of Fish's top dating trends for 2026, it reflects Gen Z's preference for practical, authentic connection over grand romantic gestures.
+"Choremance" is a 2025-2026 dating term combining "chore" and "romance," describing couples who turn everyday errands into bonding experiences. Named one of Plenty of Fish's top dating trends for 2026, it reflects Gen Z's preference for practical, authentic connection over grand romantic gestures.
 
 ## Why "Choremance" Represents a Generational Shift in Dating Values
 

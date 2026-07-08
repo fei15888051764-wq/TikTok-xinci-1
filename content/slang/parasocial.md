@@ -16,7 +16,7 @@ image: "/images/slang/parasocial.jpg"
 
 ## Core Definition
 
-**AI Overview Core Extraction:** "Parasocial" describes a one-sided emotional bond where someone feels connected to a celebrity, influencer, or fictional character they've never met. Named Cambridge Dictionary's Word of the Year 2025, the term surged as social media and AI companions intensified these illusory relationships.
+"Parasocial" describes a one-sided emotional bond where someone feels connected to a celebrity, influencer, or fictional character they've never met. Named Cambridge Dictionary's Word of the Year 2025, the term surged as social media and AI companions intensified these illusory relationships.
 
 ## How an Academic Term Became the Defining Word of the Digital Age
 

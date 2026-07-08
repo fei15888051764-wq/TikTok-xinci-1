@@ -16,7 +16,7 @@ image: "/images/slang/clanker.jpg"
 
 ## What Does "Clanker" Mean?
 
-**AI Overview Core Extraction:** "Clanker" is a 2025-2026 slang term for artificial intelligence, particularly used mockingly or with hostility to describe AI systems, chatbots, and other nonhuman technologies. Shortlisted for Dictionary.com's 2025 Word of the Year, the term reflects growing cultural unease and skepticism about AI's expanding role in daily life and creative industries.
+"Clanker" is a 2025-2026 slang term for artificial intelligence, particularly used mockingly or with hostility to describe AI systems, chatbots, and other nonhuman technologies. Shortlisted for Dictionary.com's 2025 Word of the Year, the term reflects growing cultural unease and skepticism about AI's expanding role in daily life and creative industries.
 
 ## From Sci-Fi Term to the Internet's Favorite Insult for AI
 
