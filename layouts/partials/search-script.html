@@ -1,17 +1,17 @@
 {{/* ===== Lunr.js Search Script (shared across all pages) ===== */}}
 <script src="https://unpkg.com/lunr/lunr.js"></script>
-{{/* Store search data in a JSON script tag - HTML minifiers won't modify this */}}
+{{/* Store search data in a JSON script tag - minifiers preserve this format */}}
 {{- $allSlang := where .Site.RegularPages "Type" "slang" }}
 <script type="application/json" id="search-index-data">
 [
 {{- range $allSlang }}
   {
-    "slug": {{ .Params.slug | default (.Title | urlize) | replace "\\"" "" | jsonify }},
-    "title": {{ .Title | replace "\\"" "" | jsonify }},
-    "permalink": {{ .Permalink | replace "\\"" "" | jsonify }},
-    "definition": {{ .Params.definition | replace "\\"" "" | jsonify }},
-    "tags": {{ (delimit (.Params.tags | default slice) " ") | replace "\\"" "" | jsonify }},
-    "content": {{ .Plain | replace "\\"" "" | jsonify }}
+    "slug": {{ .Params.slug | default (.Title | urlize) | jsonify }},
+    "title": {{ .Title | jsonify }},
+    "permalink": {{ .Permalink | jsonify }},
+    "definition": {{ .Params.definition | jsonify }},
+    "tags": {{ (delimit (.Params.tags | default slice) " ") | jsonify }},
+    "content": {{ .Plain | jsonify }}
   }{{ if ne . (index (last 1 $allSlang) 0) }},{{ end }}
 {{- end }}
 ]
@@ -19,13 +19,19 @@
 <script>
 (function() {
     var jsonEl = document.getElementById('search-index-data');
-    var docs = [];
-    try {
-        docs = JSON.parse(jsonEl.textContent);
-    } catch(e) {
-        console.error('Search index parse error:', e);
-        return;
-    }
+    var rawDocs = JSON.parse(jsonEl.textContent);
+    var docs = rawDocs.map(function(doc) {
+        var out = {};
+        for (var k in doc) {
+            var v = doc[k];
+            if (typeof v === 'string' && v.charAt(0) === '"' && v.charAt(v.length - 1) === '"') {
+                out[k] = v.substring(1, v.length - 1);
+            } else {
+                out[k] = v;
+            }
+        }
+        return out;
+    });
 
     var STOP_WORDS = {a:1,an:1,the:1,and:1,or:1,but:1,for:1,of:1,on:1,in:1,to:1,is:1,it:1,at:1,by:1,with:1,from:1,as:1};
     docs.forEach(function(doc) {
