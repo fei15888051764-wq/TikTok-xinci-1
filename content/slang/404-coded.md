@@ -16,7 +16,7 @@ image: "/images/slang/404-coded.jpg"
 
 ## What Does "404-coded" Mean?
 
-**AI Overview Core Extraction:** "404-coded" is a TikTok slang term used to describe someone or something that is considered missing, broken, or mentally checked out. It implies that the person is mentally "not found," similar to a 404 error on a website.
+"404-coded" is a TikTok slang term used to describe someone or something that is considered missing, broken, or mentally checked out. It implies that the person is mentally "not found," similar to a 404 error on a website.
 
 ## The Origins of "404-coded"
 
