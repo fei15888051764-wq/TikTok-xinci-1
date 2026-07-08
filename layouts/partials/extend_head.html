@@ -14,9 +14,6 @@
 <meta name="twitter:image" content="{{ $ogImage | absURL }}">
 
 {{/* ===== Optimized Meta Description ===== */}}
-{{/* PaperMod's head.html generates description from .Summary (starts with "Pronunciation").
-     We add an optimized description here that search engines will pick up.
-     The JS below also cleans up any duplicate twitter:card tags. */}}
 {{- $seoDesc := "" }}
 {{- if .Params.definition }}
   {{- $seoDesc = printf "Learn the meaning of '%s' — TikTok slang term. %s" .Title (.Params.definition | plainify | truncate 130) | truncate 160 }}
@@ -29,13 +26,24 @@
 <meta name="twitter:description" content="{{ $seoDesc }}">
 {{- end }}
 
-{{/* Remove duplicate twitter:card from PaperMod */}}
+{{/* Remove duplicate/old meta tags */}}
 <script>
 (function(){
+    // Remove duplicate twitter:card
     var twitterCards = document.querySelectorAll('meta[name="twitter:card"]');
     if (twitterCards.length > 1) {
         for (var i = 1; i < twitterCards.length; i++) {
             twitterCards[i].remove();
+        }
+    }
+    // Remove old description that starts with "Pronunciation" if a better one exists
+    var descs = document.querySelectorAll('meta[name="description"]');
+    if (descs.length > 1) {
+        for (var j = 0; j < descs.length; j++) {
+            if (descs[j].getAttribute('content') && descs[j].getAttribute('content').indexOf('Pronunciation') === 0) {
+                descs[j].remove();
+                break;
+            }
         }
     }
 })();
