@@ -1,59 +1,46 @@
 ---
-title: "404-coded"
-date: 2026-06-25T10:00:00+08:00
-draft: false
-slug: "404-coded"
-pos: "slang"
-definition: "A TikTok slang term used to describe someone or something that is considered missing, broken, or mentally checked out. It implies that the person is mentally 'not found,' similar to a 404 error on a website."
-tags: ["gen-z", "tech", "viral", "2026"]
-categories: ["slang"]
-author: "GEBILAOWANG"
+title: "404-Coded"
+date: 2026-07-07T14:00:00-04:00
+description: "Learn the meaning of '404-Coded' — TikTok slang term. Someone whose absence goes completely unnoticed; socially invisible."
 image: "/images/slang/404-coded.jpg"
+definition: "Someone whose absence goes completely unnoticed; socially invisible."
+partOfSpeech: "adjective"
+tags: ["2025", "adjective", "social-commentary", "identity", "2026"]
+sources: ["https://www.tiktok.com/search?q=404%20coded"]
 ---
 
-## Pronunciation
-/ˈfɔːr ˈoʊ ˈfɔːr ˈkoʊdɪd/
+# What Does "404-Coded" Mean on TikTok?
 
-## What Does "404-coded" Mean?
+The term **"404-Coded"** describes a person whose absence goes completely unnoticed by others, as if they were a missing webpage that returns an error. The term is used to describe someone who feels socially invisible.
 
-"404-coded" is a TikTok slang term used to describe someone or something that is considered missing, broken, or mentally checked out. It implies that the person is mentally "not found," similar to a 404 error on a website.
+## Definition
 
-## The Origins of "404-coded"
+> **404-Coded**: Someone whose absence goes completely unnoticed; socially invisible.
+>
+> *Part of speech:* **adjective**
 
-The term "404-coded" borrows from the well-known HTTP 404 error, which indicates that a webpage cannot be found. On TikTok, this tech-inspired slang has been repurposed to humorously describe moments when someone's brain seems to be "offline" or when they're acting clueless.
+## Usage Examples
 
-## How "404-coded" Went Viral
+| Example | Context |
+|---------|---------|
+| "I've been 404-coded by my friends since graduation" | A person expressing that no one notices their absence |
+| "In this family, I'm basically 404-coded" | A teenager expressing feelings of invisibility at home |
+| "404-coded at every party I miss" | A person feeling invisible in social settings |
 
-The phrase gained traction on TikTok as users began using it in skits and comment sections to describe moments of mental blankness or confusion. It's particularly popular among Gen Z who grew up with internet culture and understand the reference to HTTP errors.
+## Cultural Context
 
-## Real Usage in Native Context
-
-> **TikTok Comment:** "When the teacher calls on me and I completely forget the answer 💀 I'm so 404-coded right now."
-
-> **Group Chat:** "Me trying to remember what I walked into the kitchen for... totally 404-coded."
-
-## Why "404-coded" Resonates with Gen Z
-
-The term works because it's a perfect blend of tech humor and relatable daily experiences. Gen Z has grown up with technology, so using error codes as metaphors for mental states feels natural and funny. It's concise, visual, and instantly communicates the idea of being mentally "not found."
+The term combines the HTTP status code **404 Not Found** with the concept of being "coded" in a certain way. It resonates with Gen Z and Gen Alpha who grew up with the internet and understand the frustration of a broken link or missing page.
 
 ## Related Slang
 
-- **Brain rot** — similar concept but focused on mental deterioration from too much screen time
-- **Brain AFK** — another tech-inspired term for being mentally checked out
-- **Glazing** — when someone's mind wanders off during a conversation
+- **NPC** — A person perceived as lacking originality or independent thought
+- **Main Character Energy** — The opposite; someone who commands attention
+- **Ghosted** — When someone suddenly stops communicating
 
-## Frequently Asked Questions
+## Pronunciation
 
-- **Q:** Can "404-coded" be used in professional settings?
-  **A:** It's best used in casual contexts with people who understand internet culture. In professional settings, it might come across as too informal or confusing to those unfamiliar with tech slang.
+/ˈfɔːr oʊ ˈfɔːr ˈkoʊdɪd/
 
-- **Q:** Is this term offensive?
-  **A:** Generally no, it's used humorously and self-deprecatingly. However, like any slang about mental states, context matters.
+## Origin
 
-- **Q:** How do I explain this to someone older?
-  **A:** "It's like saying your brain is having a 'page not found' error, like when a website doesn't load."
-
-## Sources
-
-- Urban Dictionary — "404-coded" [https://www.urbandictionary.com/define.php?term=404-coded]
-- TikTok Creative Center — Trending Keywords [https://ads.tiktok.com/business/en-US/solutions/tiktok-creative-center]
+The term emerged from internet culture in the mid-2020s, combining HTTP error code 404 with the slang usage of "coded" to describe someone's social status. It reflects the digital native generation's tendency to use technical metaphors for social experiences.
