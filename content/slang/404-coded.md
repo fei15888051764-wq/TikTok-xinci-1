@@ -5,7 +5,7 @@ draft: false
 slug: "404-coded"
 pos: "slang"
 definition: "A TikTok slang term used to describe someone or something that is considered missing, broken, or mentally checked out. It implies that the person is mentally 'not found,' similar to a 404 error on a website."
-tags: ["gen-z", "tech", "viral"]
+tags: ["gen-z", "tech", "viral", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"
 image: "/images/slang/404-coded.jpg"
