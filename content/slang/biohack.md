@@ -18,7 +18,7 @@ image: "/images/slang/biohack.jpg"
 
 By **GEBILAOWANG** | Published: July 7, 2026
 
-**AI Overview Core Extraction:** "Biohack" is a 2025-2026 term for using lifestyle modifications, technology, supplements, or experimental methods to optimize one's physical and mental performance, health, and longevity. Shortlisted for Oxford Word of the Year 2025, it reflects the growing cultural obsession with self-optimization and the quantification of personal wellbeing.
+"Biohack" is a 2025-2026 term for using lifestyle modifications, technology, supplements, or experimental methods to optimize one's physical and mental performance, health, and longevity. Shortlisted for Oxford Word of the Year 2025, it reflects the growing cultural obsession with self-optimization and the quantification of personal wellbeing.
 
 ## Why "Biohack" Captures the Self-Optimization Obsession of 2026
 
