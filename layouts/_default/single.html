@@ -52,6 +52,11 @@
                     <span class="pos-tag detail-pos">{{ .Params.pos }}</span>
                     {{- end }}
                 </div>
+                {{- if .Params.definition }}
+                <div class="detail-definition">
+                    <p class="detail-definition-text">{{ .Params.definition }}</p>
+                </div>
+                {{- end }}
                 <div class="post-detail-meta">
                     <div class="meta-left">
                         <span class="updated-date">Updated {{ .Date.Format "January 2, 2006" }}</span>
