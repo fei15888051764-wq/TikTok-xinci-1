@@ -5,6 +5,7 @@ draft: false
 slug: "delulu"
 pos: "adjective"
 definition: "Internet slang for 'delusional,' describing someone with bold, unapologetic belief in achieving their ambitions — often used playfully in the phrase 'delulu is the solulu' on TikTok and across Gen-Z social media."
+description: "Learn the meaning of 'Delulu' — TikTok slang term. Internet slang for 'delusional,' describing someone with bold, unapologetic belief in achieving their ambitions — often used playfully in the ph..."
 tags: ["gen-z", "feelings", "viral", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"
