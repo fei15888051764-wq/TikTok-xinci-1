@@ -16,7 +16,7 @@ image: "/images/slang/chopped.jpg"
 
 ## What Does "Chopped" Mean?
 
-**AI Overview Core Extraction:** "Chopped" is a TikTok slang term meaning to be rejected, ignored, or cut off—often in a romantic or social context. Originally from culinary terminology, it evolved into internet slang through gaming and dating contexts.
+"Chopped" is a TikTok slang term meaning to be rejected, ignored, or cut off—often in a romantic or social context. Originally from culinary terminology, it evolved into internet slang through gaming and dating contexts.
 
 ## The Evolution of "Chopped"
 
