@@ -536,17 +536,12 @@ body {
   margin-bottom: 48px;
 }
 .detail-section-label {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 600;
   color: var(--text-muted);
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin-bottom: 18px;
-}
-.detail-definition-text {
-  font-size: 24px;
-  color: var(--text-secondary);
-  line-height: 1.75;
+  margin-bottom: 8px;
 }
 .post-detail-content {
   font-size: 22px;
@@ -1036,22 +1031,22 @@ html {
 }
 .subscribe-desc-v2 {
     font-size: 21px;
-    color: var(--text-secondary);
-    line-height: 1.6;
-    margin-bottom: 18px;
-    text-align: center;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 18px;
+  text-align: center;
 }
 .subscribe-instruction {
-    font-size: 18px;
-    color: var(--text-secondary);
-    margin-bottom: 6px;
+  font-size: 18px;
+  color: var(--text-secondary);
+  margin-bottom: 6px;
 }
 .subscribe-instruction a {
-    color: var(--text-primary);
-    text-decoration: underline;
+  color: var(--text-primary);
+  text-decoration: underline;
 }
 .subscribe-unsubscribe {
-    font-size: 15px;
-    color: var(--text-muted);
-    margin: 0;
+  font-size: 15px;
+  color: var(--text-muted);
+  margin: 0;
 }
