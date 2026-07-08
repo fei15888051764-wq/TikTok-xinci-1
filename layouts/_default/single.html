@@ -1,14 +1,28 @@
 {{ define "main" }}
 {{- $isSlang := eq .Type "slang" }}
 {{- if $isSlang }}
-<div class="detail-container">
+<div class="detail-container home-container">
+
+    <!-- Left Sidebar Ad (Desktop Only) -->
+    <aside class="sidebar-ad" aria-label="Advertisement">
+        <div class="ad-placeholder-sidebar">
+            <span>ADVERTISEMENT</span>
+        </div>
+    </aside>
 {{- end }}
 
     <!-- Main Content Area -->
-    <div class="detail-main">
+    <div class="detail-main main-content">
         {{- if $isSlang }}
         <!-- Search Section (shared with homepage) -->
         {{- partial "search-box.html" . }}
+
+        <!-- Mobile Banner Ad -->
+        <div class="mobile-banner-ad">
+            <div class="ad-placeholder-banner">
+                <span>AD</span>
+            </div>
+        </div>
 
         <!-- Back to Home Link - below search box -->
         <div class="back-to-home">
@@ -144,6 +158,12 @@
     </div>
 
 {{- if $isSlang }}
+    <!-- Right Sidebar Ad (Desktop Only) -->
+    <aside class="sidebar-ad" aria-label="Advertisement">
+        <div class="ad-placeholder-sidebar">
+            <span>ADVERTISEMENT</span>
+        </div>
+    </aside>
 </div>
 
 <!-- Shared Search Script (only for slang pages) -->
