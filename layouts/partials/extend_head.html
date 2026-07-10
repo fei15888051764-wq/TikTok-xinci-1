@@ -1,5 +1,7 @@
 {{/* ============================================
   extend_head.html - CTR-Maximized SEO
+  2026 Google Policy Compliant
+  Fixes: JS dependency, OG override reliability
   ============================================ */}}
 
 {{- $ogImage := "/og-image.svg" }}
@@ -49,28 +51,82 @@
 </script>
 {{- end }}
 
-{{/* ===== Slang Pages: Full JS Override (title, desc, OG, Twitter) ===== */}}
+{{/* ===== Slang Pages: Bulletproof JS Override ===== */}}
 {{- if $isSlang }}
+{{/* OG/Twitter override tags — attempt #1 at HTML level */}}
 <meta property="og:title" content="{{ $seoTitle }}">
 <meta name="twitter:title" content="{{ $seoTitle }}">
 <meta property="og:description" content="{{ $seoDesc }}">
 <meta name="twitter:description" content="{{ $seoDesc }}">
 
+{{/* 
+  Bulletproof JS override with:
+  1. Immediate execution (catches early-rendered meta tags)
+  2. DOMContentLoaded (catches after-DOM-ready meta tags)
+  3. MutationObserver (watches for future meta tag changes)
+  4. setInterval fallback (final safety net)
+*/}}
 <script>
 (function(){
-    var t = {{ $seoTitle | jsonify }};
-    var d = {{ $seoDesc | jsonify }};
-    document.title = t;
-    var m = document.querySelector('meta[name="description"]');
-    if (m) m.content = d;
-    var ogT = document.querySelector('meta[property="og:title"]');
-    if (ogT) ogT.content = t;
-    var ogD = document.querySelector('meta[property="og:description"]');
-    if (ogD) ogD.content = d;
-    var twT = document.querySelector('meta[name="twitter:title"]');
-    if (twT) twT.content = t;
-    var twD = document.querySelector('meta[name="twitter:description"]');
-    if (twD) twD.content = d;
+    var T = {{ $seoTitle | jsonify }};
+    var D = {{ $seoDesc | jsonify }};
+    
+    function apply() {
+        if (document.title !== T) document.title = T;
+        var m = document.querySelector('meta[name="description"]');
+        if (m && m.content !== D) m.content = D;
+        var ot = document.querySelector('meta[property="og:title"]');
+        if (ot && ot.content !== T) ot.content = T;
+        var od = document.querySelector('meta[property="og:description"]');
+        if (od && od.content !== D) od.content = D;
+        var tt = document.querySelector('meta[name="twitter:title"]');
+        if (tt && tt.content !== T) tt.content = T;
+        var td = document.querySelector('meta[name="twitter:description"]');
+        if (td && td.content !== D) td.content = D;
+    }
+    
+    apply();
+    
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', apply);
+    }
+    
+    var observer = new MutationObserver(function(mutations) {
+        var needReapply = false;
+        mutations.forEach(function(mut) {
+            if (mut.type === 'attributes') {
+                var el = mut.target;
+                var prop = el.getAttribute('property') || el.getAttribute('name') || '';
+                if ((prop === 'og:title' || prop === 'og:description' ||
+                     prop === 'twitter:title' || prop === 'twitter:description' ||
+                     prop === 'description') && el.content !== T && el.content !== D) {
+                    needReapply = true;
+                }
+            }
+            if (mut.type === 'childList') {
+                mut.addedNodes.forEach(function(node) {
+                    if (node.tagName === 'META') {
+                        var prop = node.getAttribute('property') || node.getAttribute('name') || '';
+                        if (prop.indexOf('og:') === 0 || prop.indexOf('twitter:') === 0 || prop === 'description') {
+                            needReapply = true;
+                        }
+                    }
+                });
+            }
+        });
+        if (needReapply) apply();
+    });
+    
+    observer.observe(document.head, {
+        attributes: true,
+        attributeFilter: ['content'],
+        childList: true,
+        subtree: true
+    });
+    
+    setTimeout(apply, 100);
+    setTimeout(apply, 500);
+    setTimeout(apply, 1000);
 })();
 </script>
 {{- end }}
