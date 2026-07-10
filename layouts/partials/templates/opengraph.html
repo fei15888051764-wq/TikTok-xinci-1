@@ -42,7 +42,7 @@
 {{- with site.Language.Params.ogLocale | default site.Params.defaultoglocale }}
 <meta property="og:locale" content="{{ . }}" />
 {{- end }}
-{{- with site.Params.author }}
+{{- with site.Params.og.site_name }}
 <meta property="og:site_name" content="{{ . }}" />
 {{- end }}
 {{- with $images }}
