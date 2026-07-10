@@ -63,8 +63,3 @@ Research suggests these relationships often fail long-term. The "less attractive
 ## Pronunciation
 
 /ˈʃrɛkɪŋ/
-
-## SEO Metadata
-
-- **SEO Title:** Shrekking Meaning: What Does "Shrekking" Mean in Dating?
-- **SEO Description:** Discover the meaning of shrekking on TikTok. Learn about this controversial dating trend where people intentionally choose less attractive partners.
