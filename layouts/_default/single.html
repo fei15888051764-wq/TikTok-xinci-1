@@ -94,7 +94,7 @@
               var content = document.querySelector('.post-detail-content');
               if (!content) return;
               var headings = content.querySelectorAll('h2, h3');
-              var defRegex = /^(Definition|Core\s+Definition|What\s+Does\s+.*?\s+Mean\??|What\s+Is\s+.*?\?)$/i;
+              var defRegex = /^(Definition|Core\s+Definition|What\s+Does\s.*?\sMean\??|What\s+Is\s.*?\?)$/i;
               for (var i = 0; i < headings.length; i++) {
                 if (defRegex.test(headings[i].textContent.trim())) {
                   var el = headings[i], next;
@@ -186,6 +186,9 @@
                 </div>
             </section>
             {{- end }}
+
+            {{/* Schema.org structured data */}}
+            {{- partial "schema-jsonld.html" . }}
         </article>
     </div>
 
