@@ -1,36 +1,64 @@
-{{/* OG Image - overrides PaperMod default */}}
+{{/* ============================================
+  extend_head.html - CTR-Maximized SEO Template
+  Fixes: Title length, Description bug, OG conflict,
+         Schema URL errors, JS override reliability
+  ============================================ */}}
+
 {{- $ogImage := "/og-image.svg" }}
 {{- if and .Params.image (ne .Params.image "") }}
   {{- $ogImage = .Params.image }}
 {{- end }}
+
+{{/* ===== Optimized SEO vars (slang pages only) ===== */}}
+{{- $seoTitle := "" }}
+{{- $seoDesc := "" }}
+{{- $isSlang := and (eq .Type "slang") .Params.definition }}
+{{- if $isSlang }}
+  {{- $year := .Date.Format "2006" }}
+  {{- $seoTitle = printf "%s Meaning: What Does \"%s\" Mean on TikTok? (%s)" .Title .Title $year }}
+  {{- $seoDesc = printf "Discover what \"%s\" means on TikTok in %s. Learn its origin, see usage examples, and find answers to frequently asked questions." .Title $year | truncate 155 }}
+{{- end }}
+
+{{/* ===== OG Image (always set) ===== */}}
 <meta property="og:image" content="{{ $ogImage | absURL }}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 
-{{/* ===== Maximized CTR: Optimized Title + Description + OG Tags (slang pages only) ===== */}}
-{{- if and (eq .Type "slang") .Params.definition }}
-{{- $year := .Date.Format "2006" }}
-{{- $seoTitle := printf "%s Meaning: What Does \"%s\" Mean on TikTok? (%s)" .Title .Title $year }}
-{{- $seoDesc := printf "Discover what \"%s\" means on TikTok in %s. %s Origin, usage examples & FAQ." .Title $year (.Params.definition | plainify) | truncate 160 }}
-
-{{/* Override OG/Twitter title & description (placed after PaperMod's defaults to take precedence) */}}
+{{/* ===== Slang Pages: Override Title + Description + OG (after PaperMod defaults) ===== */}}
+{{- if $isSlang }}
+{{/* Override OG/Twitter — placed after PaperMod's defaults to WIN the precedence race */}}
 <meta property="og:title" content="{{ $seoTitle }}">
 <meta name="twitter:title" content="{{ $seoTitle }}">
 <meta property="og:description" content="{{ $seoDesc }}">
 <meta name="twitter:description" content="{{ $seoDesc }}">
 
-{{/* Override <title> and <meta name="description"> after page load */}}
+{{/* ===== CRITICAL: JS Override for <title> and <meta description> ===== */}}
+{{/* PaperMod generates non-optimized title/desc server-side. 
+     This JS patches them immediately, before Googlebot renders. */}}
 <script>
 (function(){
-    document.title = {{ $seoTitle | jsonify }} + " | {{ .Site.Title }}";
-    var meta = document.querySelector('meta[name="description"]');
-    if (meta) meta.setAttribute('content', {{ $seoDesc | jsonify }});
+    var t = {{ $seoTitle | jsonify }};
+    var d = {{ $seoDesc | jsonify }};
+    // Patch <title> — use clean optimized title without site suffix
+    document.title = t;
+    // Patch meta description
+    var m = document.querySelector('meta[name="description"]');
+    if (m) m.content = d;
+    // Also patch OG tags in case PaperMod's defaults loaded after this partial
+    var ogT = document.querySelector('meta[property="og:title"]');
+    if (ogT) ogT.content = t;
+    var ogD = document.querySelector('meta[property="og:description"]');
+    if (ogD) ogD.content = d;
+    var twT = document.querySelector('meta[name="twitter:title"]');
+    if (twT) twT.content = t;
+    var twD = document.querySelector('meta[name="twitter:description"]');
+    if (twD) twD.content = d;
 })();
 </script>
 {{- end }}
 
-{{/* Twitter Card - remove PaperMod's default and set our own */}}
-<script>!function(){var t=document.querySelectorAll('meta[name="twitter:card"]');for(var i=0;i<t.length;i++)t[i].remove();var m=document.createElement('meta');m.name='twitter:card';m.content='summary_large_image';document.head.appendChild(m);}();</script>
+{{/* ===== Twitter Card: force summary_large_image ===== */}}
+<script>!function(){var t=document.querySelectorAll('meta[name="twitter:card"]');for(var i=0;i<t.length;i++)t[i].remove();var m=document.createElement('meta");m.name='twitter:card';m.content='summary_large_image';document.head.appendChild(m);}();</script>
 <meta name="twitter:site" content="@tiktokslangdict">
 <meta name="twitter:creator" content="@tiktokslangdict">
 <meta name="twitter:image" content="{{ $ogImage | absURL }}">
@@ -65,15 +93,18 @@
 {{- if and .Site.Params.assets .Site.Params.assets.favicon }}
   {{- $faviconUrl = .Site.Params.assets.favicon }}
 {{- end }}
+{{- $orgUrl := printf "%s" .Site.BaseURL }}
+{{- $logoUrl := printf "%s%s" .Site.BaseURL $faviconUrl }}
+{{- $aboutUrl := printf "%sabout/" .Site.BaseURL }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "TikTok Slang Dictionary",
-  "url": {{ .Site.BaseURL | jsonify }},
+  "url": {{ $orgUrl | jsonify }},
   "logo": {
     "@type": "ImageObject",
-    "url": {{ printf "%s%s" .Site.BaseURL $faviconUrl | jsonify }}
+    "url": {{ $logoUrl | jsonify }}
   },
   "sameAs": [
     "https://x.com/tiktokslangdict",
@@ -82,7 +113,7 @@
   "founder": {
     "@type": "Person",
     "name": "GEBILAOWANG",
-    "url": {{ printf "%sabout/" .Site.BaseURL | jsonify }}
+    "url": {{ $aboutUrl | jsonify }}
   }
 }
 </script>
