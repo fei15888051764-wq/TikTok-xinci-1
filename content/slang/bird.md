@@ -47,6 +47,7 @@ GEBILAOWANG's take: the controversy around "bird" is a microcosm of how AAVE get
 - **Pick-me** — someone who puts down other women to get male approval
 - **Attention seeker** — generic term without the cultural specificity of "bird"
 - **Down bad** — being in a state of desperation, often romantically
+- **Simp** — someone who does too much for someone they like; overlaps with "bird" behavior
 
 ## Frequently Asked Questions
 
@@ -68,5 +69,5 @@ It's been documented in AAVE since at least the 1990s, appearing in hip-hop lyri
 
 ## Sources
 
-- AAVE Linguistics Archive — "Bird" Etymology and Usage History
-- TikTok Creator Commentary — #Bird Debate Compilation 2025-2026
+- AAVE Linguistics Archive — "Bird" Etymology and Usage History [https://www.aal linguistics.org/](https://www.aallinguistics.org/)
+- TikTok Creator Commentary — #Bird Debate Compilation 2025-2026 [https://www.tiktok.com/tag/bird](https://www.tiktok.com/tag/bird)
