@@ -35,8 +35,12 @@
 <meta name="twitter:creator" content="@tiktokslangdict">
 <meta name="twitter:image" content="{{ $ogImage | absURL }}">
 
-{{/* ===== WebSite Schema with SearchAction ===== */}}
-{{- if .IsHome }}
+{{/* ===== WebSite Schema with SearchAction (homepage only) ===== */}}
+{{- if eq .Kind "home" }}
+{{- $faviconUrl := "/favicon.svg" }}
+{{- if and .Site.Params.assets .Site.Params.assets.favicon }}
+  {{- $faviconUrl = .Site.Params.assets.favicon }}
+{{- end }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -44,19 +48,6 @@
   "name": {{ .Site.Title | jsonify }},
   "url": {{ .Site.BaseURL | jsonify }},
   "description": {{ .Site.Params.description | jsonify }},
-  "publisher": {
-    "@type": "Organization",
-    "name": "TikTok Slang Dictionary",
-    "url": {{ .Site.BaseURL | jsonify }},
-    "logo": {
-      "@type": "ImageObject",
-      "url": {{ printf "%s%s" .Site.BaseURL (.Site.Params.assets.favicon | default "/favicon.svg") | jsonify }}
-    },
-    "sameAs": [
-      "https://x.com/tiktokslangdict",
-      "https://github.com/tiktokslangdictionary"
-    ]
-  },
   "potentialAction": {
     "@type": "SearchAction",
     "target": {
@@ -69,7 +60,11 @@
 </script>
 {{- end }}
 
-{{/* ===== Organization Schema (on all pages) ===== */}}
+{{/* ===== Organization Schema (all pages) ===== */}}
+{{- $faviconUrl := "/favicon.svg" }}
+{{- if and .Site.Params.assets .Site.Params.assets.favicon }}
+  {{- $faviconUrl = .Site.Params.assets.favicon }}
+{{- end }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,7 +73,7 @@
   "url": {{ .Site.BaseURL | jsonify }},
   "logo": {
     "@type": "ImageObject",
-    "url": {{ printf "%s%s" .Site.BaseURL (.Site.Params.assets.favicon | default "/favicon.svg") | jsonify }}
+    "url": {{ printf "%s%s" .Site.BaseURL $faviconUrl | jsonify }}
   },
   "sameAs": [
     "https://x.com/tiktokslangdict",
