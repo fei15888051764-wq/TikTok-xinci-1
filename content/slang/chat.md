@@ -43,6 +43,7 @@ GEBILAOWANG's take: what's fascinating about "chat" is that it represents the co
 - **Everyone** — more formal; "chat" feels more casual and internet-native
 - **Dude / Bro** — gendered alternatives that "chat" avoids
 - **No cap / For real** — other streaming-origin phrases that entered everyday speech
+- **Fam** — another casual group address, though more intimate than "chat"
 
 ## Frequently Asked Questions
 
