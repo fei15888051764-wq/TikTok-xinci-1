@@ -1,0 +1,32 @@
+{{/* ============================================
+  Custom Twitter Cards partial — overrides PaperMod defaults
+  Ensures optimized twitter:title/twitter:description for slang pages
+  ============================================ */}}
+
+{{- $seoTitle := "" }}
+{{- $seoDesc := "" }}
+{{- $isSlang := and (eq .Type "slang") .Params.definition }}
+{{- if $isSlang }}
+  {{- $year := .Date.Format "2006" }}
+  {{- $seoTitle = printf "%s Meaning: What Does \"%s\" Mean on TikTok? (%s)" .Title .Title $year }}
+  {{- $seoDesc = printf "Discover what \"%s\" means on TikTok in %s. Learn its origin, see usage examples, and find answers to frequently asked questions." .Title $year | truncate 155 }}
+{{- else }}
+  {{- $seoTitle = .Title }}
+  {{- $seoDesc = .Summary | default .Site.Params.description | plainify | truncate 200 }}
+{{- end }}
+
+{{- $images := partial "_funcs/get-page-images" . -}}
+{{- $image := index $images 0 -}}
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ $seoTitle }}" />
+{{- with $seoDesc }}
+<meta name="twitter:description" content="{{ . }}" />
+{{- end }}
+{{- with $image }}
+<meta name="twitter:image" content="{{ . }}" />
+{{- else }}
+<meta name="twitter:image" content="{{ "/og-image.svg" | absURL }}" />
+{{- end }}
+<meta name="twitter:site" content="@tiktokslangdict" />
+<meta name="twitter:creator" content="@tiktokslangdict" />
