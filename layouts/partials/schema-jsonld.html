@@ -4,7 +4,7 @@
 {{/* ===== Extract FAQ from raw markdown ===== */}}
 {{- $faqItems := slice }}
 {{- $raw := .RawContent }}
-{{- if and (strings.Contains $raw "## Frequently Asked Questions") (strings.Contains $raw "## Pronunciation") }}
+{{- if and (in $raw "## Frequently Asked Questions") (in $raw "## Pronunciation") }}
   {{- $faqParts := split $raw "## Frequently Asked Questions" }}
   {{- if gt (len $faqParts) 1 }}
     {{- $afterFAQ := index $faqParts 1 }}
