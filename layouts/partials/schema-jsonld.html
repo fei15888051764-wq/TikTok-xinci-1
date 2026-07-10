@@ -1,5 +1,60 @@
-{{/* Schema.org structured data: Article + BreadcrumbList + FAQPage */}}
+{{/* Schema.org: FAQPage + Article + BreadcrumbList */}}
 {{- if eq .Type "slang" }}
+
+{{/* ===== Extract FAQ from raw markdown ===== */}}
+{{- $faqItems := slice }}
+{{- $raw := .RawContent }}
+{{- if and (strings.Contains $raw "## Frequently Asked Questions") (strings.Contains $raw "## Pronunciation") }}
+  {{- $faqParts := split $raw "## Frequently Asked Questions" }}
+  {{- if gt (len $faqParts) 1 }}
+    {{- $afterFAQ := index $faqParts 1 }}
+    {{- $pronParts := split $afterFAQ "## Pronunciation" }}
+    {{- if gt (len $pronParts) 0 }}
+      {{- $section := strings.TrimSpace (index $pronParts 0) }}
+      {{- $blocks := split $section "\n### " }}
+      {{- range $i, $b := $blocks }}
+        {{- if and (gt $i 0) (gt (len $b) 0) }}
+          {{- $b = strings.TrimSpace $b }}
+          {{- $lines := split $b "\n" }}
+          {{- if gt (len $lines) 1 }}
+            {{- $q := strings.TrimSpace (index $lines 0) }}
+            {{- $aLines := after 1 $lines }}
+            {{- $a := strings.TrimSpace (delimit $aLines "\n") }}
+            {{- $a = replaceRE "\\[([^\\]]+)\\]\\([^)]+\\)" "$1" $a }}
+            {{- $a = replaceRE "\\*\\*" "" $a }}
+            {{- $a = replaceRE "\\*" "" $a }}
+            {{- if and $q $a }}
+              {{- $faqItems = $faqItems | append (dict "q" $q "a" $a) }}
+            {{- end }}
+          {{- end }}
+        {{- end }}
+      {{- end }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+
+{{/* ===== FAQPage Schema ===== */}}
+{{- if gt (len $faqItems) 0 }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+  {{- range $i, $item := $faqItems }}
+  {{- if gt $i 0 }},{{ end }}
+    {
+      "@type": "Question",
+      "name": {{ $item.q | jsonify }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ $item.a | jsonify }}
+      }
+    }
+  {{- end }}
+  ]
+}
+</script>
+{{- end }}
 
 {{/* ===== Article Schema ===== */}}
 {{- $img := .Params.image | default "/og-image.svg" | absURL }}
