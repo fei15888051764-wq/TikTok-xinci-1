@@ -1,11 +1,64 @@
-{{/* Minimal Schema test */}}
+{{/* Schema.org structured data: Article + BreadcrumbList + FAQPage */}}
 {{- if eq .Type "slang" }}
+
+{{/* ===== Article Schema ===== */}}
+{{- $img := .Params.image | default "/og-image.svg" | absURL }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": {{ .Title | jsonify }},
-  "description": {{ .Params.definition | jsonify }}
+  "headline": {{ printf "%s Meaning: What Does \"%s\" Mean on TikTok? (%s)" .Title .Title (.Date.Format "2006") | jsonify }},
+  "description": {{ .Params.definition | jsonify }},
+  "image": {{ $img | jsonify }},
+  "author": {
+    "@type": "Person",
+    "name": "GEBILAOWANG",
+    "url": {{ printf "%sabout/" .Site.BaseURL | jsonify }}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "TikTok Slang Dictionary",
+    "logo": {
+      "@type": "ImageObject",
+      "url": {{ printf "%sfavicon.svg" .Site.BaseURL | jsonify }}
+    }
+  },
+  "datePublished": {{ .Date.Format "2006-01-02T15:04:05-07:00" | jsonify }},
+  "dateModified": {{ .Date.Format "2006-01-02T15:04:05-07:00" | jsonify }},
+  "articleSection": "Slang",
+  "inLanguage": "en-US",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": {{ .Permalink | jsonify }}
+  }
 }
 </script>
+
+{{/* ===== BreadcrumbList Schema ===== */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": {{ .Site.BaseURL | jsonify }}
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Slang",
+      "item": {{ printf "%sslang/" .Site.BaseURL | jsonify }}
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": {{ .Title | jsonify }}
+    }
+  ]
+}
+</script>
+
 {{- end }}
