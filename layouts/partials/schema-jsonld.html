@@ -1,0 +1,127 @@
+{{/* ============================================
+  schema-jsonld.html - Comprehensive Schema.org structured data
+  Supports: FAQPage, Article, BreadcrumbList
+  ============================================ */}}
+
+{{- if eq .Type "slang" }}
+
+{{/* ===== 1. Extract FAQ data from markdown content ===== */}}
+{{- $faqItems := slice }}
+{{- $raw := .RawContent }}
+{{- $faqStart := strings.Index $raw "## Frequently Asked Questions" }}
+{{- $faqEnd := strings.Index $raw "## Pronunciation" }}
+{{- if and (gt $faqStart -1) (gt $faqEnd $faqStart) }}
+  {{- $faqSection := substr $raw (add $faqStart 30) $faqEnd }}
+  {{- $faqSection = strings.TrimSpace $faqSection }}
+  {{- $qaBlocks := split $faqSection "\n### " }}
+  {{- range $i, $block := $qaBlocks }}
+    {{- if gt $i 0 }}{{/* Skip empty first element before first ### */}}
+      {{- $block = strings.TrimSpace $block }}
+      {{- $newlineIdx := strings.Index $block "\n" }}
+      {{- if gt $newlineIdx -1 }}
+        {{- $q := substr $block 0 $newlineIdx }}
+        {{- $q = strings.TrimSpace $q }}
+        {{- $a := substr $block (add $newlineIdx 1) }}
+        {{- $a = strings.TrimSpace $a }}
+        {{- $a = replaceRE "\\[([^\\]]+)\\]\\(([^)]+)\\)" "$1" $a }}{{/* Remove markdown links */}}
+        {{- $a = replaceRE "\\*\\*([^*]+)\\*\\*" "$1" $a }}{{/* Remove bold */}}
+        {{- $a = replaceRE "\\*([^*]+)\\*" "$1" $a }}{{/* Remove italic */}}
+        {{- if and $q $a }}
+          {{- $item := dict "question" $q "answer" $a }}
+          {{- $faqItems = $faqItems | append $item }}
+        {{- end }}
+      {{- end }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+
+{{/* ===== 2. FAQPage Schema (only if FAQ items exist) ===== */}}
+{{- if gt (len $faqItems) 0 }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+  {{- range $i, $item := $faqItems }}
+  {{- if gt $i 0 }},{{ end }}
+    {
+      "@type": "Question",
+      "name": {{ $item.question | jsonify }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ $item.answer | jsonify }}
+      }
+    }
+  {{- end }}
+  ]
+}
+</script>
+{{- end }}
+
+{{/* ===== 3. Article Schema ===== */}}
+{{- $articleImage := .Params.image | default "/og-image.svg" | absURL }}
+{{- $wordCount := .WordCount }}
+{{- if lt $wordCount 100 }}{{/* Fallback if Hugo word count is low */}}
+  {{- $wordCount = len (split .RawContent " ") }}
+{{- end }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ printf "%s Meaning: What Does \"%s\" Mean on TikTok? (%s)" .Title .Title (.Date.Format "2006") | jsonify }},
+  "description": {{ .Params.definition | jsonify }},
+  "image": {{ $articleImage | jsonify }},
+  "author": {
+    "@type": "Person",
+    "name": "GEBILAOWANG",
+    "url": {{ printf "%sabout/" .Site.BaseURL | jsonify }},
+    "description": {{ .Site.Params.authorInfo.bio | jsonify }}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "TikTok Slang Dictionary",
+    "logo": {
+      "@type": "ImageObject",
+      "url": {{ printf "%s%s" .Site.BaseURL (.Site.Params.assets.favicon | default "/favicon.svg") | jsonify }}
+    }
+  },
+  "datePublished": {{ .Date.Format "2006-01-02T15:04:05-07:00" | jsonify }},
+  "dateModified": {{ .Date.Format "2006-01-02T15:04:05-07:00" | jsonify }},
+  "articleSection": "Slang",
+  "wordCount": {{ $wordCount }},
+  "inLanguage": "en-US",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": {{ .Permalink | jsonify }}
+  }
+}
+</script>
+
+{{/* ===== 4. BreadcrumbList Schema ===== */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": {{ .Site.BaseURL | jsonify }}
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Slang",
+      "item": {{ printf "%s%s/" .Site.BaseURL .Section | jsonify }}
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": {{ .Title | jsonify }}
+    }
+  ]
+}
+</script>
+
+{{- end }}
