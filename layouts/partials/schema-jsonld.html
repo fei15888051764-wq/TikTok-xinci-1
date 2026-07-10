@@ -1,4 +1,4 @@
-{{/* Schema.org: FAQPage + Article + BreadcrumbList */}}
+{{/* Schema.org: FAQPage + Article + BreadcrumbList + Organization */}}
 {{- if eq .Type "slang" }}
 
 {{/* ===== Extract FAQ from raw markdown ===== */}}
@@ -115,6 +115,29 @@
       "name": {{ .Title | jsonify }}
     }
   ]
+}
+</script>
+
+{{/* ===== Standalone Organization Schema ===== */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "TikTok Slang Dictionary",
+  "url": {{ .Site.BaseURL | jsonify }},
+  "logo": {
+    "@type": "ImageObject",
+    "url": {{ printf "%sfavicon.svg" .Site.BaseURL | jsonify }}
+  },
+  "sameAs": [
+    "https://x.com/tiktokslangdict",
+    "https://github.com/tiktokslangdictionary"
+  ],
+  "founder": {
+    "@type": "Person",
+    "name": "GEBILAOWANG",
+    "url": {{ printf "%sabout/" .Site.BaseURL | jsonify }}
+  }
 }
 </script>
 
