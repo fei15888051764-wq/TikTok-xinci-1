@@ -3,7 +3,7 @@ title: "SYBAU"
 date: 2026-07-10T10:00:00+08:00
 draft: false
 slug: "sybau"
-pos: "slang"
+pos: "acronym"
 definition: "An aggressive acronym popular on TikTok meaning 'shut your b***h a** up,' used as a confrontational clapback in comments and captions."
 tags: ["gen-z", "social-media", "acronym", "2026"]
 categories: ["slang"]
