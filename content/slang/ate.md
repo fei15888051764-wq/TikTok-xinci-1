@@ -43,6 +43,23 @@ The phrase "left no crumbs" emerged as an intensifier in **early 2022**, adding 
 - **Main character energy** — Performing with confidence and presence
 - **No crumbs left** — Response confirming the performance was flawless
 
+## Frequently Asked Questions
+
+### What does "ate" mean on TikTok?
+"Ate" means someone performed something flawlessly or with exceptional skill. It's the ultimate one-word compliment on TikTok.
+
+### Is "ate" the same as "slay"?
+Very similar. Both mean outstanding performance, but "ate" has become more dominant on TikTok while "slay" is slightly older and broader in usage.
+
+### What does "ate and left no crumbs" mean?
+This is the superlative form of "ate" — it means the performance was so complete and perfect that nothing remains to critique.
+
+### Where did "ate" come from?
+The slang usage traces to 1980s ballroom culture in New York City, where commentators used "she ate that" to describe performers who dominated the runway.
+
+### Can you use "ate" outside of TikTok?
+Absolutely. "Ate" has achieved cross-generational adoption and appears in casual conversation, text messaging, and even professional creative contexts.
+
 ## Pronunciation
 
 /eɪt/

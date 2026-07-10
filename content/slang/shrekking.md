@@ -43,6 +43,23 @@ By mid-2025, the term had expanded beyond romantic contexts to describe similar 
 - **Love Bombing** — Overwhelming someone with affection as manipulation
 - **Red Flag** — A warning sign of problematic behavior in a relationship
 
+## Frequently Asked Questions
+
+### What does shrekking mean in dating?
+Shrekking refers to intentionally choosing a partner perceived as less attractive than yourself, assuming they'll be more grateful and easier to manage in the relationship.
+
+### Is shrekking a real dating strategy?
+Some people do practice it consciously, but relationship psychologists warn it creates unsustainable power imbalances. Most dating experts consider it a red flag behavior.
+
+### Where did the term shrekking come from?
+It references Shrek the ogre who won Princess Fiona's heart despite not fitting traditional attractiveness standards. The term emerged on TikTok in early 2025.
+
+### Is shrekking the same as dating down?
+Similar but not identical. "Dating down" is a neutral description, while "shrekking" specifically implies a strategic, manipulative motive of seeking a grateful partner.
+
+### Does shrekking actually work?
+Research suggests these relationships often fail long-term. The "less attractive" partner may develop resentment, while the "more attractive" partner misses genuine emotional connection.
+
 ## Pronunciation
 
 /ˈʃrɛkɪŋ/

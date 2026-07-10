@@ -43,6 +43,23 @@ By mid-2025, SYBAU had transcended its original meaning to become a **versatile 
 - **Ratio** — When a reply gets more likes than the original post
 - **SA'd** — Censored slang for serious sensitive topics
 
+## Frequently Asked Questions
+
+### What does SYBAU stand for?
+SYBAU stands for "shut your b***h a** up." It's an aggressive acronym used as a confrontational clapback in TikTok comments and captions.
+
+### Is SYBAU offensive?
+It can be. Between friends it's often playful teasing, but in public comment threads it delivers genuine aggression. Context and relationship determine whether it's read as a joke or an insult.
+
+### How do you pronounce SYBAU?
+Most people spell out the letters: "S-Y-B-A-U." Some UK users pronounce it as "sigh-bow" in face-to-face conversation.
+
+### Where did SYBAU come from?
+The acronym first appeared on Urban Dictionary in 2003 but remained niche until late 2024, when TikTok creators popularized it through roast-style stitch videos.
+
+### Can you use SYBAU on TikTok without getting banned?
+Generally yes, because it's an acronym that slips past most automated content moderation filters. However, using it in harassment contexts can still result in account action.
+
 ## Pronunciation
 
 /ˈɛs waɪ ˈbiː ˈeɪ ˈjuː/
