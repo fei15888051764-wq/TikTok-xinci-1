@@ -34,3 +34,60 @@
 <meta name="twitter:site" content="@tiktokslangdict">
 <meta name="twitter:creator" content="@tiktokslangdict">
 <meta name="twitter:image" content="{{ $ogImage | absURL }}">
+
+{{/* ===== WebSite Schema with SearchAction ===== */}}
+{{- if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": {{ .Site.Title | jsonify }},
+  "url": {{ .Site.BaseURL | jsonify }},
+  "description": {{ .Site.Params.description | jsonify }},
+  "publisher": {
+    "@type": "Organization",
+    "name": "TikTok Slang Dictionary",
+    "url": {{ .Site.BaseURL | jsonify }},
+    "logo": {
+      "@type": "ImageObject",
+      "url": {{ printf "%s%s" .Site.BaseURL (.Site.Params.assets.favicon | default "/favicon.svg") | jsonify }}
+    },
+    "sameAs": [
+      "https://x.com/tiktokslangdict",
+      "https://github.com/tiktokslangdictionary"
+    ]
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": {{ printf "%sslang/?q={search_term_string}" .Site.BaseURL | jsonify }}
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+{{- end }}
+
+{{/* ===== Organization Schema (on all pages) ===== */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "TikTok Slang Dictionary",
+  "url": {{ .Site.BaseURL | jsonify }},
+  "logo": {
+    "@type": "ImageObject",
+    "url": {{ printf "%s%s" .Site.BaseURL (.Site.Params.assets.favicon | default "/favicon.svg") | jsonify }}
+  },
+  "sameAs": [
+    "https://x.com/tiktokslangdict",
+    "https://github.com/tiktokslangdictionary"
+  ],
+  "founder": {
+    "@type": "Person",
+    "name": "GEBILAOWANG",
+    "url": {{ printf "%sabout/" .Site.BaseURL | jsonify }}
+  }
+}
+</script>
