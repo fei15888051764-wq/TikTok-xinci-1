@@ -94,8 +94,9 @@
               var content = document.querySelector('.post-detail-content');
               if (!content) return;
               var headings = content.querySelectorAll('h2, h3');
+              var defRegex = /^(Definition|Core\s+Definition|What\s+Does\s+.*?\s+Mean\??|What\s+Is\s+.*?\?)$/i;
               for (var i = 0; i < headings.length; i++) {
-                if (headings[i].textContent.trim() === 'Definition') {
+                if (defRegex.test(headings[i].textContent.trim())) {
                   var el = headings[i], next;
                   while (el) {
                     next = el.nextElementSibling;
@@ -103,7 +104,6 @@
                     if (!next || /^H[2-6]$/.test(next.tagName)) break;
                     el = next;
                   }
-                  break;
                 }
               }
             })();
