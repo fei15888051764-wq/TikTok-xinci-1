@@ -7,21 +7,30 @@
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 
-{{/* Twitter Card - remove PaperMod's default and set our own */}}
-<script>!function(){var t=document.querySelectorAll('meta[name="twitter:card"]');for(var i=0;i<t.length;i++)t[i].remove();var m=document.createElement('meta');m.name='twitter:card';m.content='summary_large_image';document.head.appendChild(m);}();</script>
-<meta name="twitter:site" content="@tiktokslangdict">
-<meta name="twitter:creator" content="@tiktokslangdict">
-<meta name="twitter:image" content="{{ $ogImage | absURL }}">
-
-{{/* ===== Optimized Meta Description (slang detail pages only) ===== */}}
-{{/* PaperMod's head.html generates a description from .Summary (starts with "Pronunciation" on slang pages).
-     We use JS to replace the existing description's content, avoiding duplicate <meta name="description"> tags. */}}
+{{/* ===== Maximized CTR: Optimized Title + Description + OG Tags (slang pages only) ===== */}}
 {{- if and (eq .Type "slang") .Params.definition }}
-{{- $seoDesc := printf "Learn the meaning of '%s' — TikTok slang term. %s" .Title (.Params.definition | plainify | truncate 130) | truncate 160 }}
+{{- $year := .Date.Format "2006" }}
+{{- $seoTitle := printf "%s Meaning: What Does \"%s\" Mean on TikTok? (%s)" .Title .Title $year }}
+{{- $seoDesc := printf "Discover what \"%s\" means on TikTok in %s. %s Origin, usage examples & FAQ." .Title $year (.Params.definition | plainify) | truncate 160 }}
+
+{{/* Override OG/Twitter title & description (placed after PaperMod's defaults to take precedence) */}}
+<meta property="og:title" content="{{ $seoTitle }}">
+<meta name="twitter:title" content="{{ $seoTitle }}">
+<meta property="og:description" content="{{ $seoDesc }}">
+<meta name="twitter:description" content="{{ $seoDesc }}">
+
+{{/* Override <title> and <meta name="description"> after page load */}}
 <script>
 (function(){
+    document.title = {{ $seoTitle | jsonify }} + " | {{ .Site.Title }}";
     var meta = document.querySelector('meta[name="description"]');
     if (meta) meta.setAttribute('content', {{ $seoDesc | jsonify }});
 })();
 </script>
 {{- end }}
+
+{{/* Twitter Card - remove PaperMod's default and set our own */}}
+<script>!function(){var t=document.querySelectorAll('meta[name="twitter:card"]');for(var i=0;i<t.length;i++)t[i].remove();var m=document.createElement('meta');m.name='twitter:card';m.content='summary_large_image';document.head.appendChild(m);}();</script>
+<meta name="twitter:site" content="@tiktokslangdict">
+<meta name="twitter:creator" content="@tiktokslangdict">
+<meta name="twitter:image" content="{{ $ogImage | absURL }}">
