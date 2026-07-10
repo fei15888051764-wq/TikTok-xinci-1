@@ -45,6 +45,7 @@ GEBILAOWANG's take: what's particularly toxic about ghostlighting is how it weap
 - **Gaslighting** — the second half: making someone doubt their reality
 - **Breadcrumbing** — sending occasional messages to keep someone interested without commitment
 - **Love bombing** — overwhelming someone with affection as manipulation
+- **Monkey-barring** — maintaining a current relationship while actively seeking the next one
 
 ## Frequently Asked Questions
 
