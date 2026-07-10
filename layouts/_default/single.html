@@ -89,6 +89,28 @@
             </div>
             {{- end }}
 
+            <script>
+            (function(){
+              var content = document.querySelector('.post-detail-content');
+              if (!content) return;
+              var headings = content.querySelectorAll('h2, h3');
+              for (var i = 0; i < headings.length; i++) {
+                if (headings[i].textContent.trim() === 'Definition') {
+                  var el = headings[i];
+                  while (el && el.nextElementSibling) {
+                    var next = el.nextElementSibling;
+                    if (/^H[2-6]$/.test(next.tagName)) break;
+                    el.style.display = 'none';
+                    el = next;
+                  }
+                  if (el) el.style.display = 'none';
+                  headings[i].style.display = 'none';
+                  break;
+                }
+              }
+            })();
+            </script>
+
             <!-- Mobile Banner Ad #2: Middle of content -->
             <div class="mobile-banner-ad" id="ad-detail-middle">
                 <div class="ad-placeholder-banner">
