@@ -1,7 +1,5 @@
 {{/* ============================================
-  extend_head.html - CTR-Maximized SEO Template
-  Fixes: Title length, Description bug, OG conflict,
-         Schema URL errors, JS override reliability
+  extend_head.html - CTR-Maximized SEO
   ============================================ */}}
 
 {{- $ogImage := "/og-image.svg" }}
@@ -19,56 +17,19 @@
   {{- $seoDesc = printf "Discover what \"%s\" means on TikTok in %s. Learn its origin, see usage examples, and find answers to frequently asked questions." .Title $year | truncate 155 }}
 {{- end }}
 
-{{/* ===== OG Image (always set) ===== */}}
+{{/* ===== OG Image ===== */}}
 <meta property="og:image" content="{{ $ogImage | absURL }}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 
-{{/* ===== Slang Pages: Override Title + Description + OG (after PaperMod defaults) ===== */}}
-{{- if $isSlang }}
-{{/* Override OG/Twitter — placed after PaperMod's defaults to WIN the precedence race */}}
-<meta property="og:title" content="{{ $seoTitle }}">
-<meta name="twitter:title" content="{{ $seoTitle }}">
-<meta property="og:description" content="{{ $seoDesc }}">
-<meta name="twitter:description" content="{{ $seoDesc }}">
-
-{{/* ===== CRITICAL: JS Override for <title> and <meta description> ===== */}}
-{{/* PaperMod generates non-optimized title/desc server-side. 
-     This JS patches them immediately, before Googlebot renders. */}}
-<script>
-(function(){
-    var t = {{ $seoTitle | jsonify }};
-    var d = {{ $seoDesc | jsonify }};
-    // Patch <title> — use clean optimized title without site suffix
-    document.title = t;
-    // Patch meta description
-    var m = document.querySelector('meta[name="description"]');
-    if (m) m.content = d;
-    // Also patch OG tags in case PaperMod's defaults loaded after this partial
-    var ogT = document.querySelector('meta[property="og:title"]');
-    if (ogT) ogT.content = t;
-    var ogD = document.querySelector('meta[property="og:description"]');
-    if (ogD) ogD.content = d;
-    var twT = document.querySelector('meta[name="twitter:title"]');
-    if (twT) twT.content = t;
-    var twD = document.querySelector('meta[name="twitter:description"]');
-    if (twD) twD.content = d;
-})();
-</script>
-{{- end }}
-
-{{/* ===== Twitter Card: force summary_large_image ===== */}}
+{{/* ===== Twitter Card ===== */}}
 <script>!function(){var t=document.querySelectorAll('meta[name="twitter:card"]');for(var i=0;i<t.length;i++)t[i].remove();var m=document.createElement('meta');m.name='twitter:card';m.content='summary_large_image';document.head.appendChild(m);}();</script>
 <meta name="twitter:site" content="@tiktokslangdict">
 <meta name="twitter:creator" content="@tiktokslangdict">
 <meta name="twitter:image" content="{{ $ogImage | absURL }}">
 
-{{/* ===== WebSite Schema with SearchAction (homepage only) ===== */}}
+{{/* ===== WebSite Schema (homepage only) ===== */}}
 {{- if eq .Kind "home" }}
-{{- $faviconUrl := "/favicon.svg" }}
-{{- if and .Site.Params.assets .Site.Params.assets.favicon }}
-  {{- $faviconUrl = .Site.Params.assets.favicon }}
-{{- end }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -88,23 +49,16 @@
 </script>
 {{- end }}
 
-{{/* ===== Organization Schema (all pages) ===== */}}
-{{- $faviconUrl := "/favicon.svg" }}
-{{- if and .Site.Params.assets .Site.Params.assets.favicon }}
-  {{- $faviconUrl = .Site.Params.assets.favicon }}
-{{- end }}
-{{- $orgUrl := printf "%s" .Site.BaseURL }}
-{{- $logoUrl := printf "%s%s" .Site.BaseURL $faviconUrl }}
-{{- $aboutUrl := printf "%sabout/" .Site.BaseURL }}
+{{/* ===== Organization Schema ===== */}}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "TikTok Slang Dictionary",
-  "url": {{ $orgUrl | jsonify }},
+  "url": {{ .Site.BaseURL | jsonify }},
   "logo": {
     "@type": "ImageObject",
-    "url": {{ $logoUrl | jsonify }}
+    "url": {{ printf "%sfavicon.svg" .Site.BaseURL | jsonify }}
   },
   "sameAs": [
     "https://x.com/tiktokslangdict",
@@ -113,7 +67,27 @@
   "founder": {
     "@type": "Person",
     "name": "GEBILAOWANG",
-    "url": {{ $aboutUrl | jsonify }}
+    "url": {{ printf "%sabout/" .Site.BaseURL | jsonify }}
   }
 }
 </script>
+
+{{/* ===== Slang Pages: JS Override (MUST be last to win) ===== */}}
+{{- if $isSlang }}
+{{/* Optimized OG/Twitter — placed AFTER PaperMod's defaults to WIN */}}
+<meta property="og:title" content="{{ $seoTitle }}">
+<meta name="twitter:title" content="{{ $seoTitle }}">
+<meta property="og:description" content="{{ $seoDesc }}">
+<meta name="twitter:description" content="{{ $seoDesc }}">
+
+{{/* JS Patch: override <title> and <meta description> rendered by PaperMod */}}
+<script>
+(function(){
+    var t = {{ $seoTitle | jsonify }};
+    var d = {{ $seoDesc | jsonify }};
+    document.title = t;
+    var m = document.querySelector('meta[name="description"]');
+    if (m) m.content = d;
+})();
+</script>
+{{- end }}
