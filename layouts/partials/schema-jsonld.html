@@ -10,6 +10,10 @@
   {{- $pronParts := split $afterFAQ "## Pronunciation" }}
   {{- if gt (len $pronParts) 0 }}
     {{- $section := strings.TrimSpace (index $pronParts 0) }}
+    {{/* Ensure leading newline so first ### is treated as delimiter */}}
+    {{- if not (strings.HasPrefix $section "\n") }}
+      {{- $section = printf "\n%s" $section }}
+    {{- end }}
     {{- $blocks := split $section "\n### " }}
     {{- range $i, $b := $blocks }}
       {{- if and (gt $i 0) (gt (len $b) 0) }}
