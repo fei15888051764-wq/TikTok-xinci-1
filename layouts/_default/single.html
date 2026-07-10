@@ -96,15 +96,13 @@
               var headings = content.querySelectorAll('h2, h3');
               for (var i = 0; i < headings.length; i++) {
                 if (headings[i].textContent.trim() === 'Definition') {
-                  var el = headings[i];
-                  while (el && el.nextElementSibling) {
-                    var next = el.nextElementSibling;
-                    if (/^H[2-6]$/.test(next.tagName)) break;
-                    el.style.display = 'none';
+                  var el = headings[i], next;
+                  while (el) {
+                    next = el.nextElementSibling;
+                    el.remove();
+                    if (!next || /^H[2-6]$/.test(next.tagName)) break;
                     el = next;
                   }
-                  if (el) el.style.display = 'none';
-                  headings[i].style.display = 'none';
                   break;
                 }
               }
