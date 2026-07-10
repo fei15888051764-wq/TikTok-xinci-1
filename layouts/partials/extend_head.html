@@ -7,8 +7,8 @@
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 
-{{/* Twitter Card - force summary_large_image for better visibility */}}
-<meta name="twitter:card" content="summary_large_image">
+{{/* Twitter Card - remove PaperMod's default and set our own */}}
+<script>!function(){var t=document.querySelectorAll('meta[name="twitter:card"]');for(var i=0;i<t.length;i++)t[i].remove();var m=document.createElement('meta');m.name='twitter:card';m.content='summary_large_image';document.head.appendChild(m);}();</script>
 <meta name="twitter:site" content="@tiktokslangdict">
 <meta name="twitter:creator" content="@tiktokslangdict">
 <meta name="twitter:image" content="{{ $ogImage | absURL }}">
