@@ -49,38 +49,13 @@
 </script>
 {{- end }}
 
-{{/* ===== Organization Schema ===== */}}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "TikTok Slang Dictionary",
-  "url": {{ .Site.BaseURL | jsonify }},
-  "logo": {
-    "@type": "ImageObject",
-    "url": {{ printf "%sfavicon.svg" .Site.BaseURL | jsonify }}
-  },
-  "sameAs": [
-    "https://x.com/tiktokslangdict",
-    "https://github.com/tiktokslangdictionary"
-  ],
-  "founder": {
-    "@type": "Person",
-    "name": "GEBILAOWANG",
-    "url": {{ printf "%sabout/" .Site.BaseURL | jsonify }}
-  }
-}
-</script>
-
-{{/* ===== Slang Pages: JS Override (MUST be last to win) ===== */}}
+{{/* ===== Slang Pages: Full JS Override (title, desc, OG, Twitter) ===== */}}
 {{- if $isSlang }}
-{{/* Optimized OG/Twitter — placed AFTER PaperMod's defaults to WIN */}}
 <meta property="og:title" content="{{ $seoTitle }}">
 <meta name="twitter:title" content="{{ $seoTitle }}">
 <meta property="og:description" content="{{ $seoDesc }}">
 <meta name="twitter:description" content="{{ $seoDesc }}">
 
-{{/* JS Patch: override <title> and <meta description> rendered by PaperMod */}}
 <script>
 (function(){
     var t = {{ $seoTitle | jsonify }};
@@ -88,6 +63,14 @@
     document.title = t;
     var m = document.querySelector('meta[name="description"]');
     if (m) m.content = d;
+    var ogT = document.querySelector('meta[property="og:title"]');
+    if (ogT) ogT.content = t;
+    var ogD = document.querySelector('meta[property="og:description"]');
+    if (ogD) ogD.content = d;
+    var twT = document.querySelector('meta[name="twitter:title"]');
+    if (twT) twT.content = t;
+    var twD = document.querySelector('meta[name="twitter:description"]');
+    if (twD) twD.content = d;
 })();
 </script>
 {{- end }}
