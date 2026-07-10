@@ -4,28 +4,26 @@
 {{/* ===== Extract FAQ from raw markdown ===== */}}
 {{- $faqItems := slice }}
 {{- $raw := .RawContent }}
-{{- if and (in $raw "## Frequently Asked Questions") (in $raw "## Pronunciation") }}
-  {{- $faqParts := split $raw "## Frequently Asked Questions" }}
-  {{- if gt (len $faqParts) 1 }}
-    {{- $afterFAQ := index $faqParts 1 }}
-    {{- $pronParts := split $afterFAQ "## Pronunciation" }}
-    {{- if gt (len $pronParts) 0 }}
-      {{- $section := strings.TrimSpace (index $pronParts 0) }}
-      {{- $blocks := split $section "\n### " }}
-      {{- range $i, $b := $blocks }}
-        {{- if and (gt $i 0) (gt (len $b) 0) }}
-          {{- $b = strings.TrimSpace $b }}
-          {{- $lines := split $b "\n" }}
-          {{- if gt (len $lines) 1 }}
-            {{- $q := strings.TrimSpace (index $lines 0) }}
-            {{- $aLines := after 1 $lines }}
-            {{- $a := strings.TrimSpace (delimit $aLines "\n") }}
-            {{- $a = replaceRE "\\[([^\\]]+)\\]\\([^)]+\\)" "$1" $a }}
-            {{- $a = replaceRE "\\*\\*" "" $a }}
-            {{- $a = replaceRE "\\*" "" $a }}
-            {{- if and $q $a }}
-              {{- $faqItems = $faqItems | append (dict "q" $q "a" $a) }}
-            {{- end }}
+{{- $faqParts := split $raw "## Frequently Asked Questions" }}
+{{- if gt (len $faqParts) 1 }}
+  {{- $afterFAQ := index $faqParts 1 }}
+  {{- $pronParts := split $afterFAQ "## Pronunciation" }}
+  {{- if gt (len $pronParts) 0 }}
+    {{- $section := strings.TrimSpace (index $pronParts 0) }}
+    {{- $blocks := split $section "\n### " }}
+    {{- range $i, $b := $blocks }}
+      {{- if and (gt $i 0) (gt (len $b) 0) }}
+        {{- $b = strings.TrimSpace $b }}
+        {{- $lines := split $b "\n" }}
+        {{- if gt (len $lines) 1 }}
+          {{- $q := strings.TrimSpace (index $lines 0) }}
+          {{- $aLines := after 1 $lines }}
+          {{- $a := strings.TrimSpace (delimit $aLines "\n") }}
+          {{- $a = replaceRE "\\[([^\\]]+)\\]\\([^)]+\\)" "$1" $a }}
+          {{- $a = replaceRE "\\*\\*" "" $a }}
+          {{- $a = replaceRE "\\*" "" $a }}
+          {{- if and $q $a }}
+            {{- $faqItems = $faqItems | append (dict "q" $q "a" $a) }}
           {{- end }}
         {{- end }}
       {{- end }}
