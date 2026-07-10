@@ -118,17 +118,16 @@
 }
 </script>
 
-{{/* ===== Standalone Organization Schema — using safeJS to avoid double quotes ===== */}}
-{{- $baseURL := printf "%s" .Site.BaseURL }}
+{{/* ===== Standalone Organization Schema — hardcoded URL to avoid jsonify issues ===== */}}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "TikTok Slang Dictionary",
-  "url": {{ $baseURL | safeJS }},
+  "url": "https://tokslangdict.com/",
   "logo": {
     "@type": "ImageObject",
-    "url": {{ printf "%sfavicon.svg" $baseURL | safeJS }}
+    "url": "https://tokslangdict.com/favicon.svg"
   },
   "sameAs": [
     "https://x.com/tiktokslangdict",
@@ -137,7 +136,7 @@
   "founder": {
     "@type": "Person",
     "name": "GEBILAOWANG",
-    "url": {{ printf "%sabout/" $baseURL | safeJS }}
+    "url": "https://tokslangdict.com/about/"
   }
 }
 </script>
