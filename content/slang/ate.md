@@ -19,14 +19,6 @@ The most common construction follows the pattern **"[subject] ate [that/this/it]
 
 Unlike many slang terms confined to specific demographics, ate has achieved **cross-generational adoption** — appearing in comments from Gen Alpha through Millennials, and even gaining traction in professional contexts where creatives use it to praise colleagues' work. This broad appeal stems from its intuitive meaning and the satisfying physical metaphor of "devouring" a challenge or performance.
 
-## Cultural Significance
-
-Ate represents a shift in **praise culture** away from hyperbolic exaggeration ("that was literally the best thing I've ever seen") toward concise, impactful affirmation. In an era of information overload, the economy of "she ate" delivers maximum praise with minimum effort — perfectly suited to TikTok's fast-scrolling environment where comments compete for attention.
-
-The term also reflects **African American Vernacular English (AAVE)** influence on mainstream internet culture, as "ate" originated in Black LGBTQ+ ballroom communities before spreading through social media. This linguistic lineage connects modern TikTok praise to decades of cultural expression in underground performance spaces, where "eating" a runway walk or voguing performance represented the highest possible compliment.
-
-The phrase's persistence across multiple years of rapidly evolving slang makes it unusual — most TikTok terminology has a **6-18 month lifecycle**, but ate has maintained relevance since at least 2019, suggesting it has achieved "classic" status within Gen Z vocabulary. This longevity indicates the concept of flawless performance resonates universally enough to transcend trend cycles.
-
 ## Origin Story
 
 The slang usage of "ate" traces to **ballroom culture** in 1980s New York City, where commentators used "she ate that" to describe performers who dominated the runway or executed dance moves with exceptional precision. The phrase spread through Black LGBTQ+ communities for decades before entering mainstream social media vocabulary around **2019**.
@@ -34,6 +26,14 @@ The slang usage of "ate" traces to **ballroom culture** in 1980s New York City, 
 TikTok accelerated adoption dramatically through **dance challenge content**, where creators would comment "ate" on videos of users nailing complex choreography. By 2021, the term had expanded beyond dance to describe any impressive performance — makeup tutorials, cooking videos, comedy sketches, and even academic achievements shared on the platform.
 
 The phrase "left no crumbs" emerged as an intensifier in **early 2022**, adding a metaphorical layer that implies the performance was so thorough that nothing remained to critique. This variation quickly became the dominant form on TikTok, though the simpler "ate" persists in casual conversation and text messaging where brevity matters more than emphasis.
+
+## Cultural Significance
+
+Ate represents a shift in **praise culture** away from hyperbolic exaggeration ("that was literally the best thing I've ever seen") toward concise, impactful affirmation. In an era of information overload, the economy of "she ate" delivers maximum praise with minimum effort — perfectly suited to TikTok's fast-scrolling environment where comments compete for attention.
+
+The term also reflects **African American Vernacular English (AAVE)** influence on mainstream internet culture, as "ate" originated in Black LGBTQ+ ballroom communities before spreading through social media. This linguistic lineage connects modern TikTok praise to decades of cultural expression in underground performance spaces, where "eating" a runway walk or voguing performance represented the highest possible compliment.
+
+The phrase's persistence across multiple years of rapidly evolving slang makes it unusual — most TikTok terminology has a **6-18 month lifecycle**, but ate has maintained relevance since at least 2019, suggesting it has achieved "classic" status within Gen Z vocabulary. This longevity indicates the concept of flawless performance resonates universally enough to transcend trend cycles.
 
 ## Related Slang
 
@@ -63,3 +63,8 @@ Absolutely. "Ate" has achieved cross-generational adoption and appears in casual
 ## Pronunciation
 
 /eɪt/
+
+## Sources
+
+- Merriam-Webster — "Ate (and left no crumbs)" [https://www.merriam-webster.com/dictionary/ate](https://www.merriam-webster.com/dictionary/ate)
+- Know Your Meme — "Ate and Left No Crumbs" [https://knowyourmeme.com/memes/ate-and-left-no-crumbs](https://knowyourmeme.com/memes/ate-and-left-no-crumbs)
