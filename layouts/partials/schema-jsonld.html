@@ -70,7 +70,11 @@
   "author": {
     "@type": "Person",
     "name": "GEBILAOWANG",
-    "url": {{ printf "%sabout/" .Site.BaseURL | jsonify }}
+    "url": {{ printf "%sabout/" .Site.BaseURL | jsonify }},
+    "sameAs": [
+      "https://x.com/tiktokslangdict",
+      "https://github.com/tiktokslangdictionary"
+    ]
   },
   "publisher": {
     "@type": "Organization",
@@ -118,7 +122,7 @@
 }
 </script>
 
-{{/* ===== Standalone Organization Schema — hardcoded URL to avoid jsonify issues ===== */}}
+{{/* ===== Standalone Organization Schema ===== */}}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
