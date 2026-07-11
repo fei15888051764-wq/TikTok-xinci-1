@@ -16,4 +16,4 @@ Have a question, suggestion, or spotted a slang term we missed? Get in touch.
 
 **Response Time:** We typically reply within 1-2 business days.
 
-**Social:** Follow updates on [X (Twitter)](https://x.com/GEBILAOWANG_WYF)
+**Social:** Follow updates on X (Twitter): [@GEBILAOWANG_WYF](https://x.com/GEBILAOWANG_WYF)
