@@ -65,8 +65,7 @@ params:
     bio: "Independent digital content creator, researcher, and online lexicographer building authoritative niche websites and in-depth content across gaming culture, social media trends, technology, and internet linguistics. Known for comprehensive slang dictionaries, digital trend analysis, and cultural documentation. Active in the field since 2024."
     email: "fei15888051764@gmail.com"
     url: "https://tokslangdict.com"
-    twitter: "@tiktokslangdict"
-    github: "tiktokslangdictionary"
+    twitter: "@GEBILAOWANG_WYF"
     since: 2024
 
   og:
@@ -79,8 +78,8 @@ params:
 
   twitter:
     card: "summary_large_image"
-    site: "@tiktokslangdict"
-    creator: "@tiktokslangdict"
+    site: "@GEBILAOWANG_WYF"
+    creator: "@GEBILAOWANG_WYF"
 
   assets:
     disableHLJS: true

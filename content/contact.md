@@ -16,4 +16,4 @@ Have a question, suggestion, or spotted a slang term we missed? Get in touch.
 
 **Response Time:** We typically reply within 1-2 business days.
 
-**Social:** Follow updates on [X (Twitter)](https://x.com/tiktokslangdict)
+**Social:** Follow updates on [X (Twitter)](https://x.com/GEBILAOWANG_WYF)
