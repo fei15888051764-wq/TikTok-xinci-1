@@ -101,9 +101,7 @@ params:
 
   socialIcons:
     - name: "x"
-      url: "https://x.com/tiktokslangdict"
-    - name: "github"
-      url: "https://github.com/tiktokslangdictionary"
+      url: "https://x.com/GEBILAOWANG_WYF"
 
   cover:
     hidden: true
