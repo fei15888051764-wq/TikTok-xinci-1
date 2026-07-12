@@ -10,6 +10,8 @@ description: "Learn about GEBILAOWANG, the creator of TikTok Slang Dictionary â€
 
 ![GEBILAOWANG](/images/gebilaowang-avatar.jpg)
 
+## AUTHOR: GEBILAOWANG
+
 
 
 Independent digital content creator, researcher, and online lexicographer building authoritative niche websites and in-depth content across gaming culture, social media trends, technology, and internet linguistics. Known for comprehensive slang dictionaries, digital trend analysis, and cultural documentation. Active in the field since 2024.
