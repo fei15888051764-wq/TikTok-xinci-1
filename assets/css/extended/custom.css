@@ -1,4 +1,4 @@
-:root {
+﻿:root {
   --primary-bg: #fafafa;
   --gradient-bg-start: #ffffff;
   --gradient-bg-end: #f0f0f0;
@@ -700,11 +700,7 @@ body {
   background: var(--border-light);
   margin-bottom: 42px;
 }
-.author-info {
-  display: flex;
-  align-items: flex-start;
-  gap: 24px;
-}
+.author-info { display: flex; flex-direction: column; align-items: flex-start; gap: 24px; }
 .author-avatar {
   flex-shrink: 0;
 }
@@ -1070,3 +1066,4 @@ html {
         width: 100%;
     }
 }
+

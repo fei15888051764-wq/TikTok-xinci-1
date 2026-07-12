@@ -1,4 +1,4 @@
-{{ define "main" }}
+﻿{{ define "main" }}
 {{- $isSlang := eq .Type "slang" }}
 {{- if $isSlang }}
 <div class="detail-container home-container">
@@ -128,13 +128,7 @@
             <footer class="post-author-footer" itemprop="author" itemscope itemtype="https://schema.org/Person">
                 <div class="author-divider"></div>
                 <div class="author-info">
-                    <div class="author-avatar">
-                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="20" cy="20" r="20" fill="#f0f0f0"/>
-                            <circle cx="20" cy="16" r="7" fill="#cccccc"/>
-                            <path d="M8 34c0-6.627 5.373-12 12-12s12 5.373 12 12" fill="#cccccc"/>
-                        </svg>
-                    </div>
+                <div class="author-avatar"><img src="/images/gebilaowang-avatar.jpg" alt="GEBILAOWANG" style="width:96px;height:96px;border-radius:50%;object-fit:cover;"></div>
                     <div class="author-details">
                         <p class="author-name" itemprop="name">AUTHOR: {{ .Site.Params.author }}</p>
                         <p class="author-bio" itemprop="description">{{ .Site.Params.authorInfo.bio }}</p>
