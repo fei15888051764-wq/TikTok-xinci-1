@@ -1,4 +1,4 @@
----
+﻿---
 title: "About"
 date: 2026-06-22T10:00:00+08:00
 draft: false
@@ -8,7 +8,9 @@ hidemeta: true
 description: "Learn about GEBILAOWANG, the creator of TikTok Slang Dictionary — your go-to resource for viral TikTok slang, Gen-Z lingo, and internet terminology since 2024."
 ---
 
-## AUTHOR: GEBILAOWANG
+![GEBILAOWANG](/images/gebilaowang-avatar.jpg)
+
+
 
 Independent digital content creator, researcher, and online lexicographer building authoritative niche websites and in-depth content across gaming culture, social media trends, technology, and internet linguistics. Known for comprehensive slang dictionaries, digital trend analysis, and cultural documentation. Active in the field since 2024.
 
