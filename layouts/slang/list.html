@@ -1,5 +1,6 @@
 {{ define "main" }}
 <div class="home-container">
+    <!-- Left Sidebar Ad (Desktop Only) -->
     <aside class="sidebar-ad" aria-label="Advertisement">
         <div class="ad-placeholder-sidebar">
             <span>AD</span>
@@ -9,44 +10,82 @@
     <div class="main-content">
         {{- partial "search-box.html" . }}
 
-        <header class="page-header">
-            <h1 class="page-title">{{ .Title }}</h1>
-            <p class="page-subtitle">All slang words in alphabetical order</p>
-        </header>
+        <div class="back-to-home">
+            <a href="{{ .Site.BaseURL }}" class="back-link">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="m15 18-6-6 6-6"/>
+                </svg>
+                Back to Home
+            </a>
+        </div>
 
-        {{- $slangPages := sort (where .Site.RegularPages "Type" "slang") ".Title" "asc" }}
-        <div class="cards-grid">
+        <h1 class="section-title">All Slang Words</h1>
+
+        <!-- Mobile Banner Ad: Row 1 above -->
+        <div class="mobile-banner-ad" id="ad-slang-row1-above">
+            <div class="ad-placeholder-banner">
+                <span>AD</span>
+            </div>
+        </div>
+
+        {{- $allSlang := where .Site.RegularPages "Type" "slang" }}
+        {{- $slangPages := sort $allSlang ".Date" "desc" }}
+        <div class="cards-grid" id="cards-container">
             {{- if $slangPages }}
-            {{- range $page := $slangPages }}
-            <article class="slang-card" data-title="{{ .Title | lower }}" data-definition="{{ .Params.definition | lower }}" onclick="window.location.href='{{ .Permalink }}'">
-                {{- if .Params.image }}
-                <div class="card-image">
-                    <img src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy">
+                {{- range $idx, $page := $slangPages }}
+                <article class="slang-card" data-title="{{ .Title | lower }}" data-tags="{{ range .Params.tags }}{{ . | lower }} {{ end }}" data-definition="{{ .Params.definition | lower }}" onclick="window.location.href='{{ .Permalink }}'">
+                    {{- if .Params.image }}
+                    <div class="card-image">
+                        <img src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy" width="400" height="267">
+                    </div>
+                    {{- end }}
+                    <div class="card-body">
+                        <div class="card-header">
+                            <h3 class="slang-word">{{ .Title }}</h3>
+                        </div>
+                        {{- if .Params.definition }}
+                        <p class="slang-definition">{{ .Params.definition }}</p>
+                        {{- end }}
+                        <div class="pos-row" style="display:flex;justify-content:flex-end;margin-top:6px;">
+                            <span class="pos-tag">{{ .Params.pos | default "SLANG" }}</span>
+                        </div>
+                        <div class="card-footer">
+                            {{- if .Params.tags }}
+                            <div class="tags-group">
+                                {{- range first 3 (where .Params.tags "ne" "2026") }}
+                                <a href="/tags/{{ . | urlize }}/" class="tag-item-link">{{ . }}</a>
+                                {{- end }}
+                            </div>
+                            {{- end }}
+                            <span class="updated-date">Updated {{ .Date.Format "Jan 2, 2006" }}</span>
+                        </div>
+                    </div>
+                </article>
+                {{- if eq $idx 9 }}
+                <!-- Mobile Banner Ad: Row 5 below (after 10th card) -->
+                <div class="mobile-banner-ad ad-in-grid" id="ad-slang-row5-below">
+                    <div class="ad-placeholder-banner">
+                        <span>AD</span>
+                    </div>
                 </div>
                 {{- end }}
-                <div class="card-body">
-                    <div class="card-header">
-                        <h3 class="slang-word">{{ .Title }}</h3>
-                    </div>
-                    {{- if .Params.definition }}
-                    <p class="slang-definition">{{ .Params.definition }}</p>
-                    {{- end }}
-                    <div class="pos-row">
-                        <span class="pos-tag">{{ .Params.pos | default "SLANG" }}</span>
-                    </div>
-                    <div class="card-footer">
-                        {{- if .Params.tags }}
-                        <div class="tags-group">
-                            {{- range first 3 (where .Params.tags "ne" "2026") }}
-                            <a href="/tags/{{ . | urlize }}/" class="tag-item-link">{{ . }}</a>
-                            {{- end }}
-                        </div>
-                        {{- end }}
-                        <span class="updated-date">Updated {{ .Date.Format "Jan 2, 2006" }}</span>
+                {{- if eq $idx 19 }}
+                <!-- Mobile Banner Ad: Row 10 below (after 20th card) -->
+                <div class="mobile-banner-ad ad-in-grid" id="ad-slang-row10-below">
+                    <div class="ad-placeholder-banner">
+                        <span>AD</span>
                     </div>
                 </div>
-            </article>
-            {{- end }}
+                {{- end }}
+                {{- if eq $idx 29 }}
+                <!-- Mobile Banner Ad: Row 15 below (after 30th card) -->
+                <div class="mobile-banner-ad ad-in-grid" id="ad-slang-row15-below">
+                    <div class="ad-placeholder-banner">
+                        <span>AD</span>
+                    </div>
+                </div>
+                {{- end }}
+                {{- end }}
             {{- else }}
             <div class="empty-state">
                 <p class="empty-state-text">No slang words yet. Check back soon!</p>
@@ -55,6 +94,7 @@
         </div>
     </div>
 
+    <!-- Right Sidebar Ad (Desktop Only) -->
     <aside class="sidebar-ad" aria-label="Advertisement">
         <div class="ad-placeholder-sidebar">
             <span>AD</span>
