@@ -3,7 +3,7 @@
   OG/Twitter tags now handled by custom partials:
     - layouts/partials/templates/opengraph.html
     - layouts/partials/templates/twitter_cards.html
-  This file handles: JS title override, WebSite Schema
+  This file handles: Server-side title override, WebSite Schema
   ============================================ */}}
 
 {{- $seoTitle := "" }}
@@ -13,6 +13,11 @@
   {{- $year := .Date.Format "2006" }}
   {{- $seoTitle = printf "%s Meaning: What Does \"%s\" Mean on TikTok? (%s)" .Title .Title $year }}
   {{- $seoDesc = printf "Discover what \"%s\" means on TikTok in %s. Learn its origin, see usage examples, and find answers to frequently asked questions." .Title $year | truncate 155 }}
+{{- end }}
+
+{{/* ===== Server-side Title Override for CTR (Slang pages) ===== */}}
+{{- if $isSlang }}
+<title>{{ $seoTitle }}</title>
 {{- end }}
 
 {{/* ===== WebSite Schema with SearchAction (homepage only) ===== */}}
