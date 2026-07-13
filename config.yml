@@ -89,6 +89,9 @@ params:
     apple_touch_icon: "/favicon.svg"
     safari_pinned_tab: "/favicon.svg"
 
+  schema:
+    publisherType: "Organization"
+
   label:
     text: "TikTok Slang Dictionary"
     icon: ""
@@ -97,46 +100,3 @@ params:
   homeInfoParams:
     Title: ""
     Content: ""
-
-  socialIcons:
-    - name: "x"
-      url: "https://x.com/GEBILAOWANG_WYF"
-
-  cover:
-    hidden: true
-    hiddenInList: true
-    hiddenInSingle: true
-
-  editPost:
-    URL: ""
-    Text: ""
-    appendFilePath: false
-
-menu:
-  main:
-    - identifier: "tags"
-      name: "Tags"
-      url: "/tags/"
-      weight: 10
-    - identifier: "about"
-      name: "About"
-      url: "/about/"
-      weight: 20
-    - identifier: "contact"
-      name: "Contact"
-      url: "/contact/"
-      weight: 30
-
-taxonomies:
-  tag: tags
-
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
-  highlight:
-    noClasses: false
-    codeFences: true
-    guessSyntax: true
-    lineNos: false
-    style: monokai
