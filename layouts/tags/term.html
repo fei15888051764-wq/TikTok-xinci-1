@@ -1,78 +1,55 @@
 {{ define "main" }}
 <div class="home-container">
-    <!-- Left Sidebar Ad (Desktop Only) -->
     <aside class="sidebar-ad" aria-label="Advertisement">
         <div class="ad-placeholder-sidebar">
             <span>AD</span>
         </div>
     </aside>
 
-    <!-- Main Content Area -->
     <div class="main-content">
-        <!-- Search Section with Lunr.js -->
         {{- partial "search-box.html" . }}
 
-        <!-- Back to Home Link -->
-        <div class="back-to-home">
-            <a href="{{ .Site.BaseURL }}" class="back-link">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="m15 18-6-6 6-6"/>
-                </svg>
-                Back to Home
-            </a>
-        </div>
+        <header class="page-header">
+            <h1 class="page-title">#{{ .Title }}</h1>
+            <p class="page-subtitle">Slang words tagged with {{ .Title }}</p>
+        </header>
 
-        <!-- Section Title - Tag Name -->
-        <h1 class="section-title">{{ .Title }}</h1>
-
-        <!-- Mobile Banner Ad: Above cards -->
-        <div class="mobile-banner-ad" id="ad-tagterm-above">
-            <div class="ad-placeholder-banner">
-                <span>AD</span>
-            </div>
-        </div>
-
-        <!-- Cards Grid for Slangs with this tag -->
         <div class="cards-grid">
-            {{- range .Paginator.Pages }}
-            <article class="slang-card" data-tags="{{ range .Params.tags }}{{ . }} {{ end }}" onclick="window.location.href='{{ .Permalink }}'">
+            {{- range .Pages }}
+            <article class="slang-card" data-title="{{ .Title | lower }}" data-definition="{{ .Params.definition | lower }}" onclick="window.location.href='{{ .Permalink }}'">
                 {{- if .Params.image }}
                 <div class="card-image">
-                    <img src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy" width="400" height="267">
+                    <img src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy">
                 </div>
                 {{- end }}
                 <div class="card-body">
                     <div class="card-header">
                         <h2 class="slang-word">{{ .Title }}</h2>
-                        {{- if .Params.pos }}
-                        <span class="pos-tag">{{ .Params.pos }}</span>
-                        {{- end }}
                     </div>
                     {{- if .Params.definition }}
                     <p class="slang-definition">{{ .Params.definition }}</p>
                     {{- end }}
+                    {{- if .Params.pos }}
+                    <div class="pos-row">
+                        <span class="pos-tag">{{ .Params.pos }}</span>
+                    </div>
+                    {{- end }}
                     <div class="card-footer">
+                        {{- if .Params.tags }}
                         <div class="tags-group">
-                            {{- range where .Params.tags "ne" "2026" }}
-                            <span class="tag-item">{{ . }}</span>
+                            {{- range first 3 (where .Params.tags "ne" "2026") }}
+                            <a href="/tags/{{ . | urlize }}/" class="tag-item-link">{{ . }}</a>
                             {{- end }}
                         </div>
-                        <span class="updated-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+                        {{- end }}
+                        <span class="updated-date">Updated {{ .Date.Format "Jan 2, 2006" }}</span>
                     </div>
                 </div>
             </article>
             {{- end }}
         </div>
-
-        <!-- Mobile Banner Ad: Below cards -->
-        <div class="mobile-banner-ad" id="ad-tagterm-below">
-            <div class="ad-placeholder-banner">
-                <span>AD</span>
-            </div>
-        </div>
     </div>
 
-    <!-- Right Sidebar Ad (Desktop Only) -->
     <aside class="sidebar-ad" aria-label="Advertisement">
         <div class="ad-placeholder-sidebar">
             <span>AD</span>
@@ -80,6 +57,5 @@
     </aside>
 </div>
 
-<!-- Shared Search Script -->
 {{- partial "search-script.html" . }}
 {{ end }}
