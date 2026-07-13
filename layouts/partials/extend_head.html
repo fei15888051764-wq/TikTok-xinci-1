@@ -3,7 +3,7 @@
   OG/Twitter tags now handled by custom partials:
     - layouts/partials/templates/opengraph.html
     - layouts/partials/templates/twitter_cards.html
-  This file handles: Server-side title override, WebSite Schema
+  This file handles: WebSite Schema
   ============================================ */}}
 
 {{- $seoTitle := "" }}
@@ -16,9 +16,7 @@
 {{- end }}
 
 {{/* ===== Server-side Title Override for CTR (Slang pages) ===== */}}
-{{- if $isSlang }}
-<title>{{ $seoTitle }}</title>
-{{- end }}
+{{/* PaperMod outputs title first; we override it here with JS fallback below */}}
 
 {{/* ===== WebSite Schema with SearchAction (homepage only) ===== */}}
 {{- if eq .Kind "home" }}
