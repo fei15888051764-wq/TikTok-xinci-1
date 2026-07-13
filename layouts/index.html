@@ -39,11 +39,13 @@
                 <div class="card-body">
                     <div class="card-header">
                         <h3 class="slang-word">{{ .Title }}</h3>
-                        <span class="pos-tag">{{ .Params.pos | default "SLANG" }}</span>
                     </div>
                     {{- if .Params.definition }}
                     <p class="slang-definition">{{ .Params.definition }}</p>
                     {{- end }}
+                    <div class="pos-row">
+                        <span class="pos-tag">{{ .Params.pos | default "SLANG" }}</span>
+                    </div>
                     <div class="card-footer">
                         {{- if .Params.tags }}
                         <div class="tags-group">
