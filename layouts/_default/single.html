@@ -1,4 +1,4 @@
-﻿{{ define "main" }}
+{{ define "main" }}
 {{- $isSlang := eq .Type "slang" }}
 {{- if $isSlang }}
 <div class="detail-container home-container">
@@ -158,9 +158,6 @@
                         <div class="card-body">
                             <div class="card-header">
                                 <h3 class="related-word">{{ .Title }}</h3>
-                                {{- if .Params.pos }}
-                                <span class="pos-tag">{{ .Params.pos }}</span>
-                                {{- end }}
                             </div>
                             {{- if .Params.definition }}
                             <p class="related-definition">{{ .Params.definition }}</p>
@@ -170,6 +167,11 @@
                                 {{- range first 3 .Params.tags }}
                                 <span class="tag-item-link">{{ . }}</span>
                                 {{- end }}
+                            </div>
+                            {{- end }}
+                            {{- if .Params.pos }}
+                            <div class="pos-row">
+                                <span class="pos-tag">{{ .Params.pos }}</span>
                             </div>
                             {{- end }}
                             <div class="card-footer">
