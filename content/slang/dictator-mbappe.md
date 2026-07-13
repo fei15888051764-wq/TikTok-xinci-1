@@ -1,6 +1,6 @@
 ---
 title: "Dictator Mbappé"
-date: 2026-07-14T10:10:00+08:00
+date: 2026-07-13T10:10:00+08:00
 draft: false
 slug: "dictator-mbappe"
 pos: "noun"
