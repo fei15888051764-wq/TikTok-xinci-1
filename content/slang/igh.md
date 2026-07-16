@@ -1,6 +1,6 @@
 ---
 title: "Igh"
-date: 2026-07-13T10:40:00+08:00
+date: 2026-07-15T10:40:00+08:00
 draft: false
 slug: "igh"
 pos: "interjection"
@@ -69,5 +69,5 @@ Not inherently, but like any short response, context matters. Between friends it
 
 ## Sources
 
-- Urban Dictionary — "Igh" [https://www.urbandictionary.com/define.php?term=igh](https://www.urbandictionary.com/define.php?term=igh)
+- Urban Dictionary — "Igh" [https://www.urbandictionary.com/define.php?term=igh](https://www.urbadictionary.com/define.php?term=igh)
 - Slang.net — "Igh" [https://slang.net/meaning/igh](https://slang.net/meaning/igh)

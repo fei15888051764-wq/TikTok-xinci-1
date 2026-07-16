@@ -1,6 +1,6 @@
 ---
 title: "Notifried"
-date: 2026-07-13T10:35:00+08:00
+date: 2026-07-15T10:35:00+08:00
 draft: false
 slug: "notifried"
 pos: "adjective"

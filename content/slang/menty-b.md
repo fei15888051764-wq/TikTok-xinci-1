@@ -1,6 +1,6 @@
 ---
 title: "Menty B"
-date: 2026-07-13T10:45:00+08:00
+date: 2026-07-16T10:45:00+08:00
 draft: false
 slug: "menty-b"
 pos: "noun"

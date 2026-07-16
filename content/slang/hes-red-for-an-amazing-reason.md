@@ -1,6 +1,6 @@
 ---
 title: "He's Red For An Amazing Reason"
-date: 2026-07-13T10:50:00+08:00
+date: 2026-07-16T10:50:00+08:00
 draft: false
 slug: "hes-red-for-an-amazing-reason"
 pos: "phrase"
