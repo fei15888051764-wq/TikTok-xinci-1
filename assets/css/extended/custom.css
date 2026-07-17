@@ -674,22 +674,29 @@ body {
 @media screen and (max-width: 1152px) {
   .related-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
+    gap: 8px;
   }
   .related-card {
-    padding: 18px;
-    gap: 12px;
+    padding: 12px;
+    gap: 8px;
+  }
+  .related-card .card-image {
+    aspect-ratio: 3 / 2;
+    border-radius: 8px;
   }
   .related-word {
-    font-size: 22px;
+    font-size: 16px;
   }
   .related-definition {
-    font-size: 15px;
+    font-size: 12px;
     -webkit-line-clamp: 2;
   }
   .related-card .tag-item-link {
-    font-size: 13px;
-    padding: 3px 10px;
+    font-size: 11px;
+    padding: 2px 8px;
+  }
+  .related-card .updated-date {
+    font-size: 11px;
   }
 }
 .post-author-footer {
