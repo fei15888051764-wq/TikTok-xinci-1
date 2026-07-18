@@ -1,6 +1,6 @@
 ---
 title: "Locked In"
-date: 2026-07-17T10:10:00+08:00
+date: 2026-07-18T10:10:00+08:00
 draft: false
 slug: "locked-in"
 pos: "phrase"

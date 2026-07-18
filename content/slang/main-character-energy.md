@@ -1,6 +1,6 @@
 ---
 title: "Main Character Energy"
-date: 2026-07-17T10:20:00+08:00
+date: 2026-07-18T10:20:00+08:00
 draft: false
 slug: "main-character-energy"
 pos: "phrase"

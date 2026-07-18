@@ -1,6 +1,6 @@
 ---
 title: "No Cap"
-date: 2026-07-17T10:15:00+08:00
+date: 2026-07-18T10:15:00+08:00
 draft: false
 slug: "no-cap"
 pos: "phrase/interjection"

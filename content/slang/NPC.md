@@ -1,6 +1,6 @@
 ---
 title: "NPC"
-date: 2026-07-17T10:05:00+08:00
+date: 2026-07-18T10:05:00+08:00
 draft: false
 slug: "NPC"
 pos: "noun"

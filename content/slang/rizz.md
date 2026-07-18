@@ -1,6 +1,6 @@
 ---
 title: "Rizz"
-date: 2026-07-17T10:00:00+08:00
+date: 2026-07-18T10:00:00+08:00
 draft: false
 slug: "rizz"
 pos: "noun/verb"
