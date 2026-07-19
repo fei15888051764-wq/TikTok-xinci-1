@@ -64,7 +64,7 @@
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": {{ printf "%s Meaning: What Does \"%s\" Mean on TikTok? (%s)" .Title .Title (.Date.Format "2006") | jsonify }},
+  "headline": {{ $headline := printf "%s Meaning: What Does \"%s\" Mean on TikTok? (%s)" .Title .Title (.Date.Format "2006") }}{{ with .Params.seoTitle }}{{ $headline = . }}{{ end }}{{ $headline | jsonify }},
   "description": {{ .Params.definition | jsonify }},
   "image": {{ $img | jsonify }},
   "author": {

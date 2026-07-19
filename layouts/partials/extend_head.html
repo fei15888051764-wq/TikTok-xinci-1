@@ -12,7 +12,9 @@
 {{- if $isSlang }}
   {{- $year := .Date.Format "2006" }}
   {{- $seoTitle = printf "%s Meaning: What Does \"%s\" Mean on TikTok? (%s)" .Title .Title $year }}
+  {{- with .Params.seoTitle }}{{ $seoTitle = . }}{{ end }}
   {{- $seoDesc = printf "Discover what \"%s\" means on TikTok in %s. Learn its origin, see usage examples, and find answers to frequently asked questions." .Title $year | truncate 155 }}
+  {{- with .Description }}{{ $seoDesc = . }}{{ end }}
 {{- end }}
 
 {{/* ===== Server-side Title Override for CTR (Slang pages) ===== */}}

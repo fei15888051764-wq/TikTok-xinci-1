@@ -1,0 +1,77 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+{{- if hugo.IsProduction | or (eq site.Params.env "production") | and (ne .Params.robotsNoIndex true) }}
+<meta name="robots" content="index, follow">
+{{- else }}
+<meta name="robots" content="noindex, nofollow">
+{{- end }}
+
+{{- /* Title */}}
+{{- $seoTitle := "" }}
+{{- if and (eq .Type "slang") .Params.definition }}
+  {{- $year := .Date.Format "2006" }}
+  {{- $seoTitle = printf "%s Meaning: What Does \"%s\" Mean on TikTok? (%s)" .Title .Title $year }}
+  {{- with .Params.seoTitle }}{{ $seoTitle = . }}{{ end }}
+  <title>{{ $seoTitle }}</title>
+{{- else }}
+  <title>{{ if .IsHome }}{{ else }}{{ if .Title }}{{ .Title }} | {{ end }}{{ end }}{{ site.Title }}</title>
+{{- end }}
+
+{{- /* Meta */}}
+{{- if .IsHome }}
+{{ with site.Params.keywords -}}<meta name="keywords" content="{{- range $i, $e := . }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}">{{ end }}
+{{- else }}
+<meta name="keywords" content="{{ if .Params.keywords -}}
+    {{- range $i, $e := .Params.keywords }}{{ if $i }}, {{ end }}{{ $e }}{{ end }} {{- else }}
+    {{- range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }} {{- end -}}">
+{{- end }}
+<meta name="description" content="{{- with .Description }}{{ . }}{{- else }}{{- if or .IsPage .IsSection}}
+    {{- .Summary | default (printf "%s - %s" .Title  site.Title) }}{{- else }}
+    {{- with site.Params.description }}{{ . }}{{- end }}{{- end }}{{- end -}}">
+<meta name="author" content="{{ (partial "author.html" . ) }}">
+<link rel="canonical" href="{{ if .Params.canonicalURL -}} {{ trim .Params.canonicalURL " " }} {{- else -}} {{ .Permalink }} {{- end }}">
+{{- if site.Params.analytics.google.SiteVerificationTag }}
+<meta name="google-site-verification" content="{{ site.Params.analytics.google.SiteVerificationTag }}">
+{{- end }}
+{{- if site.Params.analytics.yandex.SiteVerificationTag }}
+<meta name="yandex-verification" content="{{ site.Params.analytics.yandex.SiteVerificationTag }}">
+{{- end }}
+
+{{- /* Styles */}}
+{{- $defaultTheme := site.Params.defaultTheme | default "light" }}
+{{- if (ne $defaultTheme "auto") }}
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+</script>
+{{- else }}
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+</script>
+{{- end }}
+
+{{- partial "extend_head.html" . -}}
+
+{{- /* Misc */}}
+{{- if hugo.IsProduction | or (eq site.Params.env "production") }}
+{{- partial "google_analytics.html" . }}
+{{- partial "templates/opengraph.html" . }}
+{{- partial "templates/twitter_cards.html" . }}
+{{/* schema_json.html disabled - using custom schema-jsonld.html instead */}}
+{{- end -}}
