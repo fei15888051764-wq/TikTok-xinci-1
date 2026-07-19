@@ -5,7 +5,7 @@ draft: false
 slug: "squeaky-bum-time"
 pos: "noun"
 definition: "The tense, nerve-wracking final stages of a football match or season when the outcome is still uncertain and the pressure is at its highest."
-tags: ["football", "sports", "tiktok", "slang"]
+tags: ["football", "sports", "tiktok", "slang", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"
 image: "/images/slang/squeaky-bum-time.jpg"

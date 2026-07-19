@@ -5,7 +5,7 @@ draft: false
 slug: "menty-b"
 pos: "noun"
 definition: "A shortened term for 'mental breakdown,' used by Gen Z to describe overwhelming stress, anxiety, or a moment when everything feels like too much."
-tags: ["gen-z", "mental-health", "tiktok", "slang"]
+tags: ["gen-z", "mental-health", "tiktok", "slang", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"
 image: "/images/slang/menty-b.jpg"
