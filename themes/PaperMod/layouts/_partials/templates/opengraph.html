@@ -1,86 +1,67 @@
-<meta property="og:url" content="{{ .Permalink }}">
+{{/* ============================================
+  Custom OpenGraph partial — overrides PaperMod defaults
+  Ensures optimized og:title/og:description for slang pages
+  ============================================ */}}
 
-{{- with or site.Title site.Params.title | plainify }}
-  <meta property="og:site_name" content="{{ . }}">
+{{- $seoTitle := "" }}
+{{- $seoDesc := "" }}
+{{- $isSlang := and (eq .Type "slang") .Params.definition }}
+{{- if $isSlang }}
+  {{- $year := .Date.Format "2006" }}
+  {{- $seoTitle = printf "%s Meaning: What Does \"%s\" Mean on TikTok? (%s)" .Title .Title $year }}
+  {{- with .Params.seoTitle }}{{ $seoTitle = . }}{{ end }}
+  {{- $seoDesc = printf "Discover what \"%s\" means on TikTok in %s. Learn its origin, see usage examples, and find answers to frequently asked questions." .Title $year | truncate 155 }}
+  {{- with .Description }}{{ $seoDesc = . }}{{ end }}
+{{- else }}
+  {{- $seoTitle = .Title }}
+  {{- $seoDesc = .Summary | default .Site.Params.description | plainify | truncate 200 }}
 {{- end }}
 
-{{- with or .Title site.Title site.Params.title | plainify }}
-  <meta property="og:title" content="{{ . }}">
-{{- end }}
+{{- $images := partial "_funcs/get-page-images" . -}}
+{{- $image := index $images 0 -}}
 
-{{- with or .Description .Summary site.Params.description | plainify | htmlUnescape }}
-  <meta property="og:description" content="{{ trim . "\n\r\t " }}">
+<meta property="og:title" content="{{ $seoTitle }}" />
+{{- with $seoDesc }}
+<meta property="og:description" content="{{ . }}" />
 {{- end }}
-
-{{- with or .Params.locale site.Language.LanguageCode }}
-  <meta property="og:locale" content="{{ replace . `-` `_` }}">
+{{- with $image }}
+<meta property="og:image" content="{{ . }}" />
+{{- else }}
+<meta property="og:image" content="{{ "/og-image.svg" | absURL }}" />
 {{- end }}
-
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+{{- if site.Params.label.iconSVG }}
+<meta property="og:image" content="{{ site.Params.label.iconSVG | absURL }}" />
+{{- else if site.Params.label.icon }}
+<meta property="og:image" content="{{ (site.Params.label.icon | absURL) }}" />
+{{- end }}
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+{{- with site.Params.Social.facebook_admin }}
+<meta property="fb:admins" content="{{ . }}" />
+{{- end }}
+{{- with site.Language.Params.ogLocale | default site.Params.defaultoglocale }}
+<meta property="og:locale" content="{{ . }}" />
+{{- end }}
+{{- with site.Params.og.site_name }}
+<meta property="og:site_name" content="{{ . }}" />
+{{- end }}
+{{- with $images }}
+{{- range after 1 . }}
+<meta property="og:image" content="{{ . }}" />
+{{- end }}
+{{- end }}
 {{- if .IsPage }}
-  <meta property="og:type" content="article">
-  {{- with .Section }}
-    <meta property="article:section" content="{{ . }}">
-  {{- end }}
-  {{- $ISO8601 := "2006-01-02T15:04:05-07:00" }}
-  {{- with .PublishDate }}
-    <meta property="article:published_time" {{ .Format $ISO8601 | printf "content=%q" | safeHTMLAttr }}>
-  {{- end }}
-  {{- with .Lastmod }}
-    <meta property="article:modified_time" {{ .Format $ISO8601 | printf "content=%q" | safeHTMLAttr }}>
-  {{- end }}
-  {{- range .GetTerms "tags" | first 6 }}
-    <meta property="article:tag" content="{{ .Page.Title | plainify }}">
-  {{- end }}
-{{- else }}
-  <meta property="og:type" content="website">
+{{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
+<meta property="article:section" content="{{ .Section }}" />
+{{- with .PublishDate }}
+<meta property="article:published_time" {{ .Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />
 {{- end }}
-
-{{- if .Params.cover.image -}}
-  {{- if (ne .Params.cover.relative true) }}
-    <meta property="og:image" content="{{ .Params.cover.image | absURL }}">
-  {{- else}}
-    <meta property="og:image" content="{{ (path.Join .RelPermalink .Params.cover.image ) | absURL }}">
-  {{- end}}
-{{- else }}
-  {{- with partial "_funcs/get-page-images" . }}
-    {{- range . | first 6 }}
-      <meta property="og:image" content="{{ .Permalink }}">
-    {{- end }}
-  {{- end }}
+{{- with .Lastmod }}
+<meta property="article:modified_time" {{ .Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />
 {{- end }}
-
-{{- with .Params.audio }}
-  {{- range . | first 6  }}
-    <meta property="og:audio" content="{{ . | absURL }}">
-  {{- end }}
 {{- end }}
-
-{{- with .Params.videos }}
-  {{- range . | first 6 }}
-    <meta property="og:video" content="{{ . | absURL }}">
-  {{- end }}
-{{- end }}
-
-{{- range .GetTerms "series" }}
-  {{- range .Pages | first 7 }}
-    {{- if ne $ . }}
-      <meta property="og:see_also" content="{{ .Permalink }}">
-    {{- end }}
-  {{- end }}
-{{- end }}
-
-{{- with site.Params.social }}
-  {{- if reflect.IsMap . }}
-    {{- with .facebook_app_id }}
-      <meta property="fb:app_id" content="{{ . }}">
-    {{- else }}
-      {{- with .facebook_admin }}
-        <meta property="fb:admins" content="{{ . }}">
-      {{- end }}
-    {{- end }}
-  {{- end }}
-{{- end }}
-
-{{- with (.Param "social.fediverse_creator") }}
-  <meta name="fediverse:creator" content="{{ . }}">
+{{- range .Params.tags }}
+<meta property="article:tag" content="{{ . }}" />
 {{- end }}
