@@ -5,6 +5,8 @@ draft: false
 slug: "404-coded"
 pos: "slang"
 definition: "A TikTok slang term for someone completely out of touch or mentally checked out—like a web browser that can't find the page. The 2026 phrase for cluelessness."
+description: "404 coded means someone so out of touch it's like their brain returned an error page. The 2026 way to call a person clueless."
+seoTitle: "404 coded on TikTok: Meaning, Origin & Examples"
 tags: ["gen-z", "tech", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

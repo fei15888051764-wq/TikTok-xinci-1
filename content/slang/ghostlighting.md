@@ -5,6 +5,8 @@ draft: false
 slug: "ghostlighting"
 pos: "slang"
 definition: "A toxic dating tactic combining ghosting and gaslighting. The perpetrator disappears, then returns to make the victim feel like they were the problem."
+description: "Ghostlighting is disappearing on someone, then returning to convince them it was their fault. Ghosting's more sinister upgrade."
+seoTitle: "Ghostlighting Meaning on TikTok, Explained"
 tags: ["gen-z", "dating", "toxic", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

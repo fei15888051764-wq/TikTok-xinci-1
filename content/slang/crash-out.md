@@ -5,6 +5,8 @@ draft: false
 slug: "crash-out"
 pos: "verb"
 definition: "To lose emotional control and react impulsively or irrationally — used to describe public meltdowns and self-sabotaging behavior visible on social media."
+description: "A crash out is a public loss of emotional control, filmed and posted. Why the word went from warning to entertainment."
+seoTitle: "Crash Out Meaning & How to Use It"
 tags: ["gen-z", "social-media", "emotions", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

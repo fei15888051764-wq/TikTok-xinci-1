@@ -5,6 +5,8 @@ draft: false
 slug: "chopped"
 pos: "slang"
 definition: "A 2026 TikTok slang term meaning unattractive or ugly, from 'chopped chin' (receding chin). Originated from a viral WNBA moment, added to Merriam-Webster."
+description: "Chopped means unattractive, straight from 'chopped chin.' A viral WNBA moment took it from barbershop talk to Merriam-Webster."
+seoTitle: "Chopped Meaning: Why Everyone's Saying It"
 tags: ["gen-z", "aave", "meme", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

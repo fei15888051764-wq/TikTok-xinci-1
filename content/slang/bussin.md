@@ -5,6 +5,8 @@ draft: false
 slug: "bussin"
 pos: "adjective"
 definition: "AAVE slang for something that tastes extremely good or is highly enjoyable — originally food-specific but expanded to describe anything exceptional."
+description: "Bussin means so good it's almost disrespectful, originally about food. The AAVE origin and why the double-s matters."
+seoTitle: "Bussin' on TikTok: Meaning, Origin & Examples"
 tags: ["gen-z", "aave", "food", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

@@ -5,6 +5,8 @@ draft: false
 slug: "fein"
 pos: "noun/interjection"
 definition: "An obsessive, almost addictive excitement or enthusiasm for something — used to describe someone who is way too into a person, activity, or trend."
+description: "Fein is being way too into something, obsession levels visible from space. Spelled like 'fiend' because that's the point."
+seoTitle: "What Is Fein? TikTok Slang Explained"
 tags: ["slang", "gen-z", "music", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

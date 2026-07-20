@@ -5,6 +5,8 @@ draft: false
 slug: "folk-valley"
 pos: "noun"
 definition: "A meme aesthetic that smashes cottagecore folk life together with Silicon Valley startup culture — handwoven baskets pitching a seed round."
+description: "Folk valley is cottagecore meets startup culture: sourdough starters with pitch decks. The aesthetic mocking both sides equally."
+seoTitle: "Folk Valley: What It Means & Where It Came From"
 tags: ["meme", "gen-z", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

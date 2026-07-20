@@ -5,6 +5,8 @@ draft: false
 slug: "hes-red-for-an-amazing-reason"
 pos: "phrase"
 definition: "A phrasal template meme based on a video of a man painted red claiming he's red for an amazing reason, applied to other colorful characters with absurd justifications."
+description: "He's red for an amazing reason is the meme template for any absurd character with an unexplained color. The original video inside."
+seoTitle: "He's Red For An Amazing Reason Meaning & How to Use It"
 tags: ["meme", "color", "tiktok", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

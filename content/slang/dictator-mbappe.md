@@ -5,6 +5,8 @@ draft: false
 slug: "dictator-mbappe"
 pos: "noun"
 definition: "A meme nickname for football star Kylian Mbappé, joking that he runs his team like a dictator and everyone else just follows orders."
+description: "Dictator Mbappé is the meme claiming Mbappé runs his teams like a one-man regime. The joke that follows every transfer saga."
+seoTitle: "Dictator Mbappé Meaning on TikTok, Explained (2026)"
 tags: ["meme", "football", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

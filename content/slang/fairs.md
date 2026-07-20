@@ -5,6 +5,8 @@ draft: false
 slug: "fairs"
 pos: "slang"
 definition: "British slang for 'fair enough' that went viral on TikTok in mid-2026. A versatile reaction to acknowledge or concede a point with low emotional investment."
+description: "Fairs is British for 'fair enough,' and TikTok made it the lowest-effort way to end an argument while sounding gracious."
+seoTitle: "What Does Fairs Mean on TikTok? (Explained)"
 tags: ["gen-z", "trend", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

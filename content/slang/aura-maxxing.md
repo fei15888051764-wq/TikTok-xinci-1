@@ -5,6 +5,8 @@ draft: false
 slug: "aura-maxxing"
 pos: "slang"
 definition: "A TikTok slang for boosting your charisma and social energy to peak levels. Used when someone levels up their confidence to become their most magnetic self."
+description: "Aura-maxxing is the grind of upgrading your charisma stat by stat. How TikTok turned social confidence into a points system."
+seoTitle: "Aura-maxxing Meaning on TikTok, Explained"
 tags: ["gen-z", "self-improvement", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

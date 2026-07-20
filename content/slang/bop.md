@@ -5,6 +5,8 @@ draft: false
 slug: "bop"
 pos: "noun"
 definition: "A catchy song that makes you want to move, or a person who's promiscuous — the meaning depends entirely on context."
+description: "A bop is a song too catchy to skip. But call a person one and the meaning flips entirely. Context is everything with this word."
+seoTitle: "Bop Meaning: Definition, Origin & Examples"
 tags: ["gen-z", "music", "slang", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

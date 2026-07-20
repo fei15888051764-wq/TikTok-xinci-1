@@ -5,6 +5,8 @@ draft: false
 slug: "brain-rot"
 pos: "noun"
 definition: "Mental fatigue and cognitive decline from consuming too much low-value online content. Oxford Word of the Year 2024, recognized by Merriam-Webster in 2026."
+description: "Brain rot is what hours of mindless scrolling allegedly does to your attention span. Oxford made it Word of the Year 2024."
+seoTitle: "Brain Rot Meaning: Why Everyone's Saying It"
 tags: ["gen-z", "trend", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

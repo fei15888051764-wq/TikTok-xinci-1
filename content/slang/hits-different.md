@@ -5,6 +5,8 @@ draft: false
 slug: "hits-different"
 pos: "phrase"
 definition: "When an experience, song, or moment feels significantly more meaningful, emotional, or intense than usual — often in a way that's hard to explain but impossible to ignore."
+description: "Hits different describes moments that land harder than they should, like a song at 2 AM. The phrase for feelings you can't explain."
+seoTitle: "Hits Different Meaning & How to Use It"
 tags: ["music", "gen-z", "feelings", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

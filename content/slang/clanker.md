@@ -5,6 +5,8 @@ draft: false
 slug: "clanker"
 pos: "noun"
 definition: "A mocking slang term for AI systems and chatbots. Shortlisted for Dictionary.com's 2025 Word of the Year, reflecting cultural skepticism about AI."
+description: "Clanker is the slur people invented for AI chatbots and robots. Dictionary.com noticed. What it says about AI fatigue."
+seoTitle: "What Does Clanker Mean on TikTok? (Explained)"
 tags: ["gen-z", "tech", "ai", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

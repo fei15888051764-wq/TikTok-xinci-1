@@ -5,6 +5,8 @@ draft: false
 slug: "birds-for-some-reason"
 pos: "slang"
 definition: "A viral TikTok meme from mid-2026 where videos are paired with the caption 'birds for some reason,' creating absurdist humor through random juxtaposition."
+description: "Birds for some reason is the caption that made random bird footage the funniest thing on TikTok. Absurdism at its laziest and best."
+seoTitle: "Birds for Some Reason: What It Means & Where It Came From"
 tags: ["gen-z", "meme", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

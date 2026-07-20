@@ -5,6 +5,8 @@ draft: false
 slug: "bebot"
 pos: "noun"
 definition: "A Filipino slang term for a beautiful, confident woman — essentially a Filipina baddie. Popularized on TikTok through Y2K-era makeup transformation videos."
+description: "Bebot is Filipino slang for a confident Filipina baddie, revived by Y2K makeup transformations on TikTok. The Black Eyed Peas connection inside."
+seoTitle: "What Does Bebot Mean on TikTok? (Explained)"
 tags: ["gen-z", "beauty", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

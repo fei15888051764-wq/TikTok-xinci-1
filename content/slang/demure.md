@@ -5,6 +5,8 @@ draft: false
 slug: "demure"
 pos: "adjective"
 definition: "A TikTok-born aesthetic term describing someone acting soft, reserved, and modest — either as genuine praise for understated elegance or playful sarcasm about 'innocent' behavior."
+description: "Demure means soft, modest, and reserved, unless it's sarcastic, which it usually is. How one TikTok made it inescapable."
+seoTitle: "Demure Meaning: Definition, Origin & Examples"
 tags: ["gen-z", "aesthetic", "2026", "tiktok-trend"]
 categories: ["slang"]
 author: "GEBILAOWANG"

@@ -5,6 +5,8 @@ draft: false
 slug: "dry-texting"
 pos: "noun"
 definition: "Sending short, low-effort replies — one-word answers, no follow-up questions, zero emojis — that make a conversation feel one-sided."
+description: "Dry texting is the art of killing a conversation one 'k' at a time. How to spot it and why everyone pretends they don't do it."
+seoTitle: "Dry Texting: What It Means & Where It Came From"
 tags: ["texting", "dating", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

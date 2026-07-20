@@ -5,6 +5,8 @@ draft: false
 slug: "academic-weapon"
 pos: "noun"
 definition: "Someone with a terrifying level of academic drive — the person who sits front row, takes color-coded notes, and actually read the syllabus."
+description: "An academic weapon is that terrifying classmate who read the syllabus, sits front row, and treats GPA like a blood sport."
+seoTitle: "Academic Weapon: What It Means & Where It Came From"
 tags: ["school", "study-tok", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

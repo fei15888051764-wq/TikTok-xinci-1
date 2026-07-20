@@ -5,6 +5,8 @@ draft: false
 slug: "chalance"
 pos: "noun"
 definition: "The intentional balance between showing romantic interest and protecting your emotional boundaries — caring without overinvesting too quickly."
+description: "Chalance is the dating tightrope: show you care, but not so much you lose leverage. Gen Z's answer to playing it cool."
+seoTitle: "Chalance Meaning: Definition, Origin & Examples"
 tags: ["relationship", "dating", "tiktok", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

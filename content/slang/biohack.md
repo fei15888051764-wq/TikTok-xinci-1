@@ -5,6 +5,8 @@ draft: false
 slug: "biohack"
 pos: "slang"
 definition: "A 2025-2026 term for using lifestyle changes, tech, or supplements to optimize physical and mental performance. Shortlisted for Oxford Word of the Year 2025."
+description: "Biohacking is treating your body like a startup: supplements, cold plunges, sleep trackers. Oxford shortlisted it for a reason."
+seoTitle: "Biohack Meaning: Why Everyone's Saying It"
 tags: ["gen-z", "wellness", "tech", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

@@ -5,6 +5,8 @@ draft: false
 slug: "cortisol-coded"
 pos: "slang"
 definition: "A TikTok wellness slang for something that looks calming but is actually stressful underneath. Critiques performative self-care culture with science-speak."
+description: "Cortisol-coded describes things that look relaxing but secretly spike your stress. Wellness TikTok's sharpest insult."
+seoTitle: "Cortisol-coded Meaning on TikTok, Explained"
 tags: ["gen-z", "wellness", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

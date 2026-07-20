@@ -5,6 +5,8 @@ draft: false
 slug: "cooked"
 pos: "adjective"
 definition: "Completely done for or in a hopeless situation with no way out — used to describe exhaustion, failure, or chaos with dark humor and resignation."
+description: "Cooked means completely done for, no recovery arc. How one word became the internet's favorite way to pronounce doom."
+seoTitle: "Cooked Meaning: Why Everyone's Saying It"
 tags: ["gen-z", "gaming", "viral", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

@@ -5,6 +5,8 @@ draft: false
 slug: "brain-afk"
 pos: "slang"
 definition: "A TikTok slang for when your mind has checked out — mentally offline though your body is present. Born from gaming culture's 'AFK' (Away From Keyboard)."
+description: "Brain AFK is when your body shows up but your mind logged off hours ago. Gaming slang for everyone's 3 PM mental state."
+seoTitle: "What Does Brain AFK Mean on TikTok? (Explained)"
 tags: ["gen-z", "slang", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

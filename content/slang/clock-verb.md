@@ -5,6 +5,8 @@ draft: false
 slug: "clock-verb"
 pos: "verb"
 definition: "To notice someone for who they really are, especially when hiding something. From AAVE and ballroom culture, voted #2 in ADS Most Useful 2025."
+description: "To clock someone is to see straight through them. From ballroom culture to TikTok, the word the ADS called most useful."
+seoTitle: "Clock (Verb): What It Means & Where It Came From"
 tags: ["gen-z", "aave", "ballroom", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

@@ -5,6 +5,8 @@ draft: false
 slug: "glitch-walking"
 pos: "slang"
 definition: "Moving with jerky, stutter-step motions that mimic a lagging video game character. Used for comedy, awkwardness, or irony on TikTok."
+description: "Glitch-walking is moving like a lagging video game character on purpose. TikTok's favorite way to make hallway walks weird."
+seoTitle: "Glitch-Walking on TikTok: Meaning, Origin & Examples"
 tags: ["gen-z", "trend", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

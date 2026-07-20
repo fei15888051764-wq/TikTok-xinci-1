@@ -5,6 +5,8 @@ draft: false
 slug: "fifa-princess"
 pos: "noun"
 definition: "A sarcastic nickname for Lionel Messi used by rival fans who believe FIFA gives him preferential treatment in World Cup matches and awards."
+description: "FIFA Princess is the sarcastic nickname rival fans gave Messi, implying royal treatment from referees. The salt runs deep."
+seoTitle: "FIFA Princess on TikTok: Meaning, Origin & Examples"
 tags: ["meme", "football", "slang", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

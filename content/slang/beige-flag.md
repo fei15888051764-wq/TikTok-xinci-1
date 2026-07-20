@@ -5,6 +5,8 @@ draft: false
 slug: "beige-flag"
 pos: "noun"
 definition: "A neutral, slightly odd trait in a partner that isn't a red flag or a green flag — just a harmless quirk that makes you pause and go 'huh, okay.'"
+description: "A beige flag is the harmless quirk that makes you pause mid-date: not a red flag, not a green one, just weird enough to notice."
+seoTitle: "Beige Flag: What It Means & Where It Came From"
 tags: ["gen-z", "dating", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

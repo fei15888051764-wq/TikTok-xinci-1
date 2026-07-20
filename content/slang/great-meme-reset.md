@@ -5,6 +5,8 @@ draft: false
 slug: "great-meme-reset"
 pos: "phrase"
 definition: "A TikTok movement demanding all memes revert to their 2010s glory days starting January 1, 2026. Brainrot out, Big Chungus in."
+description: "The Great Meme Reset demanded memes return to their 2010s glory on January 1, 2026. Big Chungus was mentioned. Did it work?"
+seoTitle: "Great Meme Reset: What It Means & Where It Came From (2026)"
 tags: ["meme-culture", "gen-z", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

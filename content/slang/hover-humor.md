@@ -5,6 +5,8 @@ draft: false
 slug: "hover-humor"
 pos: "noun"
 definition: "Light, absurd jokes that float by without landing hard — weird, detached comedy that hovers just above making sense. The 2026 evolution of anti-punchline humor built for short-form attention spans."
+description: "Hover humor is comedy that floats past without a real punchline. Anti-jokes engineered for three-second attention spans."
+seoTitle: "Hover Humor: What It Means & Where It Came From"
 tags: ["gen-z", "comedy", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

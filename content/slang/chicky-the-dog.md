@@ -5,6 +5,7 @@ draft: false
 slug: "chicky-the-dog"
 pos: "meme"
 definition: "A 2026 TikTok visual meme featuring an AI-generated red dog that sneakily flips off the camera. Expresses hidden disrespect humorously."
+description: "Chicky is the AI-generated red dog who flips off the camera when you least expect it. The meme for hidden disrespect."
 tags: ["gen-z", "meme", "ai", "visual", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

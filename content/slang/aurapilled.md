@@ -5,6 +5,8 @@ draft: false
 slug: "aurapilled"
 pos: "slang"
 definition: "A TikTok slang for someone obsessed with vibes and social energy, having gone all-in on understanding and optimizing their personal aura."
+description: "Aurapilled describes someone fully converted to aura culture, tracking vibes like a religion. How the -pilled suffix got here."
+seoTitle: "Aurapilled Meaning: Definition, Origin & Examples"
 tags: ["gen-z", "self-improvement", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

@@ -5,6 +5,8 @@ draft: false
 slug: "choppelganger"
 pos: "noun"
 definition: "A 2026 TikTok blend of 'chopped' (unattractive) and 'doppelganger' (lookalike). Someone who looks just like you but is noticeably less attractive."
+description: "A choppelganger is your lookalike, except noticeably worse-looking. The brutal blend of 'chopped' and 'doppelganger' explained."
+seoTitle: "Choppelganger Meaning: Definition, Origin & Examples"
 tags: ["gen-z", "meme", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

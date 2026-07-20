@@ -5,6 +5,8 @@ draft: false
 slug: "chalant"
 pos: "adjective"
 definition: "The opposite of 'nonchalant' — someone who shows genuine interest and emotional investment in a relationship. Gen Z's 2026 dating standard."
+description: "Chalant is the opposite of nonchalant, and Gen Z made it the new dating standard. Being openly into someone is back."
+seoTitle: "Chalant Meaning on TikTok, Explained"
 tags: ["gen-z", "dating", "slang", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

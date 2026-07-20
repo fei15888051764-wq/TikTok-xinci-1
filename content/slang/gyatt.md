@@ -5,6 +5,8 @@ draft: false
 slug: "gyatt"
 pos: "interjection"
 definition: "An expressive exclamation popularized on TikTok and streaming platforms, used to convey strong admiration, excitement, or surprise — typically in reaction to someone's impressive appearance or a shocking moment."
+description: "Gyatt is the exclamation for when someone's appearance short-circuits your vocabulary. From AAVE to every streamer's chat."
+seoTitle: "What Is Gyatt? TikTok Slang Explained"
 tags: ["gen-z", "social-media", "viral", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

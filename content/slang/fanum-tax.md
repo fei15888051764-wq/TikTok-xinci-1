@@ -5,6 +5,8 @@ draft: false
 slug: "fanum-tax"
 pos: "noun"
 definition: "A playful rule where the person who buys the food takes a mandatory bite of everyone else's meal before handing it over."
+description: "The Fanum Tax demands a bite of your friend's food as tribute. From one streamer's running gag to an actual dictionary entry."
+seoTitle: "Fanum Tax Meaning: Why Everyone's Saying It"
 tags: ["food", "streaming", "tiktok", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

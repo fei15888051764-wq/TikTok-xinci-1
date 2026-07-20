@@ -5,6 +5,8 @@ draft: false
 slug: "canon-event"
 pos: "noun"
 definition: "A pivotal, unavoidable life experience that shapes who you become — often used to describe formative moments that feel like they were always meant to happen."
+description: "A canon event is the embarrassing formative moment you wouldn't erase because it built you. Spider-Verse gave us the vocabulary."
+seoTitle: "Canon Event: What It Means & Where It Came From"
 tags: ["fandom", "gen-z", "meme", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

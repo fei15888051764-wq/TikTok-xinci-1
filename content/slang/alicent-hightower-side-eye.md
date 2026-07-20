@@ -5,6 +5,8 @@ draft: false
 slug: "alicent-hightower-side-eye"
 pos: "noun"
 definition: "A reaction image of House of the Dragon's Alicent Hightower glancing sideways in disbelief, used to express confusion or an unsettling realization."
+description: "The Alicent Hightower side eye is the reaction image for when something feels off but you can't prove it yet. Here's the scene behind it."
+seoTitle: "Alicent Hightower Side Eye Meaning & How to Use It"
 tags: ["meme", "reaction", "hotd", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

@@ -5,6 +5,8 @@ draft: false
 slug: "delulu"
 pos: "adjective"
 definition: "Internet slang for 'delusional' — joyful, self-aware optimism about achieving ambitious goals. 'Delulu is the solulu' is Gen Z's empowerment mantra."
+description: "Delulu is delusional optimism worn as a badge of honor. Why 'delulu is the solulu' became Gen Z's manifestation mantra."
+seoTitle: "Delulu Meaning: Why Everyone's Saying It"
 tags: ["gen-z", "feelings", "viral", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

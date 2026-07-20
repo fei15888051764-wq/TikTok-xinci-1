@@ -5,6 +5,8 @@ draft: false
 slug: "inspo"
 pos: "noun"
 definition: "A shortened form of 'inspiration' used to describe something that motivates or sparks creative ideas. Added to Cambridge Dictionary in August 2025, widely used on TikTok, Instagram, and Pinterest."
+description: "Inspo is inspiration shortened for people too busy creating to say full words. Cambridge made it official in 2025."
+seoTitle: "Inspo Meaning: Definition, Origin & Examples"
 tags: ["gen-z", "trend", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

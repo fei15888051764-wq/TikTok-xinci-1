@@ -5,6 +5,8 @@ draft: false
 slug: "dat-bih-gah"
 pos: "phrase"
 definition: "A 2026 AAVE-derived TikTok affirmation meaning 'that's good,' from Bubba Harrelson's viral reaction to Kool-Aid-soaked pineapples. Emphatic, playful approval."
+description: "Dat bih gah means 'that's good' with maximum emphasis, born from one man's ecstatic reaction to Kool-Aid pineapple."
+seoTitle: "Dat Bih Gah: What It Means & Where It Came From"
 tags: ["gen-z", "aave", "food-trend", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

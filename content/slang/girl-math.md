@@ -6,6 +6,7 @@ slug: "girl-math"
 pos: "noun"
 definition: "A playful logic for justifying spending, where cash isn't real money, sale items are savings, and cost-per-wear makes anything basically free."
 description: "Girl math is the joke logic that makes any purchase feel free. Cash doesn't count, sales are savings. Where it started and why it stuck."
+seoTitle: "Girl Math Meaning: Why Everyone's Saying It"
 tags: ["money", "trend", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

@@ -5,6 +5,8 @@ draft: false
 slug: "he-tryna-ignore-it"
 pos: "phrase"
 definition: "A viral 2026 TikTok catchphrase describing the act of deliberately staying focused while distractions demand your attention. Originated from a dog video."
+description: "He's tryna ignore it comes from a dog refusing to acknowledge chaos. Now it's the caption for every act of heroic focus."
+seoTitle: "He Tryna Ignore It: What It Means & Where It Came From"
 tags: ["gen-z", "meme", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

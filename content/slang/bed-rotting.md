@@ -5,6 +5,8 @@ draft: false
 slug: "bed-rotting"
 pos: "noun"
 definition: "A TikTok trend of intentionally staying in bed all day to rest, framing laziness as radical self-care. Recognized by Merriam-Webster in 2026."
+description: "Bed-rotting is staying in bed all day on purpose and calling it self-care. Even Merriam-Webster gave in. Why the trend refuses to die."
+seoTitle: "Bed Rotting on TikTok: Meaning, Origin & Examples"
 tags: ["gen-z", "wellness", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

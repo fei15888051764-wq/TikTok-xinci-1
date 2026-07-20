@@ -5,6 +5,8 @@ draft: false
 slug: "body-tea"
 pos: "slang"
 definition: "A TikTok slang compliment for an attractive body or appearance, born from a viral AAVE grammar quirk. 'Tea' here means hot, sexy, or attractive."
+description: "Body tea is TikTok's way of saying someone's physique is impressively hot. Born from an AAVE grammar quirk that broke the comment section."
+seoTitle: "Body Tea Meaning on TikTok, Explained"
 tags: ["gen-z", "slang", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

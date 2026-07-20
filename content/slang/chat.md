@@ -5,6 +5,8 @@ draft: false
 slug: "chat"
 pos: "noun"
 definition: "A 2026 slang term from livestreaming culture for addressing a group of people. Replaces 'guys' or 'everyone' in casual Gen Z speech."
+description: "Chat is what streamers call their audience, and now it's how Gen Z addresses any group. 'Guys' is officially retired."
+seoTitle: "What Is Chat? TikTok Slang Explained"
 tags: ["gen-z", "gaming", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

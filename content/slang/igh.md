@@ -5,6 +5,8 @@ draft: false
 slug: "igh"
 pos: "interjection"
 definition: "A super-short way of saying 'alright' or 'ight,' used as agreement, acknowledgment, or confirmation in texts and chats."
+description: "Igh means alright, compressed to three letters. The laziest possible way to agree, which is exactly why everyone uses it."
+seoTitle: "What Does Igh Mean on TikTok? (Explained)"
 tags: ["gen-z", "texting", "tiktok", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

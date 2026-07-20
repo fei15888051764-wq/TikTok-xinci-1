@@ -5,6 +5,8 @@ draft: false
 slug: "i-know-ball"
 pos: "phrase"
 definition: "A confident declaration used on TikTok and in sports culture to assert expertise or deep knowledge about basketball, often delivered with swagger."
+description: "I know ball is how you declare basketball expertise with maximum swagger and zero credentials. Use it wisely or get exposed."
+seoTitle: "I Know Ball Meaning & How to Use It"
 tags: ["gen-z", "sports", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

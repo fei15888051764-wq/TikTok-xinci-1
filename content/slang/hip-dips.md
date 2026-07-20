@@ -5,6 +5,8 @@ draft: false
 slug: "hip-dips"
 pos: "noun"
 definition: "Natural inward curves below the hip bones where the skin follows the shape of the pelvis — a normal anatomical feature that sparked body positivity conversations on TikTok in 2026."
+description: "Hip dips are the natural curves below your hip bones, and TikTok turned them into a body positivity flashpoint. Totally normal anatomy."
+seoTitle: "Hip Dips Meaning on TikTok, Explained"
 tags: ["gen-z", "wellness", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

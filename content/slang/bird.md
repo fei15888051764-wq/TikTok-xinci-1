@@ -5,6 +5,8 @@ draft: false
 slug: "bird"
 pos: "noun"
 definition: "AAVE slang for a woman seen as seeking male validation or attention. Carries complex implications about gender dynamics and cultural respect."
+description: "Bird is AAVE slang with layered meanings about women and attention-seeking. Context decides whether it's casual or cutting."
+seoTitle: "What Is Bird? TikTok Slang Explained"
 tags: ["gen-z", "slang", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"
