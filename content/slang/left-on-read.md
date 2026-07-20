@@ -5,6 +5,8 @@ draft: false
 slug: "left-on-read"
 pos: "phrase"
 definition: "When someone sees your message (read receipt confirms it) and simply doesn't reply. The modern silent treatment, with receipts."
+description: "Left on read is when they saw your message and chose silence. The read receipt turned ignoring someone into a documented event."
+seoTitle: "Left on Read: What It Means & Where It Came From"
 tags: ["relationships", "texting", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

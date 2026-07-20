@@ -5,6 +5,8 @@ draft: false
 slug: "relulu"
 pos: "adjective"
 definition: "A blend of 'realistic' and 'delulu' — dreaming big while staying grounded in practical action. The 2026 evolution of manifestation culture where optimism meets actual effort."
+description: "Relulu is realistic delulu: dream big, but actually do the work. Manifestation culture grew a pragmatic streak."
+seoTitle: "Relulu Meaning: Definition, Origin & Examples"
 tags: ["gen-z", "wellness", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

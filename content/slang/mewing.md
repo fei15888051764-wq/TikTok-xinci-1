@@ -5,6 +5,8 @@ draft: false
 slug: "mewing"
 pos: "noun"
 definition: "A viral TikTok wellness trend involving proper tongue posture against the roof of the mouth, claimed to define the jawline and improve facial structure — rooted in 1970s orthotropic theory."
+description: "Mewing is pressing your tongue to the roof of your mouth for a sharper jawline. The 1970s theory TikTok resurrected."
+seoTitle: "Mewing Meaning: Definition, Origin & Examples"
 tags: ["gen-z", "wellness", "lifestyle", "aesthetic", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

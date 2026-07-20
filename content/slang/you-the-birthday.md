@@ -5,6 +5,8 @@ draft: false
 slug: "you-the-birthday"
 pos: "phrase"
 definition: "A hype phrase used to celebrate someone as the center of attention — meaning 'it's your day' or 'you're the star right now.' Originated in AAVE, popularized on TikTok."
+description: "You the birthday means you're the main event today. The AAVE hype phrase TikTok uses to crown the moment's star."
+seoTitle: "You the Birthday: What It Means & Where It Came From"
 tags: ["gen-z", "slang", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

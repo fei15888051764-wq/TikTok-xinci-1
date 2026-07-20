@@ -5,6 +5,8 @@ draft: false
 slug: "thats-ai"
 pos: "phrase"
 definition: "A phrase expressing distrust or skepticism when suspecting something presented as real is actually AI-generated. Voted American Dialect Society's Most Useful Word of 2025/2026 with 104 votes."
+description: "That's AI is the accusation you drop when a photo looks too perfect. The phrase the American Dialect Society voted most useful."
+seoTitle: "That's AI Meaning: Why Everyone's Saying It"
 tags: ["gen-z", "ai", "meme", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

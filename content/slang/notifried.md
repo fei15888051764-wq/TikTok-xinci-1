@@ -5,6 +5,8 @@ draft: false
 slug: "notifried"
 pos: "adjective"
 definition: "The state of being mentally exhausted from the constant barrage of notifications on your phone, apps, and smart devices."
+description: "Notifried is the mental exhaustion from one notification too many. Your phone did this to you, and now there's a word for it."
+seoTitle: "Notifried Meaning: Definition, Origin & Examples"
 tags: ["gen-z", "tech", "tiktok", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

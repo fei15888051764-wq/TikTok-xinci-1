@@ -5,6 +5,8 @@ draft: false
 slug: "lewk"
 pos: "noun"
 definition: "A stylized spelling of 'look' describing a distinctive, bold, or memorable fashion statement or aesthetic. Originated in drag culture, popularized by RuPaul's Drag Race."
+description: "A lewk is not just an outfit, it's a whole fashion statement with intent. Drag culture's gift to everyone's vocabulary."
+seoTitle: "What Is Lewk? TikTok Slang Explained"
 tags: ["gen-z", "trend", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

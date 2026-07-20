@@ -5,6 +5,8 @@ draft: false
 slug: "who-is-he"
 pos: "phrase"
 definition: "A phrase used to express surprise or admiration at someone's transformation or unexpected behavior — popularized through TikTok reaction videos to glow-ups and talent reveals."
+description: "Who is he is the gasp after someone's glow-up leaves the room speechless. TikTok's soundtrack for dramatic reveals."
+seoTitle: "Who Is He: What It Means & Where It Came From"
 tags: ["gen-z", "phrase", "reaction", "transformation", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

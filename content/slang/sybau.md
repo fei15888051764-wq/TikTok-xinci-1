@@ -5,6 +5,8 @@ draft: false
 slug: "sybau"
 pos: "acronym"
 definition: "An aggressive acronym popular on TikTok meaning 'shut your b-word a-word up,' used as a confrontational clapback in comments and captions."
+description: "SYBAU is the aggressive acronym telling someone to shut up, spelled out. TikTok's favorite way to end a comment war."
+seoTitle: "What Does SYBAU Mean on TikTok? (Explained)"
 tags: ["gen-z", "social-media", "acronym", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

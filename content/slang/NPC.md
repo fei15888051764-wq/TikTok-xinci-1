@@ -5,6 +5,8 @@ draft: false
 slug: "NPC"
 pos: "noun"
 definition: "Someone who acts predictable, repetitive, or lacking independent thought — borrowed from gaming to describe people who seem to follow trends blindly."
+description: "NPC describes someone who seems to run on a script: same opinions, same trends, zero original thought. From gaming slang to TikTok insult."
+seoTitle: "What Is NPC? TikTok Slang Explained"
 tags: ["gaming", "gen-z", "meme", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

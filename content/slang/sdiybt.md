@@ -5,6 +5,8 @@ draft: false
 slug: "sdiybt"
 pos: "phrase"
 definition: "Stands for 'start digging in your butt twin' — a viral SpongeBob meme edit. Kids say it nonsensically, or to call out someone losing focus."
+description: "SDIYBT stands for something absurd from a SpongeBob edit, and kids say it nonstop. What the letters actually mean."
+seoTitle: "What Does SDIYBT Mean on TikTok? (Explained)"
 tags: ["gen-alpha", "meme", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

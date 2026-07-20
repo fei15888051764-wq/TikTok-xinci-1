@@ -5,6 +5,8 @@ draft: false
 slug: "unc"
 pos: "noun"
 definition: "Gen-Z slang for someone acting older than their age or giving outdated vibes — used as playful teasing when someone behaves out of touch with current trends."
+description: "Unc is what Gen Z calls anyone giving old-person energy, regardless of age. Out of touch has a new name."
+seoTitle: "What Is Unc? TikTok Slang Explained"
 tags: ["gen-z", "social-media", "meme", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

@@ -5,6 +5,8 @@ draft: false
 slug: "locked-in"
 pos: "phrase"
 definition: "To enter a state of deep, uninterrupted focus and mental commitment — often used before grinding, studying, or pursuing a goal with zero distractions."
+description: "Locked in means total focus with zero distractions allowed. The mindset Gen Z claims before exams, gyms, and grinding."
+seoTitle: "Locked In Meaning & How to Use It"
 tags: ["focus", "gen-z", "productivity", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

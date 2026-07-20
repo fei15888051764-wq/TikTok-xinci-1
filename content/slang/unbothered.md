@@ -5,6 +5,8 @@ draft: false
 slug: "unbothered"
 pos: "adjective"
 definition: "A state of complete emotional untouchability — not caring about drama, opinions, or negativity while radiating calm confidence."
+description: "Unbothered is radiating calm while chaos demands your reaction. The emotional armor everyone claims to have."
+seoTitle: "Unbothered Meaning: Why Everyone's Saying It"
 tags: ["gen-z", "attitude", "aesthetic", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

@@ -5,6 +5,8 @@ draft: false
 slug: "solar-rage"
 pos: "noun"
 definition: "Explosive, almost comedic anger at everyday environmental wastefulness — like AC running in an empty room or a 12-minute car idle. The 2026 evolution of eco-frustration, built for posting."
+description: "Solar rage is disproportionate fury at wasted energy, like AC in an empty room. Eco-anxiety with a posting schedule."
+seoTitle: "Solar Rage Meaning on TikTok, Explained (2026)"
 tags: ["gen-z", "sustainability", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

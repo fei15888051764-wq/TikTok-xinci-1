@@ -5,6 +5,8 @@ draft: false
 slug: "opps"
 pos: "noun"
 definition: "Short for 'opposition' — slang for enemies, rivals, or anyone on the other side of a conflict, popularized by rap culture and now widely used in Gen Z and online gaming communities."
+description: "Opps are your enemies, rivals, or anyone on the other side. Rap culture's word for opposition, now standard Gen Z vocabulary."
+seoTitle: "What Is Opps? TikTok Slang Explained"
 tags: ["gen-z", "rap", "gaming", "rivalry", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

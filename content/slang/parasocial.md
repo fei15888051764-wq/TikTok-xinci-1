@@ -5,6 +5,8 @@ draft: false
 slug: "parasocial"
 pos: "adjective"
 definition: "Describing a one-sided emotional bond where someone feels connected to a celebrity, influencer, or fictional character they've never met. Named Cambridge Dictionary's Word of the Year 2025."
+description: "Parasocial describes the one-sided bond with a celebrity who doesn't know you exist. Cambridge's Word of the Year 2025."
+seoTitle: "Parasocial Meaning on TikTok, Explained"
 tags: ["gen-z", "social-media", "psychology", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

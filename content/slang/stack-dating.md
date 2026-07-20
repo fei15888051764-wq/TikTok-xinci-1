@@ -5,6 +5,8 @@ draft: false
 slug: "stack-dating"
 pos: "noun"
 definition: "A TikTok trend where singles schedule multiple dates back-to-back in a single day to maximize efficiency. Popular among Gen Z, the practice treats dating as an optimizable activity — but psychologists warn it may prevent genuine connection."
+description: "Stack dating is scheduling multiple first dates back-to-back like meetings. Efficient, yes. Romantic, debatable."
+seoTitle: "Stack Dating on TikTok: Meaning, Origin & Examples"
 tags: ["gen-z", "dating", "tiktok-trend", "relationships", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

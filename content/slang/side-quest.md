@@ -5,6 +5,8 @@ draft: false
 slug: "side-quest"
 pos: "noun"
 definition: "A small, unexpected detour or optional task in daily life that isn't part of your main goals — borrowed from RPG gaming culture. Recognized by Dictionary.com in February 2026."
+description: "A side quest is life's optional detour that somehow becomes the highlight. RPG logic applied to running errands."
+seoTitle: "Side Quest: What It Means & Where It Came From"
 tags: ["gen-z", "gaming", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

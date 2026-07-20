@@ -5,6 +5,8 @@ draft: false
 slug: "tradwife"
 pos: "noun"
 definition: "Short for 'traditional wife,' describing a woman who embraces conventional gender roles as a homemaker. Added to both Cambridge and Oxford English Dictionaries in 2025, the term went viral on TikTok through 1950s-inspired domestic content."
+description: "A tradwife embraces 1950s-style homemaking as identity and content. Both Cambridge and Oxford added the word in 2025."
+seoTitle: "Tradwife Meaning on TikTok, Explained"
 tags: ["gen-z", "trend", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

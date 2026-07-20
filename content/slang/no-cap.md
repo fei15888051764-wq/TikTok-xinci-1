@@ -5,6 +5,8 @@ draft: false
 slug: "no-cap"
 pos: "phrase/interjection"
 definition: "A sincere emphasis meaning 'no lie' or 'for real' — used to stress that you're being completely honest, often placed at the beginning or end of a statement."
+description: "No cap means no lie, total honesty. The cap being rejected is the lie, and here's where the phrase actually came from."
+seoTitle: "No Cap Meaning & How to Use It"
 tags: ["slang", "gen-z", "hip-hop", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

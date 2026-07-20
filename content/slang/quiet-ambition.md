@@ -5,6 +5,8 @@ draft: false
 slug: "quiet-ambition"
 pos: "noun"
 definition: "Pursuing your goals without posting about them — working hard in private instead of performing hustle for social media validation. The 2026 backlash against toxic productivity culture."
+description: "Quiet ambition is grinding in silence instead of posting about the grind. The 2026 backlash against performative hustle."
+seoTitle: "Quiet Ambition: What It Means & Where It Came From"
 tags: ["gen-z", "wellness", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

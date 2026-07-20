@@ -5,6 +5,8 @@ draft: false
 slug: "mogging"
 pos: "verb"
 definition: "To dominate or outshine someone through sheer physical presence, skill, or charisma. Evolved from the PUA-era acronym AMOG and exploded into mainstream usage after figure skater Alysa Liu used it post-Olympics."
+description: "Mogging is outshining someone through sheer presence. An Olympian said it on camera and the word escaped the gym forever."
+seoTitle: "Mogging Meaning: Why Everyone's Saying It"
 tags: ["gen-z", "trend", "sports", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

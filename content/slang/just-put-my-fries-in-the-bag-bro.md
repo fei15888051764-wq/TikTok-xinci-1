@@ -5,6 +5,8 @@ draft: false
 slug: "just-put-my-fries-in-the-bag-bro"
 pos: "phrase"
 definition: "A dismissive catchphrase used to belittle someone by implying they don't matter enough to waste your time on."
+description: "Just put my fries in the bag, bro is the polite way of saying you are beneath my time. The dismissal that ends arguments."
+seoTitle: "Just Put My Fries in the Bag Bro Meaning & How to Use It"
 tags: ["gen-z", "meme", "tiktok", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

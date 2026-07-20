@@ -5,6 +5,8 @@ draft: false
 slug: "situationship"
 pos: "noun"
 definition: "A romantic or sexual relationship that exists without labels, commitment, or clear boundaries — not quite friends, not quite dating, just... existing together."
+description: "A situationship is a relationship with no label, no rules, and no exit plan. Not dating, not friends, just vibes and confusion."
+seoTitle: "Situationship Meaning on TikTok, Explained"
 tags: ["gen-z", "dating", "relationships", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

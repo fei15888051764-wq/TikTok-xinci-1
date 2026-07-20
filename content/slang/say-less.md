@@ -5,6 +5,8 @@ draft: false
 slug: "say-less"
 pos: "phrase/interjection"
 definition: "A phrase meaning 'I completely understand — no further explanation needed' — used to express total agreement, readiness, or comprehension without requiring more words."
+description: "Say less means understood, no further explanation required. Two words that signal you're already ten steps ahead."
+seoTitle: "Say Less Meaning & How to Use It"
 tags: ["hip-hop", "gen-z", "agreement", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

@@ -5,6 +5,8 @@ draft: false
 slug: "skibidi"
 pos: "noun/adjective"
 definition: "A chaotic, absurdist slang term born from viral YouTube shorts — used to describe anything wild, goofy, unexpectedly hype, or unhinged in the best way possible."
+description: "Skibidi means everything and nothing, born from a singing toilet. The absurdist word that broke a generation's parents."
+seoTitle: "What Is Skibidi? TikTok Slang Explained"
 tags: ["gen-z", "gen-alpha", "meme", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

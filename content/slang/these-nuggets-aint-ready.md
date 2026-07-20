@@ -5,6 +5,8 @@ draft: false
 slug: "these-nuggets-aint-ready"
 pos: "phrase"
 definition: "A 2026 TikTok meme phrase from a misheard KSI song lyric, used to express playful confidence that someone or something is not prepared for what's coming."
+description: "These nuggets ain't ready comes from a misheard KSI lyric, now the anthem for confidence before any showdown."
+seoTitle: "These Nuggets Ain't Ready Meaning & How to Use It"
 tags: ["gen-z", "meme", "ksi", "music", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

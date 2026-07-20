@@ -5,6 +5,8 @@ draft: false
 slug: "monkey-barring"
 pos: "verb"
 definition: "Maintaining a current relationship while actively seeking the next one, only letting go after securing a new partner — like swinging from bar to bar on playground monkey bars."
+description: "Monkey-barring is lining up your next relationship before leaving the current one. Dating's most cynical swing explained."
+seoTitle: "Monkey-Barring Meaning & How to Use It"
 tags: ["gen-z", "dating", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

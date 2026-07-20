@@ -5,6 +5,8 @@ draft: false
 slug: "rizz"
 pos: "noun/verb"
 definition: "The ability to charm or attract someone romantically through confidence, humor, and effortless charisma — often used as both a noun and a verb."
+description: "Rizz is charisma you can't fake: the ability to charm without trying. From streamer slang to Oxford's shortlist."
+seoTitle: "What Is Rizz? TikTok Slang Explained"
 tags: ["dating", "gen-z", "viral", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

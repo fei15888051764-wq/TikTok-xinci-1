@@ -5,6 +5,8 @@ draft: false
 slug: "miku-custody-battle"
 pos: "noun"
 definition: "A fan-driven joke claiming whichever country eliminates Japan from the World Cup wins custody of Hatsune Miku, leading to endless fan-art redesigns."
+description: "The Miku custody battle claims whichever country knocks Japan out of the World Cup wins Hatsune Miku. The fan art is relentless."
+seoTitle: "Miku Custody Battle: What It Means & Where It Came From"
 tags: ["gaming", "anime", "meme", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

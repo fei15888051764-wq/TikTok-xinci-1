@@ -6,6 +6,7 @@ slug: "roman-empire"
 pos: "phrase"
 definition: "Anything you think about way more often than you'd ever admit. Started as a joke about men and ancient Rome, now it means any personal obsession."
 description: "Your Roman Empire is the thing you can't stop thinking about. How a throwaway question about men and Rome became the internet's favorite idiom."
+seoTitle: "Roman Empire: What It Means & Where It Came From"
 tags: ["meme", "trend", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

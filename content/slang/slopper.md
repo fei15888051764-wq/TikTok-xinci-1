@@ -5,6 +5,8 @@ draft: false
 slug: "slopper"
 pos: "noun"
 definition: "Someone who relies too heavily on AI chatbots to make decisions, find information, or complete tasks they should be capable of handling on their own. Added to Cambridge Dictionary in April 2026."
+description: "A slopper is someone who outsources every decision to AI. Cambridge added it in 2026, presumably without asking ChatGPT."
+seoTitle: "Slopper Meaning: Definition, Origin & Examples"
 tags: ["gen-z", "ai", "meme", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

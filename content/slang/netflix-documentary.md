@@ -5,6 +5,8 @@ draft: false
 slug: "netflix-documentary"
 pos: "noun"
 definition: "A meme trend mocking how Netflix documentaries always show a pivotal interviewee casually settling into a chair right before the big interview starts."
+description: "The Netflix documentary meme mocks how every interviewee slowly settles into a chair before dropping the big revelation."
+seoTitle: "Netflix Documentary: What It Means & Where It Came From"
 tags: ["meme", "netflix", "tiktok", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

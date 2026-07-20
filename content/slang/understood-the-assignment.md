@@ -6,6 +6,7 @@ slug: "understood-the-assignment"
 pos: "phrase"
 definition: "Praise for someone who nailed exactly what was expected of them, from outfits to performances, and did it with style to spare."
 description: "Understood the assignment is praise for nailing the brief. The 2021 tweet that started it, the rapper who amplified it, and how to use it."
+seoTitle: "Understood the Assignment Meaning & How to Use It"
 tags: ["praise", "slang", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

@@ -5,6 +5,8 @@ draft: false
 slug: "squeaky-bum-time"
 pos: "noun"
 definition: "The tense, nerve-wracking final stages of a football match or season when the outcome is still uncertain and the pressure is at its highest."
+description: "Squeaky bum time is the nerve-shredding final stretch of a season when everything can still go wrong. Sir Alex coined it."
+seoTitle: "Squeaky Bum Time: What It Means & Where It Came From"
 tags: ["football", "sports", "tiktok", "slang", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

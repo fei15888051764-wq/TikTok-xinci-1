@@ -5,6 +5,8 @@ draft: false
 slug: "lowkenuinely"
 pos: "adverb"
 definition: "A TikTok portmanteau blending 'low-key' and 'genuinely' — expressing authentic emotions in a relaxed, nonchalant way. Coined in November 2025 by @cammmmmm22."
+description: "Lowkenuinely is low-key plus genuinely: real feelings delivered casually. Coined on TikTok in late 2025 and everywhere since."
+seoTitle: "Lowkenuinely Meaning: Why Everyone's Saying It"
 tags: ["gen-z", "slang", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

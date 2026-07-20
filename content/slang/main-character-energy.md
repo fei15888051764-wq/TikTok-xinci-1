@@ -5,6 +5,8 @@ draft: false
 slug: "main-character-energy"
 pos: "phrase"
 definition: "A confident, self-assured attitude where someone carries themselves like the protagonist of their own life story — often used as a compliment, sometimes as gentle mockery."
+description: "Main character energy is carrying yourself like the protagonist of your own movie. Compliment or gentle roast, depending on tone."
+seoTitle: "Main Character Energy: What It Means & Where It Came From"
 tags: ["personality", "gen-z", "confidence", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

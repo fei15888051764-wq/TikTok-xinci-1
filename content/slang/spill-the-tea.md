@@ -5,6 +5,8 @@ draft: false
 slug: "spill-the- tea"
 pos: "phrase"
 definition: "To share gossip, juicy details, or inside information — especially about drama, relationships, or celebrity news."
+description: "Spill the tea means share the gossip, all of it, now. From drag ball culture to everyone's favorite demand."
+seoTitle: "Spill the Tea Meaning & How to Use It"
 tags: ["drag-culture", "gen-z", "gossip", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

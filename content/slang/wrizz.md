@@ -5,6 +5,8 @@ draft: false
 slug: "wrizz"
 pos: "noun"
 definition: "Wholesome, genuine romantic charisma — the sweet, authentic kind of appeal that comes from being a good person rather than being slick or manipulative. A blend of 'wholesome' and 'rizz'."
+description: "Wrizz is wholesome rizz: charm that comes from being genuinely good, not slick. The antidote to manipulative game."
+seoTitle: "Wrizz Meaning: Why Everyone's Saying It"
 tags: ["gen-z", "dating", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

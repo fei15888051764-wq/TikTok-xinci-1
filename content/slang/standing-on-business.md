@@ -6,6 +6,7 @@ slug: "standing-on-business"
 pos: "phrase"
 definition: "Following through on what you said you'd do and holding your ground, backing your words with action no matter who's watching."
 description: "Standing on business means backing your words with action. From Druski's 2023 clips to Bieber's viral moment, here's how people use it."
+seoTitle: "Standing on Business Meaning & How to Use It"
 tags: ["mindset", "slang", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

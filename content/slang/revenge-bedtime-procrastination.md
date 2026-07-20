@@ -6,6 +6,7 @@ slug: "revenge-bedtime-procrastination"
 pos: "noun"
 definition: "Staying up late on purpose to reclaim personal time after a day that gave you none, even though you know tomorrow will hurt."
 description: "Revenge bedtime procrastination is staying up late to steal back personal time. The 2018 origin story and why your tired brain does it."
+seoTitle: "Revenge Bedtime Procrastination Meaning & How to Use It"
 tags: ["wellness", "trend", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

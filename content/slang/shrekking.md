@@ -5,6 +5,8 @@ draft: false
 slug: "shrekking"
 pos: "verb"
 definition: "The dating practice of intentionally choosing a partner perceived as less attractive than oneself, assuming they'll be more grateful and better behaved."
+description: "Shrekking is dating someone less attractive on purpose, assuming gratitude beats chemistry. The theory has problems."
+seoTitle: "Shrekking Meaning: Why Everyone's Saying It"
 tags: ["gen-z", "dating", "relationships", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

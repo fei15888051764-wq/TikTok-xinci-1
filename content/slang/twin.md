@@ -5,6 +5,8 @@ draft: false
 slug: "twin"
 pos: "noun"
 definition: "A Gen Z term of endearment for a close friend who shares your mindset, humor, or vibe — not an actual sibling. Originating from AAVE and Atlanta hip-hop, popularized on TikTok through music."
+description: "Twin is what you call a friend who thinks exactly like you. From Atlanta hip-hop to TikTok's favorite term of endearment."
+seoTitle: "Twin Meaning: Definition, Origin & Examples"
 tags: ["gen-z", "slang", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

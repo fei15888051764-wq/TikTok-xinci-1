@@ -5,6 +5,8 @@ draft: false
 slug: "lore-dumping"
 pos: "noun"
 definition: "Unloading your entire personal backstory, drama, or life details on someone all at once — like an NPC in a video game flooding you with exposition. Used for both oversharing moments and dramatic storytelling."
+description: "Lore-dumping is unloading your entire backstory on someone like a video game NPC. Oversharing finally has a name."
+seoTitle: "Lore-dumping Meaning on TikTok, Explained"
 tags: ["gen-z", "storytelling", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"

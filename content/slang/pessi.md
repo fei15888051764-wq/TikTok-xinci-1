@@ -5,6 +5,8 @@ draft: false
 slug: "pessi"
 pos: "noun"
 definition: "A derogatory nickname for Lionel Messi used by rival fans to mock him for scoring goals primarily through penalties rather than open play."
+description: "Pessi is the mocking nickname for Messi built around penalties. Rival fans' favorite way to discount 800 career goals."
+seoTitle: "Pessi on TikTok: Meaning, Origin & Examples"
 tags: ["football", "meme", "slang", "2026"]
 categories: ["slang"]
 author: "GEBILAOWANG"
