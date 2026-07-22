@@ -1,6 +1,6 @@
 ---
 title: "Low Taper Fade"
-date: 2026-07-22T15:37:00+08:00
+date: 2026-07-22T14:02:00+08:00
 draft: false
 slug: "low-taper-fade"
 pos: "noun"

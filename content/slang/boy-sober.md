@@ -1,6 +1,6 @@
 ---
 title: "Boy Sober"
-date: 2026-07-22T21:33:00+08:00
+date: 2026-07-22T13:44:00+08:00
 draft: false
 slug: "boy-sober"
 pos: "adjective"

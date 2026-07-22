@@ -1,6 +1,6 @@
 ---
 title: "Lucky Girl Syndrome"
-date: 2026-07-22T18:48:00+08:00
+date: 2026-07-22T14:10:00+08:00
 draft: false
 slug: "lucky-girl-syndrome"
 pos: "noun"

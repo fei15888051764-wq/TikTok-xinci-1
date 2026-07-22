@@ -1,6 +1,6 @@
 ---
 title: "Bare Minimum Monday"
-date: 2026-07-22T20:15:00+08:00
+date: 2026-07-22T13:15:00+08:00
 draft: false
 slug: "bare-minimum-monday"
 pos: "noun"

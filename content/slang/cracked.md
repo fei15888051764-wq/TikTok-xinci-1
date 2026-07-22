@@ -1,6 +1,6 @@
 ---
 title: "Cracked"
-date: 2026-07-22T22:41:00+08:00
+date: 2026-07-22T13:52:00+08:00
 draft: false
 slug: "cracked"
 pos: "adjective"

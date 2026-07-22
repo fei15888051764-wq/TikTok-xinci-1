@@ -1,6 +1,6 @@
 ---
 title: "Mob Wife Aesthetic"
-date: 2026-07-22T17:02:00+08:00
+date: 2026-07-22T13:02:00+08:00
 draft: false
 slug: "mob-wife-aesthetic"
 pos: "noun"
