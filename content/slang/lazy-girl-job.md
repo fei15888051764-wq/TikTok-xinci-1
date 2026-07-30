@@ -1,6 +1,6 @@
 ---
 title: "Lazy Girl Job"
-date: 2026-07-31T09:08:15+08:00
+date: 2026-07-30T09:08:15+08:00
 draft: false
 slug: "lazy-girl-job"
 pos: "noun|phrase"

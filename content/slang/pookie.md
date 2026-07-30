@@ -1,6 +1,6 @@
 ---
 title: "Pookie"
-date: 2026-07-31T08:14:23+08:00
+date: 2026-07-30T08:14:23+08:00
 draft: false
 slug: "pookie"
 pos: "noun"

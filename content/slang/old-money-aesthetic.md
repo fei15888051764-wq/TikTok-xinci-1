@@ -1,6 +1,6 @@
 ---
 title: "Old Money Aesthetic"
-date: 2026-07-31T08:41:18+08:00
+date: 2026-07-30T08:41:18+08:00
 draft: false
 slug: "old-money-aesthetic"
 pos: "noun|phrase"

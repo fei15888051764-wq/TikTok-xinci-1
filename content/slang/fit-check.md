@@ -1,6 +1,6 @@
 ---
 title: "Fit Check"
-date: 2026-07-31T08:27:51+08:00
+date: 2026-07-30T08:27:51+08:00
 draft: false
 slug: "fit-check"
 pos: "noun|phrase"
